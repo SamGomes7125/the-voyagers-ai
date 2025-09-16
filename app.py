@@ -5,7 +5,11 @@ import google.generativeai as genai
 # --------------------------
 # Configure your API key
 # --------------------------
-genai.configure(api_key="AIzaSyARFyZS5PtB6OlYclQ1ZXhP7cup0R2cMZU")  # Replace with your Google AI API key
+import os
+from dotenv import load_dotenv
+load_dotenv()  
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --------------------------
