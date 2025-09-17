@@ -42,31 +42,42 @@ def generate_itinerary(city, days, budget, interests, travel_type, currency, mon
 # --------------------------
 # Streamlit UI
 # --------------------------
-st.set_page_config(page_title="THE VOYAGERS AI Itinerary", layout="wide")
-st.title("🌍 THE VOYAGERS AI Itinerary Generator 🌍")
-st.write("Generate personalized travel itineraries powered by AI!")
+st.set_page_config(page_title="🌍 THE VOYAGERS AI Itinerary", layout="wide")
 
+st.title("🌍 THE VOYAGERS AI Itinerary Generator")
+st.markdown("Create **personalized travel itineraries** powered by AI ✨")
+
+# Sidebar for Inputs
+st.sidebar.header("✈️ Travel Preferences")
 # --- User Inputs ---
-cities_input = st.text_input("Enter cities you want to visit (comma separated)", "Melbourne")
-cities = [city.strip() for city in cities_input.split(",")]
+cities_input = st.text_input("Enter cities you want to visit (comma separated)")
+cities = [city.strip() for city in cities_input.split(",") if city.strip()]
 
 city_days = {}
 for city in cities:
-    days = st.number_input(f"How many days do you plan to spend in {city}?", min_value=1, value=1)
+    days = st.number_input(f"How many days do you plan to spend in {city}?", min_value=1)
     city_days[city] = days
 
 budget = st.selectbox("Budget", ["low", "medium", "high"])
-interests = st.text_input("Main interests (food, history, art, adventure, shopping, etc.)", "history, adventure")
+interests = st.text_input("Main interests (food, history, art, adventure, shopping, etc.)")
 travel_type = st.selectbox("Travel type", ["solo", "couple", "family", "group"])
-currency = st.text_input("Preferred currency (e.g., USD, AUD, EUR)", "AUD")
+currency = st.text_input("Preferred currency (e.g., USD, AUD, EUR)")
 travel_month = st.text_input("Travel month (optional, for weather info)")
 
-# --- Generate Itinerary Button ---
-if st.button("Generate Itinerary"):
-    st.subheader("✨ Personalized Itineraries ✨")
+
+# Main area
+st.divider()
+
+if st.button("✨ Generate Itinerary"):
+    st.subheader("📌 Your Personalized Itinerary")
+
     for city, days in city_days.items():
-        st.markdown(f"### 📍 {city} ({days} days)")
-        with st.spinner("Generating itinerary..."):
-            itinerary = generate_itinerary(city, days, budget, interests, travel_type, currency, travel_month or None)
-            st.text(itinerary)
-        st.markdown("---")
+        with st.expander(f"📍 {city} ({days} days)", expanded=True):
+            with st.spinner(f"Generating itinerary for {city}..."):
+                itinerary = generate_itinerary(
+                    city, days, budget, interests, travel_type, currency, travel_month or None
+                )
+                # Better formatting
+                st.markdown(itinerary)
+
+    st.success("✅ Itineraries generated successfully!")
