@@ -47,8 +47,6 @@ st.set_page_config(page_title="🌍 THE VOYAGERS AI Itinerary", layout="wide")
 st.title("🌍 THE VOYAGERS AI Itinerary Generator")
 st.markdown("Create **personalized travel itineraries** powered by AI ✨")
 
-# Sidebar for Inputs
-st.sidebar.header("✈️ Travel Preferences")
 # --- User Inputs ---
 cities_input = st.text_input("Enter cities you want to visit (comma separated)")
 cities = [city.strip() for city in cities_input.split(",") if city.strip()]
