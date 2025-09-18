@@ -1,14 +1,15 @@
 # app.py
 import streamlit as st
 import google.generativeai as genai
+import os
+from dotenv import load_dotenv
+from fpdf import FPDF
+import requests
 
 # --------------------------
 # Configure your API key
 # --------------------------
-import os
-from dotenv import load_dotenv
 load_dotenv()  
-
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -40,6 +41,43 @@ def generate_itinerary(city, days, budget, interests, travel_type, currency, mon
     return response.text
 
 # --------------------------
+# Function to create PDF
+# --------------------------
+def create_itinerary_pdf(city, itinerary_text):
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", 'B', 16)
+    pdf.cell(200, 10, txt=f"Travel Itinerary for {city}", ln=True, align="C")
+    pdf.ln(10)
+
+    # Split into days
+    days = itinerary_text.split("Day")
+    for i, day_plan in enumerate(days[1:], start=1):
+        pdf.set_font("Arial", 'B', 14)
+        pdf.cell(0, 10, f"Day {i}", ln=True)
+        pdf.set_font("Arial", size=11)
+        pdf.multi_cell(0, 8, day_plan.strip())
+        pdf.ln(5)
+
+        # Fetch random attraction image from Unsplash
+        query = f"{city} attraction"
+        url = f"https://source.unsplash.com/600x400/?{query}"
+        img_path = f"day{i}.jpg"
+
+        try:
+            img_data = requests.get(url, timeout=10).content
+            with open(img_path, "wb") as f:
+                f.write(img_data)
+            pdf.image(img_path, w=100)
+            pdf.ln(10)
+        except Exception:
+            pdf.cell(0, 10, "Image unavailable", ln=True)
+
+    output_path = f"{city}_itinerary.pdf"
+    pdf.output(output_path)
+    return output_path
+
+# --------------------------
 # Streamlit UI
 # --------------------------
 st.set_page_config(page_title="🌍 THE VOYAGERS AI Itinerary", layout="wide")
@@ -62,8 +100,6 @@ travel_type = st.selectbox("Travel type", ["solo", "couple", "family", "group"])
 currency = st.text_input("Preferred currency (e.g., USD, AUD, EUR)")
 travel_month = st.text_input("Travel month (optional, for weather info)")
 
-
-# Main area
 st.divider()
 
 if st.button("✨ Generate Itinerary"):
@@ -75,7 +111,16 @@ if st.button("✨ Generate Itinerary"):
                 itinerary = generate_itinerary(
                     city, days, budget, interests, travel_type, currency, travel_month or None
                 )
-                # Better formatting
                 st.markdown(itinerary)
+
+                # Create PDF
+                pdf_path = create_itinerary_pdf(city, itinerary)
+                with open(pdf_path, "rb") as f:
+                    st.download_button(
+                        label=f"📥 Download {city} Itinerary as PDF",
+                        data=f,
+                        file_name=pdf_path,
+                        mime="application/pdf"
+                    )
 
     st.success("✅ Itineraries generated successfully!")
