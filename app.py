@@ -2,19 +2,60 @@
 import streamlit as st
 import google.generativeai as genai
 import os
+import requests
 from dotenv import load_dotenv
 from fpdf import FPDF
-import requests
+import tempfile
 
 # --------------------------
 # Configure your API key
 # --------------------------
-load_dotenv()  
+load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --------------------------
-# Function to generate itinerary
+# Utility: Clean text for PDF
+# --------------------------
+def clean_text(text):
+    replacements = {
+        "–": "-",
+        "—": "-",
+        "•": "*",
+        "°": " degrees",
+        "“": '"',
+        "”": '"',
+        "’": "'",
+        "→": "->",
+        "…": "...",
+        "🌍": "",
+        "✨": "",
+        "✅": "",
+        "📌": "",
+        "📍": "",
+    }
+    for k, v in replacements.items():
+        text = text.replace(k, v)
+    return text.encode("latin-1", "ignore").decode("latin-1")
+
+# --------------------------
+# Utility: Fetch Unsplash Image
+# --------------------------
+def fetch_unsplash_image(city, day):
+    url = f"https://source.unsplash.com/800x600/?{city},landmark"
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            img_file = tempfile.NamedTemporaryFile(delete=False, suffix=".jpg").name
+            with open(img_file, "wb") as f:
+                f.write(response.content)
+            return img_file
+    except:
+        return None
+    return None
+
+# --------------------------
+# Function to generate itinerary text
 # --------------------------
 def generate_itinerary(city, days, budget, interests, travel_type, currency, month=None):
     month_info = f" for the month of {month}" if month else ""
@@ -43,45 +84,36 @@ def generate_itinerary(city, days, budget, interests, travel_type, currency, mon
 # --------------------------
 # Function to create PDF
 # --------------------------
-def create_itinerary_pdf(city, itinerary_text):
+def create_pdf(itineraries):
     pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", 'B', 16)
-    pdf.cell(200, 10, txt=f"Travel Itinerary for {city}", ln=True, align="C")
-    pdf.ln(10)
+    pdf.set_auto_page_break(auto=True, margin=15)
 
-    # Split into days
-    days = itinerary_text.split("Day")
-    for i, day_plan in enumerate(days[1:], start=1):
-        pdf.set_font("Arial", 'B', 14)
-        pdf.cell(0, 10, f"Day {i}", ln=True)
-        pdf.set_font("Arial", size=11)
-        pdf.multi_cell(0, 8, day_plan.strip())
-        pdf.ln(5)
+    for city, data in itineraries.items():
+        text, images = data["text"], data["images"]
+        pdf.add_page()
+        pdf.set_font("Arial", "B", 16)
+        pdf.cell(200, 10, f"{city} Itinerary", ln=True, align="C")
 
-        # Fetch random attraction image from Unsplash
-        query = f"{city} attraction"
-        url = f"https://source.unsplash.com/600x400/?{query}"
-        img_path = f"day{i}.jpg"
+        pdf.set_font("Arial", size=12)
+        for line in clean_text(text).split("\n"):
+            pdf.multi_cell(0, 10, line)
 
-        try:
-            img_data = requests.get(url, timeout=10).content
-            with open(img_path, "wb") as f:
-                f.write(img_data)
-            pdf.image(img_path, w=100)
-            pdf.ln(10)
-        except Exception:
-            pdf.cell(0, 10, "Image unavailable", ln=True)
+        # Add images
+        for img_path in images:
+            try:
+                pdf.image(img_path, w=150)
+            except:
+                continue
 
-    output_path = f"{city}_itinerary.pdf"
-    pdf.output(output_path)
-    return output_path
+    # Save PDF in a temp file
+    pdf_file = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+    pdf.output(pdf_file.name)
+    return pdf_file.name
 
 # --------------------------
 # Streamlit UI
 # --------------------------
 st.set_page_config(page_title="🌍 THE VOYAGERS AI Itinerary", layout="wide")
-
 st.title("🌍 THE VOYAGERS AI Itinerary Generator")
 st.markdown("Create **personalized travel itineraries** powered by AI ✨")
 
@@ -94,33 +126,43 @@ for city in cities:
     days = st.number_input(f"How many days do you plan to spend in {city}?", min_value=1)
     city_days[city] = days
 
-budget = st.selectbox("Budget", ["low", "medium", "high"])
+budget = st.text_input("Budget (low, medium, high)")
 interests = st.text_input("Main interests (food, history, art, adventure, shopping, etc.)")
-travel_type = st.selectbox("Travel type", ["solo", "couple", "family", "group"])
-currency = st.text_input("Preferred currency (e.g., USD, AUD, EUR)")
+travel_type = st.text_input("Travel type (solo, couple, family, group)")
+currency = st.text_input("Preferred currency")
 travel_month = st.text_input("Travel month (optional, for weather info)")
 
-st.divider()
-
+# --------------------------
+# Generate Itinerary + PDF
+# --------------------------
 if st.button("✨ Generate Itinerary"):
     st.subheader("📌 Your Personalized Itinerary")
+    itineraries = {}
 
     for city, days in city_days.items():
         with st.expander(f"📍 {city} ({days} days)", expanded=True):
             with st.spinner(f"Generating itinerary for {city}..."):
-                itinerary = generate_itinerary(
+                itinerary_text = generate_itinerary(
                     city, days, budget, interests, travel_type, currency, travel_month or None
                 )
-                st.markdown(itinerary)
+                st.markdown(itinerary_text)
 
-                # Create PDF
-                pdf_path = create_itinerary_pdf(city, itinerary)
-                with open(pdf_path, "rb") as f:
-                    st.download_button(
-                        label=f"📥 Download {city} Itinerary as PDF",
-                        data=f,
-                        file_name=pdf_path,
-                        mime="application/pdf"
-                    )
+                # Fetch images for each day
+                images = []
+                for day in range(1, days + 1):
+                    img_file = fetch_unsplash_image(city, day)
+                    if img_file:
+                        images.append(img_file)
+                        st.image(img_file, caption=f"{city} - Day {day}")
 
-    st.success("✅ Itineraries generated successfully!")
+                itineraries[city] = {"text": itinerary_text, "images": images}
+
+    # Create PDF
+    pdf_path = create_pdf(itineraries)
+    with open(pdf_path, "rb") as pdf_file:
+        st.download_button(
+            label="📥 Download Itinerary as PDF",
+            data=pdf_file,
+            file_name="travel_itinerary.pdf",
+            mime="application/pdf"
+        )
