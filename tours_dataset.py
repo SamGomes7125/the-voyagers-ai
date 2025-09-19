@@ -1,4 +1,4 @@
-# predefined_tours.py
+
 
 expert_tours  = {
     "Europe": [
