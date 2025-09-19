@@ -1,136 +1,101 @@
 import streamlit as st
-import google.generativeai as genai
-import os
-from dotenv import load_dotenv
 from fpdf import FPDF
+import os
 from tours_dataset import expert_tours
 
-# --------------------------
-# Configure API key
-# --------------------------
-load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash")
-
-
-# --------------------------
-# Function to generate itinerary (AI)
-# --------------------------
-def generate_itinerary(city, days, budget, interests, travel_type, currency, month=None):
-    month_info = f" for the month of {month}" if month else ""
-    prompt = f"""
-    You are a professional travel planner.
-    Create a {days}-day travel itinerary for a tourist visiting {city}{month_info}.
-
-    Traveler details:
-    - Budget: {budget}
-    - Travel style: {travel_type}
-    - Interests: {interests}
-    - Currency: {currency}
-
-    Requirements:
-    - Recommended attractions, activities, restaurants, and local transport
-    - Approximate daily and total cost in {currency}
-    - Essential items to pack
-    - Weather conditions and seasonal tips
-    - Money-saving tips and avoid tourist traps
-    - Day-by-day structured plan
-    """
-    response = model.generate_content(prompt)
-    return response.text
-
-
-# --------------------------
-# Function to create PDF
-# --------------------------
-def create_itinerary_pdf(title, itinerary):
+# ---------------------------
+# PDF Generator for Expert Tours
+# ---------------------------
+def create_tour_pdf(tour):
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font("Arial", size=12)
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(200, 10, f"{tour['title']} - {tour['continent']}", ln=True, align="C")
+    pdf.ln(10)
 
-    pdf.multi_cell(0, 10, f"{title}\n\n{itinerary}")
-    output_path = f"{title.replace(' ', '_')}.pdf"
-    pdf.output(output_path, "F")
+    pdf.set_font("Arial", size=12)
+    pdf.multi_cell(0, 10, f"Duration: {tour['duration']}")
+    pdf.multi_cell(0, 10, f"Budget: {tour['budget']}")
+    pdf.multi_cell(0, 10, f"Description: {tour['description']}")
+    pdf.ln(10)
+
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(200, 10, "Itinerary:", ln=True)
+    pdf.set_font("Arial", size=12)
+    for day, plan in enumerate(tour["itinerary"], start=1):
+        pdf.multi_cell(0, 10, f"Day {day}: {plan}")
+
+    # Save file
+    output_path = f"{tour['title'].replace(' ', '_')}.pdf"
+    pdf.output(output_path)
     return output_path
 
 
-# --------------------------
-# Streamlit UI
-# --------------------------
-st.set_page_config(page_title="🌍 THE VOYAGERS", layout="wide")
-st.title("🌍 THE VOYAGERS")
-st.markdown("Create **personalized travel itineraries** or explore **expert-curated tours** ✨")
+# ---------------------------
+# Streamlit App Layout
+# ---------------------------
+st.title("🌍 The Voyagers AI Travel Planner")
 
-# --- Custom AI Itinerary Generator ---
-st.header("✈️ AI Itinerary Generator")
+# Section 1: Custom Itinerary Generator
+st.header("✈️ Generate Your Own Custom Itinerary")
+city = st.text_input("Enter city")
+days = st.number_input("Number of days", min_value=1, max_value=30, value=5)
 
-cities_input = st.text_input("Enter cities you want to visit (comma separated)")
-cities = [city.strip() for city in cities_input.split(",") if city.strip()]
+if st.button("Generate Itinerary"):
+    st.success(f"Custom Itinerary for {city}")
+    itinerary = [f"Day {i+1}: Explore attractions in {city}" for i in range(days)]
+    for day in itinerary:
+        st.write(day)
 
-city_days = {}
-for city in cities:
-    days = st.number_input(f"How many days do you plan to spend in {city}?", min_value=1, key=city)
-    city_days[city] = days
+    # Create a PDF for this itinerary
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(200, 10, f"Custom Itinerary for {city}", ln=True, align="C")
+    pdf.ln(10)
+    pdf.set_font("Arial", size=12)
+    for day in itinerary:
+        pdf.multi_cell(0, 10, day)
 
-budget = st.selectbox("Budget", ["low", "medium", "high"])
-interests = st.text_input("Main interests (food, history, art, adventure, shopping, etc.)")
-travel_type = st.selectbox("Travel type", ["solo", "couple", "family", "group"])
-currency = st.text_input("Preferred currency (e.g., USD, AUD, EUR)")
-travel_month = st.text_input("Travel month (optional)")
+    custom_pdf = f"Custom_Itinerary_{city}.pdf"
+    pdf.output(custom_pdf)
 
+    with open(custom_pdf, "rb") as f:
+        st.download_button(
+            "📥 Download Custom Itinerary PDF",
+            data=f,
+            file_name=custom_pdf,
+            mime="application/pdf",
+        )
 
-if st.button("✨ Generate Itinerary"):
-    st.subheader("📌 Your Personalized Itinerary")
+st.markdown("---")
 
-    for city, days in city_days.items():
-        with st.expander(f"📍 {city} ({days} days)", expanded=True):
-            with st.spinner(f"Generating itinerary for {city}..."):
-                itinerary = generate_itinerary(
-                    city, days, budget, interests, travel_type, currency, travel_month or None
-                )
-                st.markdown(itinerary)
-
-                # PDF download
-                pdf_path = create_itinerary_pdf(f"{city} Trip", itinerary)
-                with open(pdf_path, "rb") as f:
-                    st.download_button(
-                        label="📥 Download PDF",
-                        data=f,
-                        file_name=f"{city}_itinerary.pdf",
-                        mime="application/pdf"
-                    )
-
-    st.success("✅ Itineraries generated successfully!")
-
-# --------------------------
-# Expert Curated Tours
-# --------------------------
-st.divider()
-st.header("🌍 Expert-Curated Tours")
+# Section 2: Expert Tours
+st.header("🌟 Expert Curated Tours by Continent")
 
 for continent, tours in expert_tours.items():
-    st.subheader(f"🌎 {continent}")
-    cols = st.columns(len(tours))
+    st.subheader(continent)
+    cols = st.columns(len(tours))  # Display tours side by side
+
     for idx, tour in enumerate(tours):
         with cols[idx]:
-            st.image(tour["image"], use_container_width=True)
             st.markdown(f"**{tour['title']}**")
-            st.markdown(f"📅 {tour['duration']} | 💰 {tour['budget']} {tour['currency']}")
+            st.write(f"Duration: {tour['duration']}")
+            st.write(f"Budget: {tour['budget']}")
+            st.write(f"Description: {tour['description']}")
 
             if st.button(f"View Itinerary - {tour['title']}", key=f"{continent}_{idx}"):
-                st.session_state["selected_tour"] = tour
+                st.write("### Itinerary")
+                for day, plan in enumerate(tour["itinerary"], start=1):
+                    st.write(f"Day {day}: {plan}")
 
-# Show selected tour
-if "selected_tour" in st.session_state:
-    tour = st.session_state["selected_tour"]
-    st.subheader(f"📌 Itinerary for {tour['title']}")
-    st.markdown(tour["itinerary"])
-
-    pdf_path = create_itinerary_pdf(tour["title"], tour["itinerary"])
-    with open(pdf_path, "rb") as f:
-        st.download_button(
-            label="📥 Download PDF",
-            data=f,
-            file_name=f"{tour['title'].replace(' ', '_')}.pdf",
-            mime="application/pdf"
-        )
+                # Generate PDF for this tour
+                pdf_path = create_tour_pdf(tour)
+                with open(pdf_path, "rb") as f:
+                    st.download_button(
+                        "📥 Download Tour Itinerary PDF",
+                        data=f,
+                        file_name=pdf_path,
+                        mime="application/pdf",
+                        key=f"download_{continent}_{idx}",
+                    )
