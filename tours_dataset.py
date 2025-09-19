@@ -1,6 +1,6 @@
 # predefined_tours.py
 
-predefined_tours = {
+expert_tours  = {
     "Europe": [
         {
             "title": "Classic Italy Tour",
