@@ -1,0 +1,220 @@
+{
+        "Australia": {
+            "Sydney": {
+                "attractions": [
+                    {"name": "Sydney Opera House", "lat": -33.8568, "lon": 151.2153},
+                    {"name": "Harbour Bridge Climb", "lat": -33.8523, "lon": 151.2108},
+                    {"name": "Bondi Beach", "lat": -33.8908, "lon": 151.2743},
+                    {"name": "Taronga Zoo", "lat": -33.8430, "lon": 151.2410}
+                ],
+                "restaurants": [
+                    {"name": "Quay", "lat": -33.8587, "lon": 151.2100},
+                    {"name": "Bondi Icebergs Club", "lat": -33.8915, "lon": 151.2747},
+                    {"name": "Mr. Wong", "lat": -33.8648, "lon": 151.2083}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Sydney Police Centre", "lat": -33.8840, "lon": 151.2116},
+                    {"type": "Hospital", "name": "St Vincent’s Hospital", "lat": -33.8799, "lon": 151.2225}
+                ],
+                "tips": [
+                    "Use an Opal card for buses, trains, and ferries.",
+                    "Best months: Sept–Nov & Mar–May.",
+                    "Always carry sunscreen and a hat.",
+                    "CBD is walkable, use ferries for scenic views."
+                ]
+            },
+            "Melbourne": {
+                "attractions": [
+                    {"name": "Federation Square", "lat": -37.8179, "lon": 144.9691},
+                    {"name": "Royal Botanic Gardens", "lat": -37.8304, "lon": 144.9796},
+                    {"name": "Great Ocean Road (start)", "lat": -38.6820, "lon": 143.3910},
+                    {"name": "Melbourne Zoo", "lat": -37.7840, "lon": 144.9510}
+                ],
+                "restaurants": [
+                    {"name": "Chin Chin", "lat": -37.8154, "lon": 144.9691},
+                    {"name": "Vue de Monde", "lat": -37.8187, "lon": 144.9587},
+                    {"name": "Lune Croissanterie", "lat": -37.8073, "lon": 144.9831}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Melbourne East Police Station", "lat": -37.8096, "lon": 144.9772},
+                    {"type": "Hospital", "name": "Royal Melbourne Hospital", "lat": -37.7984, "lon": 144.9556}
+                ],
+                "tips": [
+                    "Use a Myki card for public transport.",
+                    "CBD trams are free of charge.",
+                    "Weather changes fast – carry a jacket.",
+                    "Coffee culture is huge, try local cafes."
+                ]
+            },
+            "Adelaide": {
+                "attractions": [
+                    {"name": "Adelaide Oval", "lat": -34.9156, "lon": 138.5960},
+                    {"name": "Barossa Valley", "lat": -34.5320, "lon": 138.9580},
+                    {"name": "Adelaide Botanic Garden", "lat": -34.9206, "lon": 138.6108}
+                ],
+                "restaurants": [
+                    {"name": "Africola", "lat": -34.9223, "lon": 138.6064},
+                    {"name": "Osteria Oggi", "lat": -34.9239, "lon": 138.6022}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Adelaide Police Station", "lat": -34.9286, "lon": 138.5999},
+                    {"type": "Hospital", "name": "Royal Adelaide Hospital", "lat": -34.9180, "lon": 138.5953}
+                ],
+                "tips": [
+                    "Trams are free in the CBD zone.",
+                    "Wine lovers should visit Barossa Valley.",
+                    "The city is compact and walkable.",
+                    "Best time: Mar–May & Sept–Nov."
+                ]
+            },
+            "Perth": {
+                "attractions": [
+                    {"name": "Kings Park & Botanic Garden", "lat": -31.9617, "lon": 115.8358},
+                    {"name": "Cottesloe Beach", "lat": -31.9944, "lon": 115.7517},
+                    {"name": "Fremantle Markets", "lat": -32.0555, "lon": 115.7493}
+                ],
+                "restaurants": [
+                    {"name": "Wildflower", "lat": -31.9545, "lon": 115.8575},
+                    {"name": "Bread in Common", "lat": -32.0550, "lon": 115.7476}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Perth Police Station", "lat": -31.9514, "lon": 115.8590},
+                    {"type": "Hospital", "name": "Royal Perth Hospital", "lat": -31.9570, "lon": 115.8711}
+                ],
+                "tips": [
+                    "Public transport is cheaper with a SmartRider card.",
+                    "Best time: Sept–Nov & Mar–May.",
+                    "Explore Fremantle for food & culture.",
+                    "Bring plenty of water in summer."
+                ]
+            },
+            "Brisbane": {
+                "attractions": [
+                    {"name": "South Bank Parklands", "lat": -27.4810, "lon": 153.0234},
+                    {"name": "Lone Pine Koala Sanctuary", "lat": -27.5375, "lon": 152.9751}
+                ],
+                "restaurants": [
+                    {"name": "E’cco Bistro", "lat": -27.4602, "lon": 153.0318}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Brisbane City Police Station", "lat": -27.4680, "lon": 153.0243},
+                    {"type": "Hospital", "name": "Royal Brisbane Hospital", "lat": -27.4452, "lon": 153.0296}
+                ],
+                "tips": [
+                    "Go for a ferry ride on the Brisbane River.",
+                    "Best months: Mar–May.",
+                    "Carry insect repellent for summer.",
+                    "CBD is easily walkable."
+                ]
+            },
+            "Cairns": {
+                "attractions": [
+                    {"name": "Great Barrier Reef", "lat": -16.9186, "lon": 145.7781},
+                    {"name": "Daintree Rainforest", "lat": -16.2546, "lon": 145.3344}
+                ],
+                "restaurants": [
+                    {"name": "Ochre Restaurant", "lat": -16.9203, "lon": 145.7792}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Cairns Police Station", "lat": -16.9230, "lon": 145.7724},
+                    {"type": "Hospital", "name": "Cairns Hospital", "lat": -16.9124, "lon": 145.7643}
+                ],
+                "tips": [
+                    "Best for reef tours: June–Oct.",
+                    "Always swim in stinger nets (jellyfish season).",
+                    "Book tours early in peak season.",
+                    "Great base for Daintree and Port Douglas trips."
+                ]
+            },
+            "Gold Coast": {
+                "attractions": [
+                    {"name": "Surfers Paradise Beach", "lat": -28.0027, "lon": 153.4280},
+                    {"name": "Dreamworld", "lat": -27.8573, "lon": 153.3144},
+                    {"name": "Currumbin Wildlife Sanctuary", "lat": -28.1364, "lon": 153.4919}
+                ],
+                "restaurants": [
+                    {"name": "Rick Shores", "lat": -28.0757, "lon": 153.4484}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Surfers Paradise Police Station", "lat": -28.0020, "lon": 153.4289},
+                    {"type": "Hospital", "name": "Gold Coast University Hospital", "lat": -27.9577, "lon": 153.3782}
+                ],
+                "tips": [
+                    "Best time: Apr–May & Sept–Nov.",
+                    "Avoid peak school holiday crowds.",
+                    "Public transport connects beaches & theme parks.",
+                    "Surf safety: swim between the flags."
+                ]
+            }
+        },
+        "New Zealand": {
+            "Auckland": {
+                "attractions": [
+                    {"name": "Sky Tower", "lat": -36.8485, "lon": 174.7622},
+                    {"name": "Waiheke Island", "lat": -36.7833, "lon": 175.0833}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Auckland Central Police Station", "lat": -36.8490, "lon": 174.7667},
+                    {"type": "Hospital", "name": "Auckland City Hospital", "lat": -36.8608, "lon": 174.7704}
+                ],
+                "tips": [
+                    "Best views from Sky Tower.",
+                    "Public ferries go to Waiheke & Devonport.",
+                    "Try local wines and seafood.",
+                    "Weather can change fast – pack layers."
+                ]
+            },
+            "Queenstown": {
+                "attractions": [
+                    {"name": "Skyline Gondola", "lat": -45.0328, "lon": 168.6616},
+                    {"name": "Shotover Jet", "lat": -45.0167, "lon": 168.6500},
+                    {"name": "Lake Wakatipu", "lat": -45.0302, "lon": 168.6627}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Queenstown Police Station", "lat": -45.0315, "lon": 168.6621},
+                    {"type": "Hospital", "name": "Lakes District Hospital", "lat": -45.0139, "lon": 168.7357}
+                ],
+                "tips": [
+                    "Adventure capital – book activities early.",
+                    "Best time: Dec–Feb for hiking.",
+                    "Winter skiing: Jun–Aug.",
+                    "Lakefront is perfect for sunsets."
+                ]
+            }
+        },
+        "Fiji": {
+            "Nadi": {
+                "attractions": [
+                    {"name": "Sri Siva Subramaniya Temple", "lat": -17.8039, "lon": 177.4350},
+                    {"name": "Denarau Island", "lat": -17.7722, "lon": 177.3742},
+                    {"name": "Garden of the Sleeping Giant", "lat": -17.7597, "lon": 177.4547}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Nadi Police Station", "lat": -17.8009, "lon": 177.4163},
+                    {"type": "Hospital", "name": "Nadi Hospital", "lat": -17.8018, "lon": 177.4192}
+                ],
+                "tips": [
+                    "Best time: May–Oct (dry season).",
+                    "Local buses are cheap transport.",
+                    "Resorts mainly on Denarau Island.",
+                    "Respect local customs when visiting villages."
+                ]
+            },
+            "Suva": {
+                "attractions": [
+                    {"name": "Colo-i-Suva Forest Park", "lat": -18.0595, "lon": 178.4472},
+                    {"name": "Fiji Museum", "lat": -18.1489, "lon": 178.4236}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Suva Central Police Station", "lat": -18.1416, "lon": 178.4242},
+                    {"type": "Hospital", "name": "Colonial War Memorial Hospital", "lat": -18.1411, "lon": 178.4266}
+                ],
+                "tips": [
+                    "Suva is the capital and more local than touristy.",
+                    "Best time: May–Oct.",
+                    "Markets are great for local food & handicrafts.",
+                    "Carry cash for taxis & street vendors."
+                ]
+            }
+        }
+    }
