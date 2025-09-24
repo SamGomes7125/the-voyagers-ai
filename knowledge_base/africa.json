@@ -289,6 +289,26 @@
                     "Be cautious of scammers and touts.",
                     "Embrace the vibrant nightlife, especially in areas like Osu."
                 ]
+            },
+            "Kumasi": {
+                "attractions": [
+                    {"name": "Manhyia Palace Museum", "address": "Manhyia, Kumasi, Ghana"},
+                    {"name": "Kejetia Market", "address": "Kumasi, Ghana"},
+                    {"name": "Kumasi Cultural Centre", "address": "Kumasi, Ghana"}
+                ],
+                "restaurants": [
+                    {"name": "Manso Restaurant", "address": "Adum, Kumasi, Ghana"},
+                    {"name": "Santoku", "address": "Aboabo, Kumasi, Ghana"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Kumasi Central Police Station", "address": "Kumasi, Ghana"},
+                    {"type": "Hospital", "name": "Komfo Anokye Teaching Hospital (KATH)", "address": "Kumasi, Ghana"}
+                ],
+                "tips": [
+                    "Kumasi is the cultural capital of the Ashanti Kingdom.",
+                    "Taxis and tro-tros are the main modes of transport.",
+                    "Learn a few Twi phrases to connect with locals."
+                ]
             }
         },
         "The Gambia": {
@@ -637,6 +657,50 @@
                     "Bargain respectfully in the markets."
                 ]
             }
+        },
+        "Uganda": {
+            "Kampala": {
+                "attractions": [
+                    {"name": "Uganda National Museum", "address": "Kira Rd, Kampala, Uganda"},
+                    {"name": "Kasubi Tombs", "address": "Kasubi, Kampala, Uganda"},
+                    {"name": "Gaddafi National Mosque", "address": "Old Kampala Hill, Kampala, Uganda"}
+                ],
+                "restaurants": [
+                    {"name": "The Lawns", "address": "Kololo, Kampala, Uganda"},
+                    {"name": "KCCA Cafeteria", "address": "Kampala, Uganda"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Central Police Station Kampala", "address": "Jinja Rd, Kampala, Uganda"},
+                    {"type": "Hospital", "name": "Mulago National Referral Hospital", "address": "Mulago Hill, Kampala, Uganda"}
+                ],
+                "tips": [
+                    "Kampala is known for its seven hills and vibrant culture.",
+                    "Traffic can be heavy, especially during rush hour.",
+                    "The city is a hub for nightlife and local music."
+                ]
+            }
+        },
+        "Zambia": {
+            "Lusaka": {
+                "attractions": [
+                    {"name": "Lusaka National Park", "address": "Lusaka, Zambia"},
+                    {"name": "Lusaka National Museum", "address": "Independence Ave, Lusaka, Zambia"},
+                    {"name": "Kabwata Cultural Village", "address": "Lusaka, Zambia"}
+                ],
+                "restaurants": [
+                    {"name": "Chicago's Reloaded", "address": "Manda Hill Shopping Centre, Lusaka, Zambia"},
+                    {"name": "The Royal Dil", "address": "Acacia Office Park, Lusaka, Zambia"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Lusaka Central Police Station", "address": "Lusaka, Zambia"},
+                    {"type": "Hospital", "name": "University Teaching Hospital (UTH)", "address": "Lusaka, Zambia"}
+                ],
+                "tips": [
+                    "Lusaka is a bustling capital city and a gateway to Zambia's national parks.",
+                    "The city has a wide variety of restaurants, from local to international cuisine.",
+                    "Be aware of your surroundings, especially in crowded markets."
+                ]
+            }
         }
     },
     "Southern Africa": {
@@ -681,6 +745,26 @@
                     "The city is built on several hills, so be prepared for a lot of walking.",
                     "Traffic can be an issue; plan for extra travel time.",
                     "Hire a local guide to navigate the city's complex layout."
+                ]
+            },
+            "Antsirabe": {
+                "attractions": [
+                    {"name": "Lake Tritriva", "address": "Antsirabe, Madagascar"},
+                    {"name": "Lake Andraikiba", "address": "Antsirabe, Madagascar"},
+                    {"name": "Thermal Baths", "address": "Antsirabe, Madagascar"}
+                ],
+                "restaurants": [
+                    {"name": "Le Pousse-Pousse", "address": "Antsirabe, Madagascar"},
+                    {"name": "Le Perroquet", "address": "Antsirabe, Madagascar"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Antsirabe Central Police Station", "address": "Antsirabe, Madagascar"},
+                    {"type": "Hospital", "name": "Hôpital CHR", "address": "Antsirabe, Madagascar"}
+                ],
+                "tips": [
+                    "Antsirabe is known as the 'City of Water' for its thermal springs and lakes.",
+                    "The best way to get around is by 'pousse-pousse,' a local rickshaw.",
+                    "Try the local street food like 'mofo gasy' (rice cakes)."
                 ]
             }
         },
