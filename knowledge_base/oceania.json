@@ -1,220 +1,544 @@
 {
-        "Australia": {
-            "Sydney": {
-                "attractions": [
-                    {"name": "Sydney Opera House", "lat": -33.8568, "lon": 151.2153},
-                    {"name": "Harbour Bridge Climb", "lat": -33.8523, "lon": 151.2108},
-                    {"name": "Bondi Beach", "lat": -33.8908, "lon": 151.2743},
-                    {"name": "Taronga Zoo", "lat": -33.8430, "lon": 151.2410}
-                ],
-                "restaurants": [
-                    {"name": "Quay", "lat": -33.8587, "lon": 151.2100},
-                    {"name": "Bondi Icebergs Club", "lat": -33.8915, "lon": 151.2747},
-                    {"name": "Mr. Wong", "lat": -33.8648, "lon": 151.2083}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Sydney Police Centre", "lat": -33.8840, "lon": 151.2116},
-                    {"type": "Hospital", "name": "St Vincent’s Hospital", "lat": -33.8799, "lon": 151.2225}
-                ],
-                "tips": [
-                    "Use an Opal card for buses, trains, and ferries.",
-                    "Best months: Sept–Nov & Mar–May.",
-                    "Always carry sunscreen and a hat.",
-                    "CBD is walkable, use ferries for scenic views."
-                ]
-            },
-            "Melbourne": {
-                "attractions": [
-                    {"name": "Federation Square", "lat": -37.8179, "lon": 144.9691},
-                    {"name": "Royal Botanic Gardens", "lat": -37.8304, "lon": 144.9796},
-                    {"name": "Great Ocean Road (start)", "lat": -38.6820, "lon": 143.3910},
-                    {"name": "Melbourne Zoo", "lat": -37.7840, "lon": 144.9510}
-                ],
-                "restaurants": [
-                    {"name": "Chin Chin", "lat": -37.8154, "lon": 144.9691},
-                    {"name": "Vue de Monde", "lat": -37.8187, "lon": 144.9587},
-                    {"name": "Lune Croissanterie", "lat": -37.8073, "lon": 144.9831}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Melbourne East Police Station", "lat": -37.8096, "lon": 144.9772},
-                    {"type": "Hospital", "name": "Royal Melbourne Hospital", "lat": -37.7984, "lon": 144.9556}
-                ],
-                "tips": [
-                    "Use a Myki card for public transport.",
-                    "CBD trams are free of charge.",
-                    "Weather changes fast – carry a jacket.",
-                    "Coffee culture is huge, try local cafes."
-                ]
-            },
-            "Adelaide": {
-                "attractions": [
-                    {"name": "Adelaide Oval", "lat": -34.9156, "lon": 138.5960},
-                    {"name": "Barossa Valley", "lat": -34.5320, "lon": 138.9580},
-                    {"name": "Adelaide Botanic Garden", "lat": -34.9206, "lon": 138.6108}
-                ],
-                "restaurants": [
-                    {"name": "Africola", "lat": -34.9223, "lon": 138.6064},
-                    {"name": "Osteria Oggi", "lat": -34.9239, "lon": 138.6022}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Adelaide Police Station", "lat": -34.9286, "lon": 138.5999},
-                    {"type": "Hospital", "name": "Royal Adelaide Hospital", "lat": -34.9180, "lon": 138.5953}
-                ],
-                "tips": [
-                    "Trams are free in the CBD zone.",
-                    "Wine lovers should visit Barossa Valley.",
-                    "The city is compact and walkable.",
-                    "Best time: Mar–May & Sept–Nov."
-                ]
-            },
-            "Perth": {
-                "attractions": [
-                    {"name": "Kings Park & Botanic Garden", "lat": -31.9617, "lon": 115.8358},
-                    {"name": "Cottesloe Beach", "lat": -31.9944, "lon": 115.7517},
-                    {"name": "Fremantle Markets", "lat": -32.0555, "lon": 115.7493}
-                ],
-                "restaurants": [
-                    {"name": "Wildflower", "lat": -31.9545, "lon": 115.8575},
-                    {"name": "Bread in Common", "lat": -32.0550, "lon": 115.7476}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Perth Police Station", "lat": -31.9514, "lon": 115.8590},
-                    {"type": "Hospital", "name": "Royal Perth Hospital", "lat": -31.9570, "lon": 115.8711}
-                ],
-                "tips": [
-                    "Public transport is cheaper with a SmartRider card.",
-                    "Best time: Sept–Nov & Mar–May.",
-                    "Explore Fremantle for food & culture.",
-                    "Bring plenty of water in summer."
-                ]
-            },
-            "Brisbane": {
-                "attractions": [
-                    {"name": "South Bank Parklands", "lat": -27.4810, "lon": 153.0234},
-                    {"name": "Lone Pine Koala Sanctuary", "lat": -27.5375, "lon": 152.9751}
-                ],
-                "restaurants": [
-                    {"name": "E’cco Bistro", "lat": -27.4602, "lon": 153.0318}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Brisbane City Police Station", "lat": -27.4680, "lon": 153.0243},
-                    {"type": "Hospital", "name": "Royal Brisbane Hospital", "lat": -27.4452, "lon": 153.0296}
-                ],
-                "tips": [
-                    "Go for a ferry ride on the Brisbane River.",
-                    "Best months: Mar–May.",
-                    "Carry insect repellent for summer.",
-                    "CBD is easily walkable."
-                ]
-            },
-            "Cairns": {
-                "attractions": [
-                    {"name": "Great Barrier Reef", "lat": -16.9186, "lon": 145.7781},
-                    {"name": "Daintree Rainforest", "lat": -16.2546, "lon": 145.3344}
-                ],
-                "restaurants": [
-                    {"name": "Ochre Restaurant", "lat": -16.9203, "lon": 145.7792}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Cairns Police Station", "lat": -16.9230, "lon": 145.7724},
-                    {"type": "Hospital", "name": "Cairns Hospital", "lat": -16.9124, "lon": 145.7643}
-                ],
-                "tips": [
-                    "Best for reef tours: June–Oct.",
-                    "Always swim in stinger nets (jellyfish season).",
-                    "Book tours early in peak season.",
-                    "Great base for Daintree and Port Douglas trips."
-                ]
-            },
-            "Gold Coast": {
-                "attractions": [
-                    {"name": "Surfers Paradise Beach", "lat": -28.0027, "lon": 153.4280},
-                    {"name": "Dreamworld", "lat": -27.8573, "lon": 153.3144},
-                    {"name": "Currumbin Wildlife Sanctuary", "lat": -28.1364, "lon": 153.4919}
-                ],
-                "restaurants": [
-                    {"name": "Rick Shores", "lat": -28.0757, "lon": 153.4484}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Surfers Paradise Police Station", "lat": -28.0020, "lon": 153.4289},
-                    {"type": "Hospital", "name": "Gold Coast University Hospital", "lat": -27.9577, "lon": 153.3782}
-                ],
-                "tips": [
-                    "Best time: Apr–May & Sept–Nov.",
-                    "Avoid peak school holiday crowds.",
-                    "Public transport connects beaches & theme parks.",
-                    "Surf safety: swim between the flags."
-                ]
-            }
+    "Australia": {
+        "Sydney": {
+            "attractions": [
+                {"name": "Sydney Opera House", "address": "Bennelong Point, Sydney NSW 2000, Australia"},
+                {"name": "Harbour Bridge Climb", "address": "3 Cumberland St, The Rocks NSW 2000, Australia"},
+                {"name": "Bondi Beach", "address": "Bondi Beach NSW 2026, Australia"},
+                {"name": "Taronga Zoo", "address": "Bradleys Head Rd, Mosman NSW 2088, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Quay", "address": "Upper Level, Overseas Passenger Terminal, The Rocks NSW 2000, Australia"},
+                {"name": "Bondi Icebergs Club", "address": "1 Notts Ave, Bondi Beach NSW 2026, Australia"},
+                {"name": "Mr. Wong", "address": "3 Bridge Ln, Sydney NSW 2000, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Sydney Police Centre", "address": "152 Day St, Sydney NSW 2000, Australia"},
+                {"type": "Hospital", "name": "St Vincent’s Hospital", "address": "390 Victoria St, Darlinghurst NSW 2010, Australia"}
+            ],
+            "tips": [
+                "Use an Opal card for buses, trains, and ferries.",
+                "Best months: Sept–Nov & Mar–May.",
+                "Always carry sunscreen and a hat.",
+                "CBD is walkable, use ferries for scenic views."
+            ]
         },
-        "New Zealand": {
-            "Auckland": {
-                "attractions": [
-                    {"name": "Sky Tower", "lat": -36.8485, "lon": 174.7622},
-                    {"name": "Waiheke Island", "lat": -36.7833, "lon": 175.0833}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Auckland Central Police Station", "lat": -36.8490, "lon": 174.7667},
-                    {"type": "Hospital", "name": "Auckland City Hospital", "lat": -36.8608, "lon": 174.7704}
-                ],
-                "tips": [
-                    "Best views from Sky Tower.",
-                    "Public ferries go to Waiheke & Devonport.",
-                    "Try local wines and seafood.",
-                    "Weather can change fast – pack layers."
-                ]
-            },
-            "Queenstown": {
-                "attractions": [
-                    {"name": "Skyline Gondola", "lat": -45.0328, "lon": 168.6616},
-                    {"name": "Shotover Jet", "lat": -45.0167, "lon": 168.6500},
-                    {"name": "Lake Wakatipu", "lat": -45.0302, "lon": 168.6627}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Queenstown Police Station", "lat": -45.0315, "lon": 168.6621},
-                    {"type": "Hospital", "name": "Lakes District Hospital", "lat": -45.0139, "lon": 168.7357}
-                ],
-                "tips": [
-                    "Adventure capital – book activities early.",
-                    "Best time: Dec–Feb for hiking.",
-                    "Winter skiing: Jun–Aug.",
-                    "Lakefront is perfect for sunsets."
-                ]
-            }
+        "Melbourne": {
+            "attractions": [
+                {"name": "Federation Square", "address": "Corner of Swanston St & Flinders St, Melbourne VIC 3000, Australia"},
+                {"name": "Royal Botanic Gardens", "address": "Birdwood Ave, South Yarra VIC 3141, Australia"},
+                {"name": "Great Ocean Road (start)", "address": "Torquay VIC 3228, Australia"},
+                {"name": "Melbourne Zoo", "address": "Elliott Ave, Parkville VIC 3052, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Chin Chin", "address": "125 Flinders Ln, Melbourne VIC 3000, Australia"},
+                {"name": "Vue de Monde", "address": "Rialto Towers, 525 Collins St, Melbourne VIC 3000, Australia"},
+                {"name": "Lune Croissanterie", "address": "119-121 Nicholson St, Fitzroy VIC 3065, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Melbourne East Police Station", "address": "226 Flinders Lane, Melbourne VIC 3000, Australia"},
+                {"type": "Hospital", "name": "Royal Melbourne Hospital", "address": "300 Grattan St, Parkville VIC 3050, Australia"}
+            ],
+            "tips": [
+                "Use a Myki card for public transport.",
+                "CBD trams are free of charge.",
+                "Weather changes fast – carry a jacket.",
+                "Coffee culture is huge, try local cafes."
+            ]
         },
-        "Fiji": {
-            "Nadi": {
-                "attractions": [
-                    {"name": "Sri Siva Subramaniya Temple", "lat": -17.8039, "lon": 177.4350},
-                    {"name": "Denarau Island", "lat": -17.7722, "lon": 177.3742},
-                    {"name": "Garden of the Sleeping Giant", "lat": -17.7597, "lon": 177.4547}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Nadi Police Station", "lat": -17.8009, "lon": 177.4163},
-                    {"type": "Hospital", "name": "Nadi Hospital", "lat": -17.8018, "lon": 177.4192}
-                ],
-                "tips": [
-                    "Best time: May–Oct (dry season).",
-                    "Local buses are cheap transport.",
-                    "Resorts mainly on Denarau Island.",
-                    "Respect local customs when visiting villages."
-                ]
-            },
-            "Suva": {
-                "attractions": [
-                    {"name": "Colo-i-Suva Forest Park", "lat": -18.0595, "lon": 178.4472},
-                    {"name": "Fiji Museum", "lat": -18.1489, "lon": 178.4236}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Suva Central Police Station", "lat": -18.1416, "lon": 178.4242},
-                    {"type": "Hospital", "name": "Colonial War Memorial Hospital", "lat": -18.1411, "lon": 178.4266}
-                ],
-                "tips": [
-                    "Suva is the capital and more local than touristy.",
-                    "Best time: May–Oct.",
-                    "Markets are great for local food & handicrafts.",
-                    "Carry cash for taxis & street vendors."
-                ]
-            }
+        "Adelaide": {
+            "attractions": [
+                {"name": "Adelaide Oval", "address": "War Memorial Dr, North Adelaide SA 5006, Australia"},
+                {"name": "Barossa Valley", "address": "Barossa Valley SA, Australia"},
+                {"name": "Adelaide Botanic Garden", "address": "North Terrace, Adelaide SA 5000, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Africola", "address": "41-45 Pirie St, Adelaide SA 5000, Australia"},
+                {"name": "Osteria Oggi", "address": "76 Pirie St, Adelaide SA 5000, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Adelaide Police Station", "address": "191 Angas St, Adelaide SA 5000, Australia"},
+                {"type": "Hospital", "name": "Royal Adelaide Hospital", "address": "1 Port Rd, Adelaide SA 5000, Australia"}
+            ],
+            "tips": [
+                "Trams are free in the CBD zone.",
+                "Wine lovers should visit Barossa Valley.",
+                "The city is compact and walkable.",
+                "Best time: Mar–May & Sept–Nov."
+            ]
+        },
+        "Perth": {
+            "attractions": [
+                {"name": "Kings Park & Botanic Garden", "address": "Fraser Ave, Kings Park WA 6005, Australia"},
+                {"name": "Cottesloe Beach", "address": "Marine Parade, Cottesloe WA 6011, Australia"},
+                {"name": "Fremantle Markets", "address": "South Terrace & Henderson St, Fremantle WA 6160, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Wildflower", "address": "1 Cathedral Ave, Perth WA 6000, Australia"},
+                {"name": "Bread in Common", "address": "43 Pakenham St, Fremantle WA 6160, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Perth Police Station", "address": "2 Fitzgerald St, Northbridge WA 6003, Australia"},
+                {"type": "Hospital", "name": "Royal Perth Hospital", "address": "197 Wellington St, Perth WA 6000, Australia"}
+            ],
+            "tips": [
+                "Public transport is cheaper with a SmartRider card.",
+                "Best time: Sept–Nov & Mar–May.",
+                "Explore Fremantle for food & culture.",
+                "Bring plenty of water in summer."
+            ]
+        },
+        "Brisbane": {
+            "attractions": [
+                {"name": "South Bank Parklands", "address": "South Bank, South Brisbane QLD 4101, Australia"},
+                {"name": "Lone Pine Koala Sanctuary", "address": "708 Jesmond Rd, Fig Tree Pocket QLD 4069, Australia"}
+            ],
+            "restaurants": [
+                {"name": "E’cco Bistro", "address": "63 Skyring Terrace, Newstead QLD 4006, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Brisbane City Police Station", "address": "194 Roma St, Brisbane City QLD 4000, Australia"},
+                {"type": "Hospital", "name": "Royal Brisbane Hospital", "address": "Butterfield St, Herston QLD 4029, Australia"}
+            ],
+            "tips": [
+                "Go for a ferry ride on the Brisbane River.",
+                "Best months: Mar–May.",
+                "Carry insect repellent for summer.",
+                "CBD is easily walkable."
+            ]
+        },
+        "Cairns": {
+            "attractions": [
+                {"name": "Great Barrier Reef", "address": "Cairns QLD, Australia"},
+                {"name": "Daintree Rainforest", "address": "Daintree National Park, QLD, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Ochre Restaurant", "address": "1 Marlin Parade, Cairns City QLD 4870, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Cairns Police Station", "address": "51-53 Sheridan St, Cairns City QLD 4870, Australia"},
+                {"type": "Hospital", "name": "Cairns Hospital", "address": "169 The Esplanade, Cairns City QLD 4870, Australia"}
+            ],
+            "tips": [
+                "Best for reef tours: June–Oct.",
+                "Always swim in stinger nets (jellyfish season).",
+                "Book tours early in peak season.",
+                "Great base for Daintree and Port Douglas trips."
+            ]
+        },
+        "Gold Coast": {
+            "attractions": [
+                {"name": "Surfers Paradise Beach", "address": "Surfers Paradise QLD 4217, Australia"},
+                {"name": "Dreamworld", "address": "Dreamworld Pkwy, Coomera QLD 4209, Australia"},
+                {"name": "Currumbin Wildlife Sanctuary", "address": "28 Tomewin St, Currumbin QLD 4223, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Rick Shores", "address": "43 Goodwin Terrace, Burleigh Heads QLD 4220, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Surfers Paradise Police Station", "address": "14-16 Cavill Ave, Surfers Paradise QLD 4217, Australia"},
+                {"type": "Hospital", "name": "Gold Coast University Hospital", "address": "1 Hospital Blvd, Southport QLD 4215, Australia"}
+            ],
+            "tips": [
+                "Best time: Apr–May & Sept–Nov.",
+                "Avoid peak school holiday crowds.",
+                "Public transport connects beaches & theme parks.",
+                "Surf safety: swim between the flags."
+            ]
+        },
+        "Canberra": {
+            "attractions": [
+                {"name": "Australian War Memorial", "address": "Treloar Cres, Campbell ACT 2612, Australia"},
+                {"name": "Parliament House", "address": "Parliament Dr, Canberra ACT 2600, Australia"},
+                {"name": "National Gallery of Australia", "address": "Parkes Pl E, Parkes ACT 2600, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Pialligo Estate", "address": "100 Pialligo Ave, Pialligo ACT 2609, Australia"},
+                {"name": "Akiba", "address": "40 Bunda St, Canberra ACT 2601, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "ACT Policing", "address": "143 London Circuit, Canberra ACT 2601, Australia"},
+                {"type": "Hospital", "name": "The Canberra Hospital", "address": "Yamba Dr, Garran ACT 2605, Australia"}
+            ],
+            "tips": [
+                "Best time: Autumn (Mar-May) for clear skies and autumn leaves.",
+                "Cycling is a popular way to explore the city's landmarks.",
+                "Many museums and galleries offer free entry.",
+                "The city is planned and easy to navigate."
+            ]
+        },
+        "Hobart": {
+            "attractions": [
+                {"name": "MONA (Museum of Old and New Art)", "address": "655 Main Rd, Berriedale TAS 7011, Australia"},
+                {"name": "Mount Wellington", "address": "Pinnacle Rd, Wellington Park TAS 7054, Australia"},
+                {"name": "Salamanca Market", "address": "Salamanca Pl, Hobart TAS 7000, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Franklin", "address": "30 Argyle St, Hobart TAS 7000, Australia"},
+                {"name": "Fico", "address": "183 Macquarie St, Hobart TAS 7000, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Hobart Police Station", "address": "45-47 Liverpool St, Hobart TAS 7000, Australia"},
+                {"type": "Hospital", "name": "Royal Hobart Hospital", "address": "48 Liverpool St, Hobart TAS 7000, Australia"}
+            ],
+            "tips": [
+                "Best time: Summer (Dec-Feb) for warmer weather and festivals.",
+                "Be prepared for changing weather on Mount Wellington.",
+                "Salamanca Market is a must-visit on Saturdays.",
+                "Ferry is a great way to get to MONA."
+            ]
+        },
+        "Darwin": {
+            "attractions": [
+                {"name": "Mindil Beach Sunset Market", "address": "Maria Liveris Dr, The Gardens NT 0820, Australia"},
+                {"name": "Crocosaurus Cove", "address": "58 Mitchell St, Darwin City NT 0800, Australia"},
+                {"name": "Museum and Art Gallery of the Northern Territory", "address": "19 Conacher St, The Gardens NT 0820, Australia"}
+            ],
+            "restaurants": [
+                {"name": "Char Restaurant", "address": "81-83 Esplanade, Darwin City NT 0800, Australia"},
+                {"name": "Hanuman", "address": "93 Mitchell St, Darwin City NT 0800, Australia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Darwin Police Station", "address": "69-71 Mitchell St, Darwin City NT 0800, Australia"},
+                {"type": "Hospital", "name": "Royal Darwin Hospital", "address": "100 Rocklands Dr, Tiwi NT 0810, Australia"}
+            ],
+            "tips": [
+                "Best time: Dry season (May-Oct) for pleasant weather.",
+                "Be 'Crocodile Aware' in all waterways.",
+                "Mindil Beach Market is a seasonal must-do.",
+                "Stay hydrated due to the tropical climate."
+            ]
+        }
+    },
+    "New Zealand": {
+        "Auckland": {
+            "attractions": [
+                {"name": "Sky Tower", "address": "Corner Victoria and Federal Streets, Auckland CBD, Auckland 1010, New Zealand"},
+                {"name": "Waiheke Island", "address": "Ferry terminal: Pier 13, Downtown Ferry Terminal, Auckland 1010, New Zealand"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Auckland Central Police Station", "address": "13-15 College Hill, Freemans Bay, Auckland 1011, New Zealand"},
+                {"type": "Hospital", "name": "Auckland City Hospital", "address": "2 Park Rd, Grafton, Auckland 1023, New Zealand"}
+            ],
+            "tips": [
+                "Best views from Sky Tower.",
+                "Public ferries go to Waiheke & Devonport.",
+                "Try local wines and seafood.",
+                "Weather can change fast – pack layers."
+            ]
+        },
+        "Queenstown": {
+            "attractions": [
+                {"name": "Skyline Gondola", "address": "53 Brecon St, Queenstown 9300, New Zealand"},
+                {"name": "Shotover Jet", "address": "3 Arthurs Point Rd, Arthurs Point, Queenstown 9371, New Zealand"},
+                {"name": "Lake Wakatipu", "address": "Lake Wakatipu, Queenstown 9300, New Zealand"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Queenstown Police Station", "address": "11 Camp St, Queenstown 9300, New Zealand"},
+                {"type": "Hospital", "name": "Lakes District Hospital", "address": "20 Douglas St, Frankton, Queenstown 9300, New Zealand"}
+            ],
+            "tips": [
+                "Adventure capital – book activities early.",
+                "Best time: Dec–Feb for hiking.",
+                "Winter skiing: Jun–Aug.",
+                "Lakefront is perfect for sunsets."
+            ]
+        },
+        "Wellington": {
+            "attractions": [
+                {"name": "Te Papa Tongarewa", "address": "55 Cable St, Te Aro, Wellington 6011, New Zealand"},
+                {"name": "Wellington Cable Car", "address": "280 Lambton Quay, Wellington 6011, New Zealand"},
+                {"name": "Mount Victoria Lookout", "address": "Lookout Rd, Hataitai, Wellington 6011, New Zealand"}
+            ],
+            "restaurants": [
+                {"name": "Logan Brown", "address": "192 Cuba St, Te Aro, Wellington 6011, New Zealand"},
+                {"name": "Ortega Fish Shack", "address": "16 Majoribanks St, Mount Victoria, Wellington 6011, New Zealand"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Wellington Central Police Station", "address": "41 Victoria St, Te Aro, Wellington 6011, New Zealand"},
+                {"type": "Hospital", "name": "Wellington Hospital", "address": "Riddiford St, Newtown, Wellington 6021, New Zealand"}
+            ],
+            "tips": [
+                "Known as the 'Coolest Little Capital' for a reason.",
+                "Expect windy weather; it's a coastal city.",
+                "The city is very walkable, especially the waterfront.",
+                "Explore the quirky cafes and craft breweries."
+            ]
+        },
+        "Christchurch": {
+            "attractions": [
+                {"name": "Christchurch Botanic Gardens", "address": "Rolleston Ave, Christchurch Central, Christchurch 8013, New Zealand"},
+                {"name": "International Antarctic Centre", "address": "38 Orchard Rd, Harewood, Christchurch 8053, New Zealand"},
+                {"name": "Cardboard Cathedral", "address": "234 Hereford St, Christchurch Central, Christchurch 8011, New Zealand"}
+            ],
+            "restaurants": [
+                {"name": "Twenty Seven Steps", "address": "16 New Regent St, Christchurch Central, Christchurch 8011, New Zealand"},
+                {"name": "Fiddlesticks Restaurant", "address": "41 Worcester Blvd, Christchurch Central, Christchurch 8013, New Zealand"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Christchurch Central Police Station", "address": "40 Lichfield St, Christchurch Central, Christchurch 8011, New Zealand"},
+                {"type": "Hospital", "name": "Christchurch Hospital", "address": "2 Riccarton Ave, Christchurch Central, Christchurch 8011, New Zealand"}
+            ],
+            "tips": [
+                "The city has undergone a major rebuild, offering a mix of old and new.",
+                "Best time: Summer (Dec-Feb) for warm, sunny weather.",
+                "Take a classic Punting on the Avon river tour.",
+                "Explore the street art scene in the city centre."
+            ]
+        }
+    },
+    "Fiji": {
+        "Nadi": {
+            "attractions": [
+                {"name": "Sri Siva Subramaniya Temple", "address": "Queens Rd, Nadi, Fiji"},
+                {"name": "Denarau Island", "address": "Denarau Island, Nadi, Fiji"},
+                {"name": "Garden of the Sleeping Giant", "address": "Rte Garden of the Sleeping Giant, Nadi, Fiji"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Nadi Police Station", "address": "Main St, Nadi, Fiji"},
+                {"type": "Hospital", "name": "Nadi Hospital", "address": "Hospital Rd, Nadi, Fiji"}
+            ],
+            "tips": [
+                "Best time: May–Oct (dry season).",
+                "Local buses are cheap transport.",
+                "Resorts mainly on Denarau Island.",
+                "Respect local customs when visiting villages."
+            ]
+        },
+        "Suva": {
+            "attractions": [
+                {"name": "Colo-i-Suva Forest Park", "address": "Princes Road, Suva, Fiji"},
+                {"name": "Fiji Museum", "address": "Cakobau Rd, Suva, Fiji"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Suva Central Police Station", "address": "Gordon Street, Suva, Fiji"},
+                {"type": "Hospital", "name": "Colonial War Memorial Hospital", "address": "Waimanu Rd, Suva, Fiji"}
+            ],
+            "tips": [
+                "Suva is the capital and more local than touristy.",
+                "Best time: May–Oct.",
+                "Markets are great for local food & handicrafts.",
+                "Carry cash for taxis & street vendors."
+            ]
+        }
+    },
+    "Papua New Guinea": {
+        "Port Moresby": {
+            "attractions": [
+                {"name": "Port Moresby Nature Park", "address": "Goro Kaeaga Rd, Port Moresby, Papua New Guinea"},
+                {"name": "National Museum & Art Gallery", "address": "Independent Drive, Waigani, Port Moresby, Papua New Guinea"}
+            ],
+            "restaurants": [
+                {"name": "Mojo Social", "address": "Pohkono Avenue, Hohola, Port Moresby, Papua New Guinea"},
+                {"name": "Babo's", "address": "Pohkono Avenue, Hohola, Port Moresby, Papua New Guinea"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Boroko Police Station", "address": "Port Moresby, Papua New Guinea"},
+                {"type": "Hospital", "name": "Port Moresby General Hospital", "address": "Taurama Rd, Boroko, Port Moresby, Papua New Guinea"}
+            ],
+            "tips": [
+                "Be aware of local safety concerns and book transport with reputable companies.",
+                "The best time to visit is during the dry season (May-Oct).",
+                "Attend a local sing-sing (cultural festival) for an authentic experience.",
+                "Always carry a form of identification."
+            ]
+        }
+    },
+    "Samoa": {
+        "Apia": {
+            "attractions": [
+                {"name": "To Sua Ocean Trench", "address": "Main South Coast Rd, Lotofaga, Samoa"},
+                {"name": "Robert Louis Stevenson Museum", "address": "Togafu'afu'a Rd, Apia, Samoa"}
+            ],
+            "restaurants": [
+                {"name": "Paddles Restaurant", "address": "Beach Road, Apia, Samoa"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Apia Police Station", "address": "Beach Rd, Apia, Samoa"},
+                {"type": "Hospital", "name": "Tupua Tamasese Meaole Hospital", "address": "Motootua, Apia, Samoa"}
+            ],
+            "tips": [
+                "Best time: May–Oct (dry season).",
+                "Sunday is a day of rest; local businesses may be closed.",
+                "Always ask permission before entering a village or swimming on a beach.",
+                "Bring plenty of cash as card payments can be limited."
+            ]
+        }
+    },
+    "Vanuatu": {
+        "Port Vila": {
+            "attractions": [
+                {"name": "Mele Cascades Waterfall", "address": "Mele Rd, Port Vila, Vanuatu"},
+                {"name": "Hideaway Island Marine Sanctuary", "address": "Hideaway Island, Port Vila, Vanuatu"}
+            ],
+            "restaurants": [
+                {"name": "L'Houstalet", "address": "Rue du Capitaine Cook, Port Vila, Vanuatu"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Port Vila Police Station", "address": "Rue Picarde, Port Vila, Vanuatu"},
+                {"type": "Hospital", "name": "Port Vila Central Hospital", "address": "Rue des Cocotiers, Port Vila, Vanuatu"}
+            ],
+            "tips": [
+                "Best time: May–Oct (dry season).",
+                "Experience the traditional 'Kava' drink at a local Nakamal.",
+                "Locals are very friendly; try to learn some Bislama phrases.",
+                "Carry a waterproof bag for activities."
+            ]
+        }
+    },
+    "Tonga": {
+        "Nuku'alofa": {
+            "attractions": [
+                {"name": "Royal Palace", "address": "Vuna Rd, Nuku'alofa, Tonga"},
+                {"name": "Ha'amonga 'a Maui Trilithon", "address": "Muu, Tonga"}
+            ],
+            "restaurants": [
+                {"name": "Waterfront Restaurant", "address": "Vuna Rd, Nuku'alofa, Tonga"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Nuku'alofa Central Police Station", "address": "Taufa'ahau Rd, Nuku'alofa, Tonga"},
+                {"type": "Hospital", "name": "Vaiola Hospital", "address": "Taufa'ahau Rd, Nuku'alofa, Tonga"}
+            ],
+            "tips": [
+                "Sunday is a day of worship and rest; most businesses are closed.",
+                "Dress modestly, especially outside tourist areas.",
+                "Tonga is known for its humpback whale watching (July-Oct).",
+                "Local buses are a cheap way to get around the main island."
+            ]
+        }
+    },
+    "Solomon Islands": {
+        "Honiara": {
+            "attractions": [
+                {"name": "Solomon Islands National Museum", "address": "Mendana Ave, Honiara, Solomon Islands"},
+                {"name": "Vilu War Museum", "address": "Vilu, Solomon Islands"}
+            ],
+            "restaurants": [
+                {"name": "Coral Sea Resort & Casino", "address": "Hibiscus Ave, Honiara, Solomon Islands"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Central Police Station Honiara", "address": "Honiara, Solomon Islands"},
+                {"type": "Hospital", "name": "National Referral Hospital", "address": "Honiara, Solomon Islands"}
+            ],
+            "tips": [
+                "Best time: May–Oct (dry season).",
+                "Be aware of safety precautions and research areas before visiting.",
+                "History buffs will appreciate the WWII sites.",
+                "Take care in the sun and use mosquito repellent."
+            ]
+        }
+    },
+    "Kiribati": {
+        "Tarawa": {
+            "attractions": [
+                {"name": "Betio War Memorial", "address": "Rue de Betio, Betio, Kiribati"},
+                {"name": "Parliament House", "address": "Ambo, Tarawa, Kiribati"}
+            ],
+            "restaurants": [
+                {"name": "The Lagoon Club", "address": "Ambo, Tarawa, Kiribati"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Betio Police Station", "address": "Betio, Kiribati"},
+                {"type": "Hospital", "name": "Tungaru Central Hospital", "address": "Bikenibeu, Tarawa, Kiribati"}
+            ],
+            "tips": [
+                "Best time: Mar–Oct (less rainfall).",
+                "Kiribati is a remote destination, so expect simple amenities.",
+                "Respect the local culture and customs.",
+                "The WWII history is a significant part of the islands."
+            ]
+        }
+    },
+    "Cook Islands": {
+        "Rarotonga": {
+            "attractions": [
+                {"name": "Muri Lagoon", "address": "Muri, Rarotonga, Cook Islands"},
+                {"name": "Cook Islands Christian Church", "address": "Avarua, Rarotonga, Cook Islands"}
+            ],
+            "restaurants": [
+                {"name": "Tamarind House", "address": "Main Rd, Rarotonga, Cook Islands"},
+                {"name": "Vaima Restaurant & Bar", "address": "Vaimaanga, Rarotonga, Cook Islands"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Rarotonga Police Station", "address": "Avarua, Rarotonga, Cook Islands"},
+                {"type": "Hospital", "name": "Rarotonga Hospital", "address": "Avarua, Rarotonga, Cook Islands"}
+            ],
+            "tips": [
+                "Best time: Apr–Nov (dry season).",
+                "Rent a scooter to explore the island's single main road.",
+                "The Cook Islands are a 'no-chain-store' destination.",
+                "Attend a traditional 'Island Night' for culture and food."
+            ]
+        }
+    },
+    "French Polynesia": {
+        "Papeete": {
+            "attractions": [
+                {"name": "Marché de Pape'ete (Pape'ete Market)", "address": "Rue Colette, Papeete 98714, French Polynesia"},
+                {"name": "Musée de Tahiti et des Îles", "address": "Pointe des Pêcheurs, Punaauia, French Polynesia"},
+                {"name": "Arahurahu Marae", "address": "Pa'ea, French Polynesia"}
+            ],
+            "restaurants": [
+                {"name": "Le Roulotte", "address": "Papeete, French Polynesia"},
+                {"name": "L'O à la Bouche", "address": "Rue du Commerce, Papeete, French Polynesia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Police Nationale de Papeete", "address": "Rue du Commandant Destremeau, Papeete, French Polynesia"},
+                {"type": "Hospital", "name": "Centre Hospitalier du Taaone", "address": "Papeete, French Polynesia"}
+            ],
+            "tips": [
+                "French is the official language, but English is widely spoken in tourist areas.",
+                "The 'roulottes' (food trucks) are a great place for an affordable and authentic meal.",
+                "Always have bug spray, especially in the evening.",
+                "Visit the Pearl Museum to learn about Tahiti's famous black pearls."
+            ]
+        }
+    },
+    "New Caledonia": {
+        "Nouméa": {
+            "attractions": [
+                {"name": "Tjibaou Cultural Centre", "address": "Max Frouin, Tina, Nouméa 98800, New Caledonia"},
+                {"name": "Place des Cocotiers", "address": "Nouméa, New Caledonia"},
+                {"name": "Aquarium des Lagons", "address": "Promenade Roger Laroque, Nouméa, New Caledonia"}
+            ],
+            "restaurants": [
+                {"name": "L'Hippocampe", "address": "Nouméa, New Caledonia"},
+                {"name": "Le Roof", "address": "Anse Vata, Nouméa, New Caledonia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Commissariat de police", "address": "Nouméa, New Caledonia"},
+                {"type": "Hospital", "name": "Médipôle de Koutio", "address": "Médipôle, Dumbéa, New Caledonia"}
+            ],
+            "tips": [
+                "French is the official language; it's useful to know some basic phrases.",
+                "The city is a mix of French and Kanak culture.",
+                "Public transport is affordable with the Tanéo bus network.",
+                "Try the local Bougna, a traditional Melanesian dish."
+            ]
+        }
+    },
+    "United States": {
+        "Honolulu": {
+            "attractions": [
+                {"name": "Waikiki Beach", "address": "Waikiki, Honolulu, HI 96815, USA"},
+                {"name": "Diamond Head State Monument", "address": "4003 Diamond Head Rd, Honolulu, HI 96815, USA"},
+                {"name": "Pearl Harbor National Memorial", "address": "1 Arizona Memorial Pl, Honolulu, HI 96818, USA"},
+                {"name": "Iolani Palace", "address": "364 S King St, Honolulu, HI 96813, USA"}
+            ],
+            "restaurants": [
+                {"name": "Duke's Waikiki", "address": "2335 Kalakaua Ave #116, Honolulu, HI 96815, USA"},
+                {"name": "The Pig and the Lady", "address": "83 N King St, Honolulu, HI 96817, USA"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Honolulu Police Department Headquarters", "address": "801 S Beretania St, Honolulu, HI 96813, USA"},
+                {"type": "Hospital", "name": "Queen's Medical Center", "address": "1301 Punchbowl St, Honolulu, HI 96813, USA"}
+            ],
+            "tips": [
+                "The best time to visit is in the spring or fall to avoid crowds.",
+                "Reservations are needed for Diamond Head and Pearl Harbor.",
+                "Explore the local food scene, especially 'plate lunch' and poke bowls.",
+                "Rent a car to explore the rest of the island of Oahu."
+            ]
         }
     }
+}
