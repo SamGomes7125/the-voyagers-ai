@@ -1,677 +1,1130 @@
-[
-  {
-    "city": "Paris",
-    "country": "France",
-    "attractions": [
-      {"name": "Eiffel Tower", "location": "Champ de Mars, 5 Avenue Anatole, 75007 Paris"},
-      {"name": "Louvre Museum", "location": "Rue de Rivoli, 75001 Paris"},
-      {"name": "Notre-Dame Cathedral", "location": "6 Parvis Notre-Dame, 75004 Paris"}
-    ],
-    "restaurants": [
-      {"name": "Le Jules Verne", "location": "Eiffel Tower, Paris"},
-      {"name": "Le Meurice", "location": "228 Rue de Rivoli, Paris"}
-    ],
-    "police": "Police Prefecture, 1 Rue de Lutèce, 75004 Paris",
-    "hospital": "Hôtel-Dieu Hospital, 1 Parvis Notre-Dame, 75004 Paris",
-    "tips": [
-      "Book Eiffel Tower tickets online to avoid long queues.",
-      "Beware of pickpockets in crowded areas like the metro and tourist attractions.",
-      "Many museums are free on the first Sunday of each month."
-    ]
-  },
-  {
-    "city": "London",
-    "country": "United Kingdom",
-    "attractions": [
-      {"name": "Tower of London", "location": "St Katharine's & Wapping, London"},
-      {"name": "Buckingham Palace", "location": "Westminster, London"},
-      {"name": "British Museum", "location": "Great Russell St, London"}
-    ],
-    "restaurants": [
-      {"name": "Dishoom", "location": "Covent Garden, London"},
-      {"name": "The Ledbury", "location": "Notting Hill, London"}
-    ],
-    "police": "Metropolitan Police HQ, Victoria Embankment, London",
-    "hospital": "St Thomas' Hospital, Westminster Bridge Rd, London",
-    "tips": [
-      "Use an Oyster card for cheaper transport on the Tube and buses.",
-      "Changing of the Guard at Buckingham Palace is a must-see.",
-      "Museums like the British Museum and National Gallery are free to enter."
-    ]
-  },
-  {
-    "city": "Rome",
-    "country": "Italy",
-    "attractions": [
-      {"name": "Colosseum", "location": "Piazza del Colosseo, Rome"},
-      {"name": "Vatican Museums", "location": "Vatican City"},
-      {"name": "Trevi Fountain", "location": "Piazza di Trevi, Rome"}
-    ],
-    "restaurants": [
-      {"name": "Da Enzo al 29", "location": "Trastevere, Rome"},
-      {"name": "Roscioli", "location": "Via dei Giubbonari, Rome"}
-    ],
-    "police": "Polizia di Stato HQ, Viale del Viminale, Rome",
-    "hospital": "Policlinico Umberto I, Viale del Policlinico, Rome",
-    "tips": [
-      "Carry a water bottle—Rome has free public fountains with drinkable water.",
-      "Wear comfortable shoes, as many streets are cobblestone.",
-      "Avoid dining near major tourist sites; prices are much higher."
-    ]
-  },
-  {
-    "city": "Barcelona",
-    "country": "Spain",
-    "attractions": [
-      {"name": "Sagrada Familia", "location": "Carrer de Mallorca, Barcelona"},
-      {"name": "Park Güell", "location": "Carrer d'Olot, Barcelona"},
-      {"name": "La Rambla", "location": "Barcelona city center"}
-    ],
-    "restaurants": [
-      {"name": "Tickets Bar", "location": "Avinguda del Paral·lel, Barcelona"},
-      {"name": "Can Majó", "location": "Carrer de l'Almirall Aixada, Barcelona"}
-    ],
-    "police": "Mossos d'Esquadra HQ, Via Laietana, Barcelona",
-    "hospital": "Hospital Clínic de Barcelona, Carrer de Villarroel, Barcelona",
-    "tips": [
-      "Pickpocketing is common around La Rambla—stay alert.",
-      "Book Sagrada Familia tickets well in advance.",
-      "Tapas bars are busiest around 9–10 PM."
-    ]
-  },
-  {
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "attractions": [
-      {"name": "Anne Frank House", "location": "Prinsengracht 263-267, Amsterdam"},
-      {"name": "Rijksmuseum", "location": "Museumstraat 1, Amsterdam"},
-      {"name": "Van Gogh Museum", "location": "Museumplein 6, Amsterdam"}
-    ],
-    "restaurants": [
-      {"name": "De Kas", "location": "Kamerlingh Onneslaan, Amsterdam"},
-      {"name": "The Pancake Bakery", "location": "Prinsengracht, Amsterdam"}
-    ],
-    "police": "Amsterdam Police HQ, Elandsgracht 117, Amsterdam",
-    "hospital": "Amsterdam UMC, Meibergdreef 9, Amsterdam",
-    "tips": [
-      "Rent a bike to explore like a local, but stay in bike lanes.",
-      "Canal tours are a great way to see the city.",
-      "Many shops and cafes only accept card payments."
-    ]
-  },
-  {
-    "city": "Berlin",
-    "country": "Germany",
-    "attractions": [
-      {"name": "Brandenburg Gate", "location": "Pariser Platz, Berlin"},
-      {"name": "Berlin Wall Memorial", "location": "Bernauer Str., Berlin"},
-      {"name": "Museum Island", "location": "Spree Island, Berlin"}
-    ],
-    "restaurants": [
-      {"name": "Curry 36", "location": "Mehringdamm, Berlin"},
-      {"name": "Neni Berlin", "location": "Budapester Str., Berlin"}
-    ],
-    "police": "Berlin Police HQ, Platz der Luftbrücke, Berlin",
-    "hospital": "Charité Hospital, Charitéplatz 1, Berlin",
-    "tips": [
-      "Public transport runs on trust—don’t forget to validate your ticket.",
-      "Many attractions are closed on Mondays.",
-      "Berlin is very bike-friendly with dedicated bike lanes."
-    ]
-  },
-  {
-    "city": "Vienna",
-    "country": "Austria",
-    "attractions": [
-      {"name": "Schönbrunn Palace", "location": "Schönbrunner Schloßstraße, Vienna"},
-      {"name": "St. Stephen's Cathedral", "location": "Stephansplatz, Vienna"},
-      {"name": "Belvedere Palace", "location": "Prinz Eugen-Straße, Vienna"}
-    ],
-    "restaurants": [
-      {"name": "Plachutta", "location": "Wollzeile, Vienna"},
-      {"name": "Figlmüller", "location": "Bäckerstraße, Vienna"}
-    ],
-    "police": "Vienna Police HQ, Schottenring, Vienna",
-    "hospital": "AKH Vienna, Währinger Gürtel, Vienna",
-    "tips": [
-      "Vienna is famous for coffee houses—don’t miss Sachertorte.",
-      "A Vienna Card gives discounts on attractions and transport.",
-      "The metro runs until midnight, longer on weekends."
-    ]
-  },
-  {
-    "city": "Prague",
-    "country": "Czech Republic",
-    "attractions": [
-      {"name": "Charles Bridge", "location": "Karlův most, Prague"},
-      {"name": "Prague Castle", "location": "Hradčany, Prague"},
-      {"name": "Old Town Square", "location": "Staroměstské náměstí, Prague"}
-    ],
-    "restaurants": [
-      {"name": "Lokál Dlouhááá", "location": "Dlouhá, Prague"},
-      {"name": "Café Savoy", "location": "Vítězná, Prague"}
-    ],
-    "police": "Prague Police HQ, Jungmannovo nám., Prague",
-    "hospital": "General University Hospital, Karlovo nám., Prague",
-    "tips": [
-      "Beware of overpriced taxis—use apps like Bolt or Uber.",
-      "Try traditional Czech beer and goulash.",
-      "The Astronomical Clock shows an hourly show in the Old Town Square."
-    ]
-  },
-  {
-    "city": "Athens",
-    "country": "Greece",
-    "attractions": [
-      {"name": "Acropolis of Athens", "location": "Athens"},
-      {"name": "Parthenon", "location": "Athens"},
-      {"name": "Plaka", "location": "Old Town Athens"}
-    ],
-    "restaurants": [
-      {"name": "Ta Karamanlidika Tou Fani", "location": "Athens"},
-      {"name": "Funky Gourmet", "location": "Athens"}
-    ],
-    "police": "Athens Police HQ, Leof. Alexandras, Athens",
-    "hospital": "Evangelismos Hospital, Ipsilantou, Athens",
-    "tips": [
-      "Buy a combo ticket for multiple ancient sites to save money.",
-      "Summer can be extremely hot—visit early morning or evening.",
-      "Beware of pickpockets in crowded metro lines."
-    ]
-  },
-  {
-    "city": "Istanbul",
-    "country": "Turkey",
-    "attractions": [
-      {"name": "Hagia Sophia", "location": "Sultan Ahmet, Istanbul"},
-      {"name": "Blue Mosque", "location": "Sultan Ahmet, Istanbul"},
-      {"name": "Grand Bazaar", "location": "Beyazıt, Istanbul"}
-    ],
-    "restaurants": [
-      {"name": "Nusr-Et Steakhouse", "location": "Etiler, Istanbul"},
-      {"name": "Pandeli", "location": "Eminönü, Istanbul"}
-    ],
-    "police": "Istanbul Police HQ, Vatan Cd., Istanbul",
-    "hospital": "Istanbul University Hospital, Fatih, Istanbul",
-    "tips": [
-      "Hagia Sophia is free to enter but can be very crowded.",
-      "Bargaining is expected at the Grand Bazaar.",
-      "Ferries are a cheap and beautiful way to cross between Europe and Asia."
-    ]
-  }
-  {
-  "Venice": {
-    "attractions": [
-      "St. Mark's Basilica",
-      "Doge's Palace",
-      "Grand Canal",
-      "Rialto Bridge",
-      "Murano and Burano Islands"
-    ],
-    "police": "Questura di Venezia, Santa Croce 500, 30135 Venezia",
-    "hospital": "Ospedale SS. Giovanni e Paolo, Castello 6777, 30122 Venezia",
-    "tips": "Venice is best explored on foot and by vaporetto (water bus). Avoid tourist trap restaurants near St. Mark's Square."
-  },
-  "Florence": {
-    "attractions": [
-      "Cathedral of Santa Maria del Fiore (Duomo)",
-      "Uffizi Gallery",
-      "Ponte Vecchio",
-      "Palazzo Vecchio",
-      "Boboli Gardens"
-    ],
-    "police": "Questura di Firenze, Via Zara 2, 50129 Firenze",
-    "hospital": "Ospedale di Santa Maria Nuova, Piazza Santa Maria Nuova 1, 50122 Firenze",
-    "tips": "Book museum tickets in advance. Watch out for pickpockets in crowded areas."
-  },
-  "Madrid": {
-    "attractions": [
-      "Royal Palace of Madrid",
-      "Prado Museum",
-      "Retiro Park",
-      "Plaza Mayor",
-      "Gran Vía"
-    ],
-    "police": "Comisaría Centro, Calle Leganitos 19, 28013 Madrid",
-    "hospital": "Hospital General Universitario Gregorio Marañón, Doctor Esquerdo 46, 28007 Madrid",
-    "tips": "Metro is the best way to move around. Dinner starts late in Madrid, usually after 9 PM."
-  },
-  "Lisbon": {
-    "attractions": [
-      "Belém Tower",
-      "Jerónimos Monastery",
-      "Alfama District",
-      "Tram 28",
-      "Castelo de São Jorge"
-    ],
-    "police": "Comando Metropolitano de Lisboa, Rua Cap. Renato Baptista 8, 1170-087 Lisboa",
-    "hospital": "Hospital de Santa Maria, Av. Prof. Egas Moniz, 1649-028 Lisboa",
-    "tips": "Wear comfortable shoes for the hills. Try local pastries like pastéis de nata."
-  },
-  "Dublin": {
-    "attractions": [
-      "Guinness Storehouse",
-      "Trinity College & Book of Kells",
-      "Dublin Castle",
-      "Temple Bar",
-      "St. Patrick’s Cathedral"
-    ],
-    "police": "Store Street Garda Station, Store Street, Dublin 1",
-    "hospital": "Mater Misericordiae University Hospital, Eccles Street, Dublin 7",
-    "tips": "The city is walkable. Expect rainy weather, carry an umbrella."
-  },
-  "Edinburgh": {
-    "attractions": [
-      "Edinburgh Castle",
-      "Royal Mile",
-      "Arthur’s Seat",
-      "Holyrood Palace",
-      "National Museum of Scotland"
-    ],
-    "police": "St Leonard's Police Station, 14 St Leonard's St, Edinburgh",
-    "hospital": "Royal Infirmary of Edinburgh, 51 Little France Crescent, Edinburgh",
-    "tips": "Be prepared for steep climbs. The Edinburgh Festival in August is very crowded."
-  },
-  "Munich": {
-    "attractions": [
-      "Marienplatz",
-      "Nymphenburg Palace",
-      "BMW Museum",
-      "English Garden",
-      "Oktoberfest Grounds"
-    ],
-    "police": "Polizeiinspektion 11 Altstadt, Ettstr. 2, 80333 München",
-    "hospital": "Klinikum der Universität München, Ziemssenstraße 1, 80336 München",
-    "tips": "Public transport is efficient. Beer gardens are family-friendly in Munich."
-  },
-  "Copenhagen": {
-    "attractions": [
-      "Nyhavn",
-      "Tivoli Gardens",
-      "The Little Mermaid",
-      "Rosenborg Castle",
-      "Amalienborg Palace"
-    ],
-    "police": "Københavns Politi, Politigården, Polititorvet 14, 1780 København V",
-    "hospital": "Rigshospitalet, Blegdamsvej 9, 2100 København Ø",
-    "tips": "Rent a bike to explore the city. Copenhagen is expensive, budget accordingly."
-  },
-  "Stockholm": {
-    "attractions": [
-      "Gamla Stan (Old Town)",
-      "Vasa Museum",
-      "Royal Palace",
-      "Skansen",
-      "ABBA Museum"
-    ],
-    "police": "Polisen City, Klarabergsgatan 37, 111 21 Stockholm",
-    "hospital": "Karolinska University Hospital, Solna, Stockholm",
-    "tips": "Use an SL travel card for transport. Many museums have free entry on certain days."
-  },
-  "Zurich": {
-    "attractions": [
-      "Lake Zurich",
-      "Bahnhofstrasse",
-      "Swiss National Museum",
-      "Old Town (Altstadt)",
-      "Uetliberg Mountain"
-    ],
-    "police": "Stadtpolizei Zürich, Uraniastrasse 29, 8001 Zürich",
-    "hospital": "Universitätsspital Zürich, Rämistrasse 100, 8091 Zürich",
-    "tips": "Switzerland is expensive; consider buying food at supermarkets. Trains are very reliable."
-  }
-}
 {
-    "city": "Brussels",
-    "country": "Belgium",
-    "attractions": [
-      {"name": "Grand Place", "location": "Central Square, Brussels"},
-      {"name": "Atomium", "location": "Atomium Square, Brussels"},
-      {"name": "Manneken Pis", "location": "Rue de l'Étuve, Brussels"}
-    ],
-    "restaurants": [
-      {"name": "Comme Chez Soi", "location": "Place Rouppe, Brussels"},
-      {"name": "Noordzee Mer du Nord", "location": "Rue Sainte-Catherine, Brussels"}
-    ],
-    "police": "Brussels Police HQ, Rue du Marché au Charbon, Brussels",
-    "hospital": "CHU Saint-Pierre, Rue Haute 322, Brussels",
-    "tips": [
-      "Try Belgian waffles and fries from street vendors.",
-      "Public transport is easy with a MOBIB card.",
-      "Most shops close early on Sundays."
-    ]
-  },
-  {
-    "city": "Warsaw",
-    "country": "Poland",
-    "attractions": [
-      {"name": "Old Town Market Place", "location": "Old Town, Warsaw"},
-      {"name": "Royal Castle", "location": "Castle Square, Warsaw"},
-      {"name": "Łazienki Park", "location": "Agrykola 1, Warsaw"}
-    ],
-    "restaurants": [
-      {"name": "Zapiecek", "location": "Old Town, Warsaw"},
-      {"name": "U Fukiera", "location": "Rynek Starego Miasta, Warsaw"}
-    ],
-    "police": "Warsaw Police HQ, Nowolipie 2, Warsaw",
-    "hospital": "Central Clinical Hospital, Banacha 1A, Warsaw",
-    "tips": [
-      "Visit museums about Poland’s history for context.",
-      "Winter is cold; pack warm clothes.",
-      "Public transport tickets must be validated."
-    ]
-  },
-  {
-    "city": "Helsinki",
-    "country": "Finland",
-    "attractions": [
-      {"name": "Suomenlinna Fortress", "location": "Suomenlinna, Helsinki"},
-      {"name": "Helsinki Cathedral", "location": "Unioninkatu 29, Helsinki"},
-      {"name": "Temppeliaukio Church", "location": "Lutherinkatu 3, Helsinki"}
-    ],
-    "restaurants": [
-      {"name": "Olo", "location": "Pohjoisesplanadi 5, Helsinki"},
-      {"name": "Ravintola Savoy", "location": "Eteläesplanadi 14, Helsinki"}
-    ],
-    "police": "Helsinki Police HQ, Pasilanraitio 13, Helsinki",
-    "hospital": "Helsinki University Hospital, Haartmaninkatu 4, Helsinki",
-    "tips": [
-      "Saunas are part of daily life—try one.",
-      "The city is compact and walkable.",
-      "Alcohol is expensive, buy from Alko stores."
-    ]
-  },
-  {
-    "city": "Kraków",
-    "country": "Poland",
-    "attractions": [
-      {"name": "Wawel Castle", "location": "Wawel 5, Kraków"},
-      {"name": "Main Market Square", "location": "Rynek Główny, Kraków"},
-      {"name": "Kazimierz District", "location": "Kazimierz, Kraków"}
-    ],
-    "restaurants": [
-      {"name": "Szara", "location": "Rynek Główny, Kraków"},
-      {"name": "Pod Aniołami", "location": "Grodzka 35, Kraków"}
-    ],
-    "police": "Kraków Police HQ, Siemiradzkiego 24, Kraków",
-    "hospital": "Jagiellonian University Hospital, Kopernika 36, Kraków",
-    "tips": [
-      "Day trips to Auschwitz or Wieliczka Salt Mine are popular.",
-      "Try pierogi and local Polish dishes.",
-      "The Old Town is pedestrian-friendly."
-    ]
-  },
-  {
-    "city": "Porto",
-    "country": "Portugal",
-    "attractions": [
-      {"name": "Ribeira District", "location": "Riverside, Porto"},
-      {"name": "Dom Luís I Bridge", "location": "Porto"},
-      {"name": "Livraria Lello", "location": "Rua das Carmelitas, Porto"}
-    ],
-    "restaurants": [
-      {"name": "Brasão Cervejaria", "location": "Rua Ramalho Ortigão, Porto"},
-      {"name": "DOP", "location": "Largo de São Domingos, Porto"}
-    ],
-    "police": "Porto Police HQ, Rua da Alegria, Porto",
-    "hospital": "Centro Hospitalar Universitário do Porto, Largo Prof. Abel Salazar, Porto",
-    "tips": [
-      "Try Francesinha, a local sandwich specialty.",
-      "Port wine cellars across the river in Vila Nova de Gaia are a must.",
-      "Hilly city—wear good walking shoes."
-    ]
-  },
-  {
-    "city": "Seville",
-    "country": "Spain",
-    "attractions": [
-      {"name": "Seville Cathedral & Giralda", "location": "Av. de la Constitución, Seville"},
-      {"name": "Real Alcázar", "location": "Patio de Banderas, Seville"},
-      {"name": "Metropol Parasol", "location": "Plaza de la Encarnación, Seville"}
-    ],
-    "restaurants": [
-      {"name": "El Rinconcillo", "location": "Calle Gerona 40, Seville"},
-      {"name": "Abantal", "location": "Calle Alcalde José de la Bandera 7, Seville"}
-    ],
-    "police": "Seville Police HQ, Av. Blas Infante, Seville",
-    "hospital": "Hospital Universitario Virgen del Rocío, Av. Manuel Siurot, Seville",
-    "tips": [
-      "Flamenco shows are a must.",
-      "Summers are extremely hot—visit in spring or fall.",
-      "Tapas culture is strong—try hopping between bars."
-    ]
-  },
-  {
-    "city": "Dubrovnik",
-    "country": "Croatia",
-    "attractions": [
-      {"name": "Dubrovnik City Walls", "location": "Old Town, Dubrovnik"},
-      {"name": "Rector's Palace", "location": "Old Town, Dubrovnik"},
-      {"name": "Lokrum Island", "location": "Lokrum, near Dubrovnik"}
-    ],
-    "restaurants": [
-      {"name": "Nautika", "location": "Brsalje ul. 3, Dubrovnik"},
-      {"name": "Proto", "location": "Široka ul. 1, Dubrovnik"}
-    ],
-    "police": "Dubrovnik Police HQ, Obala Stjepana Radića 30, Dubrovnik",
-    "hospital": "General Hospital Dubrovnik, Dr. Ante Starčevića 45, Dubrovnik",
-    "tips": [
-      "Walk the city walls early morning or late evening for fewer crowds.",
-      "Game of Thrones fans will recognize filming locations.",
-      "Prices in Old Town are higher—eat outside the walls."
-    ]
-  },
-  {
-    "city": "Reykjavik",
-    "country": "Iceland",
-    "attractions": [
-      {"name": "Hallgrímskirkja Church", "location": "Skólavörðuholt, Reykjavik"},
-      {"name": "Harpa Concert Hall", "location": "Austurbakki 2, Reykjavik"},
-      {"name": "Sun Voyager", "location": "Sæbraut, Reykjavik"}
-    ],
-    "restaurants": [
-      {"name": "Grillmarkaðurinn", "location": "Lækjargata 2a, Reykjavik"},
-      {"name": "Icelandic Street Food", "location": "Lækjargata 8, Reykjavik"}
-    ],
-    "police": "Reykjavik Police HQ, Hverfisgata 113, Reykjavik",
-    "hospital": "Landspítali University Hospital, Hringbraut, Reykjavik",
-    "tips": [
-      "Northern Lights best viewed outside the city in winter.",
-      "Blue Lagoon is near the airport—book in advance.",
-      "Food and alcohol are very expensive."
-    ]
-  },
-  {
-    "city": "Tallinn",
-    "country": "Estonia",
-    "attractions": [
-      {"name": "Tallinn Old Town", "location": "Vanalinn, Tallinn"},
-      {"name": "Alexander Nevsky Cathedral", "location": "Toompea Hill, Tallinn"},
-      {"name": "Kadriorg Palace", "location": "Weizenbergi 37, Tallinn"}
-    ],
-    "restaurants": [
-      {"name": "Rataskaevu 16", "location": "Rataskaevu 16, Tallinn"},
-      {"name": "Farm Restaurant", "location": "Müürivahe 27b, Tallinn"}
-    ],
-    "police": "Tallinn Police HQ, Kolde pst 65, Tallinn",
-    "hospital": "East Tallinn Central Hospital, Ravi 18, Tallinn",
-    "tips": [
-      "Old Town is compact and easy to walk.",
-      "Good base for ferry trips to Helsinki.",
-      "Winter is magical with Christmas markets."
-    ]
-  },
-  {
-    "city": "Luxembourg City",
-    "country": "Luxembourg",
-    "attractions": [
-      {"name": "Casemates du Bock", "location": "10 Montée de Clausen, Luxembourg"},
-      {"name": "Grand Ducal Palace", "location": "17 Rue du Marché-aux-Herbes, Luxembourg"},
-      {"name": "Adolphe Bridge", "location": "Pont Adolphe, Luxembourg"}
-    ],
-    "restaurants": [
-      {"name": "Clairefontaine", "location": "9 Place de Clairefontaine, Luxembourg"},
-      {"name": "Mosconi", "location": "13 Rue Münster, Luxembourg"}
-    ],
-    "police": "Luxembourg Police HQ, Rue de Hollerich 201, Luxembourg",
-    "hospital": "Centre Hospitalier de Luxembourg, 4 Rue Ernest Barblé, Luxembourg",
-    "tips": [
-      "The city is small and walkable.",
-      "Great base for day trips to Belgium, France, and Germany.",
-      "Public transport is free nationwide."
-    ]
-  }
-  {
-  "Budapest": {
-    "attractions": [
-      "Buda Castle",
-      "Hungarian Parliament Building",
-      "Széchenyi Thermal Bath"
-    ],
-    "restaurants": [
-      "New York Café",
-      "Onyx Restaurant",
-      "Hungarikum Bisztró"
-    ],
-    "police": "Budapest Police Headquarters, Teve utca 4-6, 1139 Budapest",
-    "hospital": "Semmelweis University Hospital, Üllői út 78, 1082 Budapest",
-    "tips": "Buy a Budapest Card for free public transport and discounts. Try the famous thermal baths."
-  },
-  "Milan": {
-    "attractions": [
-      "Duomo di Milano",
-      "Galleria Vittorio Emanuele II",
-      "Teatro alla Scala"
-    ],
-    "restaurants": [
-      "Ratanà",
-      "Trattoria Milanese",
-      "Cracco"
-    ],
-    "police": "Questura di Milano, Via Fatebenefratelli 11, 20121 Milano",
-    "hospital": "Ospedale Niguarda, Piazza dell’Ospedale Maggiore 3, 20162 Milano",
-    "tips": "Book Duomo tickets in advance. Aperitivo culture is a must-try in the evenings."
-  },
-  "Nice": {
-    "attractions": [
-      "Promenade des Anglais",
-      "Old Town (Vieux Nice)",
-      "Castle Hill (Colline du Château)"
-    ],
-    "restaurants": [
-      "La Petite Maison",
-      "Chez Acchiardo",
-      "Le Chantecler"
-    ],
-    "police": "Police Nationale, 1 Rue de la Préfecture, 06300 Nice",
-    "hospital": "Centre Hospitalier Universitaire de Nice, Avenue de la Voie Romaine, 06000 Nice",
-    "tips": "Take a stroll on Promenade des Anglais at sunset. Use buses or trains for exploring the French Riviera."
-  },
-  "Oslo": {
-    "attractions": [
-      "Viking Ship Museum",
-      "Oslo Opera House",
-      "Vigeland Park"
-    ],
-    "restaurants": [
-      "Maaemo",
-      "Lofotstua",
-      "Ekebergrestauranten"
-    ],
-    "police": "Oslo Police Headquarters, Grønlandsleiret 44, 0190 Oslo",
-    "hospital": "Oslo University Hospital, Kirkeveien 166, 0450 Oslo",
-    "tips": "Public transport is reliable but expensive. Consider the Oslo Pass for attractions and transport."
-  },
-  "Valencia": {
-    "attractions": [
-      "City of Arts and Sciences",
-      "Valencia Cathedral",
-      "Central Market"
-    ],
-    "restaurants": [
-      "Casa Montaña",
-      "Ricard Camarena Restaurant",
-      "La Pepica"
-    ],
-    "police": "Policía Local Valencia, Av. del Cid 37, 46018 Valencia",
-    "hospital": "Hospital Clínico Universitario de Valencia, Av. de Blasco Ibáñez 17, 46010 Valencia",
-    "tips": "Try authentic paella. Rent a bike to explore Turia Gardens."
-  },
-  "Ljubljana": {
-    "attractions": [
-      "Ljubljana Castle",
-      "Dragon Bridge",
-      "Tivoli Park"
-    ],
-    "restaurants": [
-      "Strelec",
-      "Gostilna As",
-      "Monstera Bistro"
-    ],
-    "police": "Policija Ljubljana, Trdinova ulica 10, 1000 Ljubljana",
-    "hospital": "University Medical Centre Ljubljana, Zaloška cesta 2, 1000 Ljubljana",
-    "tips": "The city is very walkable. Take a boat ride on the Ljubljanica River."
-  },
-  "Bratislava": {
-    "attractions": [
-      "Bratislava Castle",
-      "Old Town",
-      "UFO Observation Deck"
-    ],
-    "restaurants": [
-      "Modrá Hviezda",
-      "Slovak Pub",
-      "UFO Restaurant"
-    ],
-    "police": "Bratislava Police Headquarters, Sasinkova 23, 812 20 Bratislava",
-    "hospital": "University Hospital Bratislava, Mickiewiczova 13, 813 69 Bratislava",
-    "tips": "Climb up to the castle for panoramic views. Try local Slovak beer and cuisine."
-  },
-  "Sarajevo": {
-    "attractions": [
-      "Baščaršija",
-      "Latin Bridge",
-      "Gazi Husrev-beg Mosque"
-    ],
-    "restaurants": [
-      "Avlija",
-      "4 Sobe Gospođe Safije",
-      "Ćevabdžinica Željo"
-    ],
-    "police": "Sarajevo Canton Police, Mehmeda Spahe 20, Sarajevo 71000",
-    "hospital": "Clinical Center University of Sarajevo, Bolnička 25, 71000 Sarajevo",
-    "tips": "Learn about the city’s history from Ottoman to modern times. Try traditional Bosnian coffee."
-  },
-  "Riga": {
-    "attractions": [
-      "House of the Blackheads",
-      "Old Town Riga",
-      "Central Market"
-    ],
-    "restaurants": [
-      "Biblioteka No1",
-      "Rozengrāls",
-      "Lido"
-    ],
-    "police": "Riga Municipal Police, Lomonosova iela 12A, 1003 Riga",
-    "hospital": "Pauls Stradiņš Clinical University Hospital, Pilsoņu iela 13, 1002 Riga",
-    "tips": "The Art Nouveau district is a must-see. Try Latvian rye bread and local beer."
-  },
-  "Vilnius": {
-    "attractions": [
-      "Gediminas’ Tower",
-      "Vilnius Cathedral",
-      "Užupis District"
-    ],
-    "restaurants": [
-      "Šturmų Švyturys",
-      "Lokys",
-      "Sweet Root"
-    ],
-    "police": "Vilnius Police Headquarters, Saltoniškių g. 19, 08105 Vilnius",
-    "hospital": "Vilnius University Hospital Santaros Klinikos, Santariškių g. 2, 08661 Vilnius",
-    "tips": "Visit Užupis, a quirky artists’ district. Walking tours are the best way to explore the Old Town."
-  }
+  "Austria": [
+    {
+      "city": "Vienna",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Schönbrunn Palace", "location": "Schönbrunner Schloßstraße 47, 1130 Wien"},
+        {"name": "St. Stephen's Cathedral", "location": "Stephansplatz 3, 1010 Wien"},
+        {"name": "Hofburg Palace", "location": "Michaelerkuppel, 1010 Wien"}
+      ],
+      "restaurants": [
+        {"name": "Plachutta Wollzeile", "location": "Wollzeile 38, 1010 Wien"},
+        {"name": "Figlmüller", "location": "Wollzeile 5, 1010 Wien"}
+      ],
+      "police": "Landespolizeidirektion Wien, Schottenring 7-9, 1010 Wien",
+      "hospital": "Allgemeines Krankenhaus der Stadt Wien (AKH), Währinger Gürtel 18-20, 1090 Wien",
+      "tips": [
+        "Take the metro (U-Bahn) to get around efficiently.",
+        "Try a Wiener Schnitzel with potato salad.",
+        "Stand on the right side of escalators."
+      ]
+    },
+    {
+      "city": "Salzburg",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Hohensalzburg Fortress", "location": "Mönchsberg 34, 5020 Salzburg"},
+        {"name": "Mirabell Palace", "location": "Mirabellplatz 4, 5020 Salzburg"},
+        {"name": "Getreidegasse", "location": "Getreidegasse, Salzburg"}
+      ],
+      "restaurants": [
+        {"name": "St. Peter Stiftskulinarium", "location": "St. Peter Bezirk 1/4, 5020 Salzburg"},
+        {"name": "Bärenwirt", "location": "Müllner Hauptstraße 8, 5020 Salzburg"}
+      ],
+      "police": "Landespolizeidirektion Salzburg, Alpenstraße 90, 5020 Salzburg",
+      "hospital": "Universitätsklinikum Salzburg, Müllner Hauptstraße 48, 5020 Salzburg",
+      "tips": [
+        "Explore sites from 'The Sound of Music'.",
+        "Walk along the Salzach river for scenic views.",
+        "The city is best explored on foot."
+      ]
+    }
+  ],
+  "Belarus": [
+    {
+      "city": "Minsk",
+      "country": "Belarus",
+      "attractions": [
+        {"name": "Independence Square", "location": "Independence Square, Minsk"},
+        {"name": "Church of Saints Simon and Helena", "location": "ul. Sovetskaya 15, Minsk"},
+        {"name": "Island of Tears", "location": "Island of Tears, Minsk"}
+      ],
+      "restaurants": [
+        {"name": "Lido", "location": "Niezaležnaści ave, 49, Minsk"},
+        {"name": "Vasilki", "location": "Praspiekt Niezaležnaści 16, Minsk"}
+      ],
+      "police": "Main Directorate of Internal Affairs, vulica Haladzianskaja 1, Minsk",
+      "hospital": "City Clinical Hospital No. 4, vulica Haladzianskaja 24, Minsk",
+      "tips": [
+        "Be aware of visa requirements for Belarus.",
+        "The metro system is very clean and efficient.",
+        "Try draniki (potato pancakes)."
+      ]
+    }
+  ],
+  "Belgium": [
+    {
+      "city": "Brussels",
+      "country": "Belgium",
+      "attractions": [
+        {"name": "Grand-Place", "location": "Grand-Place, 1000 Bruxelles"},
+        {"name": "Manneken Pis", "location": "Rue de l'Etuve 25, 1000 Bruxelles"},
+        {"name": "Atomium", "location": "Pl. de l'Atomium 1, 1020 Bruxelles"}
+      ],
+      "restaurants": [
+        {"name": "Comme Chez Soi", "location": "Place Rouppe 23, 1000 Bruxelles"},
+        {"name": "Chez Léon", "location": "Rue des Bouchers 18, 1000 Bruxelles"}
+      ],
+      "police": "Police de Bruxelles, Rue du Marché au Charbon 30, 1000 Bruxelles",
+      "hospital": "CHU Saint-Pierre, Rue Haute 322, 1000 Bruxelles",
+      "tips": [
+        "Try Belgian waffles, fries, and chocolate.",
+        "Public transport is reliable, including trams and metro.",
+        "English is widely spoken, along with French and Dutch."
+      ]
+    },
+    {
+      "city": "Bruges",
+      "country": "Belgium",
+      "attractions": [
+        {"name": "Belfry of Bruges", "location": "Markt 1, 8000 Brugge"},
+        {"name": "Markt", "location": "Markt, 8000 Brugge"},
+        {"name": "Groeningemuseum", "location": "Dijver 12, 8000 Brugge"}
+      ],
+      "restaurants": [
+        {"name": "L'Orangerie", "location": "Groenerei 6, 8000 Brugge"},
+        {"name": "Park Restaurant", "location": "Molenmeers 2, 8000 Brugge"}
+      ],
+      "police": "Politiezone Brugge, Lodewijk Coiseaukaai 3, 8000 Brugge",
+      "hospital": "AZ Sint-Jan Brugge, Ruddershove 10, 8000 Brugge",
+      "tips": [
+        "Take a boat tour on the canals for a different perspective.",
+        "Try Belgian chocolate from a local shop.",
+        "The city is very picturesque and best explored on foot."
+      ]
+    },
+    {
+      "city": "Ghent",
+      "country": "Belgium",
+      "attractions": [
+        {"name": "Gravensteen Castle", "location": "Sint-Veerleplein 11, 9000 Gent"},
+        {"name": "St. Bavo's Cathedral", "location": "Sint-Baafsplein, 9000 Gent"},
+        {"name": "Belfry of Ghent", "location": "Sint-Baafsplein, 9000 Gent"}
+      ],
+      "restaurants": [
+        {"name": "Oak", "location": "Hoogstraat 20, 9000 Gent"},
+        {"name": "Publiek", "location": "Ham 39, 9000 Gent"}
+      ],
+      "police": "Politiezone Gent, Antonius Triestlaan 12, 9000 Gent",
+      "hospital": "UZ Gent, De Pintelaan 185, 9000 Gent",
+      "tips": [
+        "Take a boat tour on the canals.",
+        "Visit during the Gentse Feesten (Ghent Festival) in July.",
+        "Try a local delicacy like 'neusjes' (cuberdons)."
+      ]
+    }
+  ],
+  "Bosnia and Herzegovina": [
+    {
+      "city": "Sarajevo",
+      "country": "Bosnia and Herzegovina",
+      "attractions": [
+        {"name": "Baščaršija", "location": "Baščaršija, Sarajevo"},
+        {"name": "Latin Bridge", "location": "Obala Kulina bana, Sarajevo 71000"},
+        {"name": "Trebević Mountain", "location": "Trebević, Sarajevo"}
+      ],
+      "restaurants": [
+        {"name": "Ćevabdžinica Željo", "location": "Kundurdžiluk 19, Sarajevo 71000"},
+        {"name": "Dveri", "location": "Prote Bakovića 4, Sarajevo 71000"}
+      ],
+      "police": "Policijska uprava Sarajevo, Mula Mustafe Bašeskije 1, Sarajevo 71000",
+      "hospital": "Klinički centar Univerziteta u Sarajevu, Bolnička 25, Sarajevo 71000",
+      "tips": [
+        "Try ćevapi, the national dish.",
+        "Explore the old city on foot.",
+        "The city has a mix of Ottoman and Austro-Hungarian architecture."
+      ]
+    }
+  ],
+  "Bulgaria": [
+    {
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "attractions": [
+        {"name": "Alexander Nevsky Cathedral", "location": "pl. Sveti Aleksandar Nevski, 1000 Sofia"},
+        {"name": "Vitosha Boulevard", "location": "Vitosha Blvd, Sofia"},
+        {"name": "Boyana Church", "location": "ul. Boyansko ezero, 1616 Sofia"}
+      ],
+      "restaurants": [
+        {"name": "Secret by Chef Petrov", "location": "ul. “Veslets” 10, 1000 Sofia"},
+        {"name": "Hadjidraganovite Izbi", "location": "ul. “Hajdushko dere” 6, 1618 Sofia"}
+      ],
+      "police": "Sofia Police Directorate, Bul. 'Tsar Boris III' 17, 1618 Sofia",
+      "hospital": "Pirogov Hospital, bul. 'Gen. Eduard I. Totleben' 21, 1606 Sofia",
+      "tips": [
+        "Use the metro to get to most attractions.",
+        "The local currency is the Bulgarian Lev (BGN).",
+        "Tipping is around 10%."
+      ]
+    }
+  ],
+  "Croatia": [
+    {
+      "city": "Dubrovnik",
+      "country": "Croatia",
+      "attractions": [
+        {"name": "Old City Walls", "location": "Stradun, Old Town, 20000 Dubrovnik"},
+        {"name": "Stradun (Placa)", "location": "Stradun, Old Town, 20000 Dubrovnik"},
+        {"name": "Mount Srđ", "location": "Mount Srđ, Dubrovnik"}
+      ],
+      "restaurants": [
+        {"name": "Proto", "location": "Široka ul. 1, 20000 Dubrovnik"},
+        {"name": "360°", "location": "Ul. Sv. Dominika bb, 20000 Dubrovnik"}
+      ],
+      "police": "Policijska uprava dubrovačko-neretvanska, Dr. Ante Starčevića 13, 20000 Dubrovnik",
+      "hospital": "Opća bolnica Dubrovnik, Ul. Roka Mišetića, 20000 Dubrovnik",
+      "tips": [
+        "Visit during the shoulder seasons (spring/fall) to avoid crowds.",
+        "Wear comfortable shoes for walking on stone streets.",
+        "Be prepared for the summer heat."
+      ]
+    },
+    {
+      "city": "Zagreb",
+      "country": "Croatia",
+      "attractions": [
+        {"name": "St. Mark's Church", "location": "Trg Svetog Marka 5, 10000 Zagreb"},
+        {"name": "Stone Gate", "location": "Kamenita ul. 2, 10000 Zagreb"},
+        {"name": "Dolac Market", "location": "Dolac, 10000 Zagreb"}
+      ],
+      "restaurants": [
+        {"name": "Dubravkin Put", "location": "Dubravkin put 2, 10000 Zagreb"},
+        {"name": "Pod Zidom", "location": "Ul. Pod zidom 5, 10000 Zagreb"}
+      ],
+      "police": "Policijska uprava zagrebačka, Ulica Grada Vukovara 33, 10000 Zagreb",
+      "hospital": "Klinička bolnica Dubrava, Avenija Gojka Šuška 6, 10000 Zagreb",
+      "tips": [
+        "Ride the funicular to Upper Town.",
+        "Visit the quirky Museum of Broken Relationships.",
+        "Try local dishes like štrukli."
+      ]
+    }
+  ],
+  "Czech Republic": [
+    {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "attractions": [
+        {"name": "Prague Castle", "location": "Pražský hrad, 119 08 Prague 1"},
+        {"name": "Charles Bridge", "location": "Karlův most, 110 00 Prague 1"},
+        {"name": "Old Town Square", "location": "Staroměstské náměstí, 110 00 Prague 1"}
+      ],
+      "restaurants": [
+        {"name": "La Degustation Bohême Bourgeoise", "location": "Haštalská 18, 110 00 Staré Město, Czechia"},
+        {"name": "Eska", "location": "Pernerova 49, 186 00 Karlín, Czechia"}
+      ],
+      "police": "Policie ČR, Bartolomějská 1, 110 00 Nové Město, Czechia",
+      "hospital": "Fakultní nemocnice v Motole, V Úvalu 84, 150 06 Praha 5",
+      "tips": [
+        "Use public transport; it's reliable and cheap.",
+        "Czech crowns (CZK) are the local currency.",
+        "Watch out for overpriced exchange offices and taxis."
+      ]
+    }
+  ],
+  "Denmark": [
+    {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "attractions": [
+        {"name": "Tivoli Gardens", "location": "Vesterbrogade 3, 1630 København V"},
+        {"name": "Nyhavn", "location": "Nyhavn, 1051 København K"},
+        {"name": "The Little Mermaid", "location": "Langelinie, 2100 København Ø"}
+      ],
+      "restaurants": [
+        {"name": "Noma", "location": "Refshalevej 96, 1432 København K"},
+        {"name": "Aamanns 1921", "location": "Niels Hemmingsens Gade 19-21, 1153 København K"}
+      ],
+      "police": "Københavns Politi, Polititorvet 14, 1560 København V",
+      "hospital": "Rigshospitalet, Blegdamsvej 9, 2100 København Ø",
+      "tips": [
+        "Rent a bike to explore the city like a local.",
+        "Many places are cashless; have a credit card ready.",
+        "Don't walk in bike lanes."
+      ]
+    }
+  ],
+  "Estonia": [
+    {
+      "city": "Tallinn",
+      "country": "Estonia",
+      "attractions": [
+        {"name": "Toompea Castle", "location": "Lossi plats 1, 10137 Tallinn"},
+        {"name": "Old Town", "location": "Old Town, Tallinn"},
+        {"name": "Kadriorg Palace", "location": "A. Weizenbergi 37, 10127 Tallinn"}
+      ],
+      "restaurants": [
+        {"name": "NOA Chef's Hall", "location": "Ranna tee 3, 11911 Tallinn"},
+        {"name": "Olde Hansa", "location": "Vana turg 1, 10140 Tallinn"}
+      ],
+      "police": "Politsei- ja Piirivalveamet, Pärnu maantee 139, 15192 Tallinn",
+      "hospital": "Põhja-Eesti Regionaalhaigla, J. Sütiste tee 19, 13419 Tallinn",
+      "tips": [
+        "Climb to the Kohtuotsa viewing platform for city views.",
+        "The Old Town is a well-preserved medieval gem.",
+        "Use the Tallinn Card for transport and attractions."
+      ]
+    }
+  ],
+  "Finland": [
+    {
+      "city": "Helsinki",
+      "country": "Finland",
+      "attractions": [
+        {"name": "Suomenlinna", "location": "Suomenlinna, 00190 Helsinki"},
+        {"name": "Temppeliaukio Church", "location": "Lutherinkatu 3, 00100 Helsinki"},
+        {"name": "Kauppatori (Market Square)", "location": "Eteläranta, 00130 Helsinki"}
+      ],
+      "restaurants": [
+        {"name": "Olo", "location": "Pohjoisesplanadi 5, 00170 Helsinki"},
+        {"name": "Savoy", "location": "Eteläesplanadi 14, 00130 Helsinki"}
+      ],
+      "police": "Helsinki Police Department, Pasilanraitio 13, 00240 Helsinki",
+      "hospital": "Helsinki University Central Hospital, Haartmaninkatu 4, 00290 Helsinki",
+      "tips": [
+        "Finnish public transport is very efficient.",
+        "Tipping isn't mandatory, but is appreciated.",
+        "Be prepared for cold and snowy winters."
+      ]
+    }
+  ],
+  "France": [
+    {
+      "city": "Paris",
+      "country": "France",
+      "attractions": [
+        {"name": "Eiffel Tower", "location": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris"},
+        {"name": "Louvre Museum", "location": "Rue de Rivoli, 75001 Paris"},
+        {"name": "Notre-Dame Cathedral", "location": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris"}
+      ],
+      "restaurants": [
+        {"name": "Le Jules Verne", "location": "Eiffel Tower, 2nd floor"},
+        {"name": "L'Ambroisie", "location": "9 Place des Vosges, 75004 Paris"}
+      ],
+      "police": "Préfecture de Police de Paris, 1 Rue de Lutèce, 75004 Paris",
+      "hospital": "Hôpital de la Pitié-Salpêtrière, 47-83 Boulevard de l'Hôpital, 75013 Paris",
+      "tips": [
+        "Buy a Navigo Découverte pass for public transport.",
+        "Book tickets for popular attractions online to skip lines.",
+        "Try a croissant from a local boulangerie."
+      ]
+    },
+    {
+      "city": "Nice",
+      "country": "France",
+      "attractions": [
+        {"name": "Promenade des Anglais", "location": "Promenade des Anglais, Nice"},
+        {"name": "Castle Hill", "location": "Quai Rauba Capeu, 06300 Nice"},
+        {"name": "Vieille Ville (Old Town)", "location": "Vieux-Nice, Nice"}
+      ],
+      "restaurants": [
+        {"name": "Le Chantecler", "location": "37 Promenade des Anglais, 06000 Nice"},
+        {"name": "La Petite Maison", "location": "11 Rue Saint-François de Paule, 06300 Nice"}
+      ],
+      "police": "Hôtel de Police de Nice, 179 Rue de France, 06000 Nice",
+      "hospital": "CHU de Nice, Hôpital Pasteur, 30 Avenue de la Voie Romaine, 06000 Nice",
+      "tips": [
+        "Try socca (a chickpea pancake), a local specialty.",
+        "Be prepared for pebbly beaches, not sand.",
+        "The city is a great base to explore the French Riviera."
+      ]
+    }
+  ],
+  "Germany": [
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Brandenburg Gate", "location": "Pariser Platz, 10117 Berlin"},
+        {"name": "Reichstag Building", "location": "Platz der Republik 1, 11011 Berlin"},
+        {"name": "East Side Gallery", "location": "Mühlenstraße 3-100, 10243 Berlin"}
+      ],
+      "restaurants": [
+        {"name": "Facil", "location": "Potsdamer Platz 3, 10785 Berlin"},
+        {"name": "Curry 36", "location": "Mehringdamm 36, 10961 Berlin"}
+      ],
+      "police": "Polizeipräsidium Berlin, Platz der Luftbrücke 6, 12101 Berlin",
+      "hospital": "Charité – Universitätsmedizin Berlin, Charitépl. 1, 10117 Berlin",
+      "tips": [
+        "Public transport is excellent; get a day pass.",
+        "Cash is still common, especially for smaller purchases.",
+        "Don't jaywalk; it's taken seriously."
+      ]
+    },
+    {
+      "city": "Munich",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Marienplatz", "location": "Marienplatz, 80331 München"},
+        {"name": "Englischer Garten", "location": "Englischer Garten, München"},
+        {"name": "Nymphenburg Palace", "location": "Schloss Nymphenburg 1, 80638 München"}
+      ],
+      "restaurants": [
+        {"name": "Hofbräuhaus", "location": "Platzl 9, 80331 München"},
+        {"name": "Tantris", "location": "Johann-Fichte-Straße 7, 80805 München"}
+      ],
+      "police": "Polizeipräsidium München, Ettstraße 2, 80331 München",
+      "hospital": "Klinikum rechts der Isar der TUM, Ismaninger Str. 22, 81675 München",
+      "tips": [
+        "Visit a traditional beer garden.",
+        "Public transport (S-Bahn and U-Bahn) is excellent.",
+        "Try Weisswurst and pretzels."
+      ]
+    },
+    {
+      "city": "Hamburg",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Miniatur Wunderland", "location": "Kehrwieder 2-4/Block D, 20457 Hamburg"},
+        {"name": "Elbphilharmonie", "location": "Platz der Deutschen Einheit 1, 20457 Hamburg"},
+        {"name": "Speicherstadt", "location": "Speicherstadt, Hamburg"}
+      ],
+      "restaurants": [
+        {"name": "Haerlin", "location": "Neuer Jungfernstieg 9-14, 20354 Hamburg"},
+        {"name": "Bullerei", "location": "Lagerstraße 34b, 20357 Hamburg"}
+      ],
+      "police": "Polizei Hamburg, Bruno-Bürgel-Weg 6, 22111 Hamburg",
+      "hospital": "Universitätsklinikum Hamburg-Eppendorf (UKE), Martinistraße 52, 20251 Hamburg",
+      "tips": [
+        "Take a harbor tour to see the city from the water.",
+        "Explore the HafenCity district, a modern architectural marvel.",
+        "Visit the Reeperbahn for nightlife."
+      ]
+    }
+  ],
+  "Greece": [
+    {
+      "city": "Athens",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Acropolis of Athens", "location": "Acropolis, Athens 105 58"},
+        {"name": "Parthenon", "location": "Acropolis, Athens 105 58"},
+        {"name": "Ancient Agora of Athens", "location": "Adrianou 24, Athina 105 55"}
+      ],
+      "restaurants": [
+        {"name": "Funky Gourmet", "location": "135 Paramithias, Keramikos, Athens"},
+        {"name": "Avli", "location": "Agios Dimitriou 11, Athens"}
+      ],
+      "police": "Athens Police Headquarters, Leof. Alexandras 173, Athina 115 22",
+      "hospital": "Evangelismos General Hospital, Leof. Vasilissis Sofias 45-47, Athina 106 76",
+      "tips": [
+        "Carry cash for smaller purchases and taxis.",
+        "Wear comfortable shoes for walking on ancient sites.",
+        "Be prepared for hot weather in summer."
+      ]
+    }
+  ],
+  "Hungary": [
+    {
+      "city": "Budapest",
+      "country": "Hungary",
+      "attractions": [
+        {"name": "Hungarian Parliament Building", "location": "Kossuth Lajos tér 1-3, 1055 Budapest"},
+        {"name": "Buda Castle", "location": "Szent György tér 2, 1014 Budapest"},
+        {"name": "Széchenyi Thermal Bath", "location": "Állatkerti krt. 9-11, 1146 Budapest"}
+      ],
+      "restaurants": [
+        {"name": "Gundel", "location": "Gundel Károly út 4, 1146 Budapest"},
+        {"name": "New York Cafe", "location": "Erzsébet krt. 9-11, 1073 Budapest"}
+      ],
+      "police": "Budapest Rendőr-főkapitányság, Deák Ferenc tér 4, 1052 Budapest",
+      "hospital": "Szent Imre Hospital, Tétényi út 12-16, 1115 Budapest",
+      "tips": [
+        "Buy a Budapest Card for free public transport and discounts.",
+        "Tipping is 10-15% in restaurants.",
+        "Try Hungarian goulash and kürtőskalács."
+      ]
+    }
+  ],
+  "Iceland": [
+    {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "attractions": [
+        {"name": "Hallgrímskirkja Church", "location": "Hallgrímstorg 1, 101 Reykjavík"},
+        {"name": "Blue Lagoon", "location": "Norðurljósavegur 9, 240 Grindavík"},
+        {"name": "Golden Circle", "location": "Reykjavik"}
+      ],
+      "restaurants": [
+        {"name": "Dill Restaurant", "location": "Hverfisgata 12, 101 Reykjavík"},
+        {"name": "Bæjarins Beztu Pylsur", "location": "Tryggvagata 1, 101 Reykjavík"}
+      ],
+      "police": "Lögreglan á höfuðborgarsvæðinu, Hverfisgata 105, 101 Reykjavík",
+      "hospital": "Landspítali, Hringbraut, 101 Reykjavík",
+      "tips": [
+        "Book tours and accommodation well in advance.",
+        "Dress in layers; the weather changes quickly.",
+        "Be prepared for high prices on food and services."
+      ]
+    }
+  ],
+  "Ireland": [
+    {
+      "city": "Dublin",
+      "country": "Ireland",
+      "attractions": [
+        {"name": "Guinness Storehouse", "location": "St James's Gate, Dublin 8, D08 VF1A"},
+        {"name": "Trinity College Dublin", "location": "College Green, Dublin 2"},
+        {"name": "Temple Bar", "location": "Temple Bar, Dublin 2"}
+      ],
+      "restaurants": [
+        {"name": "Chapter One", "location": "Parnell Square North, Dublin 1, D01 T8Y5"},
+        {"name": "The Winding Stair", "location": "40 Lower Ormond Quay, Dublin 1, D01 R3F9"}
+      ],
+      "police": "An Garda Síochána, Dublin Castle, Dublin 2",
+      "hospital": "St. James's Hospital, James's St, The Liberties, Dublin 8, D08 N738",
+      "tips": [
+        "Tipping is customary in restaurants (10-15%).",
+        "Pub culture is central to social life.",
+        "Public transport is good, but many parts of the city are walkable."
+      ]
+    }
+  ],
+  "Italy": [
+    {
+      "city": "Rome",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Colosseum", "location": "Piazza del Colosseo, 1, 00184 Roma"},
+        {"name": "Vatican City", "location": "Vatican City"},
+        {"name": "Trevi Fountain", "location": "Piazza di Trevi, 00187 Roma"}
+      ],
+      "restaurants": [
+        {"name": "La Pergola", "location": "Via Alberto Cadlolo, 101, 00136 Roma"},
+        {"name": "Roscioli", "location": "Via dei Giubbonari, 21/22, 00186 Roma"}
+      ],
+      "police": "Questura di Roma, Via di San Vitale, 15, 00184 Roma",
+      "hospital": "Ospedale San Camillo-Forlanini, Circonvallazione Gianicolense, 87, 00152 Roma",
+      "tips": [
+        "Wear comfortable shoes for walking on cobblestones.",
+        "Beware of pickpockets in crowded tourist areas.",
+        "Don't order a cappuccino after lunch."
+      ]
+    },
+    {
+      "city": "Florence",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Duomo", "location": "Piazza del Duomo, 50122 Firenze"},
+        {"name": "Uffizi Gallery", "location": "Piazzale degli Uffizi, 6, 50122 Firenze"},
+        {"name": "Ponte Vecchio", "location": "Ponte Vecchio, 50125 Firenze"}
+      ],
+      "restaurants": [
+        {"name": "Osteria All'Antico Vinaio", "location": "Via dei Neri, 74/R, 50122 Firenze"},
+        {"name": "Trattoria Mario", "location": "Via Rosina, 2/r, 50123 Firenze"}
+      ],
+      "police": "Questura di Firenze, Via Zara, 2, 50129 Firenze",
+      "hospital": "Azienda Ospedaliero Universitaria Careggi, Largo Brambilla, 3, 50134 Firenze",
+      "tips": [
+        "Walk everywhere; the city center is small and manageable.",
+        "Book museum tickets online to avoid long queues.",
+        "Try a lampredotto sandwich."
+      ]
+    },
+    {
+      "city": "Venice",
+      "country": "Italy",
+      "attractions": [
+        {"name": "St. Mark's Basilica", "location": "Piazza San Marco, 328, 30124 Venezia"},
+        {"name": "Doge's Palace", "location": "Piazza San Marco, 1, 30124 Venezia"},
+        {"name": "Grand Canal", "location": "Venice"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Quadri", "location": "Piazza San Marco, 121, 30124 Venezia"},
+        {"name": "Osteria alla Vedova", "location": "Ramo Ca' d'Oro, 3912, 30121 Venezia"}
+      ],
+      "police": "Questura di Venezia, Sestiere Santa Croce, 395, 30135 Venezia",
+      "hospital": "Ospedale Civile SS. Giovanni e Paolo, Castello, 6777, 30122 Venezia",
+      "tips": [
+        "Wear comfortable, non-slip shoes for walking on bridges.",
+        "Use the Vaporetto (water bus) for transport.",
+        "Avoid eating in tourist-trap restaurants near St. Mark's Square."
+      ]
+    },
+    {
+      "city": "Milan",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Duomo di Milano", "location": "Piazza del Duomo, 20122 Milano"},
+        {"name": "Galleria Vittorio Emanuele II", "location": "Piazza del Duomo, 20123 Milano"},
+        {"name": "Sforza Castle", "location": "Piazza Castello, 20121 Milano"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Cracco", "location": "Galleria Vittorio Emanuele II, 20121 Milano"},
+        {"name": "Piz", "location": "Via Torino, 34, 20123 Milano"}
+      ],
+      "police": "Questura di Milano, Via Fatebenefratelli, 11, 20121 Milano",
+      "hospital": "Ospedale Maggiore Policlinico, Via Francesco Sforza, 28, 20122 Milano",
+      "tips": [
+        "Use the metro to navigate the city efficiently.",
+        "Be aware of pickpockets in crowded areas like the Duomo.",
+        "Try local dishes like risotto alla milanese."
+      ]
+    }
+  ],
+  "Latvia": [
+    {
+      "city": "Riga",
+      "country": "Latvia",
+      "attractions": [
+        {"name": "Old Town", "location": "Old Town, Riga"},
+        {"name": "House of the Blackheads", "location": "Rātslaukums 7, Centra rajons, Rīga, LV-1050"},
+        {"name": "Riga Central Market", "location": "Nēģu iela 7, Centra rajons, Rīga, LV-1050"}
+      ],
+      "restaurants": [
+        {"name": "Entresol", "location": "Elizabetes iela 83/85, Centra rajons, Rīga, LV-1050"},
+        {"name": "Vincents", "location": "Elizabetes iela 19, Centra rajons, Rīga, LV-1010"}
+      ],
+      "police": "Rīgas reģiona pārvaldes Kārtības policija, Lomonosova iela 11, Latgales priekšpilsēta, Rīga, LV-1019",
+      "hospital": "Paula Stradiņa Klīniskā universitātes slimnīca, Pilsoņu iela 13, Zemgales priekšpilsēta, Rīga, LV-1002",
+      "tips": [
+        "Admire the Art Nouveau architecture.",
+        "Take a relaxing boat tour on the city canal.",
+        "The city is a great base for exploring the Baltics."
+      ]
+    }
+  ],
+  "Lithuania": [
+    {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "attractions": [
+        {"name": "Gediminas' Tower", "location": "Arsenalo g. 5, 01100 Vilnius"},
+        {"name": "Vilnius Cathedral", "location": "Katedros a. 2, 01143 Vilnius"},
+        {"name": "Užupis Republic", "location": "Užupio g., 01200 Vilnius"}
+      ],
+      "restaurants": [
+        {"name": "Sweet Root", "location": "Užupio g. 25, 01203 Vilnius"},
+        {"name": "Džiaugsmas", "location": "Vilniaus g. 28, 01135 Vilnius"}
+      ],
+      "police": "Vilniaus apskrities vyriausiasis policijos komisariatas, Pylimo g. 20, 01132 Vilnius",
+      "hospital": "Vilnius University Hospital Santaros klinikos, Santariškių g. 2, 08661 Vilnius",
+      "tips": [
+        "Explore the artistic and independent Užupis Republic.",
+        "The Old Town is a UNESCO World Heritage site.",
+        "Try Cepelinai (potato dumplings)."
+      ]
+    }
+  ],
+  "Netherlands": [
+    {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "attractions": [
+        {"name": "Rijksmuseum", "location": "Museumstraat 1, 1071 XX Amsterdam"},
+        {"name": "Anne Frank House", "location": "Westermarkt 20, 1016 DK Amsterdam"},
+        {"name": "Canal cruises", "location": "Various locations"}
+      ],
+      "restaurants": [
+        {"name": "De Kas", "location": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam"},
+        {"name": "Restaurant Guts & Glory", "location": "Utrechtsestraat 6, 1017 VN Amsterdam"}
+      ],
+      "police": "Politiebureau Centrum, Nieuwezijds Voorburgwal 106, 1012 SE Amsterdam",
+      "hospital": "Academic Medical Center (AMC), Meibergdreef 9, 1105 AZ Amsterdam",
+      "tips": [
+        "Watch out for cyclists; they have the right of way.",
+        "Book Anne Frank House tickets well in advance.",
+        "Don't walk in bike lanes."
+      ]
+    }
+  ],
+  "Norway": [
+    {
+      "city": "Oslo",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Vigeland Sculpture Park", "location": "Nobels gate 32, 0268 Oslo"},
+        {"name": "Oslo Opera House", "location": "Kirsten Flagstads plass 1, 0150 Oslo"},
+        {"name": "Akershus Fortress", "location": "Akershus Slott og Festning, 0150 Oslo"}
+      ],
+      "restaurants": [
+        {"name": "Maaemo", "location": "Schweigaards gate 15 B, 0191 Oslo"},
+        {"name": "Statholdergaarden", "location": "Rådhusgata 11, 0151 Oslo"}
+      ],
+      "police": "Oslo Police District, Schweigaards gate 15, 0191 Oslo",
+      "hospital": "Oslo University Hospital, Kirkeveien 166, 0450 Oslo",
+      "tips": [
+        "Norway is very expensive; budget accordingly.",
+        "Use the Ruter app for public transport.",
+        "Tap water is safe to drink."
+      ]
+    }
+  ],
+  "Poland": [
+    {
+      "city": "Warsaw",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Warsaw Old Town", "location": "Old Town, Warsaw"},
+        {"name": "Palace of Culture and Science", "location": "Plac Defilad 1, 00-901 Warszawa"},
+        {"name": "Lazienki Park", "location": "Agrykola 1, 00-460 Warszawa"}
+      ],
+      "restaurants": [
+        {"name": "Atelier Amaro", "location": "ul. Agrykola 1, 00-460 Warszawa"},
+        {"name": "U Fukiera", "location": "Rynek Starego Miasta 27, 00-272 Warszawa"}
+      ],
+      "police": "Komenda Stołeczna Policji, ul. Wilcza 21, 00-610 Warszawa",
+      "hospital": "Centralna Izba Lekarska, ul. Sobieskiego 112, 02-909 Warszawa",
+      "tips": [
+        "Use the tram system to get around the city.",
+        "Polish is the official language, but English is widely spoken in tourist areas.",
+        "Try traditional Polish pierogi."
+      ]
+    },
+    {
+      "city": "Kraków",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Wawel Royal Castle", "location": "Wawel 5, 31-001 Kraków"},
+        {"name": "Main Market Square", "location": "Rynek Główny, Kraków"},
+        {"name": "Kazimierz Jewish Quarter", "location": "Kazimierz, Kraków"}
+      ],
+      "restaurants": [
+        {"name": "Pod Baranem", "location": "ul. Wzgórze Wawelskie 5, 31-001 Kraków"},
+        {"name": "Starka Restaurant", "location": "ul. Józefa 15, 31-056 Kraków"}
+      ],
+      "police": "Komisariat Policji Kraków, ul. Mogilska 109, 31-546 Kraków",
+      "hospital": "Szpital Uniwersytecki, ul. Kopernika 17, 31-501 Kraków",
+      "tips": [
+        "Try traditional Polish food like pierogi and zapiekanka.",
+        "Consider a day trip to Auschwitz-Birkenau.",
+        "Public transport is cheap and efficient."
+      ]
+    }
+  ],
+  "Portugal": [
+    {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Belém Tower", "location": "Av. Brasília, 1400-038 Lisboa"},
+        {"name": "Jerónimos Monastery", "location": "Praça do Império, 1400-206 Lisboa"},
+        {"name": "Alfama District", "location": "Alfama, Lisbon"}
+      ],
+      "restaurants": [
+        {"name": "Cervejaria Ramiro", "location": "Av. Almirante Reis 1, 1150-007 Lisboa"},
+        {"name": "Time Out Market Lisboa", "location": "Av. 24 de Julho 49, 1200-479 Lisboa"}
+      ],
+      "police": "Comando Metropolitano de Lisboa, Rua da Palma 194, 1150-249 Lisboa",
+      "hospital": "Hospital de Santa Maria, Av. Prof. Egas Moniz, 1649-035 Lisboa",
+      "tips": [
+        "Use the tram (especially Tram 28) for sightseeing.",
+        "Wear comfortable shoes; the city has many hills.",
+        "Try a pastel de nata (custard tart)."
+      ]
+    },
+    {
+      "city": "Porto",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Ribeira", "location": "Ribeira, Porto"},
+        {"name": "Dom Luís I Bridge", "location": "Ponte de Dom Luís I, Porto"},
+        {"name": "Livraria Lello", "location": "Rua das Carmelitas 144, 4050-161 Porto"}
+      ],
+      "restaurants": [
+        {"name": "Restaurante Abadia", "location": "Rua de Abadia 5, 4000-001 Porto"},
+        {"name": "O Paparico", "location": "Rua de Monchique 23, 4100-349 Porto"}
+      ],
+      "police": "Comando Metropolitano do Porto, Rua de São Bento da Vitória, 4050-543 Porto",
+      "hospital": "Hospital de Santo António, Largo do Prof. Abel Salazar, 4099-001 Porto",
+      "tips": [
+        "Try a Port wine tasting in Vila Nova de Gaia.",
+        "Walk the riverfront and enjoy the views.",
+        "The Francesinha sandwich is a local specialty."
+      ]
+    }
+  ],
+  "Romania": [
+    {
+      "city": "Bucharest",
+      "country": "Romania",
+      "attractions": [
+        {"name": "Palace of the Parliament", "location": "Strada Izvor 2-4, Bucharest"},
+        {"name": "Romanian Athenaeum", "location": "Strada Benjamin Franklin 1-3, Bucharest"},
+        {"name": "Old Town Lipscani", "location": "Bucharest city center"}
+      ],
+      "restaurants": [
+        {"name": "Caru' cu Bere", "location": "Strada Stavropoleos 5, Bucharest"},
+        {"name": "Hanu' lui Manuc", "location": "Strada Franceză 62-64, Bucharest"}
+      ],
+      "police": "Bucharest Police HQ, Calea Victoriei 192, Bucharest",
+      "hospital": "University Emergency Hospital, Splaiul Independenței 169, Bucharest",
+      "tips": [
+        "Taxis can overcharge—use apps like Bolt.",
+        "Try traditional dishes like sarmale (cabbage rolls).",
+        "Old Town is lively at night."
+      ]
+    }
+  ],
+  "Russia": [
+    {
+      "city": "Moscow",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Red Square", "location": "Red Square, Moscow"},
+        {"name": "The Kremlin", "location": "Moscow Kremlin, Moscow"},
+        {"name": "St. Basil's Cathedral", "location": "Red Square, Moscow"}
+      ],
+      "restaurants": [
+        {"name": "White Rabbit", "location": "Smolenskaya Square, 3, Moscow"},
+        {"name": "Café Pushkin", "location": "Tverskoy Blvd, 26A, Moscow"}
+      ],
+      "police": "Moscow Main Police Department, Petrovka St, 38, Moscow",
+      "hospital": "Botkin Hospital, 2-y Botkinskiy pr., 5, Moscow",
+      "tips": [
+        "Learn some basic Cyrillic script and Russian phrases.",
+        "The Moscow Metro is an efficient way to get around.",
+        "Be mindful of local laws and customs."
+      ]
+    },
+    {
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Hermitage Museum", "location": "Palace Square, 2, St. Petersburg"},
+        {"name": "Peterhof Palace", "location": "Razvodnaya Ulitsa, 2, Petergof, St. Petersburg"},
+        {"name": "Church of the Savior on Spilled Blood", "location": "Griboyedov Canal Embankment, 2А, St. Petersburg"}
+      ],
+      "restaurants": [
+        {"name": "Terrassa", "location": "Kazanskaya Ulitsa, 3, St. Petersburg"},
+        {"name": "Percorso", "location": "Voznesensky Ave, 1, St. Petersburg"}
+      ],
+      "police": "GU MVD po g. Sankt-Peterburgu i Leningradskoy oblasti, Suvorovsky Ave, 50-52, St. Petersburg",
+      "hospital": "Mariinskaya Bolnitsa, Liteynyy Ave, 56, St. Petersburg",
+      "tips": [
+        "Be aware of visa requirements for entry to Russia.",
+        "The metro is the best way to get around.",
+        "Plan your visit to the Hermitage Museum; it's vast."
+      ]
+    }
+  ],
+  "Serbia": [
+    {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "attractions": [
+        {"name": "Kalemegdan Fortress", "location": "Kalemegdan, Belgrade"},
+        {"name": "Church of St. Sava", "location": "Krušedolska 2a, Beograd"},
+        {"name": "Skadarlija", "location": "Skadarska, Belgrade"}
+      ],
+      "restaurants": [
+        {"name": "Dva Jelena", "location": "Skadarska 32, Beograd"},
+        {"name": "Lorenzo & Kakalamba", "location": "Cvijićeva 110, Beograd"}
+      ],
+      "police": "MUP RS - Policijska uprava za grad Beograd, Bulevar despota Stefana 107, Beograd",
+      "hospital": "Klinički centar Srbije, Pasterova 2, Beograd",
+      "tips": [
+        "Explore the vibrant nightlife, especially on floating river clubs.",
+        "Try ćevapi (grilled minced meat).",
+        "Be aware of public smoking laws."
+      ]
+    }
+  ],
+  "Slovakia": [
+    {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "attractions": [
+        {"name": "Bratislava Castle", "location": "Hrad, 811 06 Bratislava"},
+        {"name": "St. Martin's Cathedral", "location": "Rudnayovo námestie 1, 811 01 Bratislava"},
+        {"name": "Old Town", "location": "Staré Mesto, Bratislava"}
+      ],
+      "restaurants": [
+        {"name": "Modra Hviezda", "location": "Beblavého 14, 811 01 Bratislava"},
+        {"name": "Zylinder", "location": "Hviezdoslavovo námestie 19, 811 02 Bratislava"}
+      ],
+      "police": "Krajské riaditeľstvo Policajného zboru, Račianska 45, 832 15 Bratislava",
+      "hospital": "Univerzitná nemocnica Bratislava, Ružinovská 6, 826 06 Bratislava",
+      "tips": [
+        "Walk across the UFO bridge for great city views.",
+        "Try bryndzové halušky (potato dumplings with sheep cheese).",
+        "The city is very walkable, especially the Old Town."
+      ]
+    }
+  ],
+  "Slovenia": [
+    {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "attractions": [
+        {"name": "Ljubljana Castle", "location": "Grajska planota 1, 1000 Ljubljana"},
+        {"name": "Triple Bridge", "location": "Tromostovje, 1000 Ljubljana"},
+        {"name": "Dragon Bridge", "location": "Zmajski most, 1000 Ljubljana"}
+      ],
+      "restaurants": [
+        {"name": "Gostilna As", "location": "Čopova ulica 5, 1000 Ljubljana"},
+        {"name": "Restavracija Cubo", "location": "Šmartinska cesta 12, 1000 Ljubljana"}
+      ],
+      "police": "Policijska uprava Ljubljana, Štefanova ulica 2, 1000 Ljubljana",
+      "hospital": "Univerzitetni klinični center Ljubljana, Zaloška cesta 2, 1000 Ljubljana",
+      "tips": [
+        "The city center is car-free, perfect for walking.",
+        "Explore the riverside cafes.",
+        "The city is known for its dragon symbolism."
+      ]
+    }
+  ],
+  "Spain": [
+    {
+      "city": "Barcelona",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Sagrada Família", "location": "Carrer de la Marina, 41-43, 08013 Barcelona"},
+        {"name": "Park Güell", "location": "Carrer d'Olot, s/n, 08024 Barcelona"},
+        {"name": "Gothic Quarter", "location": "Ciutat Vella, Barcelona"}
+      ],
+      "restaurants": [
+        {"name": "Tickets Bar", "location": "Avinguda del Paral·lel, 164, 08015 Barcelona"},
+        {"name": "Cerveseria Catalana", "location": "Carrer de Mallorca, 236, 08008 Barcelona"}
+      ],
+      "police": "Comisaría de Policía Nacional, Via Laietana, 43, 08003 Barcelona",
+      "hospital": "Hospital Clínic de Barcelona, Carrer de Villarroel, 170, 08036 Barcelona",
+      "tips": [
+        "Be mindful of personal belongings.",
+        "Eating dinner late is normal (after 9 PM).",
+        "Learn a few Catalan phrases like 'bon dia' (good morning)."
+      ]
+    },
+    {
+      "city": "Madrid",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Prado Museum", "location": "C. de Ruiz de Alarcón, 23, 28014 Madrid"},
+        {"name": "Royal Palace of Madrid", "location": "C. de Bailén, s/n, 28071 Madrid"},
+        {"name": "Plaza Mayor", "location": "Plaza Mayor, 28012 Madrid"}
+      ],
+      "restaurants": [
+        {"name": "Botin", "location": "C. de Cuchilleros, 17, 28005 Madrid"},
+        {"name": "San Miguel Market", "location": "Plaza de San Miguel, s/n, 28005 Madrid"}
+      ],
+      "police": "Jefatura Superior de Policía de Madrid, Av. del Cardenal Herrera Oria, 28034 Madrid",
+      "hospital": "Hospital General Universitario Gregorio Marañón, C. del Dr. Esquerdo, 46, 28007 Madrid",
+      "tips": [
+        "Take a siesta during the afternoon heat.",
+        "Be aware of pickpockets, especially on the metro.",
+        "Dinner is served late, often after 9 PM."
+      ]
+    },
+    {
+      "city": "Seville",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Seville Cathedral", "location": "Av. de la Constitución, s/n, 41004 Sevilla"},
+        {"name": "Plaza de España", "location": "Av. Isabel la Católica, s/n, 41004 Sevilla"},
+        {"name": "Alcázar of Seville", "location": "Patio de Banderas, s/n, 41004 Sevilla"}
+      ],
+      "restaurants": [
+        {"name": "Eslava", "location": "Calle Eslava, 3, 41002 Sevilla"},
+        {"name": "El Gallinero de Sandra", "location": "Calle Esperanza de Triana, 13, 41010 Sevilla"}
+      ],
+      "police": "Jefatura Superior de Policía de Andalucía Occidental, C. Blas Infante, 1, 41011 Sevilla",
+      "hospital": "Hospital Universitario Virgen del Rocío, Av. Manuel Siurot, s/n, 41013 Sevilla",
+      "tips": [
+        "Visit during the spring for the best weather and festivals.",
+        "Experience a traditional flamenco show.",
+        "Be prepared for very hot summers."
+      ]
+    }
+  ],
+  "Sweden": [
+    {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "attractions": [
+        {"name": "Vasa Museum", "location": "Galärvarvsvägen 14, 115 21 Stockholm"},
+        {"name": "Gamla Stan (Old Town)", "location": "Gamla Stan, Stockholm"},
+        {"name": "Skansen Open-Air Museum", "location": "Djurgårdsslätten 49-51, 115 21 Stockholm"}
+      ],
+      "restaurants": [
+        {"name": "Frantzén", "location": "Klara Norra Kyrkogata 26, 111 22 Stockholm"},
+        {"name": "Operakällaren", "location": "Karl XII's torg, 111 86 Stockholm"}
+      ],
+      "police": "Polismyndigheten, Torsgatan 4, 112 29 Stockholm",
+      "hospital": "Karolinska University Hospital, Solna, 171 76 Solna",
+      "tips": [
+        "Sweden is mostly cashless; be prepared to use a card.",
+        "Take advantage of the 'fika' culture (coffee and a pastry break).",
+        "The metro system is an art gallery in itself."
+      ]
+    }
+  ],
+  "Switzerland": [
+    {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Lake Zurich", "location": "Lake Zurich"},
+        {"name": "Old Town (Altstadt)", "location": "Niederdorf, Zürich"},
+        {"name": "Grossmünster Church", "location": "Grossmünsterplatz, 8001 Zürich"}
+      ],
+      "restaurants": [
+        {"name": "Pavillon", "location": "Talstrasse 1, 8001 Zürich"},
+        {"name": "Restaurant Zeughauskeller", "location": "Bahnhofstrasse 28A, 8001 Zürich"}
+      ],
+      "police": "Kantonspolizei Zürich, Militärstrasse 21, 8004 Zürich",
+      "hospital": "UniversitätsSpital Zürich, Rämistrasse 100, 8091 Zürich",
+      "tips": [
+        "Switzerland is expensive, so plan your budget.",
+        "Public transport is excellent and punctual.",
+        "Try local dishes like fondue or raclette."
+      ]
+    },
+    {
+      "city": "Geneva",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Jet d'Eau", "location": "Quai du Mont-Blanc, 1201 Genève"},
+        {"name": "United Nations Office", "location": "Avenue de la Paix 8-14, 1211 Genève"},
+        {"name": "St. Pierre Cathedral", "location": "Cour Saint-Pierre 6, 1204 Genève"}
+      ],
+      "restaurants": [
+        {"name": "L'Auberge du Lion d'Or", "location": "Grand-Rue 18, 1204 Genève"},
+        {"name": "Le Chat-Botté", "location": "Rue du Rhône 45, 1204 Genève"}
+      ],
+      "police": "Police cantonale genevoise, Rue des Glacis-de-Rive 10, 1207 Genève",
+      "hospital": "Hôpitaux Universitaires de Genève (HUG), Rue Gabrielle-Perret-Gentil 4, 1205 Genève",
+      "tips": [
+        "Use the Swiss Travel Pass for transport and museum entry.",
+        "Swiss Francs are the local currency.",
+        "Take a boat tour on Lake Geneva."
+      ]
+    }
+  ],
+  "Turkey": [
+    {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Hagia Sophia", "location": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul"},
+        {"name": "Blue Mosque", "location": "Sultan Ahmet, Atmeydanı Cd. No:7, 34122 Fatih/İstanbul"},
+        {"name": "Grand Bazaar", "location": "Beyazıt, 34126 Fatih/İstanbul"}
+      ],
+      "restaurants": [
+        {"name": "Mikla", "location": "Asmalı Mescit, The Marmara Pera, Meşrutiyet Cd. No:15, 34430 Beyoğlu/İstanbul"},
+        {"name": "Nusr-Et Steakhouse", "location": "Etiler, Bebeköy Sk. No:2, 34337 Beşiktaş/İstanbul"}
+      ],
+      "police": "Istanbul Police Department, Vatan Cd. No:1, 34093 Fatih/İstanbul",
+      "hospital": "Istanbul Üniversitesi Çapa Tıp Fakültesi Hastanesi, Turgut Özal Cd. No:16, 34093 Fatih/İstanbul",
+      "tips": [
+        "Use the tram system for an easy way to get around.",
+        "Bargain at the Grand Bazaar.",
+        "Try Turkish coffee and baklava."
+      ]
+    }
+  ],
+  "Ukraine": [
+    {
+      "city": "Kyiv",
+      "country": "Ukraine",
+      "attractions": [
+        {"name": "Kyiv Pechersk Lavra", "location": "Lavrska St, 15, Kyiv, 02000"},
+        {"name": "Saint Sophia Cathedral", "location": "Volodymyrska St, 24, Kyiv, 01001"},
+        {"name": "Andriyivskyy Descent", "location": "Andriyivskyy Descent, Kyiv"}
+      ],
+      "restaurants": [
+        {"name": "Kanapa Restaurant", "location": "Andriyivskyy Descent, 19А, Kyiv, 04053"},
+        {"name": "Pervak", "location": "Rohnidynska St, 2, Kyiv, 01004"}
+      ],
+      "police": "Holovne Upravlinnya Natsionalʹnoyi politsiyi v m. Kyyevi, Volodymyrska St, 15, Kyiv, 01001",
+      "hospital": "Kyiv Clinical Hospital No. 17, Volodymyrska St, 12, Kyiv, 01001",
+      "tips": [
+        "Use the metro for fast and cheap transport.",
+        "Learn some basic Ukrainian or Russian phrases.",
+        "Borsch is a must-try dish."
+      ]
+    }
+  ],
+  "United Kingdom": [
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Tower of London", "location": "St Katharine's & Wapping, London EC3N 4AB"},
+        {"name": "British Museum", "location": "Great Russell St, London WC1B 3DG"},
+        {"name": "Buckingham Palace", "location": "Westminster, London SW1A 1AA"}
+      ],
+      "restaurants": [
+        {"name": "Sketch Gallery", "location": "9 Conduit St, London W1S 2XG"},
+        {"name": "Dishoom", "location": "Various locations"}
+      ],
+      "police": "New Scotland Yard, Victoria Embankment, London SW1A 2JL",
+      "hospital": "St. Thomas's Hospital, Westminster Bridge Rd, London SE1 7EH",
+      "tips": [
+        "Use an Oyster card or contactless payment for the Tube and buses.",
+        "Tipping is customary in restaurants (10-15%).",
+        "Look both ways; traffic drives on the left."
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Edinburgh Castle", "location": "Castlehill, Edinburgh EH1 2NG"},
+        {"name": "Royal Mile", "location": "Royal Mile, Edinburgh"},
+        {"name": "Arthur's Seat", "location": "Holyrood Park, Edinburgh"}
+      ],
+      "restaurants": [
+        {"name": "The Kitchin", "location": "78 Commercial Quay, Edinburgh EH6 6LX"},
+        {"name": "The Witchery by the Castle", "location": "352 Castlehill, The Royal Mile, Edinburgh EH1 2NF"}
+      ],
+      "police": "Police Scotland, Fettes Ave, Edinburgh EH4 1RJ",
+      "hospital": "Royal Infirmary of Edinburgh, Little France Cres, Edinburgh EH16 4SA",
+      "tips": [
+        "Be prepared for changing weather conditions.",
+        "Wear comfortable shoes for walking on the hilly terrain.",
+        "Try haggis, neeps, and tatties."
+      ]
+    },
+    {
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Manchester Cathedral", "location": "Victoria St, Manchester M3 1SX"},
+        {"name": "Old Trafford", "location": "Sir Matt Busby Way, Old Trafford, Stretford, Manchester M16 0RA"},
+        {"name": "Science and Industry Museum", "location": "Liverpool Rd, Manchester M3 4FP"}
+      ],
+      "restaurants": [
+        {"name": "Adam Reid at The French", "location": "Midland Hotel, 16 Peter St, Manchester M60 2DS"},
+        {"name": "The Midland", "location": "Peter St, Manchester M60 2DS"}
+      ],
+      "police": "Greater Manchester Police Headquarters, Northampton Rd, Newton Heath, Manchester M40 5BP",
+      "hospital": "Manchester Royal Infirmary, Oxford Rd, Manchester M13 9WL",
+      "tips": [
+        "Explore the Northern Quarter for independent shops and bars.",
+        "Use the tram system to get around.",
+        "Manchester has a rich music history."
+      ]
+    },
+    {
+      "city": "Liverpool",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "The Beatles Story", "location": "Britannia Vaults, Albert Dock, Liverpool L3 4AD"},
+        {"name": "Liverpool Cathedral", "location": "St James Mount, Liverpool L1 7AZ"},
+        {"name": "Albert Dock", "location": "3-4 Albert Dock, Liverpool L3 4AE"}
+      ],
+      "restaurants": [
+        {"name": "Moor Hall", "location": "Prescot Rd, Aughton, Ormskirk L39 6SS"},
+        {"name": "The Art School Restaurant", "location": "1 Sugnall St, Liverpool L7 7EB"}
+      ],
+      "police": "Merseyside Police Headquarters, Canning Pl, Liverpool L1 8JY",
+      "hospital": "Royal Liverpool University Hospital, Prescot St, Liverpool L7 8XP",
+      "tips": [
+        "Explore the city's rich music history beyond The Beatles.",
+        "Use the Merseyrail system to get around.",
+        "The Liver Birds are a symbol of the city."
+      ]
+    }
+  ]
 }
-
-]
