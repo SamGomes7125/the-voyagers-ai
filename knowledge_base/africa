@@ -1,0 +1,878 @@
+{
+    "North Africa": {
+        "Egypt": {
+            "Alexandria": {
+                "attractions": [
+                    {"name": "Citadel of Qaitbay", "address": "El-Gaish Rd, Anfoushi, Alexandria, Egypt"},
+                    {"name": "Bibliotheca Alexandrina", "address": "Al Azarita, Alexandria, Egypt"},
+                    {"name": "Catacombs of Kom El Shoqafa", "address": "Alexandria, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "Fish Market", "address": "El Gaish Rd, Alexandria, Egypt"},
+                    {"name": "Balbaa", "address": "El Nasr Rd, Alexandria, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Alexandria Security Directorate", "address": "Alexandria, Egypt"},
+                    {"type": "Hospital", "name": "Alexandria University Main Hospital (Al Miri)", "address": "9 Al Bastmi, Alexandria, Egypt"}
+                ],
+                "tips": [
+                    "Alexandria is a major port city known for its Greco-Roman history.",
+                    "The city has an extensive tram system, which is a key form of public transport.",
+                    "Be prepared for a mix of modern and historical sites."
+                ]
+            },
+            "Aswan": {
+                "attractions": [
+                    {"name": "Philae Temple", "address": "Island of Philae, Aswan, Egypt"},
+                    {"name": "High Dam", "address": "Aswan, Egypt"},
+                    {"name": "Unfinished Obelisk", "address": "Fatimid Cemetery, Aswan, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "Nubian House", "address": "Bigeh Island, Aswan, Egypt"},
+                    {"name": "1902 Restaurant", "address": "Old Cataract Hotel, Abtal El Tahrir St, Aswan, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Aswan Police Station", "address": "Abtal El Tahrir St, Aswan, Egypt"},
+                    {"type": "Hospital", "name": "Aswan Public Hospital", "address": "Nasr St, Aswan, Egypt"}
+                ],
+                "tips": [
+                    "Take a felucca (traditional sailboat) ride on the Nile.",
+                    "Visit a local Nubian village for a cultural experience.",
+                    "Aswan is a quieter city compared to Cairo and Luxor."
+                ]
+            },
+            "Cairo": {
+                "attractions": [
+                    {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
+                    {"name": "Khan el-Khalili", "address": "El-Gamaliya, Cairo Governorate, Egypt"},
+                    {"name": "Egyptian Museum", "address": "Tahrir Square, Downtown Cairo, Cairo Governorate, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "Koshary Abou Tarek", "address": "16 Maarouf St, Downtown Cairo, Cairo Governorate, Egypt"},
+                    {"name": "Giannini's New York Italian Restaurant", "address": "Four Seasons Hotel Cairo at The First Residence, 35 Giza St, Giza Governorate, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "New Cairo 1st Police Station", "address": "Rd. 1, 4Th District, New Cairo, Cairo, Egypt"},
+                    {"type": "Hospital", "name": "Cairo Specialized Hospital (CSH)", "address": "4 Abou Ebaid El Bakry St. Off Ghernata St Roxy, Heliopolis, Cairo, Egypt"}
+                ],
+                "tips": [
+                    "Use a reliable ride-hailing app like Uber for transport.",
+                    "Bargaining is expected in markets like Khan el-Khalili.",
+                    "Dress modestly, especially when visiting religious sites."
+                ]
+            },
+            "Giza": {
+                "attractions": [
+                    {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
+                    {"name": "Saqqara", "address": "Giza, Egypt"},
+                    {"name": "Dahshur", "address": "Giza, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "The Smokery", "address": "Pyramids Hills, Giza, Egypt"},
+                    {"name": "Felfela", "address": "Pyramids St, Giza, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Giza Police Directorate", "address": "Al Giza, Giza Governorate, Egypt"},
+                    {"type": "Hospital", "name": "Giza General Hospital", "address": "Al Haram St, Giza, Egypt"}
+                ],
+                "tips": [
+                    "Stay in a pyramid-view hotel for the best experience.",
+                    "Hire a guide to navigate the pyramid complex.",
+                    "Visit early in the morning to avoid the heat and crowds."
+                ]
+            },
+            "Hurghada": {
+                "attractions": [
+                    {"name": "Giftun Island", "address": "Hurghada, Egypt"},
+                    {"name": "El Dahar", "address": "Hurghada, Egypt"},
+                    {"name": "Hurghada Marina", "address": "Hurghada, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "Starfish Restaurant", "address": "El Cornish St, Hurghada, Egypt"},
+                    {"name": "Felfela", "address": "El-Nasr St, Hurghada, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Hurghada Police Station", "address": "El-Nasr St, Hurghada, Egypt"},
+                    {"type": "Hospital", "name": "Hurghada General Hospital", "address": "Hurghada, Egypt"}
+                ],
+                "tips": [
+                    "Hurghada is a top spot for scuba diving and snorkeling.",
+                    "Many resorts offer all-inclusive packages.",
+                    "Be prepared for the dry desert climate."
+                ]
+            },
+            "Luxor": {
+                "attractions": [
+                    {"name": "Valley of the Kings", "address": "Luxor, Luxor Governorate, Egypt"},
+                    {"name": "Karnak Temple Complex", "address": "Luxor, Luxor Governorate, Egypt"},
+                    {"name": "Luxor Temple", "address": "El-Karnak, Luxor, Luxor Governorate, Egypt"}
+                ],
+                "restaurants": [
+                    {"name": "1886 Restaurant", "address": "Winter Palace Hotel, Corniche El Nil St, Luxor, Egypt"},
+                    {"name": "Aladdin's Kingdom Restaurant", "address": "El-Bahar St, Luxor, Egypt"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Luxor Police Station", "address": "Corniche El Nil, Luxor, Egypt"},
+                    {"type": "Hospital", "name": "Luxor International Hospital", "address": "Qurna, Luxor, Egypt"}
+                ],
+                "tips": [
+                    "Hire a licensed guide to explore the historical sites.",
+                    "Stay hydrated and avoid the midday sun.",
+                    "Take a hot air balloon ride for a unique view of the temples."
+                ]
+            }
+        },
+        "Morocco": {
+            "Agadir": {
+                "attractions": [
+                    {"name": "Agadir Oufella Kasbah", "address": "Agadir, Morocco"},
+                    {"name": "Agadir Beach", "address": "Agadir, Morocco"},
+                    {"name": "Souk El Had", "address": "Agadir, Morocco"}
+                ],
+                "restaurants": [
+                    {"name": "Pure Passion", "address": "Marina D'Agadir, Agadir, Morocco"},
+                    {"name": "Restaurant Le Flore", "address": "Promenade Tawada, Agadir, Morocco"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Police Prefecture of Agadir", "address": "Rue 18 Novembre, Agadir, Morocco"},
+                    {"type": "Hospital", "name": "Hôpital Hassan II", "address": "Agadir, Morocco"}
+                ],
+                "tips": [
+                    "Agadir is a modern city and a popular beach resort.",
+                    "The souk is a great place to buy souvenirs, but be prepared to bargain.",
+                    "The city is known for its fresh seafood."
+                ]
+            },
+            "Casablanca": {
+                "attractions": [
+                    {"name": "Hassan II Mosque", "address": "Boulevard de la Corniche, Casablanca, Morocco"},
+                    {"name": "Mohammed V Square", "address": "Place Mohammed V, Casablanca, Morocco"},
+                    {"name": "La Corniche", "address": "Boulevard de la Corniche, Casablanca, Morocco"}
+                ],
+                "restaurants": [
+                    {"name": "Le Cabestan Ocean View", "address": "Piste De Sidi Abderrahman, Casablanca, Morocco"},
+                    {"name": "Rick's Café", "address": "248 Boulevard Sour Jdid, Casablanca, Morocco"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Police Station (Prefecture)", "address": "Rue de la Préfecture, Casablanca, Morocco"},
+                    {"type": "Hospital", "name": "Polyclinique du Sud", "address": "Angle Bd d'Anfa et Rue Dakhla, Casablanca, Morocco"}
+                ],
+                "tips": [
+                    "Casablanca is more modern than other Moroccan cities.",
+                    "Dress respectfully, though it is less conservative than other cities.",
+                    "Use official taxis or ride-hailing apps like Careem."
+                ]
+            },
+            "Chefchaouen": {
+                "attractions": [
+                    {"name": "Kasbah Museum", "address": "Place Outa Hammam, Chefchaouen, Morocco"},
+                    {"name": "Ras El Ma Waterfall", "address": "Chefchaouen, Morocco"},
+                    {"name": "Spanish Mosque", "address": "Chefchaouen, Morocco"}
+                ],
+                "restaurants": [
+                    {"name": "Bab Ssour", "address": "Rue Bab Ssour, Chefchaouen, Morocco"},
+                    {"name": "Restaurant Pizzeria Mandala", "address": "Chefchaouen, Morocco"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Chefchaouen Police Station", "address": "Avenue Hassan II, Chefchaouen, Morocco"},
+                    {"type": "Hospital", "name": "Hôpital Mohammed V", "address": "Chefchaouen, Morocco"}
+                ],
+                "tips": [
+                    "Wear comfortable shoes for walking up and down the steep streets.",
+                    "Chefchaouen is known for its serene and relaxed atmosphere.",
+                    "The medina's blue walls are perfect for photos."
+                ]
+            },
+            "Fes": {
+                "attractions": [
+                    {"name": "Fes el-Bali (Old Medina)", "address": "Fes, Morocco"},
+                    {"name": "Chouara Tannery", "address": "Derb Chaouara, Fes, Morocco"},
+                    {"name": "Al-Attarine Madrasa", "address": "Rue Talaa Seghira, Fes, Morocco"}
+                ],
+                "restaurants": [
+                    {"name": "Café Clock", "address": "Derb El Magana, Fes, Morocco"},
+                    {"name": "Fes Café", "address": "53, Derb El Magana, Fes, Morocco"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Fes Police Station", "address": "Avenue Hassan II, Fes, Morocco"},
+                    {"type": "Hospital", "name": "Hôpital Ibn Sina", "address": "Fes, Morocco"}
+                ],
+                "tips": [
+                    "Hire a local guide to navigate the labyrinthine medina.",
+                    "Be respectful of local customs, especially when visiting religious sites.",
+                    "The city is a hub for Moroccan cuisine and handicrafts."
+                ]
+            },
+            "Marrakesh": {
+                "attractions": [
+                    {"name": "Jemaa el-Fnaa", "address": "Marrakesh, Morocco"},
+                    {"name": "Bahia Palace", "address": "Rue Riad Zitoun el Jadid, Marrakech 40000, Morocco"},
+                    {"name": "Jardin Majorelle", "address": "Rue Yves Saint Laurent, Marrakesh 40090, Morocco"}
+                ],
+                "restaurants": [
+                    {"name": "Le Jardin", "address": "32 Souk Sidi Abdelaziz, Marrakesh 40000, Morocco"},
+                    {"name": "Al Fassia", "address": "55 Blvd Zerktouni, Guéliz, Marrakesh 40000, Morocco"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Tourist Brigade", "address": "Place Jemaâ El Fna, Marrakesh, Morocco"},
+                    {"type": "Hospital", "name": "American Hospital International", "address": "Bd Mohamed VI, Marrakech, Morocco"}
+                ],
+                "tips": [
+                    "Negotiate prices when shopping in the souks.",
+                    "Be mindful of pickpockets in crowded areas.",
+                    "Drink plenty of water to stay hydrated."
+                ]
+            }
+        },
+        "Tunisia": {
+            "Tunis": {
+                "attractions": [
+                    {"name": "Medina of Tunis", "address": "Rue de la Kasbah, Tunis, Tunisia"},
+                    {"name": "Bardo National Museum", "address": "P1, Le Bardo 2000, Tunisia"},
+                    {"name": "Ruins of Carthage", "address": "Carthage, Tunisia"}
+                ],
+                "restaurants": [
+                    {"name": "Dar El Jeld", "address": "5-10, Rue Dar El Jeld, Tunis, Tunisia"},
+                    {"name": "Fondouk El Attarine", "address": "Rue El Attarine, Tunis, Tunisia"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Central Police Station", "address": "Avenue Habib Bourguiba, Tunis, Tunisia"},
+                    {"type": "Hospital", "name": "Hôpital Charles Nicolle", "address": "Rue Jebel Lakhdar, Tunis, Tunisia"}
+                ],
+                "tips": [
+                    "Explore the medina on foot and get lost in the alleys.",
+                    "Take a day trip to the charming blue and white village of Sidi Bou Said.",
+                    "Be aware of your surroundings in crowded areas."
+                ]
+            }
+        }
+    },
+    "West Africa": {
+        "Burkina Faso": {
+            "Ouagadougou": {
+                "attractions": [
+                    {"name": "Musée de la Musique", "address": "Avenue de la Nation, Ouagadougou, Burkina Faso"},
+                    {"name": "National Museum of Ouagadougou", "address": "Avenue du Boulevard de l'Indépendance, Ouagadougou, Burkina Faso"}
+                ],
+                "restaurants": [
+                    {"name": "Le Verdoyant", "address": "Rue de la Nation, Ouagadougou, Burkina Faso"},
+                    {"name": "La Belle Etoile", "address": "Avenue de la Liberté, Ouagadougou, Burkina Faso"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Commissariat Central de Police", "address": "Avenue de l'Indépendance, Ouagadougou, Burkina Faso"},
+                    {"type": "Hospital", "name": "Centre Hospitalier Universitaire Yalgado Ouédraogo", "address": "Ouagadougou, Burkina Faso"}
+                ],
+                "tips": [
+                    "Check travel advisories before visiting due to regional security concerns.",
+                    "The city is a hub for African music and cinema.",
+                    "Be prepared for warm weather and street food stalls."
+                ]
+            }
+        },
+        "Ghana": {
+            "Accra": {
+                "attractions": [
+                    {"name": "Kwame Nkrumah Memorial Park", "address": "High Street, Accra, Ghana"},
+                    {"name": "Jamestown Lighthouse", "address": "Jamestown, Accra, Ghana"},
+                    {"name": "Makola Market", "address": "Accra, Ghana"}
+                ],
+                "restaurants": [
+                    {"name": "Buka Restaurant", "address": "Mawuli Rd, Osu, Accra, Ghana"},
+                    {"name": "Asanka Local", "address": "14 Kanda Hwy, Accra, Ghana"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Accra Central Police Station", "address": "Kwame Nkrumah Ave, Accra, Ghana"},
+                    {"type": "Hospital", "name": "Korle Bu Teaching Hospital", "address": "Accra, Ghana"}
+                ],
+                "tips": [
+                    "Traffic can be heavy; plan your travel time accordingly.",
+                    "Be cautious of scammers and touts.",
+                    "Embrace the vibrant nightlife, especially in areas like Osu."
+                ]
+            }
+        },
+        "The Gambia": {
+            "Banjul": {
+                "attractions": [
+                    {"name": "Arch 22", "address": "Independence Drive, Banjul, The Gambia"},
+                    {"name": "Albert Market", "address": "Banjul, The Gambia"},
+                    {"name": "Gambia National Museum", "address": "Gloucester Street, Banjul, The Gambia"}
+                ],
+                "restaurants": [
+                    {"name": "Mali's Restaurant", "address": "Kairaba Avenue, Banjul, The Gambia"},
+                    {"name": "Ali Baba's Restaurant", "address": "Kotu, The Gambia"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Banjul Police Station", "address": "Banjul, The Gambia"},
+                    {"type": "Hospital", "name": "Royal Victoria Teaching Hospital", "address": "Independence Drive, Banjul, The Gambia"}
+                ],
+                "tips": [
+                    "Banjul is a small, walkable city.",
+                    "The Albert Market is a vibrant place but be prepared for bargaining.",
+                    "The country is known as 'The Smiling Coast' for its friendly people."
+                ]
+            }
+        },
+        "Nigeria": {
+            "Abuja": {
+                "attractions": [
+                    {"name": "Aso Rock", "address": "Aso Rock, Abuja, Nigeria"},
+                    {"name": "Zuma Rock", "address": "Kaduna-Abuja Expressway, Abuja, Nigeria"},
+                    {"name": "Jabi Lake Park", "address": "Jabi, Abuja, Nigeria"}
+                ],
+                "restaurants": [
+                    {"name": "Wakkis Restaurant", "address": "Plot 1719, Gwani Street, Wuse Zone 4, Abuja, Nigeria"},
+                    {"name": "Serendib Restaurant & Bar", "address": "Plot 1011, Karaye Street, Garki II, Abuja, Nigeria"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Abuja FCT Police Headquarters", "address": "Area 10, Garki, Abuja, Nigeria"},
+                    {"type": "Hospital", "name": "Garki Hospital Abuja", "address": "Garki, Abuja, Nigeria"}
+                ],
+                "tips": [
+                    "Abuja is a planned city, making it easier to navigate than Lagos.",
+                    "It is generally considered safer than Lagos.",
+                    "Take a hike up Zuma Rock for a challenge and great views."
+                ]
+            },
+            "Lagos": {
+                "attractions": [
+                    {"name": "Lekki Conservation Centre", "address": "Km 19 Lekki-Epe Expressway, Lekki, Nigeria"},
+                    {"name": "Nike Art Gallery", "address": "2 Elegushi Road, Lekki Phase 1, Lekki, Nigeria"},
+                    {"name": "Freedom Park", "address": "Old Prison, Broad St, Lagos Island, Lagos, Nigeria"}
+                ],
+                "restaurants": [
+                    {"name": "Shiro Lagos", "address": "Water Corporation Rd, Victoria Island, Lagos, Nigeria"},
+                    {"name": "Lagoon Restaurant", "address": "1C Ozumba Mbadiwe Ave, Victoria Island, Lagos, Nigeria"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Lagos State Police Headquarters", "address": "Oba Akinjobi Way, Ikeja, Lagos, Nigeria"},
+                    {"type": "Hospital", "name": "Lagos University Teaching Hospital", "address": "Idi Araba, Surulere, Lagos, Nigeria"}
+                ],
+                "tips": [
+                    "Use ride-hailing apps like Bolt and Uber for safer transport.",
+                    "Be aware of your surroundings, especially at night.",
+                    "Experience the city's lively music and art scene."
+                ]
+            }
+        },
+        "Senegal": {
+            "Dakar": {
+                "attractions": [
+                    {"name": "Gorée Island", "address": "Dakar, Senegal"},
+                    {"name": "African Renaissance Monument", "address": "N1, Dakar, Senegal"},
+                    {"name": "Pink Lake (Lac Rose)", "address": "Dakar, Senegal"}
+                ],
+                "restaurants": [
+                    {"name": "Le Lagon 1", "address": "Route de la Corniche, Dakar, Senegal"},
+                    {"name": "Chez Loutcha", "address": "Rue Moussé Diop, Dakar, Senegal"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Commissariat Central de Police", "address": "Rue 18, Dakar, Senegal"},
+                    {"type": "Hospital", "name": "Principal Hospital of Dakar", "address": "Avenue Pasteur, Dakar, Senegal"}
+                ],
+                "tips": [
+                    "Gorée Island is a must-visit for its historical significance.",
+                    "Bargaining is a common practice in markets.",
+                    "Public transport can be crowded; consider taxis for short trips."
+                ]
+            }
+        },
+        "Togo": {
+            "Lomé": {
+                "attractions": [
+                    {"name": "Lomé Grand Market", "address": "Lomé, Togo"},
+                    {"name": "Togo National Museum", "address": "Lomé, Togo"},
+                    {"name": "Village des Artisans", "address": "Lomé, Togo"}
+                ],
+                "restaurants": [
+                    {"name": "Kotoko Restaurant", "address": "Rue du Grand Marché, Lomé, Togo"},
+                    {"name": "L'Auberge de Tchaoudjo", "address": "Route de l'Aéroport, Lomé, Togo"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Lomé Central Police Station", "address": "Rue du Commerce, Lomé, Togo"},
+                    {"type": "Hospital", "name": "Centre Hospitalier Régional", "address": "Avenue de l'Ocam, Lomé, Togo"}
+                ],
+                "tips": [
+                    "Lomé is known for its beautiful beaches.",
+                    "The city is relatively safe, but be cautious at night.",
+                    "Taxis are the most convenient way to get around."
+                ]
+            }
+        }
+    },
+    "Central Africa": {
+        "Angola": {
+            "Luanda": {
+                "attractions": [
+                    {"name": "Fortress of São Miguel", "address": "Morro da Fortaleza, Luanda, Angola"},
+                    {"name": "Luanda Bay", "address": "Luanda, Angola"},
+                    {"name": "National Museum of Slavery", "address": "Luanda, Angola"}
+                ],
+                "restaurants": [
+                    {"name": "Lookal Mar", "address": "Avenida 4 de Fevereiro, Luanda, Angola"},
+                    {"name": "Restaurante O Cais de Quatro", "address": "Avenida Comandante Gika, Luanda, Angola"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Comando Provincial da Polícia de Luanda", "address": "Rua Ngola Kiluanje, Luanda, Angola"},
+                    {"type": "Hospital", "name": "Hospital Josina Machel", "address": "Luanda, Angola"}
+                ],
+                "tips": [
+                    "Luanda can be an expensive city; plan your budget accordingly.",
+                    "The city has beautiful beaches, but some are not safe for swimming.",
+                    "The city has a rich history due to its Portuguese colonial past."
+                ]
+            }
+        },
+        "Chad": {
+            "N'Djamena": {
+                "attractions": [
+                    {"name": "Chad National Museum", "address": "Avenue du Boulevard de l'Indépendance, N'Djamena, Chad"},
+                    {"name": "Place de la Nation", "address": "N'Djamena, Chad"},
+                    {"name": "N'Djamena Grand Mosque", "address": "N'Djamena, Chad"}
+                ],
+                "restaurants": [
+                    {"name": "Le Central Bar Restaurant Hôtel Pizzeria", "address": "N'Djamena, Chad"},
+                    {"name": "Le Carnivore", "address": "N'Djamena, Chad"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "N'Djamena Police Station", "address": "N'Djamena, Chad"},
+                    {"type": "Hospital", "name": "Hôpital Général de Référence Nationale", "address": "N'Djamena, Chad"}
+                ],
+                "tips": [
+                    "Check local security advisories before traveling.",
+                    "The city is a hub for Central African culture and history.",
+                    "French and Arabic are the official languages."
+                ]
+            }
+        },
+        "Democratic Republic of Congo": {
+            "Kinshasa": {
+                "attractions": [
+                    {"name": "Lola ya Bonobo", "address": "Kinshasa, DRC"},
+                    {"name": "Mount Mangengenge", "address": "Kinshasa, DRC"},
+                    {"name": "Congo River Cruise", "address": "Kinshasa, DRC"}
+                ],
+                "restaurants": [
+                    {"name": "Majestic River", "address": "Gombe, Kinshasa, DRC"},
+                    {"name": "L'Echangeur", "address": "Boulevard du 30 Juin, Kinshasa, DRC"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Kinshasa Central Police Station", "address": "Boulevard du 30 Juin, Kinshasa, DRC"},
+                    {"type": "Hospital", "name": "Kinshasa General Hospital", "address": "Kinshasa, DRC"}
+                ],
+                "tips": [
+                    "Security can be a concern, so travel with a reputable guide.",
+                    "Kinshasa is known for its vibrant music scene, particularly Soukous.",
+                    "Avoid walking alone at night."
+                ]
+            }
+        },
+        "Gabon": {
+            "Libreville": {
+                "attractions": [
+                    {"name": "Pointe-Denis Beach", "address": "Libreville, Gabon"},
+                    {"name": "L'Eglise St-Michel", "address": "Libreville, Gabon"},
+                    {"name": "Arboretum de Sibang", "address": "Libreville, Gabon"}
+                ],
+                "restaurants": [
+                    {"name": "L'Odyssée", "address": "Libreville, Gabon"},
+                    {"name": "Le Bateau Ivre", "address": "Port Mole, Libreville, Gabon"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Gendarmerie Nationale", "address": "Libreville, Gabon"},
+                    {"type": "Hospital", "name": "Hôpital de la Fondation Jeanne Ebori", "address": "Libreville, Gabon"}
+                ],
+                "tips": [
+                    "Gabon is one of the most stable and prosperous countries in Central Africa.",
+                    "The city is known for its beautiful coastline.",
+                    "French is the official language; it's helpful to know some phrases."
+                ]
+            }
+        }
+    },
+    "East Africa": {
+        "Ethiopia": {
+            "Addis Ababa": {
+                "attractions": [
+                    {"name": "National Museum of Ethiopia", "address": "Addis Ababa, Ethiopia"},
+                    {"name": "Holy Trinity Cathedral", "address": "Haile Gebre Silase Rd, Addis Ababa, Ethiopia"},
+                    {"name": "Merkato Market", "address": "Addis Ababa, Ethiopia"}
+                ],
+                "restaurants": [
+                    {"name": "Yod Abyssinia Traditional Restaurant", "address": "Bole, Addis Ababa, Ethiopia"},
+                    {"name": "Castelli Restaurant", "address": "Patriot Mulugheta, Addis Ababa, Ethiopia"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Addis Ababa Police Headquarters", "address": "Addis Ababa, Ethiopia"},
+                    {"type": "Hospital", "name": "St. Gabriel General Hospital", "address": "Bole Sub City Woreda, Addis Ababa, Ethiopia"}
+                ],
+                "tips": [
+                    "Ethiopian coffee is a must-try.",
+                    "Visit Merkato with a local guide for safety and navigation.",
+                    "Prepare for varied weather due to the city's altitude."
+                ]
+            }
+        },
+        "Kenya": {
+            "Mombasa": {
+                "attractions": [
+                    {"name": "Fort Jesus", "address": "Mombasa, Kenya"},
+                    {"name": "Mombasa Marine National Park and Reserve", "address": "Mombasa, Kenya"},
+                    {"name": "Old Town", "address": "Mombasa, Kenya"}
+                ],
+                "restaurants": [
+                    {"name": "Tamarind Dhow", "address": "Tudor Creek, Mombasa, Kenya"},
+                    {"name": "La Marina", "address": "Mtwapa, Mombasa, Kenya"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Mombasa Central Police Station", "address": "Mombasa, Kenya"},
+                    {"type": "Hospital", "name": "Aga Khan Hospital", "address": "Vanga Road, off Likoni Road, Mombasa, Kenya"}
+                ],
+                "tips": [
+                    "Mombasa is a historical port city with a Swahili-Arab culture.",
+                    "Be aware of the humid and hot climate.",
+                    "Negotiate taxi prices before getting in."
+                ]
+            },
+            "Nairobi": {
+                "attractions": [
+                    {"name": "Nairobi National Park", "address": "Langata Rd, Nairobi, Kenya"},
+                    {"name": "Giraffe Centre", "address": "Duma Rd, Nairobi, Kenya"},
+                    {"name": "Karen Blixen Museum", "address": "Karen Rd, Nairobi, Kenya"}
+                ],
+                "restaurants": [
+                    {"name": "Carnivore", "address": "Langata Rd, Nairobi, Kenya"},
+                    {"name": "Talisman Restaurant", "address": "320 Ngong Rd, Nairobi, Kenya"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Nairobi Police Headquarters", "address": "Central Police Station, Nairobi, Kenya"},
+                    {"type": "Hospital", "name": "Nairobi Hospital", "address": "Argwings Kodhek Rd, Nairobi, Kenya"}
+                ],
+                "tips": [
+                    "Be aware of your surroundings in public places.",
+                    "Use accredited taxis or ride-hailing apps like Bolt or Uber.",
+                    "Visit the Maasai Market for authentic crafts."
+                ]
+            }
+        },
+        "Rwanda": {
+            "Kigali": {
+                "attractions": [
+                    {"name": "Kigali Genocide Memorial", "address": "KG 14 Ave, Kigali, Rwanda"},
+                    {"name": "Kandt House Museum", "address": "KN 90 St, Kigali, Rwanda"}
+                ],
+                "restaurants": [
+                    {"name": "Heaven Restaurant & Boutique Hotel", "address": "KN 29 St, Kigali, Rwanda"},
+                    {"name": "Inema Arts Center", "address": "KG 563 St, Kigali, Rwanda"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Kigali Central Police Station", "address": "KN 3 Ave, Kigali, Rwanda"},
+                    {"type": "Hospital", "name": "King Faisal Hospital", "address": "Kigali, Rwanda"}
+                ],
+                "tips": [
+                    "Kigali is known for its cleanliness and safety.",
+                    "The city is hilly, so wear comfortable shoes.",
+                    "The Genocide Memorial is a deeply moving experience and a must-visit."
+                ]
+            }
+        },
+        "Tanzania": {
+            "Arusha": {
+                "attractions": [
+                    {"name": "Arusha National Park", "address": "Tanzania"},
+                    {"name": "Shanga Workshop", "address": "Dodoma Rd, Arusha, Tanzania"},
+                    {"name": "Mount Meru", "address": "Arusha, Tanzania"}
+                ],
+                "restaurants": [
+                    {"name": "Fifi's Restaurant", "address": "Makao Mapya, Arusha, Tanzania"},
+                    {"name": "Via Via Cultural Cafe", "address": "Via Via Arusha, Tanzania"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Arusha Central Police Station", "address": "Sokoine Road, Arusha, Tanzania"},
+                    {"type": "Hospital", "name": "Arusha Lutheran Medical Centre", "address": "Philips, Arusha, Tanzania"}
+                ],
+                "tips": [
+                    "Arusha is a gateway to safari circuits, so book tours in advance.",
+                    "Wear comfortable shoes for walking around town.",
+                    "Learn some basic Swahili phrases like 'Jambo' (hello)."
+                ]
+            },
+            "Dar es Salaam": {
+                "attractions": [
+                    {"name": "Kariakoo Market", "address": "Kariakoo, Dar es Salaam, Tanzania"},
+                    {"name": "National Museum and House of Culture", "address": "Shaaban Robert St, Dar es Salaam, Tanzania"},
+                    {"name": "Bongoyo Island", "address": "Dar es Salaam, Tanzania"}
+                ],
+                "restaurants": [
+                    {"name": "Samaki Samaki", "address": "Mlimani City, Dar es Salaam, Tanzania"},
+                    {"name": "The Waterfront Sunset Restaurant & Bar", "address": "Slipway Rd, Dar es Salaam, Tanzania"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Central Police Station", "address": "Sokoine Drive, Dar es Salaam, Tanzania"},
+                    {"type": "Hospital", "name": "Aga Khan Hospital", "address": "Ocean Rd, Dar es Salaam, Tanzania"}
+                ],
+                "tips": [
+                    "Dar es Salaam is a busy port city, known for its vibrant atmosphere.",
+                    "Use a reliable taxi service or ride-hailing app.",
+                    "Take a ferry to Bongoyo Island for a day trip."
+                ]
+            },
+            "Stone Town (Zanzibar)": {
+                "attractions": [
+                    {"name": "Forodhani Gardens", "address": "Forodhani St, Zanzibar, Tanzania"},
+                    {"name": "House of Wonders", "address": "Mizingani Road, Stone Town, Zanzibar, Tanzania"},
+                    {"name": "Prison Island", "address": "Changuu Island, Zanzibar, Tanzania"}
+                ],
+                "restaurants": [
+                    {"name": "Lukmaan Restaurant", "address": "Mkunazini Rd, Zanzibar, Tanzania"},
+                    {"name": "The Rock Restaurant (near Zanzibar)", "address": "Michamvi Pingwe, Tanzania"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Stone Town Police Station", "address": "Vuga Rd, Zanzibar, Tanzania"},
+                    {"type": "Hospital", "name": "Mnazi Mmoja Hospital", "address": "Mnazi Mmoja Rd, Zanzibar, Tanzania"}
+                ],
+                "tips": [
+                    "Dress modestly, especially outside tourist areas.",
+                    "Wander through the labyrinthine streets and alleys.",
+                    "Bargain respectfully in the markets."
+                ]
+            }
+        }
+    },
+    "Southern Africa": {
+        "Botswana": {
+            "Gaborone": {
+                "attractions": [
+                    {"name": "Three Chiefs' Statues", "address": "Independence Ave, Gaborone, Botswana"},
+                    {"name": "Gaborone Game Reserve", "address": "Gaborone, Botswana"},
+                    {"name": "Mokolodi Nature Reserve", "address": "Gaborone, Botswana"}
+                ],
+                "restaurants": [
+                    {"name": "Caravela Portuguese Restaurant", "address": "Gaborone, Botswana"},
+                    {"name": "Mokolodi Nature Reserve Restaurant", "address": "Gaborone, Botswana"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Gaborone Police Headquarters", "address": "Khama Cres, Gaborone, Botswana"},
+                    {"type": "Hospital", "name": "Princess Marina Hospital", "address": "Gaborone, Botswana"}
+                ],
+                "tips": [
+                    "Gaborone is a good base for trips to other parts of Botswana.",
+                    "Be aware of your surroundings, especially at night.",
+                    "The city has a relaxed atmosphere."
+                ]
+            }
+        },
+        "Madagascar": {
+            "Antananarivo": {
+                "attractions": [
+                    {"name": "Rova of Antananarivo", "address": "Rova, Antananarivo, Madagascar"},
+                    {"name": "Andafiavaratra Palace", "address": "Rue Andafiavaratra, Antananarivo, Madagascar"},
+                    {"name": "Lake Anosy", "address": "Antananarivo, Madagascar"}
+                ],
+                "restaurants": [
+                    {"name": "La Varangue", "address": "Rue du Dr Villette, Antananarivo, Madagascar"},
+                    {"name": "Sakamanga Restaurant", "address": "Rue du Général Ramanantsoa, Antananarivo, Madagascar"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Antananarivo Police Station", "address": "Rue de la Kasbah, Antananarivo, Madagascar"},
+                    {"type": "Hospital", "name": "HJRA Hospital", "address": "Antananarivo, Madagascar"}
+                ],
+                "tips": [
+                    "The city is built on several hills, so be prepared for a lot of walking.",
+                    "Traffic can be an issue; plan for extra travel time.",
+                    "Hire a local guide to navigate the city's complex layout."
+                ]
+            }
+        },
+        "Mauritius": {
+            "Port Louis": {
+                "attractions": [
+                    {"name": "Aapravasi Ghat", "address": "Port Louis, Mauritius"},
+                    {"name": "Central Market", "address": "Corderie St, Port Louis, Mauritius"},
+                    {"name": "Citadel Fort Adelaide", "address": "Port Louis, Mauritius"}
+                ],
+                "restaurants": [
+                    {"name": "Le Fangourin", "address": "L'Aventure du Sucre, Port Louis, Mauritius"},
+                    {"name": "La Terrasse", "address": "Rue Sir William Newton, Port Louis, Mauritius"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Port Louis Police Station", "address": "Rue St Louis, Port Louis, Mauritius"},
+                    {"type": "Hospital", "name": "Dr. A. G. Jeetoo Hospital", "address": "Volcy Pougnet, Port Louis, Mauritius"}
+                ],
+                "tips": [
+                    "Explore the city's multicultural heritage.",
+                    "Be cautious of pickpockets in crowded market areas.",
+                    "Try the local Mauritian 'dholl puri'."
+                ]
+            }
+        },
+        "Mozambique": {
+            "Maputo": {
+                "attractions": [
+                    {"name": "Maputo Railway Station", "address": "Praça dos Trabalhadores, Maputo, Mozambique"},
+                    {"name": "Maputo Fortress", "address": "Avenida 10 de Novembro, Maputo, Mozambique"},
+                    {"name": "Feima Arts & Crafts Market", "address": "Avenida dos Mártires da Machava, Maputo, Mozambique"}
+                ],
+                "restaurants": [
+                    {"name": "Mundial Restaurant", "address": "Rua Bagamoyo, Maputo, Mozambique"},
+                    {"name": "Clube Naval de Maputo", "address": "Avenida 10 de Novembro, Maputo, Mozambique"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Maputo Police Station", "address": "Av. Julius Nyerere, Maputo, Mozambique"},
+                    {"type": "Hospital", "name": "Maputo Central Hospital", "address": "Avenida Eduardo Mondlane, Maputo, Mozambique"}
+                ],
+                "tips": [
+                    "Try the fresh seafood, a specialty of Maputo.",
+                    "Be careful with street vendors and keep your valuables secure.",
+                    "Portuguese is the official language; knowing a few words is helpful."
+                ]
+            }
+        },
+        "Namibia": {
+            "Windhoek": {
+                "attractions": [
+                    {"name": "Christuskirche", "address": "Robert Mugabe Ave, Windhoek, Namibia"},
+                    {"name": "Parliament of Namibia", "address": "Lüderitz St, Windhoek, Namibia"},
+                    {"name": "Heroes' Acre", "address": "B1, Windhoek, Namibia"}
+                ],
+                "restaurants": [
+                    {"name": "Joe's Beerhouse", "address": "160 Nelson Mandela Ave, Windhoek, Namibia"},
+                    {"name": "Stellenbosch Wine Bar & Bistro", "address": "Stellenbosch Tutugen, Windhoek, Namibia"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Windhoek Police Station", "address": "Independence Ave, Windhoek, Namibia"},
+                    {"type": "Hospital", "name": "Windhoek Central Hospital", "address": "Hospital St, Windhoek, Namibia"}
+                ],
+                "tips": [
+                    "Namibia's landscapes are the main draw; Windhoek is a good starting point.",
+                    "Book desert tours and safaris in advance.",
+                    "The city has a strong German influence."
+                ]
+            }
+        },
+        "South Africa": {
+            "Cape Town": {
+                "attractions": [
+                    {"name": "Table Mountain", "address": "Tafelberg Rd, Cape Town, South Africa"},
+                    {"name": "V&A Waterfront", "address": "19 Dock Rd, Cape Town, 8001, South Africa"},
+                    {"name": "Chapman's Peak Drive", "address": "Hout Bay, Cape Town, South Africa"}
+                ],
+                "restaurants": [
+                    {"name": "Azure Restaurant", "address": "Twelve Apostles Hotel, Victoria St, Camps Bay, Cape Town, 8005, South Africa"},
+                    {"name": "The Grand Café and Beach", "address": "Granger Bay Blvd, Granger Bay, Cape Town, 8005, South Africa"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Cape Town Central Police Station", "address": "Corner of Buitenkant and Albertus streets, Cape Town, 8000, South Africa"},
+                    {"type": "Hospital", "name": "Mediclinic Cape Town", "address": "21 Hof Street, Oranjezicht, Cape Town, South Africa"}
+                ],
+                "tips": [
+                    "Be aware of your surroundings, especially at night.",
+                    "Don't leave valuables visible in your car.",
+                    "The MyCiTi bus is a safe and efficient way to travel."
+                ]
+            },
+            "Durban": {
+                "attractions": [
+                    {"name": "Golden Mile", "address": "Durban, South Africa"},
+                    {"name": "uShaka Marine World", "address": "1 King Shaka Ave, Durban, 4001, South Africa"},
+                    {"name": "Moses Mabhida Stadium", "address": "44 Isaiah Ntshangase Rd, Durban, 4001, South Africa"}
+                ],
+                "restaurants": [
+                    {"name": "Little India Restaurant", "address": "81 Dr Yusuf Dadoo St, Durban, South Africa"},
+                    {"name": "Market", "address": "400 Florida Rd, Durban, South Africa"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Durban Central Police Station", "address": "110 Aliwal St, Durban, South Africa"},
+                    {"type": "Hospital", "name": "Addington Hospital", "address": "66 South Beach Rd, Durban, South Africa"}
+                ],
+                "tips": [
+                    "Durban is known for its warm weather and beautiful beaches.",
+                    "Try the local 'bunny chow', a curry served in a hollowed-out loaf of bread.",
+                    "Be cautious when walking alone at night."
+                ]
+            },
+            "Johannesburg": {
+                "attractions": [
+                    {"name": "Apartheid Museum", "address": "Cnr of Northern Parkway & Gold Reef Roads, Ormonde, Johannesburg, 2001, South Africa"},
+                    {"name": "Soweto & Orlando Towers", "address": "Chris Hani Rd, Orlando East, Soweto, 1804, South Africa"},
+                    {"name": "Nelson Mandela Square", "address": "5th St, Sandton, 2196, South Africa"}
+                ],
+                "restaurants": [
+                    {"name": "Proud Mary", "address": "The Bank, 26 Cradock Ave, Rosebank, Johannesburg, South Africa"},
+                    {"name": "Thunder Gun", "address": "281 Beyers Naude Dr, Blackheath, Randburg, 2195, South Africa"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Johannesburg Central Police Station", "address": "1 Commissioner Street, Johannesburg, 2000, South Africa"},
+                    {"type": "Hospital", "name": "Charlotte Maxeke Johannesburg Academic Hospital", "address": "5 Jubilee Rd, Parktown, Johannesburg, 2196, South Africa"}
+                ],
+                "tips": [
+                    "Use a reputable tour guide, especially for Soweto.",
+                    "Don't walk alone at night in most areas.",
+                    "Gautrain is a safe way to travel between Sandton, Rosebank, and the airport."
+                ]
+            },
+            "Pretoria": {
+                "attractions": [
+                    {"name": "Union Buildings", "address": "Government Ave, Pretoria, 0002, South Africa"},
+                    {"name": "Voortrekker Monument", "address": "Eeufees Rd, Pretoria, South Africa"},
+                    {"name": "Church Square", "address": "Church Square, Pretoria, South Africa"}
+                ],
+                "restaurants": [
+                    {"name": "Fumo", "address": "402-404 Hilda St, Pretoria, South Africa"},
+                    {"name": "Culture Club", "address": "258 Long St, Pretoria, South Africa"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Pretoria Central Police Station", "address": "Pretoria, South Africa"},
+                    {"type": "Hospital", "name": "Netcare Pretoria East Hospital", "address": "Garsfontein Rd, Pretoria, South Africa"}
+                ],
+                "tips": [
+                    "Pretoria is known as 'Jacaranda City' for its purple-blossomed trees.",
+                    "The city is home to several historical monuments and museums.",
+                    "Public transport is less developed than in other cities; a car or taxi is recommended."
+                ]
+            }
+        },
+        "Zimbabwe": {
+            "Harare": {
+                "attractions": [
+                    {"name": "National Heroes Acre", "address": "Harare, Zimbabwe"},
+                    {"name": "Chapungu Sculpture Park", "address": "Harare, Zimbabwe"},
+                    {"name": "Mukuvisi Woodlands", "address": "Harare, Zimbabwe"}
+                ],
+                "restaurants": [
+                    {"name": "Sopranos Restaurant", "address": "Sam Nujoma St, Harare, Zimbabwe"},
+                    {"name": "Bombay Heights", "address": "Avondale, Harare, Zimbabwe"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Harare Central Police Station", "address": "Harare, Zimbabwe"},
+                    {"type": "Hospital", "name": "Parirenyatwa General Hospital", "address": "Mazowe St, Harare, Zimbabwe"}
+                ],
+                "tips": [
+                    "Harare is the commercial hub and a good entry point to the country.",
+                    "Be aware of your surroundings, especially at night.",
+                    "The country's economic situation can be volatile, so check for current conditions."
+                ]
+            },
+            "Victoria Falls": {
+                "attractions": [
+                    {"name": "Victoria Falls National Park", "address": "Victoria Falls, Zimbabwe"},
+                    {"name": "Zambezi River", "address": "Victoria Falls, Zimbabwe"},
+                    {"name": "Devil's Pool", "address": "Victoria Falls, Zimbabwe"}
+                ],
+                "restaurants": [
+                    {"name": "The Boma - Dinner & Drum Show", "address": "Victoria Falls Safari Lodge, Victoria Falls, Zimbabwe"},
+                    {"name": "Lookout Café", "address": "325A Batoka Gorge, Victoria Falls, Zimbabwe"}
+                ],
+                "emergency": [
+                    {"type": "Police Station", "name": "Victoria Falls Police Station", "address": "Livingstone Way, Victoria Falls, Zimbabwe"},
+                    {"type": "Hospital", "name": "Victoria Falls Hospital", "address": "Mkhosana Rd, Victoria Falls, Zimbabwe"}
+                ],
+                "tips": [
+                    "The Victoria Falls are a must-see; consider viewing them from both Zimbabwe and Zambia.",
+                    "Activities like bungee jumping and whitewater rafting are popular.",
+                    "Book your accommodation and activities well in advance, especially during peak season."
+                ]
+            }
+        }
+    }
+}
