@@ -1,4 +1,48 @@
 {
+  "Albania": [
+    {
+      "city": "Tirana",
+      "country": "Albania",
+      "attractions": [
+        {"name": "Skanderbeg Square", "location": "Sheshi Skënderbej, Tirana"},
+        {"name": "Bunk'Art 2", "location": "Rruga Abdi Toptani, Tirana"},
+        {"name": "Dajti Ekspres Cable Car", "location": "Rruga Dajti, Tirana"}
+      ],
+      "restaurants": [
+        {"name": "Mullixhiu", "location": "Shëtitorja Lasgush Poradeci, Tirana"},
+        {"name": "Oda - Traditional Albanian Cuisine", "location": "Rruga Luigj Gurakuqi, Tirana"}
+      ],
+      "police": "Drejtoria Vendore e Policisë Tiranë, Rruga Mine Peza, Tirana",
+      "hospital": "University Hospital Center Mother Teresa, Rruga e Dibrës 370, Tirana",
+      "tips": [
+        "The local currency is the Albanian Lek (ALL).",
+        "Explore the colorful buildings in the Blloku district.",
+        "Tipping is appreciated but not mandatory."
+      ]
+    }
+  ],
+  "Andorra": [
+    {
+      "city": "Andorra la Vella",
+      "country": "Andorra",
+      "attractions": [
+        {"name": "Caldea Thermal Spa", "location": "Parc de la Mola, 10, AD700 Escaldes-Engordany"},
+        {"name": "Casa de la Vall", "location": "Carrer de la Vall, AD500 Andorra la Vella"},
+        {"name": "Avinguda Meritxell", "location": "Avinguda Meritxell, Andorra la Vella"}
+      ],
+      "restaurants": [
+        {"name": "Restaurant Can Manel", "location": "Carrer de la Unió, 13, AD500 Andorra la Vella"},
+        {"name": "Kao Soldeu", "location": "Carretera General 2, AD100 Soldeu"}
+      ],
+      "police": "Servei de Policia, Carrer de la Justícia, AD500 Andorra la Vella",
+      "hospital": "Hospital Nostra Senyora de Meritxell, Avinguda Fiter i Rossell, AD700 Escaldes-Engordany",
+      "tips": [
+        "Andorra la Vella is the highest capital city in Europe.",
+        "The country is famous for its duty-free shopping, especially on Avinguda Meritxell.",
+        "It's a popular destination for skiing in the winter and hiking in the summer."
+      ]
+    }
+  ],
   "Austria": [
     {
       "city": "Vienna",
@@ -18,6 +62,46 @@
         "Take the metro (U-Bahn) to get around efficiently.",
         "Try a Wiener Schnitzel with potato salad.",
         "Stand on the right side of escalators."
+      ]
+    },
+      {
+      "city": "Innsbruck",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Golden Roof (Goldenes Dachl)", "location": "Herzog-Friedrich-Straße 15, 6020 Innsbruck"},
+        {"name": "Nordkette Cable Car", "location": "Rennweg 3, 6020 Innsbruck"},
+        {"name": "Swarovski Crystal Worlds", "location": "Kristallweltenstraße 1, 6112 Wattens"}
+      ],
+      "restaurants": [
+        {"name": "Stiftskeller", "location": "Stiftgasse 1, 6020 Innsbruck"},
+        {"name": "Die Wilderin", "location": "Seilergasse 5, 6020 Innsbruck"}
+      ],
+      "police": "Stadtpolizeikommando Innsbruck, Kaiserjägerstraße 8, 6020 Innsbruck",
+      "hospital": "Landeskrankenhaus - Universitätskliniken Innsbruck, Anichstraße 35, 6020 Innsbruck",
+      "tips": [
+        "Purchase the Innsbruck Card for access to transport and attractions.",
+        "The city is a hub for winter sports.",
+        "Enjoy stunning alpine views from the Nordkette."
+      ]
+    },
+    {
+      "city": "Hallstatt",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Hallstatt Skywalk 'World Heritage View'", "location": "Salzbergstraße 21, 4830 Hallstatt"},
+        {"name": "Salzwelten Hallstatt (Salt Mine)", "location": "Salzbergstraße 21, 4830 Hallstatt"},
+        {"name": "Hallstätter See (Lake Hallstatt)", "location": "Lake Hallstatt"}
+      ],
+      "restaurants": [
+        {"name": "Seehotel Grüner Baum", "location": "Marktpl. 104, 4830 Hallstatt"},
+        {"name": "Braugasthof Hallstatt", "location": "Seestraße 120, 4830 Hallstatt"}
+      ],
+      "police": "Polizeiinspektion Hallstatt, Lahnstraße 66, 4830 Hallstatt",
+      "hospital": "Salzkammergut Klinikum Bad Ischl, Wirerstraße 5, 4820 Bad Ischl",
+      "tips": [
+        "Visit early in the morning to avoid the largest crowds.",
+        "Take the funicular up for breathtaking views.",
+        "Rent an electric boat to explore the serene lake."
       ]
     },
     {
@@ -123,6 +207,26 @@
         "Visit during the Gentse Feesten (Ghent Festival) in July.",
         "Try a local delicacy like 'neusjes' (cuberdons)."
       ]
+    },
+    {
+      "city": "Antwerp",
+      "country": "Belgium",
+      "attractions": [
+        {"name": "Cathedral of Our Lady", "location": "Groenplaats 21, 2000 Antwerpen"},
+        {"name": "Antwerpen-Centraal Railway Station", "location": "Koningin Astridplein 27, 2018 Antwerpen"},
+        {"name": "Rubenshuis (Rubens' House)", "location": "Wapper 9-11, 2000 Antwerpen"}
+      ],
+      "restaurants": [
+        {"name": "The Jane", "location": "Paradeplein 1, 2018 Antwerpen"},
+        {"name": "Frites Atelier", "location": "Korte Gasthuisstraat 32, 2000 Antwerpen"}
+      ],
+      "police": "Politiezone Antwerpen, Oudaan 5, 2000 Antwerpen",
+      "hospital": "ZNA Stuivenberg, Lange Beeldekensstraat 267, 2060 Antwerpen",
+      "tips": [
+        "Antwerp is the diamond capital of the world.",
+        "Explore the trendy Het Zuid district for art galleries and cafes.",
+        "The central station is considered one of the most beautiful in the world."
+      ]
     }
   ],
   "Bosnia and Herzegovina": [
@@ -145,6 +249,26 @@
         "Explore the old city on foot.",
         "The city has a mix of Ottoman and Austro-Hungarian architecture."
       ]
+    },
+    {
+      "city": "Mostar",
+      "country": "Bosnia and Herzegovina",
+      "attractions": [
+        {"name": "Stari Most (Old Bridge)", "location": "Stari Most, Mostar 88000"},
+        {"name": "Koski Mehmed Pasha Mosque", "location": "Mala Tepa 16, Mostar 88000"},
+        {"name": "Blagaj Tekke (Dervish House)", "location": "Blagaj bb, Blagaj 88201"}
+      ],
+      "restaurants": [
+        {"name": "Tima-Irma", "location": "Onešćukova 7, Mostar 88000"},
+        {"name": "Šadrvan", "location": "Jusovina 11, Mostar 88000"}
+      ],
+      "police": "Policijska uprava Mostar, Husnije Repca, Mostar 88000",
+      "hospital": "Sveučilišna klinička bolnica Mostar, Bijeli Brijeg, Mostar 88000",
+      "tips": [
+        "Watch the traditional divers jump from the Stari Most into the Neretva River.",
+        "The currency is the Bosnian Convertible Mark (BAM).",
+        "The cobblestone streets can be slippery, so wear good shoes."
+      ]
     }
   ],
   "Bulgaria": [
@@ -166,6 +290,26 @@
         "Use the metro to get to most attractions.",
         "The local currency is the Bulgarian Lev (BGN).",
         "Tipping is around 10%."
+      ]
+    },
+    {
+      "city": "Plovdiv",
+      "country": "Bulgaria",
+      "attractions": [
+        {"name": "Plovdiv Roman Theatre", "location": "Plovdiv Center, Plovdiv 4000"},
+        {"name": "Plovdiv Old Town", "location": "Stariat grad, Plovdiv"},
+        {"name": "Kapana Creative District", "location": "Kapana, Plovdiv"}
+      ],
+      "restaurants": [
+        {"name": "Pavaj", "location": "Zlatarska St 7, Plovdiv 4000"},
+        {"name": "Hebros Restaurant", "location": "Konstantin Stoilov St 51, Plovdiv 4000"}
+      ],
+      "police": "First Police Precinct Plovdiv, ul. 'Knyaz Alexander I' 33, Plovdiv 4000",
+      "hospital": "University Hospital St George, bul. 'Peshtersko Shose' 66, Plovdiv 4002",
+      "tips": [
+        "Plovdiv is one of the oldest continuously inhabited cities in Europe.",
+        "Explore the colorful streets and art galleries in the Kapana district.",
+        "Climb one of the city's seven hills for a panoramic view at sunset."
       ]
     }
   ],
@@ -209,6 +353,68 @@
         "Visit the quirky Museum of Broken Relationships.",
         "Try local dishes like štrukli."
       ]
+    },
+    {
+      "city": "Split",
+      "country": "Croatia",
+      "attractions": [
+        {"name": "Diocletian's Palace", "location": "Dioklecijanova ul. 1, 21000, Split"},
+        {"name": "Riva Promenade", "location": "Obala Hrvatskog narodnog preporoda, 21000, Split"},
+        {"name": "Marjan Hill", "location": "Marjan, Split"}
+      ],
+      "restaurants": [
+        {"name": "Konoba Varos", "location": "Ban Mladenova 7, 21000, Split"},
+        {"name": "Bokeria Kitchen & Wine Bar", "location": "Domaldova ul. 8, 21000, Split"}
+      ],
+      "police": "Policijska uprava splitsko-dalmatinska, Trg Hrvatske bratske zajednice 9, 21000 Split",
+      "hospital": "KBC Split (Firule), Spinčićeva ul. 1, 21000 Split",
+      "tips": [
+        "Rub the toe of the Gregory of Nin statue for good luck.",
+        "Split is a major ferry port for exploring nearby islands like Hvar and Vis.",
+        "Wear comfortable shoes to explore the ancient stone streets."
+      ]
+    },
+    {
+      "city": "Zadar",
+      "country": "Croatia",
+      "attractions": [
+        {"name": "Sea Organ (Morske Orgulje)", "location": "Obala kralja Petra Krešimira IV, 23000, Zadar"},
+        {"name": "The Greeting to the Sun", "location": "Istarska obala, 23000, Zadar"},
+        {"name": "St. Donatus' Church", "location": "Trg Rimskog Foruma, 23000, Zadar"}
+      ],
+      "restaurants": [
+        {"name": "Restaurant Foša", "location": "Ul. kralja Dmitra Zvonimira 2, 23000, Zadar"},
+        {"name": "Pet Bunara", "location": "Ul. Stratico 1, 23000, Zadar"}
+      ],
+      "police": "Policijska uprava zadarska, Ul. bana Josipa Jelačića 30, 23000 Zadar",
+      "hospital": "Opća bolnica Zadar, Ul. Bože Peričića 5, 23000 Zadar",
+      "tips": [
+        "Listen to the unique sounds created by the Sea Organ, played by the waves.",
+        "Alfred Hitchcock claimed Zadar has 'the most beautiful sunset in the world'.",
+        "It's a great starting point for visiting national parks like Plitvice Lakes and Krka."
+      ]
+    }
+  ],
+  "Cyprus": [
+    {
+      "city": "Nicosia",
+      "country": "Cyprus",
+      "attractions": [
+        {"name": "Ledra Street", "location": "Ledra Street, Nicosia"},
+        {"name": "Cyprus Museum", "location": "Mouseiou 1, Nicosia 1097"},
+        {"name": "Buyuk Han", "location": "Asmaaltı Sokak, Nicosia"}
+      ],
+      "restaurants": [
+        {"name": "Piatsa Gourounaki", "location": "Faneromenis 92, Nicosia 1011"},
+        {"name": "To Anamma", "location": "Ledra Street 89, Nicosia"}
+      ],
+      "police": "Cyprus Police Headquarters, Evaggelou Floraki, Nicosia 1478",
+      "hospital": "Nicosia General Hospital, Nicosia-Limassol Old Rd 215, Strovolos 2029",
+      "tips": [
+        "Nicosia is the world's last divided capital city.",
+        "You can cross the 'Green Line' to the Turkish-occupied northern side; bring your passport.",
+        "The old city is enclosed by Venetian walls."
+      ]
     }
   ],
   "Czech Republic": [
@@ -231,6 +437,46 @@
         "Czech crowns (CZK) are the local currency.",
         "Watch out for overpriced exchange offices and taxis."
       ]
+    },
+    {
+      "city": "Český Krumlov",
+      "country": "Czech Republic",
+      "attractions": [
+        {"name": "Český Krumlov Castle", "location": "Zámek 59, 381 01 Český Krumlov"},
+        {"name": "Old Town Square", "location": "Náměstí Svornosti, 381 01 Český Krumlov"},
+        {"name": "Egon Schiele Art Centrum", "location": "Široká 71, 381 01 Český Krumlov"}
+      ],
+      "restaurants": [
+        {"name": "Krčma v Šatlavské ulici", "location": "Šatlavská 143, 381 01 Český Krumlov"},
+        {"name": "Le Jardin", "location": "Parkán 103, 381 01 Český Krumlov"}
+      ],
+      "police": "Obvodní oddělení Policie ČR, Vyšehradská 256, 381 01 Český Krumlov",
+      "hospital": "Nemocnice Český Krumlov, Nemocniční 429, 381 01 Český Krumlov",
+      "tips": [
+        "The entire old town is a UNESCO World Heritage site.",
+        "Consider rafting or canoeing on the Vltava River, which snakes through the town.",
+        "The castle complex is huge; allow several hours to explore it."
+      ]
+    },
+    {
+      "city": "Brno",
+      "country": "Czech Republic",
+      "attractions": [
+        {"name": "Špilberk Castle", "location": "Špilberk 210/1, 662 24 Brno"},
+        {"name": "Cathedral of St. Peter and Paul", "location": "Petrov 9, 602 00 Brno"},
+        {"name": "Villa Tugendhat", "location": "Černopolní 45, 613 00 Brno"}
+      ],
+      "restaurants": [
+        {"name": "Stopkova Plzeňská Pivnice", "location": "Česká 5, 602 00 Brno"},
+        {"name": "Pavillon", "location": "Jezuitská 687/6, 602 00 Brno"}
+      ],
+      "police": "Krajské ředitelství policie Jihomoravského kraje, Kounicova 24, 611 32 Brno",
+      "hospital": "Fakultní nemocnice u sv. Anny v Brně, Pekařská 53, 656 91 Brno",
+      "tips": [
+        "Book tickets for the modernist Villa Tugendhat far in advance.",
+        "Brno has a large student population and a vibrant nightlife.",
+        "Try the local Starobrno beer."
+      ]
     }
   ],
   "Denmark": [
@@ -252,6 +498,46 @@
         "Rent a bike to explore the city like a local.",
         "Many places are cashless; have a credit card ready.",
         "Don't walk in bike lanes."
+      ]
+    },
+    {
+      "city": "Odense",
+      "country": "Denmark",
+      "attractions": [
+        {"name": "Hans Christian Andersen Museum", "location": "H.C. Andersen Haven 1, 5000 Odense"},
+        {"name": "Den Fynske Landsby (Funen Village)", "location": "Sejerskovvej 20, 5260 Odense"},
+        {"name": "St. Alban's Church", "location": "Adelgade 1, 5000 Odense"}
+      ],
+      "restaurants": [
+        {"name": "Sortebro Kro", "location": "Sejerskovvej 20, 5260 Odense"},
+        {"name": "Vår", "location": "Vestergade 98, 5000 Odense"}
+      ],
+      "police": "Fyns Politi, Hans Mules Gade 1-3, 5000 Odense",
+      "hospital": "Odense University Hospital, J.B. Winsløws Vej 4, 5000 Odense",
+      "tips": [
+        "Odense is the birthplace of the famous fairytale author Hans Christian Andersen.",
+        "Follow the footsteps of H.C. Andersen on a walking tour.",
+        "The city is very accessible by bicycle."
+      ]
+    }
+     {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "attractions": [
+        {"name": "ARoS Aarhus Art Museum", "location": "Aros Allé 2, 8000 Aarhus"},
+        {"name": "Den Gamle By (The Old Town Museum)", "location": "Viborgvej 2, 8000 Aarhus"},
+        {"name": "Moesgaard Museum", "location": "Moesgård Allé 15, 8270 Højbjerg"}
+      ],
+      "restaurants": [
+        {"name": "Frederikshøj", "location": "Oddervej 19, 8000 Aarhus"},
+        {"name": "Aarhus Street Food", "location": "Ny Banegårdsgade 46, 8000 Aarhus"}
+      ],
+      "police": "Østjyllands Politi, Ridderstræde 1, 8000 Aarhus",
+      "hospital": "Aarhus University Hospital, Palle Juul-Jensens Boulevard 99, 8200 Aarhus",
+      "tips": [
+        "Don't miss the 'Your Rainbow Panorama' walkway on top of the ARoS museum.",
+        "Aarhus is very bike-friendly.",
+        "Explore the Latin Quarter for charming streets and shops."
       ]
     }
   ],
@@ -297,6 +583,46 @@
         "Tipping isn't mandatory, but is appreciated.",
         "Be prepared for cold and snowy winters."
       ]
+    },
+    {
+      "city": "Rovaniemi",
+      "country": "Finland",
+      "attractions": [
+        {"name": "Santa Claus Village", "location": "Tähtikuja 1, 96930 Rovaniemi"},
+        {"name": "Arktikum", "location": "Pohjoisranta 4, 96200 Rovaniemi"},
+        {"name": "Ranua Wildlife Park", "location": "Rovaniementie 29, 97700 Ranua"}
+      ],
+      "restaurants": [
+        {"name": "Ravintola Nili", "location": "Valtakatu 20, 96200 Rovaniemi"},
+        {"name": "Arctic Restaurant", "location": "Valtakatu 19, 96200 Rovaniemi"}
+      ],
+      "police": "Lapin poliisilaitos, Hallituskatu 1, 96100 Rovaniemi",
+      "hospital": "Lapland Central Hospital, Ounasrinteentie 22, 96400 Rovaniemi",
+      "tips": [
+        "Rovaniemi is the official hometown of Santa Claus.",
+        "Visit in winter for the best chance to see the Northern Lights (Aurora Borealis).",
+        "Dress in very warm layers during winter."
+      ]
+    },
+    {
+      "city": "Turku",
+      "country": "Finland",
+      "attractions": [
+        {"name": "Turku Castle", "location": "Linnankatu 80, 20100 Turku"},
+        {"name": "Turku Cathedral", "location": "Tuomiokirkonkatu 1, 20500 Turku"},
+        {"name": "Aboa Vetus Ars Nova Museum", "location": "Itäinen Rantakatu 4-6, 20700 Turku"}
+      ],
+      "restaurants": [
+        {"name": "Kaskis", "location": "Kaskenkatu 6 A, 20700 Turku"},
+        {"name": "Smör", "location": "Läntinen Rantakatu 3, 20100 Turku"}
+      ],
+      "police": "Lounais-Suomen poliisilaitos, Eerikinkatu 40-42, 20100 Turku",
+      "hospital": "Turku University Hospital (TYKS), Kiinamyllynkatu 4-8, 20520 Turku",
+      "tips": [
+        "Turku is the oldest city in Finland and its former capital.",
+        "Enjoy the lively atmosphere along the banks of the Aura River.",
+        "It's the gateway to the beautiful Finnish archipelago."
+      ]
     }
   ],
   "France": [
@@ -339,6 +665,206 @@
         "Be prepared for pebbly beaches, not sand.",
         "The city is a great base to explore the French Riviera."
       ]
+    },
+    {
+      "city": "Reims",
+      "country": "France",
+      "attractions": [
+        {"name": "Cathédrale Notre-Dame de Reims", "location": "Place du Cardinal Luçon, 51100 Reims"},
+        {"name": "Palais du Tau", "location": "2 Place du Cardinal Luçon, 51100 Reims"},
+        {"name": "Champagne Cellars (e.g., Veuve Clicquot, Taittinger)", "location": "Various locations, Reims"}
+      ],
+      "restaurants": [
+        {"name": "L'Assiette Champenoise", "location": "40 Avenue Paul Vaillant-Couturier, 51430 Tinqueux"},
+        {"name": "Le Foch", "location": "37 Boulevard Foch, 51100 Reims"}
+      ],
+      "police": "Hôtel de Police, 40 Boulevard Louis Roederer, 51100 Reims",
+      "hospital": "CHU de Reims - Hôpital Robert Debré, Rue du Général Koenig, 51100 Reims",
+      "tips": [
+        "Reims is the unofficial capital of the Champagne wine-growing region.",
+        "Book tours and tastings at the famous Champagne houses in advance.",
+        "The cathedral is where numerous French kings were crowned."
+      ]
+    },
+    {
+      "city": "Colmar",
+      "country": "France",
+      "attractions": [
+        {"name": "La Petite Venise (Little Venice)", "location": "Quai de la Poissonnerie, 68000 Colmar"},
+        {"name": "Musée Unterlinden", "location": "Place des Unterlinden, 68000 Colmar"},
+        {"name": "Old Town", "location": "Vieille Ville, Colmar"}
+      ],
+      "restaurants": [
+        {"name": "JY's", "location": "17 Rue de la Poissonnerie, 68000 Colmar"},
+        {"name": "Wistub Brenner", "location": "1 Rue Turenne, 68000 Colmar"}
+      ],
+      "police": "Commissariat de Police de Colmar, 38 Avenue de la République, 68000 Colmar",
+      "hospital": "Hôpitaux Civils de Colmar, 39 Avenue de la Liberté, 68000 Colmar",
+      "tips": [
+        "Colmar is a highlight of the Alsatian Wine Route.",
+        "Its incredibly well-preserved old town features colorful half-timbered houses.",
+        "The town is said to have inspired the village in Disney's 'Beauty and the Beast'."
+      ]
+    },
+    {
+      "city": "Lille",
+      "country": "France",
+      "attractions": [
+        {"name": "Palais des Beaux-Arts de Lille", "location": "Place de la République, 59000 Lille"},
+        {"name": "Vieille Bourse (Old Stock Exchange)", "location": "Place du Théâtre, 59800 Lille"},
+        {"name": "Grand Place (Place du Général-de-Gaulle)", "location": "Place du Général-de-Gaulle, 59800 Lille"}
+      ],
+      "restaurants": [
+        {"name": "Estaminet Au Vieux de la Vieille", "location": "2 Rue des Vieux Murs, 59800 Lille"},
+        {"name": "Bloempot", "location": "22 Rue des Bouchers, 59800 Lille"}
+      ],
+      "police": "Hôtel de Police, 19 Rue de Marquillies, 59000 Lille",
+      "hospital": "CHU de Lille - Hôpital Claude Huriez, Rue Michel Polonovski, 59000 Lille",
+      "tips": [
+        "Lille features stunning Flemish architecture and a vibrant cultural scene.",
+        "Try local specialties like 'moules-frites' (mussels and fries) and waffles.",
+        "Visit in September for the Braderie de Lille, Europe's largest flea market."
+      ]
+    },
+     {
+      "city": "Lyon",
+      "country": "France",
+      "attractions": [
+        {"name": "Vieux Lyon (Old Lyon)", "location": "Vieux Lyon, 69005 Lyon"},
+        {"name": "Basilica of Notre-Dame de Fourvière", "location": "8 Place de Fourvière, 69005 Lyon"},
+        {"name": "Parc de la Tête d'Or", "location": "Parc de la Tête d'Or, 69006 Lyon"}
+      ],
+      "restaurants": [
+        {"name": "L'Auberge du Pont de Collonges (Paul Bocuse)", "location": "40 Rue de la Plage, 69660 Collonges-au-Mont-d'Or"},
+        {"name": "Les Halles de Lyon Paul Bocuse", "location": "102 Cours Lafayette, 69003 Lyon"}
+      ],
+      "police": "Hôtel de Police, 40 Rue Marius Berliet, 69008 Lyon",
+      "hospital": "Hôpital Edouard Herriot, 5 Place d'Arsonval, 69003 Lyon",
+      "tips": [
+        "Lyon is considered the culinary capital of France.",
+        "Explore the 'traboules', hidden passageways in the old town.",
+        "Take the funicular up to Fourvière hill for panoramic views."
+      ]
+    },
+    {
+      "city": "Marseille",
+      "country": "France",
+      "attractions": [
+        {"name": "Old Port of Marseille", "location": "Vieux-Port, 13001 Marseille"},
+        {"name": "Basilique Notre-Dame de la Garde", "location": "Rue Fort du Sanctuaire, 13281 Marseille"},
+        {"name": "Calanques National Park", "location": "Near Marseille"}
+      ],
+      "restaurants": [
+        {"name": "Le Petit Nice", "location": "17 Rue des Braves Anse de Maldormé, 13007 Marseille"},
+        {"name": "Chez Fonfon", "location": "140 Rue du Vallon des Auffes, 13007 Marseille"}
+      ],
+      "police": "Hôtel de Police, 2 Rue Antoine Becker, 13002 Marseille",
+      "hospital": "Hôpital de la Timone, 264 Rue Saint-Pierre, 13005 Marseille",
+      "tips": [
+        "Try the local specialty, Bouillabaisse (fish stew).",
+        "Take a boat trip to the Château d'If or the Calanques.",
+        "Be aware of your surroundings, especially around the train station."
+      ]
+    },
+    {
+      "city": "Strasbourg",
+      "country": "France",
+      "attractions": [
+        {"name": "Cathédrale Notre-Dame de Strasbourg", "location": "Place de la Cathédrale, 67000 Strasbourg"},
+        {"name": "La Petite France", "location": "Petite-France, 67000 Strasbourg"},
+        {"name": "European Parliament", "location": "Allée du Printemps, 67000 Strasbourg"}
+      ],
+      "restaurants": [
+        {"name": "Maison Kammerzell", "location": "16 Place de la Cathédrale, 67000 Strasbourg"},
+        {"name": "Au Pont Corbeau", "location": "21 Quai Saint-Nicolas, 67000 Strasbourg"}
+      ],
+      "police": "Hôtel de Police, 34 Route de l'Hôpital, 67100 Strasbourg",
+      "hospital": "Hôpitaux Universitaires de Strasbourg, 1 Place de l'Hôpital, 67000 Strasbourg",
+      "tips": [
+        "Visit during December for one of Europe's most famous Christmas markets.",
+        "The city has a unique blend of French and German culture.",
+        "Try the local Alsatian cuisine, such as Tarte Flambée and Choucroute."
+      ]
+    },
+    {
+      "city": "Bordeaux",
+      "country": "France",
+      "attractions": [
+        {"name": "Place de la Bourse & Miroir d'eau", "location": "Place de la Bourse, 33000 Bordeaux"},
+        {"name": "La Cité du Vin", "location": "134 Quai de Bacalan, 33300 Bordeaux"},
+        {"name": "Bordeaux Cathedral (Cathédrale Saint-André)", "location": "Place Pey Berland, 33000 Bordeaux"}
+      ],
+      "restaurants": [
+        {"name": "Le Quatrième Mur", "location": "2 Place de la Comédie, 33000 Bordeaux"},
+        {"name": "L'Entrecôte", "location": "4 Cours du 30 Juillet, 33000 Bordeaux"}
+      ],
+      "police": "Hôtel de Police, 49 Rue François de Sourdis, 33000 Bordeaux",
+      "hospital": "CHU de Bordeaux - Hôpital Pellegrin, Place Amélie Raba Léon, 33000 Bordeaux",
+      "tips": [
+        "Bordeaux is the hub of the world-famous wine-growing region.",
+        "Take a wine tour to the nearby vineyards of Saint-Émilion or Médoc.",
+        "The Miroir d'eau (Water Mirror) is the world's largest reflecting pool."
+      ]
+    },
+    {
+      "city": "Avignon",
+      "country": "France",
+      "attractions": [
+        {"name": "Palais des Papes (Palace of the Popes)", "location": "Place du Palais, 84000 Avignon"},
+        {"name": "Pont d'Avignon (Pont Saint-Bénézet)", "location": "Boulevard de la Ligne, 84000 Avignon"},
+        {"name": "Rocher des Doms", "location": "Montée du Moulin, 84000 Avignon"}
+      ],
+      "restaurants": [
+        {"name": "La Fourchette", "location": "17 Rue Racine, 84000 Avignon"},
+        {"name": "Hiély Lucullus", "location": "5 Rue de la République, 84000 Avignon"}
+      ],
+      "police": "Commissariat de Police, 4 Boulevard de l'Oulle, 84000 Avignon",
+      "hospital": "Centre Hospitalier d'Avignon, 305 Rue Raoul Follereau, 84000 Avignon",
+      "tips": [
+        "Visit in July to experience the world-renowned Festival d'Avignon.",
+        "The historic center is a UNESCO World Heritage site.",
+        "It's a great base for exploring the Provence region."
+      ]
+    },
+    {
+      "city": "Cannes",
+      "country": "France",
+      "attractions": [
+        {"name": "Palais des Festivals et des Congrès", "location": "1 Boulevard de la Croisette, 06400 Cannes"},
+        {"name": "Boulevard de la Croisette", "location": "Boulevard de la Croisette, 06400 Cannes"},
+        {"name": "Le Suquet (Old Town)", "location": "Le Suquet, 06400 Cannes"}
+      ],
+      "restaurants": [
+        {"name": "La Palme d'Or", "location": "73 Boulevard de la Croisette, 06400 Cannes"},
+        {"name": "Astoux et Brun", "location": "27 Rue Félix Faure, 06400 Cannes"}
+      ],
+      "police": "Commissariat de Police, 1 Avenue de Grasse, 06400 Cannes",
+      "hospital": "Centre Hospitalier de Cannes, 15 Avenue des Broussailles, 06400 Cannes",
+      "tips": [
+        "Cannes is famous for its annual international film festival in May.",
+        "Stroll along La Croisette to see luxury hotels and designer boutiques.",
+        "Take a ferry to the nearby Lérins Islands for a peaceful escape."
+      ]
+    },
+    {
+      "city": "Mont Saint-Michel",
+      "country": "France",
+      "attractions": [
+        {"name": "Abbaye du Mont-Saint-Michel", "location": "50170 Mont Saint-Michel"},
+        {"name": "Grande Rue", "location": "Grande Rue, 50170 Mont Saint-Michel"},
+        {"name": "The Bay of Mont-Saint-Michel", "location": "Bay of Mont-Saint-Michel"}
+      ],
+      "restaurants": [
+        {"name": "La Mère Poulard", "location": "Grande Rue, 50170 Mont Saint-Michel"},
+        {"name": "Le Pré Salé", "location": "Route du Mont-Saint-Michel, 50170 Le Mont-Saint-Michel"}
+      ],
+      "police": "Gendarmerie Nationale, 1 Rue de la Mairie, 50170 Pontorson",
+      "hospital": "Centre Hospitalier Avranches-Granville, 59 Rue de la Liberté, 50300 Avranches",
+      "tips": [
+        "Check the tide schedule before you visit; it's a tidal island.",
+        "Wear very comfortable shoes for the steep, cobbled streets.",
+        "Try the famous fluffy omelet at La Mère Poulard."
+      ]
     }
   ],
   "Germany": [
@@ -360,6 +886,106 @@
         "Public transport is excellent; get a day pass.",
         "Cash is still common, especially for smaller purchases.",
         "Don't jaywalk; it's taken seriously."
+      ]
+    },
+     {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Nuremberg Castle (Kaiserburg)", "location": "Burg 17, 90403 Nürnberg"},
+        {"name": "Documentation Center Nazi Party Rally Grounds", "location": "Bayernstraße 110, 90478 Nürnberg"},
+        {"name": "Hauptmarkt (Main Market Square)", "location": "Hauptmarkt, 90403 Nürnberg"}
+      ],
+      "restaurants": [
+        {"name": "Bratwursthäusle bei St. Sebald", "location": "Rathauspl. 1, 90403 Nürnberg"},
+        {"name": "Albrecht-Dürer-Stube", "location": "Albrecht-Dürer-Straße 6, 90403 Nürnberg"}
+      ],
+      "police": "Polizeipräsidium Mittelfranken, Jakobsplatz 5, 90402 Nürnberg",
+      "hospital": "Klinikum Nürnberg Nord, Prof.-Ernst-Nathan-Straße 1, 90419 Nürnberg",
+      "tips": [
+        "Nuremberg is famous for its Christkindlesmarkt (Christmas Market).",
+        "Try the small, finger-sized Nürnberger Rostbratwürste sausages.",
+        "The city has a rich but somber history related to the Nazi era and the subsequent trials."
+      ]
+    },
+    {
+      "city": "Rothenburg ob der Tauber",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Plönlein (Little Square)", "location": "Plönlein, 91541 Rothenburg ob der Tauber"},
+        {"name": "Medieval City Walls", "location": "Throughout the Old Town"},
+        {"name": "German Christmas Museum (Deutsches Weihnachtsmuseum)", "location": "Herrngasse 1, 91541 Rothenburg ob der Tauber"}
+      ],
+      "restaurants": [
+        {"name": "Zur Höll", "location": "Burggasse 8, 91541 Rothenburg ob der Tauber"},
+        {"name": "Baumeisterhaus", "location": "Obere Schmiedgasse 1, 91541 Rothenburg ob der Tauber"}
+      ],
+      "police": "Polizeiinspektion Rothenburg ob der Tauber, Ansbacher Str. 7, 91541 Rothenburg",
+      "hospital": "Klinik Rothenburg, Ansbacher Str. 131, 91541 Rothenburg ob der Tauber",
+      "tips": [
+        "This is one of the best-preserved medieval towns on Germany's 'Romantic Road'.",
+        "Walk along the top of the old city walls for great views.",
+        "Try a 'Schneeball' (snowball), a local deep-fried pastry."
+      ]
+    },
+    {
+      "city": "Vernazza (Cinque Terre)",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Cinque Terre Hiking Trails", "location": "Connecting the five villages"},
+        {"name": "Vernazza Harbour", "location": "Vernazza, 19018"},
+        {"name": "Doria Castle", "location": "Via San Francesco, 19018 Vernazza SP"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Belforte", "location": "Via G. Guidoni, 42, 19018 Vernazza SP"},
+        {"name": "Trattoria Da Sandro", "location": "Via Roma, 60, 19018 Vernazza SP"}
+      ],
+      "police": "Carabinieri station located in Monterosso al Mare, Via Roma, 23, 19016",
+      "hospital": "Ospedale Sant'Andrea, Via Vittorio Veneto, 197, 19121 La Spezia SP",
+      "tips": [
+        "Vernazza is one of the five picturesque villages of the Cinque Terre.",
+        "The best way to travel between the villages is by train or by hiking.",
+        "Buy a Cinque Terre Card for access to hiking trails and unlimited train travel."
+      ]
+    },
+    {
+      "city": "Genoa",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Aquarium of Genoa", "location": "Ponte Spinola, 16128 Genova GE"},
+        {"name": "Palazzi dei Rolli", "location": "Via Garibaldi, Genova GE"},
+        {"name": "Old Port (Porto Antico)", "location": "Porto Antico, 16128 Genova GE"}
+      ],
+      "restaurants": [
+        {"name": "Trattoria da Maria", "location": "Vico Testadoro, 14r, 16123 Genova GE"},
+        {"name": "Zeffirino", "location": "Via XX Settembre, 20, 16121 Genova GE"}
+      ],
+      "police": "Questura di Genova, Via Armando Diaz, 2, 16121 Genova GE",
+      "hospital": "Ospedale Galliera, Mura delle Cappuccine, 14, 16128 Genova GE",
+      "tips": [
+        "Genoa is the birthplace of Christopher Columbus and pesto sauce.",
+        "Explore the 'caruggi,' the maze of narrow alleyways in the historic center.",
+        "The Palazzi dei Rolli on Via Garibaldi are a UNESCO World Heritage site."
+      ]
+    },
+    {
+      "city": "Como",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Lake Como", "location": "Lake Como"},
+        {"name": "Como-Brunate Funicular", "location": "Piazza Alcide de Gasperi, 4, 22100 Como CO"},
+        {"name": "Villa Olmo", "location": "Via Simone Cantoni, 1, 22100 Como CO"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Sociale", "location": "Via Rodari, 6, 22100 Como CO"},
+        {"name": "Theoria", "location": "Via Bianchi Giovini, 41, 22100 Como CO"}
+      ],
+      "police": "Questura di Como, Viale Roosevelt, 7, 22100 Como CO",
+      "hospital": "Ospedale Valduce, Via Dante Alighieri, 11, 22100 Como CO",
+      "tips": [
+        "Como is the main town on the beautiful Lake Como.",
+        "Take a ferry to visit other charming lakeside towns like Bellagio and Varenna.",
+        "Ride the funicular up to Brunate for stunning panoramic views of the lake and the Alps."
       ]
     },
     {
@@ -401,6 +1027,106 @@
         "Explore the HafenCity district, a modern architectural marvel.",
         "Visit the Reeperbahn for nightlife."
       ]
+    },
+    {
+      "city": "Cologne",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Cologne Cathedral (Kölner Dom)", "location": "Domkloster 4, 50667 Köln"},
+        {"name": "Hohenzollern Bridge", "location": "Hohenzollernbrücke, 50667 Köln"},
+        {"name": "Chocolate Museum (Schokoladenmuseum)", "location": "Am Schokoladenmuseum 1A, 50678 Köln"}
+      ],
+      "restaurants": [
+        {"name": "Früh am Dom", "location": "Am Hof 12, 50667 Köln"},
+        {"name": "Hanse Stube", "location": "Trankgasse 1-5, 50667 Köln"}
+      ],
+      "police": "Polizeipräsidium Köln, Walter-Pauli-Ring 2-6, 51103 Köln",
+      "hospital": "Uniklinik Köln, Kerpener Str. 62, 50937 Köln",
+      "tips": [
+        "Climb the cathedral's south tower for a breathtaking view.",
+        "Try the local beer, Kölsch, served in small glasses.",
+        "Visit during Carnival (Karneval) in February for a huge street party."
+      ]
+    },
+    {
+      "city": "Frankfurt",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Römerberg", "location": "Römerberg 26, 60311 Frankfurt am Main"},
+        {"name": "Main Tower", "location": "Neue Mainzer Str. 52-58, 60311 Frankfurt am Main"},
+        {"name": "Städel Museum", "location": "Schaumainkai 63, 60596 Frankfurt am Main"}
+      ],
+      "restaurants": [
+        {"name": "Apfelwein Wagner", "location": "Schweizer Str. 71, 60594 Frankfurt am Main"},
+        {"name": "Restaurant Medici", "location": "Weißadlergasse 2, 60311 Frankfurt am Main"}
+      ],
+      "police": "Polizeipräsidium Frankfurt am Main, Adickesallee 70, 60322 Frankfurt am Main",
+      "hospital": "Universitätsklinikum Frankfurt, Theodor-Stern-Kai 7, 60590 Frankfurt am Main",
+      "tips": [
+        "Frankfurt is Germany's main financial hub.",
+        "Try the local apple wine (Apfelwein) in the Sachsenhausen district.",
+        "Go to the top of the Main Tower for the best skyline views."
+      ]
+    },
+    {
+      "city": "Heidelberg",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Heidelberg Castle (Schloss Heidelberg)", "location": "Schlosshof 1, 69117 Heidelberg"},
+        {"name": "Old Bridge (Alte Brücke)", "location": "Am Hackteufel, 69117 Heidelberg"},
+        {"name": "Philosophers' Walk (Philosophenweg)", "location": "Philosophenweg, 69120 Heidelberg"}
+      ],
+      "restaurants": [
+        {"name": "Hackteufel", "location": "Steingasse 7, 69117 Heidelberg"},
+        {"name": "Schnitzelbank", "location": "Bauamtsgasse 7, 69117 Heidelberg"}
+      ],
+      "police": "Polizeirevier Heidelberg-Mitte, Römerstraße 2-4, 69115 Heidelberg",
+      "hospital": "Universitätsklinikum Heidelberg, Im Neuenheimer Feld 672, 69120 Heidelberg",
+      "tips": [
+        "Heidelberg is home to Germany's oldest university.",
+        "Take the funicular up to the castle for fantastic views.",
+        "The city was largely undamaged in WWII, preserving its baroque charm."
+      ]
+    },
+    {
+      "city": "Dresden",
+      "country": "Germany",
+      "attractions": [
+        {"name": "Frauenkirche (Church of Our Lady)", "location": "Neumarkt, 01067 Dresden"},
+        {"name": "Zwinger Palace", "location": "Sophienstraße, 01067 Dresden"},
+        {"name": "Semperoper Dresden (Opera House)", "location": "Theaterplatz 2, 01067 Dresden"}
+      ],
+      "restaurants": [
+        {"name": "Pulverturm an der Frauenkirche", "location": "An der Frauenkirche 12, 01067 Dresden"},
+        {"name": "Kastenmeiers", "location": "Tzschirnerpl. 3-5, 01067 Dresden"}
+      ],
+      "police": "Polizeidirektion Dresden, Schießgasse 7, 01067 Dresden",
+      "hospital": "Universitätsklinikum Carl Gustav Carus Dresden, Fetscherstraße 74, 01307 Dresden",
+      "tips": [
+        "Known as the 'Florence on the Elbe' for its art and architecture.",
+        "The Frauenkirche was completely destroyed in WWII and meticulously reconstructed.",
+        "Try a piece of Dresdner Stollen, a famous Christmas fruit bread."
+      ]
+    },
+    {
+      "city": "Leipzig",
+      "country": "Germany",
+      "attractions": [
+        {"name": "St. Thomas Church (Thomaskirche)", "location": "Thomaskirchhof 18, 04109 Leipzig"},
+        {"name": "Monument to the Battle of the Nations", "location": "Straße des 18. Oktober 100, 04299 Leipzig"},
+        {"name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig"}
+      ],
+      "restaurants": [
+        {"name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig"},
+        {"name": "Max Enk", "location": "Markt 12, 04109 Leipzig"}
+      ],
+      "police": "Polizeidirektion Leipzig, Dimitroffstraße 1, 04107 Leipzig",
+      "hospital": "Universitätsklinikum Leipzig, Liebigstraße 20, 04103 Leipzig",
+      "tips": [
+        "Leipzig is strongly associated with composers Bach and Wagner.",
+        "Visit Auerbachs Keller, the tavern mentioned in Goethe's Faust.",
+        "The city was a center of the peaceful protests that led to the fall of the Berlin Wall."
+      ]
     }
   ],
   "Greece": [
@@ -423,7 +1149,127 @@
         "Wear comfortable shoes for walking on ancient sites.",
         "Be prepared for hot weather in summer."
       ]
+    },
+    {
+      "city": "Corfu Town",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Old Fortress of Corfu", "location": "Corfu 491 00"},
+        {"name": "The Liston", "location": "Liston, Corfu Town"},
+        {"name": "Achilleion Palace", "location": "Gastouri 490 84"}
+      ],
+      "restaurants": [
+        {"name": "The Venetian Well", "location": "Kremasti Square, Corfu Town"},
+        {"name": "Rex", "location": "Kapodistriou 66, Corfu Town"}
+      ],
+      "police": "Corfu Police Directorate, Leof. Alexandras 19, Kerkira 491 00",
+      "hospital": "General Hospital of Corfu, Ioulias Andreadi, Kerkira 491 00",
+      "tips": [
+        "The Old Town of Corfu is a UNESCO World Heritage site with strong Venetian influence.",
+        "Try the local ginger beer, known as 'tsitsibira'.",
+        "Rent a scooter or car to explore the island's many beautiful beaches."
+      ]
     }
+    {
+      "city": "Thessaloniki",
+      "country": "Greece",
+      "attractions": [
+        {"name": "White Tower of Thessaloniki", "location": "Thessaloniki 546 21"},
+        {"name": "Aristotelous Square", "location": "Plateia Aristotelous, Thessaloniki"},
+        {"name": "Rotunda", "location": "Plateia Agiou Georgiou Rotonta 5, Thessaloniki 546 35"}
+      ],
+      "restaurants": [
+        {"name": "To Palio Tachtipoleio", "location": "Verias 2, Thessaloniki 546 25"},
+        {"name": "Mourga", "location": "Christopoulou 12, Thessaloniki 546 35"}
+      ],
+      "police": "Thessaloniki Police Headquarters, Monastiriou 326, Thessaloniki 546 28",
+      "hospital": "AHEPA University General Hospital, St. Kyriakidis 1, Thessaloniki 546 36",
+      "tips": [
+        "Thessaloniki is known for its vibrant food scene and nightlife.",
+        "Walk along the waterfront promenade (Nea Paralia).",
+        "Try the local pastries, especially bougatsa."
+      ]
+    },
+    {
+      "city": "Santorini (Fira)",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Caldera Views", "location": "Fira, 84700"},
+        {"name": "Akrotiri Archaeological Site", "location": "Akrotiri, 84700"},
+        {"name": "Oia Sunset", "location": "Oia, 84702"}
+      ],
+      "restaurants": [
+        {"name": "Metaxi Mas", "location": "Exo Gonia, 84700"},
+        {"name": "Ammoudi Fish Tavern", "location": "Ammoudi Bay, Oia, 84702"}
+      ],
+      "police": "Police Station of Thira, Fira, 84700",
+      "hospital": "Santorini General Hospital, Karterados, 84700",
+      "tips": [
+        "Book accommodation and ferries far in advance, especially for summer.",
+        "The sunset in Oia is world-famous but extremely crowded.",
+        "Walk the caldera path from Fira to Oia for stunning views."
+      ]
+    },
+{
+      "city": "Heraklion (Crete)",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Palace of Knossos", "location": "Knossos 714 09"},
+        {"name": "Heraklion Archaeological Museum", "location": "Xanthoudidou 2, Iraklio 712 02"},
+        {"name": "Koules Fortress", "location": "Venetian Harbour, Heraklion"}
+      ],
+      "restaurants": [
+        {"name": "Peskesi", "location": "Kapetan Haralampi 6-8, Iraklio 712 02"},
+        {"name": "Ippokampos", "location": "Sofokli Venizelou 3, Iraklio 712 02"}
+      ],
+      "police": "Heraklion Police Headquarters, Leof. 62 Martyron, Iraklio 713 03",
+      "hospital": "Venizeleio General Hospital of Heraklion, Leof. Knossou, Iraklio 714 09",
+      "tips": [
+        "Heraklion is the gateway to the ancient Minoan civilization at Knossos.",
+        "The Archaeological Museum is one of the most important in Greece.",
+        "Use the city as a base to explore the diverse landscapes of Crete."
+      ]
+    },
+    {
+      "city": "Mykonos Town",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Mykonos Windmills (Kato Mili)", "location": "Mýkonos 846 00"},
+        {"name": "Little Venice", "location": "Mýkonos 846 00"},
+        {"name": "Delos (Day Trip)", "location": "Island of Delos"}
+      ],
+      "restaurants": [
+        {"name": "Kiki's Tavern", "location": "Agios Sostis Beach, Mykonos"},
+        {"name": "Nammos", "location": "Psarou Beach, Mykonos"}
+      ],
+      "police": "Mykonos Police Station, Mykonos Town, 846 00",
+      "hospital": "Mykonos Health Center, Mykonos Town, 846 00",
+      "tips": [
+        "Mykonos is famous for its vibrant nightlife and beautiful beaches.",
+        "Get lost in the maze-like white-washed streets of Mykonos Town.",
+        "The island can be very expensive, especially in peak season."
+      ]
+    },
+    {
+      "city": "Rhodes Town",
+      "country": "Greece",
+      "attractions": [
+        {"name": "Palace of the Grand Master", "location": "Ippoton, Rodos 851 00"},
+        {"name": "Street of the Knights", "location": "Ippoton, Rodos 851 00"},
+        {"name": "Acropolis of Lindos", "location": "Acropolis of Lindos, Lindos 851 07"}
+      ],
+      "restaurants": [
+        {"name": "Tamam", "location": "Leontos 1, Rodos 851 00"},
+        {"name": "Mavrikos", "location": "Main Square, Lindos 851 07"}
+      ],
+      "police": "Rhodes Police Directorate, Leof. Eleftherias 43, Rodos 851 00",
+      "hospital": "General Hospital of Rhodes, Agioi Apostoloi, Rodos 851 00",
+      "tips": [
+        "The medieval Old Town of Rhodes is a UNESCO World Heritage site.",
+        "Walk the impressive city walls for great views.",
+        "Take a day trip to the picturesque village of Lindos."
+      ]
+    },
   ],
   "Hungary": [
     {
@@ -467,6 +1313,26 @@
         "Dress in layers; the weather changes quickly.",
         "Be prepared for high prices on food and services."
       ]
+    },
+    {
+      "city": "Akureyri",
+      "country": "Iceland",
+      "attractions": [
+        {"name": "Akureyrarkirkja (Akureyri Church)", "location": "Eyrarlandsvegur, 600 Akureyri"},
+        {"name": "Akureyri Botanical Garden", "location": "Eyrarlandsvegur, 600 Akureyri"},
+        {"name": "Goðafoss Waterfall", "location": "Located on the Ring Road, near Akureyri"}
+      ],
+      "restaurants": [
+        {"name": "Strikið", "location": "Skipagata 14, 600 Akureyri"},
+        {"name": "Rub 23", "location": "Kaupvangsstræti 6, 600 Akureyri"}
+      ],
+      "police": "Lögreglan á Norðurlandi eystra, Þórsstígur 1, 600 Akureyri",
+      "hospital": "Sjúkrahúsið á Akureyri, Eyrarlandsvegur, 600 Akureyri",
+      "tips": [
+        "Akureyri is known as the 'Capital of North Iceland'.",
+        "It's a great base for whale watching tours in the Eyjafjörður fjord.",
+        "Despite its northern location, it has a surprisingly mild climate."
+      ]
     }
   ],
   "Ireland": [
@@ -488,6 +1354,26 @@
         "Tipping is customary in restaurants (10-15%).",
         "Pub culture is central to social life.",
         "Public transport is good, but many parts of the city are walkable."
+      ]
+    },
+    {
+      "city": "Galway",
+      "country": "Ireland",
+      "attractions": [
+        {"name": "Spanish Arch", "location": "2 The Long Walk, Galway"},
+        {"name": "Shop Street", "location": "Shop Street, Galway"},
+        {"name": "Cliffs of Moher (Day Trip)", "location": "Lislorkan North, Liscannor, Co. Clare"}
+      ],
+      "restaurants": [
+        {"name": "Ard Bia at Nimmos", "location": "Spanish Arch, Long Walk, Galway"},
+        {"name": "McDonagh's", "location": "22 Quay St, Galway"}
+      ],
+      "police": "Galway Garda Station, Mill Street, Galway",
+      "hospital": "University Hospital Galway, Newcastle Rd, Galway",
+      "tips": [
+        "Galway is known for its lively traditional Irish music scene.",
+        "It's a great base for exploring the Wild Atlantic Way and Connemara.",
+        "Enjoy the bohemian atmosphere and street performers."
       ]
     }
   ],
@@ -571,6 +1457,228 @@
         "Be aware of pickpockets in crowded areas like the Duomo.",
         "Try local dishes like risotto alla milanese."
       ]
+    },
+    {
+      "city": "Naples",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Pompeii Archaeological Park", "location": "80045 Pompei, Metropolitan City of Naples"},
+        {"name": "Naples National Archaeological Museum", "location": "Piazza Museo, 19, 80135 Napoli"},
+        {"name": "Mount Vesuvius", "location": "Mount Vesuvius, Metropolitan City of Naples"}
+      ],
+      "restaurants": [
+        {"name": "L'Antica Pizzeria da Michele", "location": "Via Cesare Sersale, 1, 80139 Napoli"},
+        {"name": "Sorbillo", "location": "Via dei Tribunali, 32, 80138 Napoli"}
+      ],
+      "police": "Questura di Napoli, Via Armando Diaz, 80134 Napoli",
+      "hospital": "Ospedale Antonio Cardarelli, Via Antonio Cardarelli, 9, 80131 Napoli",
+      "tips": [
+        "Naples is the birthplace of pizza; you must try it here.",
+        "The historic center is a UNESCO World Heritage site.",
+        "Be cautious of your belongings in crowded areas."
+      ]
+    },
+    {
+      "city": "Bologna",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Piazza Maggiore", "location": "Piazza Maggiore, 40124 Bologna"},
+        {"name": "Two Towers (Le Due Torri)", "location": "Piazza di Porta Ravegnana, 40126 Bologna"},
+        {"name": "Archiginnasio of Bologna", "location": "Piazza Galvani, 1, 40124 Bologna"}
+      ],
+      "restaurants": [
+        {"name": "Osteria dell'Orsa", "location": "Via Mentana, 1, 40126 Bologna"},
+        {"name": "Trattoria da Me", "location": "Via S. Felice, 50, 40122 Bologna"}
+      ],
+      "police": "Questura di Bologna, Piazza Galileo Galilei, 7, 40123 Bologna",
+      "hospital": "Policlinico Sant'Orsola-Malpighi, Via Pietro Albertoni, 15, 40138 Bologna",
+      "tips": [
+        "Bologna is known for its rich cuisine, especially tagliatelle al ragù.",
+        "The city is famous for its extensive porticoes (covered walkways).",
+        "Climb the Asinelli Tower for a panoramic view of the red-roofed city."
+      ]
+    },
+    {
+      "city": "Palermo",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Palermo Cathedral", "location": "Via Vittorio Emanuele, 90134 Palermo PA"},
+        {"name": "Norman Palace (Palazzo dei Normanni)", "location": "Piazza del Parlamento, 1, 90134 Palermo PA"},
+        {"name": "Teatro Massimo", "location": "Piazza Verdi, 90138 Palermo PA"}
+      ],
+      "restaurants": [
+        {"name": "Antica Focacceria San Francesco", "location": "Via Alessandro Paternostro, 58, 90133 Palermo PA"},
+        {"name": "Osteria dei Vespri", "location": "Piazza Croce dei Vespri, 6, 90133 Palermo PA"}
+      ],
+      "police": "Questura di Palermo, Piazza della Vittoria, 90134 Palermo PA",
+      "hospital": "Ospedale Civico di Palermo, Piazza Nicola Leotta, 4, 90127 Palermo PA",
+      "tips": [
+        "Try the vibrant street food, especially arancini and panelle.",
+        "Explore the bustling Ballarò and Vucciria markets.",
+        "The city showcases a unique blend of Arab-Norman architecture."
+      ]
+    },
+    {
+      "city": "Catania",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Piazza del Duomo", "location": "Piazza del Duomo, 95124 Catania CT"},
+        {"name": "Mount Etna", "location": "Mount Etna, Province of Catania"},
+        {"name": "Monastero dei Benedettini di San Nicolò l'Arena", "location": "Piazza Dante Alighieri, 32, 95124 Catania CT"}
+      ],
+      "restaurants": [
+        {"name": "Trattoria da Nuccio", "location": "Via Coppola, 22, 95131 Catania CT"},
+        {"name": "Osteria Antica Marina", "location": "Via Pardo, 29, 95131 Catania CT"}
+      ],
+      "police": "Questura di Catania, Via A. Manzoni, 245, 95124 Catania CT",
+      "hospital": "Ospedale Garibaldi Centro, Piazza Santa Maria di Gesù, 5, 95123 Catania CT",
+      "tips": [
+        "Catania lies at the foot of Mount Etna, an active volcano.",
+        "The city's architecture is characterized by its use of dark lava stone.",
+        "Visit the lively fish market (La Pescheria) in the morning."
+      ]
+    },
+    {
+      "city": "Cagliari",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Bastione Saint Remy", "location": "Via Mario de Candia, 09124 Cagliari CA"},
+        {"name": "Poetto Beach", "location": "Spiaggia del Poetto, Cagliari"},
+        {"name": "Castello Quarter", "location": "Quartiere Castello, Cagliari"}
+      ],
+      "restaurants": [
+        {"name": "Sa Domu Sarda", "location": "Via Sassari, 51, 09124 Cagliari CA"},
+        {"name": "Antica Hostaria", "location": "Via Cavour, 60, 09124 Cagliari CA"}
+      ],
+      "police": "Questura di Cagliari, Via G. Amat, 9, 09124 Cagliari CA",
+      "hospital": "Ospedale Brotzu, Piazzale Alessandro Ricchi, 1, 09134 Cagliari CA",
+      "tips": [
+        "Cagliari is the capital of the island of Sardinia.",
+        "Climb the Bastione Saint Remy for excellent views of the city and port.",
+        "Look for the wild pink flamingos in the Molentargius salt flats."
+      ]
+    },
+        {
+      "city": "Verona",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Verona Arena", "location": "Piazza Bra, 1, 37121 Verona VR"},
+        {"name": "Juliet's House (Casa di Giulietta)", "location": "Via Cappello, 23, 37121 Verona VR"},
+        {"name": "Piazza delle Erbe", "location": "Piazza delle Erbe, 37121 Verona VR"}
+      ],
+      "restaurants": [
+        {"name": "Osteria del Bugiardo", "location": "Corso Porta Borsari, 17/A, 37121 Verona VR"},
+        {"name": "Ristorante Greppia", "location": "Vicolo Samaritana, 3, 37121 Verona VR"}
+      ],
+      "police": "Questura di Verona, Lungadige Galtarossa, 11, 37133 Verona VR",
+      "hospital": "Ospedale Civile Maggiore Borgo Trento, Piazzale Aristide Stefani, 1, 37126 Verona VR",
+      "tips": [
+        "Verona is the setting for Shakespeare's 'Romeo and Juliet'.",
+        "See an opera performance in the ancient Roman Arena during the summer.",
+        "Try the local Amarone wine."
+      ]
+    },
+    {
+      "city": "Siena",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Piazza del Campo", "location": "Il Campo, 53100 Siena SI"},
+        {"name": "Siena Cathedral (Duomo di Siena)", "location": "Piazza del Duomo, 8, 53100 Siena SI"},
+        {"name": "Torre del Mangia", "location": "Piazza del Campo, 1, 53100 Siena SI"}
+      ],
+      "restaurants": [
+        {"name": "Osteria Le Logge", "location": "Via del Porrione, 33, 53100 Siena SI"},
+        {"name": "La Taverna di Vagliagli", "location": "Via del Sergente, 4, 53019 Vagliagli SI"}
+      ],
+      "police": "Questura di Siena, Via di San Marco, 1, 53100 Siena SI",
+      "hospital": "Azienda Ospedaliera Universitaria Senese, Str. delle Scotte, 14, 53100 Siena SI",
+      "tips": [
+        "The Piazza del Campo is a unique shell-shaped medieval square.",
+        "Visit in July or August to witness the historic Palio horse race.",
+        "The entire historic center is a UNESCO World Heritage site."
+      ]
+    },
+    {
+      "city": "Pisa",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Leaning Tower of Pisa", "location": "Piazza del Duomo, 56126 Pisa PI"},
+        {"name": "Piazza dei Miracoli (Square of Miracles)", "location": "Piazza del Duomo, 56126 Pisa PI"},
+        {"name": "Pisa Cathedral (Duomo di Pisa)", "location": "Piazza del Duomo, 56126 Pisa PI"}
+      ],
+      "restaurants": [
+        {"name": "Osteria dei Cavalieri", "location": "Via San Frediano, 16, 56126 Pisa PI"},
+        {"name": "La Pergoletta", "location": "Via delle Belle Torri, 36, 56127 Pisa PI"}
+      ],
+      "police": "Questura di Pisa, Via Mario Lalli, 3, 56127 Pisa PI",
+      "hospital": "Ospedale Cisanello, Via Paradisa, 2, 56124 Pisa PI",
+      "tips": [
+        "Book tickets online to climb the Leaning Tower.",
+        "Explore beyond the Piazza dei Miracoli to find the charming, real Pisa.",
+        "Don't miss the impressive Baptistery and Camposanto Monumentale."
+      ]
+    },
+    {
+      "city": "Turin",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Mole Antonelliana (National Cinema Museum)", "location": "Via Montebello, 20, 10124 Torino TO"},
+        {"name": "Egyptian Museum (Museo Egizio)", "location": "Via Accademia delle Scienze, 6, 10123 Torino TO"},
+        {"name": "Royal Palace of Turin (Palazzo Reale)", "location": "Piazzetta Reale, 1, 10122 Torino TO"}
+      ],
+      "restaurants": [
+        {"name": "Del Cambio", "location": "Piazza Carignano, 2, 10123 Torino TO"},
+        {"name": "Porto di Savona", "location": "Piazza Vittorio Veneto, 2, 10123 Torino TO"}
+      ],
+      "police": "Questura di Torino, Corso Vinzaglio, 10, 10121 Torino TO",
+      "hospital": "Ospedale Molinette, Corso Bramante, 88, 10126 Torino TO",
+      "tips": [
+        "Turin is the home of Fiat and the capital of the Piedmont region.",
+        "The Egyptian Museum has one of the largest collections of Egyptian artifacts outside of Cairo.",
+        "Try Bicerin, a traditional hot drink made of espresso, chocolate, and cream."
+      ]
+    },
+    {
+      "city": "Amalfi",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Amalfi Cathedral (Duomo di Amalfi)", "location": "Piazza Duomo, 1, 84011 Amalfi SA"},
+        {"name": "Amalfi Coast Drive", "location": "Strada Statale 163 Amalfitana"},
+        {"name": "Valle delle Ferriere", "location": "Valle delle Ferriere, Amalfi"}
+      ],
+      "restaurants": [
+        {"name": "La Caravella dal 1959", "location": "Via Matteo Camera, 12, 84011 Amalfi SA"},
+        {"name": "Trattoria Da Gemma", "location": "Via Fra Gerardo Sasso, 11, 84011 Amalfi SA"}
+      ],
+      "police": "Carabinieri, Via Duca D'Aosta, 2, 84011 Amalfi SA",
+      "hospital": "Ospedale Costa d'Amalfi, Via Grade Lunghe, 84010 Castiglione SA",
+      "tips": [
+        "Amalfi is the main town of the stunning Amalfi Coast.",
+        "Use ferries to travel between coastal towns like Positano and Ravello to avoid traffic.",
+        "Try the local limoncello liqueur."
+      ]
+    }
+  ],
+  "Kosovo": [
+    {
+      "city": "Pristina",
+      "country": "Kosovo",
+      "attractions": [
+        {"name": "Newborn Monument", "location": "Luan Haradinaj, Prishtinë"},
+        {"name": "National Library of Kosovo", "location": "Hasan Prishtina, Prishtinë"},
+        {"name": "Gračanica Monastery", "location": "Gračanica"}
+      ],
+      "restaurants": [
+        {"name": "Soma Book Station", "location": "Fazli Grajqevci, Prishtinë"},
+        {"name": "Tiffany", "location": "Fehmi Agani, Prishtinë"}
+      ],
+      "police": "Kosovo Police Headquarters, Lidhja e Prizrenit, Pristina",
+      "hospital": "University Clinical Center of Kosovo, Rr. Spitalit, Prishtinë",
+      "tips": [
+        "Kosovo uses the Euro (€) as its currency.",
+        "Pristina is one of the youngest capital cities in Europe, with a vibrant cafe culture.",
+        "The Newborn Monument's design is changed every year on Kosovo's Independence Day (Feb 17)."
+      ]
     }
   ],
   "Latvia": [
@@ -592,6 +1700,28 @@
         "Admire the Art Nouveau architecture.",
         "Take a relaxing boat tour on the city canal.",
         "The city is a great base for exploring the Baltics."
+      ]
+    }
+  ],
+"Liechtenstein": [
+    {
+      "city": "Vaduz",
+      "country": "Liechtenstein",
+      "attractions": [
+        {"name": "Vaduz Castle (Schloss Vaduz)", "location": "Bergstrasse 2, 9490 Vaduz"},
+        {"name": "Kunstmuseum Liechtenstein (Art Museum)", "location": "Städtle 32, 9490 Vaduz"},
+        {"name": "Liechtenstein National Museum", "location": "Städtle 43, 9490 Vaduz"}
+      ],
+      "restaurants": [
+        {"name": "Restaurant Torkel", "location": "Hintergass 9, 9490 Vaduz"},
+        {"name": "Restaurant Maree", "location": "Mareestrasse 29, 9490 Vaduz"}
+      ],
+      "police": "Landespolizei, Gerberweg 5, 9490 Vaduz",
+      "hospital": "Liechtensteinisches Landesspital, Heiligkreuz 25, 9490 Vaduz",
+      "tips": [
+        "Vaduz is the capital of one of the smallest countries in the world.",
+        "Get your passport stamped at the tourist office for a unique souvenir.",
+        "Vaduz Castle is the official residence of the Prince of Liechtenstein and is not open to the public, but you can walk up to it for views."
       ]
     }
   ],
@@ -617,6 +1747,114 @@
       ]
     }
   ],
+   "Luxembourg": [
+    {
+      "city": "Luxembourg City",
+      "country": "Luxembourg",
+      "attractions": [
+        {"name": "Bock Casemates", "location": "Montée de Clausen, 1343 Luxembourg"},
+        {"name": "Adolphe Bridge", "location": "Uewerstad, 2320 Luxembourg"},
+        {"name": "The Grund", "location": "Grund, Luxembourg City"}
+      ],
+      "restaurants": [
+        {"name": "Mosconi", "location": "13 Rue Münster, 2160 Luxembourg"},
+        {"name": "Clairefontaine", "location": "9 Place de Clairefontaine, 1341 Luxembourg"}
+      ],
+      "police": "Cité Policière Grand-Duc Henri, Route de Trèves, 2632 Luxembourg",
+      "hospital": "Centre Hospitalier de Luxembourg, 4 Rue Nicolas Ernest Barblé, 1210 Luxembourg",
+      "tips": [
+        "Public transportation is free throughout the entire country.",
+        "The city is a major European Union administrative center.",
+        "Explore the Chemin de la Corniche, known as 'Europe's most beautiful balcony'."
+      ]
+    }
+  ],
+  "Malta": [
+    {
+      "city": "Valletta",
+      "country": "Malta",
+      "attractions": [
+        {"name": "St. John's Co-Cathedral", "location": "Triq San Gwann, Il-Belt Valletta"},
+        {"name": "Upper Barrakka Gardens", "location": "292 Triq Sant' Orsla, Il-Belt Valletta"},
+        {"name": "Grandmaster's Palace", "location": "Pjazza San Gorg, Il-Belt Valletta"}
+      ],
+      "restaurants": [
+        {"name": "Noni", "location": "211 Republic St, Valletta"},
+        {"name": "Rubino", "location": "53 Old Bakery St, Valletta"}
+      ],
+      "police": "Police General Headquarters, Pjazza San Kalcidonju, Floriana",
+      "hospital": "Mater Dei Hospital, Triq id-Dwejra, L-Imsida",
+      "tips": [
+        "The entire city of Valletta is a UNESCO World Heritage site.",
+        "Try the local pastizzi (savory pastries).",
+        "Malta drives on the left side of the road."
+      ]
+    }
+  ],
+  "Montenegro": [
+    {
+      "city": "Kotor",
+      "country": "Montenegro",
+      "attractions": [
+        {"name": "Kotor Old Town", "location": "Stari Grad, Kotor"},
+        {"name": "Kotor Fortress (St. John's Fortress)", "location": "St John's Fortress, Kotor"},
+        {"name": "Bay of Kotor", "location": "Bay of Kotor, Montenegro"}
+      ],
+      "restaurants": [
+        {"name": "Galion", "location": "Šuranj bb, Kotor 85330"},
+        {"name": "Konoba Scala Santa", "location": "Trg od Salate, Old Town, Kotor"}
+      ],
+      "police": "Odjeljenje bezbjednosti Kotor, Škaljari, Kotor",
+      "hospital": "Opšta bolnica Kotor, Škaljari bb, Kotor 85330",
+      "tips": [
+        "Climb the 1355 steps to the Fortress for an unforgettable view.",
+        "The Old Town is a labyrinth of narrow streets and squares.",
+        "Take a boat trip to Our Lady of the Rocks island."
+      ]
+    },
+    {
+      "city": "Budva",
+      "country": "Montenegro",
+      "attractions": [
+        {"name": "Budva Old Town (Stari Grad)", "location": "Stari Grad, Budva"},
+        {"name": "Sveti Stefan", "location": "Sveti Stefan, 85315"},
+        {"name": "Mogren Beach", "location": "Donji Bulevar, Budva"}
+      ],
+      "restaurants": [
+        {"name": "Jadran Kod Krsta", "location": "Slovenska Obala, Budva"},
+        {"name": "Konoba Stari Grad", "location": "Njegoševa 16, Budva"}
+      ],
+      "police": "Odjeljenje bezbjednosti Budva, 2 Trg Sunca, Budva",
+      "hospital": "Dom Zdravlja Budva, Popa Jola Zeca, Budva",
+      "tips": [
+        "Budva is Montenegro's most popular tourist destination, known for its beaches and nightlife.",
+        "Visit the islet of Sveti Stefan, a picturesque former fishing village turned luxury resort.",
+        "The walled Old Town is a charming maze of narrow streets and squares."
+      ]
+    }
+  ],
+  "Moldova": [
+    {
+      "city": "Chișinău",
+      "country": "Moldova",
+      "attractions": [
+        {"name": "Triumphal Arch", "location": "Piața Marii Adunări Naționale, Chișinău"},
+        {"name": "Ștefan cel Mare Central Park", "location": "Bulevardul Ștefan cel Mare și Sfînt, Chișinău"},
+        {"name": "Cricova Winery", "location": "Strada Petru Ungureanu 1, Cricova"}
+      ],
+      "restaurants": [
+        {"name": "La Plăcinte", "location": "Bulevardul Ștefan cel Mare și Sfînt 182, Chișinău"},
+        {"name": "Vatra Neamului", "location": "Strada Pușkin 20B, Chișinău"}
+      ],
+      "police": "General Police Inspectorate, Strada Tighina 6, Chișinău",
+      "hospital": "Republican Clinical Hospital, Strada Nicolae Testemițanu 29, Chișinău",
+      "tips": [
+        "Take a tour of the vast underground wine cellars at Cricova or Mileștii Mici.",
+        "The local currency is the Moldovan Leu (MDL).",
+        "The city is known for its extensive green spaces and parks."
+      ]
+    }
+  ],
   "Netherlands": [
     {
       "city": "Amsterdam",
@@ -636,6 +1874,128 @@
         "Watch out for cyclists; they have the right of way.",
         "Book Anne Frank House tickets well in advance.",
         "Don't walk in bike lanes."
+      ]
+    },
+    {
+      "city": "Maastricht",
+      "country": "Netherlands",
+      "attractions": [
+        {"name": "Vrijthof Square", "location": "Vrijthof, 6211 LE Maastricht"},
+        {"name": "St. Servatius Basilica", "location": "Keizer Karelplein 3, 6211 TC Maastricht"},
+        {"name": "St. Pietersberg Caves", "location": "Luikerweg 80, 6212 NH Maastricht"}
+      ],
+      "restaurants": [
+        {"name": "Beluga Loves You", "location": "Plein 1992 12, 6221 JP Maastricht"},
+        {"name": "Witloof", "location": "Sint Bernardusstraat 12, 6211 HL Maastricht"}
+      ],
+      "police": "Politiebureau Maastricht-Centrum, Prins Bisschopsingel 53, 6211 JX Maastricht",
+      "hospital": "Maastricht UMC+, P. Debyelaan 25, 6229 HX Maastricht",
+      "tips": [
+        "Maastricht is known as the birthplace of the European Union (Maastricht Treaty).",
+        "Explore the impressive network of underground caves and tunnels.",
+        "The city has a distinct Burgundian atmosphere with a great culinary scene."
+      ]
+    },
+    {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "attractions": [
+        {"name": "Cube Houses (Kubuswoningen)", "location": "Overblaak 70, 3011 MH Rotterdam"},
+        {"name": "Markthal", "location": "Dominee Jan Scharpstraat 298, 3011 GZ Rotterdam"},
+        {"name": "Erasmus Bridge", "location": "Erasmusbrug, 3011 Rotterdam"}
+      ],
+      "restaurants": [
+        {"name": "FG Food Labs", "location": "Katshoek 41, 3032 AE Rotterdam"},
+        {"name": "Fenix Food Factory", "location": "Nico Koomanskade 1025, 3072 LM Rotterdam"}
+      ],
+      "police": "Politiebureau Rotterdam Centrum, Doelwater 5, 3011 AH Rotterdam",
+      "hospital": "Erasmus MC, Doctor Molewaterplein 40, 3015 GD Rotterdam",
+      "tips": [
+        "Rotterdam is known for its innovative and modern architecture.",
+        "Take a water taxi for a fun way to see the city's harbor.",
+        "The city was heavily bombed in WWII and rebuilt with a modern vision."
+      ]
+    },
+    {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "attractions": [
+        {"name": "Mauritshuis", "location": "Plein 29, 2511 CS Den Haag"},
+        {"name": "Peace Palace", "location": "Carnegieplein 2, 2517 KJ Den Haag"},
+        {"name": "Binnenhof & Ridderzaal", "location": "Binnenhof 1, 2513 AA Den Haag"}
+      ],
+      "restaurants": [
+        {"name": "Cottage", "location": "Laan van Meerdervoort 178, 2517 BH Den Haag"},
+        {"name": "Restaurant Calla's", "location": "Laan van Roos en Doorn 51A, 2514 BC Den Haag"}
+      ],
+      "police": "Politiebureau Hoofdbureau, Burgemeester Patijnlaan 35, 2585 BG Den Haag",
+      "hospital": "HMC Westeinde, Lijnbaan 32, 2512 VA Den Haag",
+      "tips": [
+        "The Hague is the seat of the Dutch government and the International Court of Justice.",
+        "Visit the Mauritshuis to see Vermeer's 'Girl with a Pearl Earring'.",
+        "Take a short tram ride to the seaside resort of Scheveningen."
+      ]
+    },
+     {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "attractions": [
+        {"name": "Dom Tower", "location": "Domplein 21, 3512 JE Utrecht"},
+        {"name": "Oudegracht (Old Canal)", "location": "Oudegracht, Utrecht"},
+        {"name": "Rietveld Schröder House", "location": "Prins Hendriklaan 50, 3583 EP Utrecht"}
+      ],
+      "restaurants": [
+        {"name": "De Goedheyd", "location": "Hamburgerstraat 17, 3512 NP Utrecht"},
+        {"name": "WT Urban Kitchen", "location": "Heuveloord 25A, 3523 CK Utrecht"}
+      ],
+      "police": "Politiebureau Utrecht Centrum, Kroonstraat 25, 3511 RC Utrecht",
+      "hospital": "Universitair Medisch Centrum Utrecht, Heidelberglaan 100, 3584 CX Utrecht",
+      "tips": [
+        "Utrecht is like a less-crowded version of Amsterdam.",
+        "Enjoy a drink or meal at the unique wharf cellars along the Oudegracht.",
+        "Climb the Dom Tower for the best views of the city."
+      ]
+    }
+  ],
+  "North Macedonia": [
+    {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "attractions": [
+        {"name": "Old Bazaar", "location": "Čaršija, Skopje"},
+        {"name": "Stone Bridge", "location": "Kej 13 Noemvri, Skopje 1000"},
+        {"name": "Millennium Cross", "location": "Vodno Mountain, Skopje"}
+      ],
+      "restaurants": [
+        {"name": "Destan", "location": "11 Oktomvri, Skopje 1000"},
+        {"name": "Gostilnica Dukat", "location": "Teodosij Gologanov 79, Skopje 1000"}
+      ],
+      "police": "Police Station Centar, Blvd. Goce Delchev, Skopje 1000",
+      "hospital": "Acibadem Sistina Hospital, Skupi 5A, Skopje 1000",
+      "tips": [
+        "The city center is known for its many statues and grand buildings from the 'Skopje 2014' project.",
+        "Take the cable car up Vodno Mountain to the Millennium Cross.",
+        "The local currency is the Macedonian Denar (MKD)."
+      ]
+    },
+    {
+      "city": "Ohrid",
+      "country": "North Macedonia",
+      "attractions": [
+        {"name": "Lake Ohrid", "location": "Lake Ohrid"},
+        {"name": "Church of St. John at Kaneo", "location": "Kaneo, Ohrid 6000"},
+        {"name": "Samuel's Fortress", "location": "Samuilova Tvrdina, Ohrid 6000"}
+      ],
+      "restaurants": [
+        {"name": "Kaneo", "location": "Kaneo, Ohrid 6000"},
+        {"name": "Restoran Sveta Sofija", "location": "Patu SFRJ, Ohrid 6000"}
+      ],
+      "police": "Police Station Ohrid, Dimitar Vlahov, Ohrid 6000",
+      "hospital": "General Hospital Ohrid, Partizanska, Ohrid 6000",
+      "tips": [
+        "Both the town and Lake Ohrid are UNESCO World Heritage sites.",
+        "The lake is one of the oldest and deepest in Europe.",
+        "Take a boat tour for the best views of the Church of St. John at Kaneo."
       ]
     }
   ],
@@ -658,6 +2018,106 @@
         "Norway is very expensive; budget accordingly.",
         "Use the Ruter app for public transport.",
         "Tap water is safe to drink."
+      ]
+    },
+     {
+      "city": "Stavanger",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Pulpit Rock (Preikestolen)", "location": "Preikestolen, 4129 Songesand"},
+        {"name": "Gamle Stavanger (Old Stavanger)", "location": "Gamle Stavanger, 4005 Stavanger"},
+        {"name": "Norwegian Petroleum Museum", "location": "Kjeringholmen 1a, 4006 Stavanger"}
+      ],
+      "restaurants": [
+        {"name": "RE-NAA", "location": "Nordbøgata 8, 4006 Stavanger"},
+        {"name": "Fisketorget", "location": "Strandkaien 37, 4005 Stavanger"}
+      ],
+      "police": "Sør-Vest politidistrikt, Lagårdsveien 6, 4010 Stavanger",
+      "hospital": "Stavanger University Hospital, Gerd-Ragna Bloch-Thorsens gate 8, 4011 Stavanger",
+      "tips": [
+        "Stavanger is the main hub for hiking to the iconic Pulpit Rock.",
+        "Wander through Gamle Stavanger to see Europe's best-preserved wooden house settlement.",
+        "The city is the center of Norway's offshore oil industry."
+      ]
+    },
+    {
+      "city": "Trondheim",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Nidaros Cathedral", "location": "Bispegata 11, 7012 Trondheim"},
+        {"name": "Gamle Bybro (Old Town Bridge)", "location": "Gamle Bybro, 7013 Trondheim"},
+        {"name": "Bakklandet", "location": "Bakklandet, Trondheim"}
+      ],
+      "restaurants": [
+        {"name": "Fagn", "location": "Ørjaveita 4, 7010 Trondheim"},
+        {"name": "Baklandet Skydsstation", "location": "Øvre Bakklandet 33, 7013 Trondheim"}
+      ],
+      "police": "Trøndelag politidistrikt, Gryta 4, 7010 Trondheim",
+      "hospital": "St. Olavs Hospital, Olav Kyrres gate 9, 7030 Trondheim",
+      "tips": [
+        "Trondheim is the third-largest city in Norway and a major university town.",
+        "Visit the colorful wooden houses along the river in the Bakklandet district.",
+        "Nidaros Cathedral is the northernmost medieval cathedral in the world."
+      ]
+    },
+    {
+      "city": "Bergen",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Bryggen", "location": "Bryggen, 5003 Bergen"},
+        {"name": "Fløyen and the Fløibanen Funicular", "location": "Vetrlidsallmenningen 23A, 5014 Bergen"},
+        {"name": "Fisketorget (Fish Market)", "location": "Torget, 5014 Bergen"}
+      ],
+      "restaurants": [
+        {"name": "Bare Restaurant", "location": "Torgallmenningen 2, 5014 Bergen"},
+        {"name": "Pingvinen", "location": "Vaskerelven 14, 5014 Bergen"}
+      ],
+      "police": "Vest politidistrikt, Allehelgens gate 6, 5016 Bergen",
+      "hospital": "Haukeland University Hospital, Jonas Lies vei 65, 5021 Bergen",
+      "tips": [
+        "Bergen is known for its frequent rainfall, so bring a waterproof jacket.",
+        "It is the gateway to the Norwegian fjords.",
+        "Wander through the narrow wooden alleyways of the Bryggen Hanseatic Wharf."
+      ]
+    },
+    {
+      "city": "Tromsø",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Arctic Cathedral", "location": "Hans Nilsens vei 41, 9020 Tromsdalen"},
+        {"name": "Fjellheisen Cable Car", "location": "Sollivegen 12, 9020 Tromsdalen"},
+        {"name": "Polaria", "location": "Hjalmar Johansens gt. 12, 9296 Tromsø"}
+      ],
+      "restaurants": [
+        {"name": "Fiskekompaniet", "location": "Killengrens gate, 9007 Tromsø"},
+        {"name": "Emmas Drømmekjøkken", "location": "Kirkegata 8, 9008 Tromsø"}
+      ],
+      "police": "Troms politidistrikt, Stakkevollvegen 9, 9010 Tromsø",
+      "hospital": "University Hospital of North Norway, Sykehusvegen 38, 9019 Tromsø",
+      "tips": [
+        "Located above the Arctic Circle, it's a prime spot for viewing the Northern Lights in winter.",
+        "Experience the Midnight Sun during the summer months.",
+        "Dog sledding and whale watching are popular activities."
+      ]
+    },
+    {
+      "city": "Svolvær (Lofoten Islands)",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Svolværgeita (The Goat's Horns)", "location": "Svolvær"},
+        {"name": "Trollfjord", "location": "Trollfjord, Hadsel"},
+        {"name": "Reinebringen Hike", "location": "Reine, Lofoten"}
+      ],
+      "restaurants": [
+        {"name": "Børsen Spiseri", "location": "Gunnar Bergs vei 2, 8300 Svolvær"},
+        {"name": "Anitas Sjømat", "location": "Sakrisøy, 8390 Reine"}
+      ],
+      "police": "Lofoten politistasjon, Svolvær",
+      "hospital": "Lofoten sykehus, Sykehusbakken 23, 8372 Gravdal",
+      "tips": [
+        "The Lofoten Islands are known for their dramatic mountain scenery and picturesque fishing villages.",
+        "Rent a car to have the freedom to explore the archipelago.",
+        "Visit in summer for the midnight sun or in winter for the northern lights."
       ]
     }
   ],
@@ -701,6 +2161,86 @@
         "Consider a day trip to Auschwitz-Birkenau.",
         "Public transport is cheap and efficient."
       ]
+    },
+    {
+      "city": "Poznań",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Old Market Square (Stary Rynek)", "location": "Stary Rynek, 61-772 Poznań"},
+        {"name": "Poznań Goats", "location": "Old Town Hall, Stary Rynek 1, 61-768 Poznań"},
+        {"name": "Cathedral of St. Peter and St. Paul", "location": "Ostrów Tumski 17, 61-120 Poznań"}
+      ],
+      "restaurants": [
+        {"name": "Wiejskie Jadło", "location": "Stary Rynek 80, 61-773 Poznań"},
+        {"name": "Muga", "location": "Krysiewicza 5, 61-825 Poznań"}
+      ],
+      "police": "Komenda Miejska Policji, Szylinga 2, 60-787 Poznań",
+      "hospital": "Szpital Miejski im. Franciszka Raszei, Mickiewicza 2, 60-834 Poznań",
+      "tips": [
+        "Be at the Old Market Square at noon to see the mechanical goats butt heads on the Town Hall clock.",
+        "Poznań is a vibrant city known for its trade fairs and academic life.",
+        "Try a St. Martin's Croissant (Rogal świętomarciński), a local protected delicacy."
+      ]
+    },
+    {
+      "city": "Zakopane",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Kasprowy Wierch Cable Car", "location": "Kuźnice 14, 34-500 Zakopane"},
+        {"name": "Krupówki Street", "location": "Krupówki, Zakopane"},
+        {"name": "Morskie Oko Lake", "location": "Tatra National Park"}
+      ],
+      "restaurants": [
+        {"name": "Karczma po Zboju", "location": "Krupówki 22, 34-500 Zakopane"},
+        {"name": "Bacówka", "location": "ul. Oswalda Balzera 3, 34-500 Zakopane"}
+      ],
+      "police": "Komisariat Policji, Jagiellońska 11, 34-500 Zakopane",
+      "hospital": "Szpital Powiatowy im. dr Tytusa Chałubińskiego, Kamieniec 10, 34-500 Zakopane",
+      "tips": [
+        "Zakopane is known as the 'winter capital of Poland'.",
+        "It's the main base for hiking in the stunning Tatra Mountains.",
+        "Try Oscypek, a traditional smoked cheese made from sheep's milk."
+      ]
+    },
+    {
+      "city": "Gdańsk",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Long Market (Długi Targ)", "location": "Długi Targ, 80-830 Gdańsk"},
+        {"name": "St. Mary's Church", "location": "Podkramarska 5, 80-834 Gdańsk"},
+        {"name": "European Solidarity Centre", "location": "pI. Solidarności 1, 80-864 Gdańsk"}
+      ],
+      "restaurants": [
+        {"name": "Restauracja Kubicki", "location": "Wartka 5, 80-841 Gdańsk"},
+        {"name": "Pierogarnia Mandu Centrum", "location": "Elżbietańska 4/8, 80-894 Gdańsk"}
+      ],
+      "police": "Komenda Miejska Policji, Nowe Ogrody 27, 80-803 Gdańsk",
+      "hospital": "Uniwersyteckie Centrum Kliniczne, Dębinki 7, 80-952 Gdańsk",
+      "tips": [
+        "Gdańsk was the birthplace of the Solidarity movement.",
+        "The city was meticulously rebuilt after being destroyed in WWII.",
+        "Look for amber jewelry, a local specialty."
+      ]
+    },
+    {
+      "city": "Wrocław",
+      "country": "Poland",
+      "attractions": [
+        {"name": "Market Square (Rynek)", "location": "Rynek, 50-438 Wrocław"},
+        {"name": "Wrocław's Dwarfs", "location": "All over the city"},
+        {"name": "Centennial Hall", "location": "Wystawowa 1, 51-618 Wrocław"}
+      ],
+      "restaurants": [
+        {"name": "Piwnica Świdnicka", "location": "Rynek Ratusz 1, 50-106 Wrocław"},
+        {"name": "Konspira", "location": "plac Solny 11, 50-061 Wrocław"}
+      ],
+      "police": "Komenda Miejska Policji, Podwale 31-33, 50-040 Wrocław",
+      "hospital": "Uniwersytecki Szpital Kliniczny, Borowska 213, 50-556 Wrocław",
+      "tips": [
+        "Go on a hunt for the hundreds of small bronze dwarf statues scattered around the city.",
+        "Visit Ostrów Tumski, the oldest part of the city.",
+        "Wrocław is known as the 'Venice of Poland' due to its many bridges and islands."
+      ]
     }
   ],
   "Portugal": [
@@ -725,6 +2265,46 @@
       ]
     },
     {
+      "city": "Funchal (Madeira)",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Funchal Cable Car to Monte", "location": "Av. do Mar e das Comunidades Madeirenses 32, 9060-190 Funchal"},
+        {"name": "Mercado dos Lavradores", "location": "R. Latino Coelho 38, 9060-155 Funchal"},
+        {"name": "CR7 Museum", "location": "Av. Sá Carneiro, Praça do Mar Nº27, 9000-017 Funchal"}
+      ],
+      "restaurants": [
+        {"name": "Il Gallo d'Oro", "location": "Estrada Monumental 147, 9004-532 Funchal"},
+        {"name": "Restaurante do Forte", "location": "R. do Portão de São Tiago 6, 9060-250 Funchal"}
+      ],
+      "police": "Comando Regional da Madeira da PSP, Rua da Infância 28, 9000-077 Funchal",
+      "hospital": "Hospital Dr. Nélio Mendonça, Av. Luís de Camões 57, 9000-177 Funchal",
+      "tips": [
+        "Take the thrilling traditional toboggan ride (Carros de Cesto) down from Monte.",
+        "Madeira is famous for its fortified wine and the year-round 'levada' hiking trails.",
+        "The island is the birthplace of footballer Cristiano Ronaldo."
+      ]
+    },
+    {
+      "city": "Ponta Delgada (Azores)",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Sete Cidades", "location": "Sete Cidades, Ponta Delgada"},
+        {"name": "Furnas", "location": "Furnas, Povoação"},
+        {"name": "Portas da Cidade (City Gates)", "location": "Praça de Gonçalo Velho Cabral, 9500-063 Ponta Delgada"}
+      ],
+      "restaurants": [
+        {"name": "A Tasca", "location": "R. do Aljube 16, 9500-018 Ponta Delgada"},
+        {"name": "Restaurante Tony's", "location": "Largo do Teatro, 9675-045 Furnas"}
+      ],
+      "police": "Comando Regional dos Açores da PSP, Rua do Castilho, 9500-058 Ponta Delgada",
+      "hospital": "Hospital do Divino Espírito Santo, Av. D. Manuel I, 9500-370 Ponta Delgada",
+      "tips": [
+        "Ponta Delgada is the capital of the Azores archipelago in the middle of the Atlantic.",
+        "The islands are renowned for incredible natural beauty, including volcanic crater lakes.",
+        "Try 'Cozido das Furnas,' a stew cooked underground by volcanic heat."
+      ]
+    },
+    {
       "city": "Porto",
       "country": "Portugal",
       "attractions": [
@@ -742,6 +2322,46 @@
         "Try a Port wine tasting in Vila Nova de Gaia.",
         "Walk the riverfront and enjoy the views.",
         "The Francesinha sandwich is a local specialty."
+      ]
+    },
+     {
+      "city": "Sintra",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Pena Palace", "location": "Estrada da Pena, 2710-609 Sintra"},
+        {"name": "Quinta da Regaleira", "location": "R. Barbosa du Bocage 5, 2710-567 Sintra"},
+        {"name": "Moorish Castle", "location": "2710-405 Sintra"}
+      ],
+      "restaurants": [
+        {"name": "Tascantiga", "location": "Escadinhas da Fonte da Pipa 2, 2710-554 Sintra"},
+        {"name": "Incomum by Luis Santos", "location": "R. Dr. Alfredo da Costa 22, 2710-523 Sintra"}
+      ],
+      "police": "PSP - Esquadra de Sintra, Av. Heliodoro Salgado, 2710-569 Sintra",
+      "hospital": "Hospital Professor Doutor Fernando Fonseca, IC19, 2720-276 Amadora",
+      "tips": [
+        "Sintra is an easy day trip from Lisbon by train.",
+        "Buy tickets for the palaces online to avoid long queues.",
+        "Try the local pastries: Queijadas and Travesseiros."
+      ]
+    },
+    {
+      "city": "Faro",
+      "country": "Portugal",
+      "attractions": [
+        {"name": "Faro Old Town (Cidade Velha)", "location": "Cidade Velha, Faro"},
+        {"name": "Ria Formosa Natural Park", "location": "Ria Formosa, Faro"},
+        {"name": "Praia de Faro", "location": "Praia de Faro, Faro"}
+      ],
+      "restaurants": [
+        {"name": "Faz Gostos", "location": "R. do Castelo 14, 8000-149 Faro"},
+        {"name": "Vila Adentro", "location": "Praça Dom Afonso III 17, 8000-149 Faro"}
+      ],
+      "police": "Comando Distrital de Faro da PSP, Av. 5 de Outubro, 8000-076 Faro",
+      "hospital": "Centro Hospitalar Universitário do Algarve, Rua Leão Penedo, 8000-386 Faro",
+      "tips": [
+        "Faro is the gateway to Portugal's Algarve region.",
+        "Take a boat trip to explore the barrier islands of the Ria Formosa.",
+        "Explore the unique Chapel of Bones (Capela dos Ossos)."
       ]
     }
   ],
@@ -764,6 +2384,86 @@
         "Taxis can overcharge—use apps like Bolt.",
         "Try traditional dishes like sarmale (cabbage rolls).",
         "Old Town is lively at night."
+      ]
+    },
+    {
+      "city": "Sibiu",
+      "country": "Romania",
+      "attractions": [
+        {"name": "Big Square (Piața Mare)", "location": "Piața Mare, Sibiu"},
+        {"name": "Bridge of Lies", "location": "Piața Mică, Sibiu"},
+        {"name": "ASTRA National Museum Complex", "location": "Calea Rășinari, Sibiu"}
+      ],
+      "restaurants": [
+        {"name": "Crama Sibiul Vechi", "location": "Strada Papiu Ilarian 3, Sibiu"},
+        {"name": "Kulinarium", "location": "Piața Mică 12, Sibiu"}
+      ],
+      "police": "Inspectoratul de Poliție Județean Sibiu, Strada Revoluției 4-6, Sibiu",
+      "hospital": "Spitalul Clinic Județean de Urgență Sibiu, Bulevardul Corneliu Coposu 2-4, Sibiu",
+      "tips": [
+        "The houses in Sibiu are famous for their unique 'eyelid' dormer windows.",
+        "Explore the passages that connect the Upper Town and the Lower Town.",
+        "The city is a former European Capital of Culture."
+      ]
+    },
+    {
+      "city": "Timișoara",
+      "country": "Romania",
+      "attractions": [
+        {"name": "Union Square (Piața Unirii)", "location": "Piața Unirii, Timișoara"},
+        {"name": "Victory Square (Piața Victoriei)", "location": "Piața Victoriei, Timișoara"},
+        {"name": "Timișoara Orthodox Cathedral", "location": "Bulevardul Regele Ferdinand I, Timișoara"}
+      ],
+      "restaurants": [
+        {"name": "Vinto", "location": "Strada Florimund Mercy 4, Timișoara"},
+        {"name": "La Calul Alb", "location": "Strada Eugeniu de Savoya 14, Timișoara"}
+      ],
+      "police": "Inspectoratul de Poliție Județean Timiș, Bulevardul Take Ionescu 44-46, Timișoara",
+      "hospital": "Spitalul Clinic Județean de Urgență 'Pius Brînzeu' Timișoara, Bulevardul Liviu Rebreanu 156, Timișoara",
+      "tips": [
+        "Timișoara was the first city in mainland Europe to have electric street lighting.",
+        "The 1989 Romanian Revolution started in this city.",
+        "The city center is known for its Secessionist architecture."
+      ]
+    },
+    {
+      "city": "Cluj-Napoca",
+      "country": "Romania",
+      "attractions": [
+        {"name": "St. Michael's Church", "location": "Piața Unirii, Cluj-Napoca"},
+        {"name": "Central Park Simion Bărnuțiu", "location": "Parcul Central, Cluj-Napoca"},
+        {"name": "Turda Salt Mine (Salina Turda)", "location": "Aleea Durgăului 7, Turda"}
+      ],
+      "restaurants": [
+        {"name": "Roata", "location": "Strada Alexandru Ciurea 6, Cluj-Napoca"},
+        {"name": "Samsara Foodhouse", "location": "Strada Cardinal Iuliu Hossu 3, Cluj-Napoca"}
+      ],
+      "police": "Inspectoratul de Poliție Județean Cluj, Strada Traian 27, Cluj-Napoca",
+      "hospital": "Spitalul Clinic Județean de Urgență Cluj, Strada Clinicilor 3-5, Cluj-Napoca",
+      "tips": [
+        "Cluj-Napoca is the unofficial capital of the Transylvania region.",
+        "The city has a large student population and a lively arts scene.",
+        "A day trip to the futuristic Turda Salt Mine is a must."
+      ]
+    },
+    {
+      "city": "Brașov",
+      "country": "Romania",
+      "attractions": [
+        {"name": "Bran Castle (Dracula's Castle)", "location": "Strada General Traian Moșoiu 24, Bran"},
+        {"name": "Black Church (Biserica Neagră)", "location": "Curtea Johannes Honterus 2, Brașov"},
+        {"name": "Council Square (Piața Sfatului)", "location": "Piața Sfatului, Brașov"}
+      ],
+      "restaurants": [
+        {"name": "Sergiana", "location": "Strada Mureșenilor 28, Brașov"},
+        {"name": "La Ceaun", "location": "Piața Sfatului 11, Brașov"}
+      ],
+      "police": "Poliția Municipiului Brașov, Strada Nicolae Titulescu 28, Brașov",
+      "hospital": "Spitalul Clinic Județean de Urgență Brașov, Calea București 25-27, Brașov",
+      "tips": [
+        "Brașov is located in the heart of Transylvania.",
+        "Take the cable car up Tâmpa Mountain for panoramic views of the city.",
+        "Bran Castle is about a 45-minute bus ride from the city."
       ]
     }
   ],
@@ -809,6 +2509,28 @@
       ]
     }
   ],
+"San Marino": [
+    {
+      "city": "City of San Marino",
+      "country": "San Marino",
+      "attractions": [
+        {"name": "Guaita Tower", "location": "Salita alla Rocca, 47890 Città di San Marino"},
+        {"name": "Palazzo Pubblico", "location": "Piazza della Libertà, 47890 Città di San Marino"},
+        {"name": "Basilica di San Marino", "location": "Piazzale Domus Plebis, 47890 Città di San Marino"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Righi", "location": "Piazza della Libertà, 10, 47890 Città di San Marino"},
+        {"name": "La Terrazza", "location": "Contrada del Collegio, 31, 47890 Città di San Marino"}
+      ],
+      "police": "Gendarmerie Headquarters, Via J.F. Kennedy, 11, San Marino Città",
+      "hospital": "Ospedale di Stato, Via Scialoja, 40, 47893 Cailungo",
+      "tips": [
+        "San Marino is one of the world's oldest republics and is entirely surrounded by Italy.",
+        "Walk between the Three Towers (Guaita, Cesta, Montale) along the ridge of Monte Titano.",
+        "The country offers tax-free shopping."
+      ]
+    }
+  ],
   "Serbia": [
     {
       "city": "Belgrade",
@@ -851,6 +2573,26 @@
         "Try bryndzové halušky (potato dumplings with sheep cheese).",
         "The city is very walkable, especially the Old Town."
       ]
+    },
+    {
+      "city": "Košice",
+      "country": "Slovakia",
+      "attractions": [
+        {"name": "St. Elisabeth Cathedral", "location": "Hlavné námestie, 040 01 Košice"},
+        {"name": "Hlavná ulica (Main Street)", "location": "Hlavná, Košice"},
+        {"name": "Singing Fountain", "location": "Hlavná, 040 01 Košice"}
+      ],
+      "restaurants": [
+        {"name": "Le Colonial", "location": "Hlavná 8, 040 01 Košice"},
+        {"name": "Med Malina", "location": "Hlavná 85, 040 01 Košice"}
+      ],
+      "police": "Krajské riaditeľstvo Policajného zboru, Kuzmányho 8, 040 01 Košice",
+      "hospital": "Univerzitná nemocnica L. Pasteura Košice, Rastislavova 43, 041 90 Košice",
+      "tips": [
+        "Košice is the largest city in eastern Slovakia and was a European Capital of Culture.",
+        "St. Elisabeth Cathedral is the easternmost Gothic cathedral in Europe.",
+        "The pedestrianized Main Street is one of the most beautiful in the country."
+      ]
     }
   ],
   "Slovenia": [
@@ -872,6 +2614,46 @@
         "The city center is car-free, perfect for walking.",
         "Explore the riverside cafes.",
         "The city is known for its dragon symbolism."
+      ]
+    },
+    {
+      "city": "Bled",
+      "country": "Slovenia",
+      "attractions": [
+        {"name": "Lake Bled", "location": "Lake Bled"},
+        {"name": "Bled Castle", "location": "Grajska cesta 61, 4260 Bled"},
+        {"name": "Vintgar Gorge", "location": "Turistično društvo Gorje, 4247 Zgornje Gorje"}
+      ],
+      "restaurants": [
+        {"name": "Oštarija Peglez'n", "location": "Cesta svobode 19a, 4260 Bled"},
+        {"name": "Gostilna Pri Planincu", "location": "Grajska cesta 8, 4260 Bled"}
+      ],
+      "police": "Policijska postaja Bled, Ljubljanska cesta 10, 4260 Bled",
+      "hospital": "Splošna bolnišnica Jesenice, Cesta maršala Tita 112, 4270 Jesenice",
+      "tips": [
+        "Take a traditional 'pletna' boat to the island in the middle of the lake.",
+        "You must try the famous Bled Cream Cake (kremšnita).",
+        "Walk or cycle the 6km path around the entire lake."
+      ]
+    },
+    {
+      "city": "Piran",
+      "country": "Slovenia",
+      "attractions": [
+        {"name": "Tartini Square", "location": "Tartinijev trg, 6330 Piran"},
+        {"name": "Piran Town Walls", "location": "Ulica IX. korpusa, 6330 Piran"},
+        {"name": "St. George's Parish Church", "location": "Adamičeva ulica 2, 6330 Piran"}
+      ],
+      "restaurants": [
+        {"name": "Fritolin pri Cantini", "location": "Prvomajski trg 6, 6330 Piran"},
+        {"name": "Piranski Biser", "location": "Prešernovo nabrežje 2, 6330 Piran"}
+      ],
+      "police": "Policijska postaja Piran, Bolniška ulica 1, 6330 Piran",
+      "hospital": "Splošna bolnišnica Izola, Polje 40, 6310 Izola",
+      "tips": [
+        "Piran is a stunning medieval town on the small Slovenian coast.",
+        "Climb the bell tower or the town walls for the best views.",
+        "The town has a strong Venetian Gothic architectural influence."
       ]
     }
   ],
@@ -935,6 +2717,186 @@
         "Experience a traditional flamenco show.",
         "Be prepared for very hot summers."
       ]
+    },
+    {
+      "city": "San Sebastián",
+      "country": "Spain",
+      "attractions": [
+        {"name": "La Concha Beach", "location": "Kontxa Pasealekua, Donostia-San Sebastián"},
+        {"name": "Parte Vieja (Old Town)", "location": "Parte Vieja, Donostia-San Sebastián"},
+        {"name": "Monte Igueldo", "location": "Plaza del Funicular, 4, 20008 Donostia-San Sebastián"}
+      ],
+      "restaurants": [
+        {"name": "Arzak", "location": "Avenida del Alcalde Elósegui, 273, 20015 Donostia-San Sebastián"},
+        {"name": "La Cuchara de San Telmo", "location": "31 de Agosto Kalea, 28, 20003 Donostia-San Sebastián"}
+      ],
+      "police": "Ertzaintza - Comisaría de San Sebastián, Paseo de Morlans, 2, 20009 Donostia",
+      "hospital": "Hospital Universitario Donostia, Paseo Dr. Beguiristain, 109, 20014 Donostia",
+      "tips": [
+        "San Sebastián is a world-famous culinary destination, particularly for 'pintxos' (Basque tapas).",
+        "La Concha is consistently rated as one of the best city beaches in Europe.",
+        "Take the historic funicular railway up Monte Igueldo for iconic views."
+      ]
+    },
+    {
+      "city": "Toledo",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Toledo Cathedral (Catedral Primada)", "location": "Calle Cardenal Cisneros, 1, 45002 Toledo"},
+        {"name": "Alcázar of Toledo", "location": "C. de la Unión, s/n, 45001 Toledo"},
+        {"name": "Synagogue of Santa María la Blanca", "location": "C. de los Reyes Católicos, 4, 45002 Toledo"}
+      ],
+      "restaurants": [
+        {"name": "Restaurante Adolfo", "location": "C. de la Granada, 6, 45001 Toledo"},
+        {"name": "La Abadía", "location": "Pl. de San Nicolás, 3, 45001 Toledo"}
+      ],
+      "police": "Comisaría de Policía Nacional, Calle de la Plata, 25, 45001 Toledo",
+      "hospital": "Hospital Universitario de Toledo, Av. del Río Guadiana, s/n, 45007 Toledo",
+      "tips": [
+        "Known as the 'City of Three Cultures' for its Christian, Jewish, and Muslim heritage.",
+        "Get lost wandering the steep, labyrinthine streets of the old town.",
+        "Toledo is famous for its marzipan and high-quality steel swords."
+      ]
+    },
+    {
+      "city": "Santiago de Compostela",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Cathedral of Santiago de Compostela", "location": "Praza do Obradoiro, s/n, 15704 Santiago de Compostela"},
+        {"name": "Praza do Obradoiro", "location": "Praza do Obradoiro, 15704 Santiago de Compostela"},
+        {"name": "Monasterio de San Martiño Pinario", "location": "Praza da Inmaculada, 5, 15704 Santiago de Compostela"}
+      ],
+      "restaurants": [
+        {"name": "Casa Marcelo", "location": "Rúa das Hortas, 1, 15705 Santiago de Compostela"},
+        {"name": "O Gato Negro", "location": "Rúa da Raiña, 15702 Santiago de Compostela"}
+      ],
+      "police": "Comisaría de Policía Nacional, Rúa de Rodrigo de Padrón, 15705 Santiago de Compostela",
+      "hospital": "Hospital Clínico Universitario de Santiago, Travesía da Choupana, s/n, 15706 Santiago",
+      "tips": [
+        "This is the final destination of the famous Camino de Santiago pilgrimage routes.",
+        "Attend the daily Pilgrim's Mass to see the giant 'Botafumeiro' incense burner in action.",
+        "Try Galician specialties like 'pulpo a la gallega' (octopus) and Albariño wine."
+      ]
+    },
+    {
+      "city": "Córdoba",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Mezquita-Cathedral of Córdoba", "location": "C. Cardenal Herrero, 1, 14003 Córdoba"},
+        {"name": "Alcázar de los Reyes Cristianos", "location": "Pl. Campo Santo de los Mártires, s/n, 14004 Córdoba"},
+        {"name": "Jewish Quarter (Judería)", "location": "Judería, Córdoba"}
+      ],
+      "restaurants": [
+        {"name": "Bodegas Mezquita Céspedes", "location": "C. Céspedes, 12, 14003 Córdoba"},
+        {"name": "Noor Restaurant", "location": "C. Pablo Ruiz Picasso, 8, 14014 Córdoba"}
+      ],
+      "police": "Comisaría Provincial de Policía Nacional, Av. Dr. Fleming, 2, 14004 Córdoba",
+      "hospital": "Hospital Universitario Reina Sofía, Av. Menéndez Pidal, s/n, 14004 Córdoba",
+      "tips": [
+        "The Mezquita's giant hall of columns and arches is a breathtaking sight.",
+        "Visit in May for the Patio Festival, when residents open their private courtyards to the public.",
+        "Try the local dish, Salmorejo, a cold tomato soup."
+      ]
+    },
+    {
+      "city": "Málaga",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Alcazaba", "location": "C/ Alcazabilla, 2, 29012 Málaga"},
+        {"name": "Picasso Museum Málaga", "location": "Palacio de Buenavista, C. San Agustín, 8, 29015 Málaga"},
+        {"name": "Gibralfaro Castle", "location": "Cam. Gibralfaro, 11, 29016 Málaga"}
+      ],
+      "restaurants": [
+        {"name": "El Pimpi", "location": "C. Granada, 62, 29015 Málaga"},
+        {"name": "José Carlos García Restaurante", "location": "Puerto de Málaga, Plaza de la Capilla, 1, 29016 Málaga"}
+      ],
+      "police": "Comisaría Provincial de Policía Nacional, Plaza de Manuel Azaña, 3, 29006 Málaga",
+      "hospital": "Hospital Regional Universitario de Málaga, Av. del Arroyo de los Ángeles, s/n, 29011 Málaga",
+      "tips": [
+        "Málaga is the birthplace of Pablo Picasso.",
+        "It's the main city on the Costa del Sol, with great city beaches.",
+        "Walk up to the Gibralfaro for the best views of the city and coastline."
+      ]
+    },
+    {
+      "city": "Granada",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Alhambra", "location": "C. Real de la Alhambra, s/n, 18009 Granada"},
+        {"name": "Generalife", "location": "Paseo del Generalife, 18009 Granada"},
+        {"name": "Albaicín", "location": "Albaicín, Granada"}
+      ],
+      "restaurants": [
+        {"name": "Bodegas Castañeda", "location": "C. Almireceros, 1, 3, 18010 Granada"},
+        {"name": "Restaurante Chikito", "location": "Pl. del Campillo, 9, 18009 Granada"}
+      ],
+      "police": "Jefatura Superior de Policía de Andalucía Oriental, C. la Duquesa, 21, 18001 Granada",
+      "hospital": "Hospital Universitario Virgen de las Nieves, Av. de las Fuerzas Armadas, 2, 18014 Granada",
+      "tips": [
+        "Book your tickets for the Alhambra palace complex months in advance.",
+        "Enjoy the tradition of free tapas served with every drink.",
+        "Watch a traditional flamenco show in the Sacromonte caves."
+      ]
+    },
+    {
+      "city": "Ibiza Town",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Dalt Vila (Old Town)", "location": "Dalt Vila, Ibiza"},
+        {"name": "Ibiza Cathedral (Catedral de Santa Maria)", "location": "Plaça de la Catedral, 07800 Eivissa"},
+        {"name": "Platja de ses Salines", "location": "Platja de ses Salines, Ibiza"}
+      ],
+      "restaurants": [
+        {"name": "La Brasa", "location": "Carrer de Pere Sala, 3, 07800 Eivissa"},
+        {"name": "Lío Ibiza", "location": "Passeig Joan Carles I, 1, 07800 Eivissa"}
+      ],
+      "police": "Comisaría de Policía Nacional, Av. de la Pau, s/n, 07800 Eivissa",
+      "hospital": "Hospital Can Misses, Carrer de Corona, s/n, 07800 Eivissa",
+      "tips": [
+        "Ibiza is a world-famous destination for electronic music and nightlife.",
+        "Explore the UNESCO-listed Dalt Vila for history and stunning views.",
+        "Visit during the shoulder seasons (May/June or Sept/Oct) for better prices and fewer crowds."
+      ]
+    },
+     {
+      "city": "Valencia",
+      "country": "Spain",
+      "attractions": [
+        {"name": "City of Arts and Sciences", "location": "Av. del Professor López Piñero, 7, 46013 València"},
+        {"name": "Mercado Central", "location": "Plaça de la Ciutat de Bruges, s/n, 46001 València"},
+        {"name": "Turia Gardens", "location": "Jardí del Túria, Valencia"}
+      ],
+      "restaurants": [
+        {"name": "La Pepica", "location": "Passeig de Neptú, 6, 46011 València"},
+        {"name": "Ricard Camarena Restaurant", "location": "Av. de Burjassot, 54, 46009 València"}
+      ],
+      "police": "Jefatura Superior de Policía de la Comunidad Valenciana, Gran Vía de Ramón y Cajal, 40, 46007 Valencia",
+      "hospital": "Hospital Universitari i Politècnic La Fe, Avinguda de Fernando Abril Martorell, 106, 46026 València",
+      "tips": [
+        "Valencia is the birthplace of paella.",
+        "Visit in March for the spectacular Las Fallas festival.",
+        "Rent a bike to explore the Turia Gardens, a park built in a drained riverbed."
+      ]
+    },
+    {
+      "city": "Bilbao",
+      "country": "Spain",
+      "attractions": [
+        {"name": "Guggenheim Museum Bilbao", "location": "Abandoibarra Etorb., 2, 48009 Bilbo, Bizkaia"},
+        {"name": "Casco Viejo (Old Town)", "location": "Casco Viejo, Bilbao"},
+        {"name": "Zubizuri Bridge", "location": "Zubizuri, 48001 Bilbao"}
+      ],
+      "restaurants": [
+        {"name": "Nerua Guggenheim Bilbao", "location": "Abandoibarra Etorb., 2, 48009 Bilbo, Bizkaia"},
+        {"name": "Gure Toki", "location": "Plaza Nueva, 12, 48005 Bilbao"}
+      ],
+      "police": "Ertzaintza, Calle de la Tellagorri, 48007 Bilbao",
+      "hospital": "Hospital Universitario Basurto, Av. de Montevideo, 18, 48013 Bilbao",
+      "tips": [
+        "The Guggenheim Museum is an architectural masterpiece by Frank Gehry.",
+        "Explore the Casco Viejo for pintxos (Basque tapas).",
+        "The city has transformed from an industrial hub to a center for art and culture."
+      ]
     }
   ],
   "Sweden": [
@@ -956,6 +2918,46 @@
         "Sweden is mostly cashless; be prepared to use a card.",
         "Take advantage of the 'fika' culture (coffee and a pastry break).",
         "The metro system is an art gallery in itself."
+      ]
+    },
+     {
+      "city": "Uppsala",
+      "country": "Sweden",
+      "attractions": [
+        {"name": "Uppsala Cathedral (Domkyrka)", "location": "Domkyrkoplan, 753 10 Uppsala"},
+        {"name": "Uppsala University", "location": "Biskopsgatan 3, 753 10 Uppsala"},
+        {"name": "Gamla Uppsala (Old Uppsala)", "location": "Disavägen, 754 40 Uppsala"}
+      ],
+      "restaurants": [
+        {"name": "Hambergs Fisk", "location": "Fyristorg 8, 753 10 Uppsala"},
+        {"name": "Dryck & Mat", "location": "Gamla Torget 2, 753 20 Uppsala"}
+      ],
+      "police": "Polishuset, Svartbäcksgatan 49, 753 32 Uppsala",
+      "hospital": "Akademiska sjukhuset (Uppsala University Hospital), 751 85 Uppsala",
+      "tips": [
+        "Uppsala is Sweden's fourth-largest city and a prominent university town.",
+        "Visit the Gamla Uppsala mounds, an ancient royal burial site.",
+        "The Gustavianum museum has a unique anatomical theatre."
+      ]
+    },
+      {
+      "city": "Malmö",
+      "country": "Sweden",
+      "attractions": [
+        {"name": "Turning Torso", "location": "Lilla Varvsgatan 14, 211 15 Malmö"},
+        {"name": "Øresund Bridge", "location": "Connects Malmö and Copenhagen"},
+        {"name": "Lilla Torg", "location": "Lilla torg, 211 34 Malmö"}
+      ],
+      "restaurants": [
+        {"name": "Vollmers", "location": "Tegelgårdsgatan 5, 211 33 Malmö"},
+        {"name": "Bastard", "location": "Mäster Johansgatan 11, 211 21 Malmö"}
+      ],
+      "police": "Polishuset, Porslinsgatan 6, 211 32 Malmö",
+      "hospital": "Skåne University Hospital, Inga Marie Nilssons gata 47, 214 28 Malmö",
+      "tips": [
+        "Malmö is connected to Copenhagen, Denmark, by the Øresund Bridge.",
+        "It's a very multicultural and progressive city.",
+        "Rent a bike to explore the city and its many parks."
       ]
     }
   ],
@@ -998,6 +3000,106 @@
         "Use the Swiss Travel Pass for transport and museum entry.",
         "Swiss Francs are the local currency.",
         "Take a boat tour on Lake Geneva."
+      ]
+    },
+    {
+      "city": "Lausanne",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "The Olympic Museum", "location": "Quai d'Ouchy 1, 1006 Lausanne"},
+        {"name": "Lausanne Cathedral", "location": "Place de la Cathédrale, 1005 Lausanne"},
+        {"name": "Collection de l'Art Brut", "location": "Avenue Bergières 11, 1004 Lausanne"}
+      ],
+      "restaurants": [
+        {"name": "Anne-Sophie Pic au Beau-Rivage Palace", "location": "Place du Port 17, 1006 Lausanne"},
+        {"name": "Pinte Besson", "location": "Rue de l'Ale 4, 1003 Lausanne"}
+      ],
+      "police": "Police cantonale vaudoise, Rue de la Blécherette 101, 1014 Lausanne",
+      "hospital": "Centre Hospitalier Universitaire Vaudois (CHUV), Rue du Bugnon 46, 1011 Lausanne",
+      "tips": [
+        "Lausanne is the home of the International Olympic Committee headquarters.",
+        "The city is built on three hills, offering steep streets and great views of Lake Geneva.",
+        "Explore the scenic Lavaux vineyard terraces, a UNESCO site, just outside the city."
+      ]
+    },
+    {
+      "city": "Lugano",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Lake Lugano", "location": "Lake Lugano"},
+        {"name": "Monte San Salvatore", "location": "Monte San Salvatore, 6912 Lugano"},
+        {"name": "Parco Ciani", "location": "Viale Carlo Cattaneo, 6900 Lugano"}
+      ],
+      "restaurants": [
+        {"name": "Grotto Morchino", "location": "Via Carona 1, 6912 Pazzallo"},
+        {"name": "Ristorante Arte al Lago", "location": "Piazza Emilio Bossi 7, 6900 Lugano"}
+      ],
+      "police": "Polizia cantonale, Via Pioda 12, 6900 Lugano",
+      "hospital": "Ospedale Civico, Via Tesserete 46, 6900 Lugano",
+      "tips": [
+        "Located in the Italian-speaking canton of Ticino, Lugano has a distinct Mediterranean feel.",
+        "Take the funicular up Monte San Salvatore or Monte Brè for spectacular lake views.",
+        "Enjoy a walk along the elegant lakefront promenade."
+      ]
+    },
+    {
+      "city": "Zermatt",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Matterhorn", "location": "Matterhorn, 3920 Zermatt"},
+        {"name": "Gornergrat Railway", "location": "Bahnhofpl. 1, 3920 Zermatt"},
+        {"name": "Matterhorn Glacier Paradise", "location": "Schluhmattstrasse 28, 3920 Zermatt"}
+      ],
+      "restaurants": [
+        {"name": "Chez Vrony", "location": "Findeln, 3920 Zermatt"},
+        {"name": "Findlerhof", "location": "Findeln, 3920 Zermatt"}
+      ],
+      "police": "Kantonspolizei Wallis - Polizeiposten Zermatt, Haus Fortuna, 3920 Zermatt",
+      "hospital": "Gesundheitszentrum St. Mauritius (Health Center), Getwingstrasse 1, 3920 Zermatt",
+      "tips": [
+        "Zermatt is a car-free village; access is by train, and local transport is via electric vehicles.",
+        "It offers year-round skiing on the glacier.",
+        "The best views of the Matterhorn are often in the early morning."
+      ]
+    },
+    {
+      "city": "Bern",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Zytglogge (Clock Tower)", "location": "Bim Zytglogge 1, 3011 Bern"},
+        {"name": "Old City of Bern", "location": "Altstadt, Bern"},
+        {"name": "Rose Garden (Rosengarten)", "location": "Alter Aargauerstalden 31B, 3006 Bern"}
+      ],
+      "restaurants": [
+        {"name": "Kornhauskeller", "location": "Kornhauspl. 18, 3011 Bern"},
+        {"name": "Restaurant Rosengarten", "location": "Alter Aargauerstalden 31B, 3006 Bern"}
+      ],
+      "police": "Kantonspolizei Bern, Waisenhausplatz 32, 3011 Bern",
+      "hospital": "Inselspital, Universitätsspital Bern, Freiburgstrasse, 3010 Bern",
+      "tips": [
+        "Bern is the capital of Switzerland.",
+        "The Old City is a UNESCO World Heritage site.",
+        "You can swim in the clean Aare river during the summer."
+      ]
+    },
+    {
+      "city": "Interlaken",
+      "country": "Switzerland",
+      "attractions": [
+        {"name": "Harder Kulm", "location": "Harder Kulm, 3800 Interlaken"},
+        {"name": "Jungfraujoch - Top of Europe", "location": "3801 Fieschertal"},
+        {"name": "Lake Thun & Lake Brienz", "location": "Interlaken"}
+      ],
+      "restaurants": [
+        {"name": "Restaurant Laterne", "location": "Obere Gasse 2, 3800 Unterseen"},
+        {"name": "Husi Bierhaus", "location": "Postgasse 3, 3800 Interlaken"}
+      ],
+      "police": "Polizeiinspektorat Interlaken, Schloss 1, 3800 Interlaken",
+      "hospital": "Spital Interlaken, Weissenaustrasse 27, 3800 Unterseen",
+      "tips": [
+        "Interlaken is Europe's adventure capital, offering activities like skydiving and paragliding.",
+        "It's the main transport gateway to the mountains and lakes of the Bernese Oberland.",
+        "A boat trip on either Lake Thun or Lake Brienz is highly recommended."
       ]
     }
   ],
@@ -1124,6 +3226,246 @@
         "Explore the city's rich music history beyond The Beatles.",
         "Use the Merseyrail system to get around.",
         "The Liver Birds are a symbol of the city."
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Cardiff Castle", "location": "Castle St, Cardiff CF10 3RB"},
+        {"name": "Principality Stadium", "location": "Westgate St, Cardiff CF10 1NS"},
+        {"name": "St Fagans National Museum of History", "location": "Cardiff CF5 6XB"}
+      ],
+      "restaurants": [
+        {"name": "The Potted Pig", "location": "27 High St, Cardiff CF10 1PU"},
+        {"name": "The Clink Restaurant", "location": "HMP Cardiff, Knox Rd, Cardiff CF24 0UG"}
+      ],
+      "police": "Cardiff Central Police Station, King Edward VII Ave, Cardiff CF10 3NN",
+      "hospital": "University Hospital of Wales, Heath Park, Cardiff CF14 4XW",
+      "tips": [
+        "Cardiff is the capital of Wales.",
+        "Explore the Victorian arcades for unique independent shops.",
+        "Visit Cardiff Bay, a modern waterfront area with restaurants and attractions."
+      ]
+    },
+    {
+      "city": "Inverness",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Loch Ness", "location": "Loch Ness, near Inverness"},
+        {"name": "Urquhart Castle", "location": "Drumnadrochit, Inverness IV63 6XJ"},
+        {"name": "Culloden Battlefield", "location": "Culloden Moor, Inverness IV2 5EU"}
+      ],
+      "restaurants": [
+        {"name": "The Mustard Seed Restaurant", "location": "16 Fraser St, Inverness IV1 1DW"},
+        {"name": "Rocpool Restaurant", "location": "1 Ness Walk, Inverness IV3 5NE"}
+      ],
+      "police": "Burnett Road Police Station, Burnett Rd, Inverness IV1 1RL",
+      "hospital": "Raigmore Hospital, Old Perth Rd, Inverness IV2 3UJ",
+      "tips": [
+        "Inverness is the cultural capital of the Scottish Highlands.",
+        "It's the perfect base for exploring Loch Ness and searching for 'Nessie'.",
+        "The city is the starting and ending point of the scenic North Coast 500 driving route."
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Kelvingrove Art Gallery and Museum", "location": "Argyle St, Glasgow G3 8AG"},
+        {"name": "Glasgow Cathedral", "location": "Castle St, Glasgow G4 0QZ"},
+        {"name": "Riverside Museum", "location": "100 Pointhouse Rd, Govan, Glasgow G3 8RS"}
+      ],
+      "restaurants": [
+        {"name": "The Gannet", "location": "1155 Argyle St, Finnieston, Glasgow G3 8TB"},
+        {"name": "Ox and Finch", "location": "920 Sauchiehall St, Finnieston, Glasgow G3 7TF"}
+      ],
+      "police": "Police Scotland Headquarters, 173 Pitt Street, Glasgow G2 4JS",
+      "hospital": "Queen Elizabeth University Hospital, 1345 Govan Rd, Glasgow G51 4TF",
+      "tips": [
+        "Glasgow is famed for its vibrant music scene and friendly locals.",
+        "Explore the Victorian and Art Nouveau architecture.",
+        "The city's slogan is 'People Make Glasgow'."
+      ]
+    },
+    {
+      "city": "Belfast",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Titanic Belfast", "location": "1 Olympic Way, Queen's Road, Belfast BT3 9EP"},
+        {"name": "Crumlin Road Gaol", "location": "53-55 Crumlin Rd, Belfast BT14 6ST"},
+        {"name": "Peace Walls", "location": "Various locations, Belfast"}
+      ],
+      "restaurants": [
+        {"name": "The Muddlers Club", "location": "1 Warehouse Ln, Belfast BT1 2DX"},
+        {"name": "Deanes at Queen's", "location": "1 College Gardens, Belfast BT9 6BQ"}
+      ],
+      "police": "Police Service of Northern Ireland Headquarters, 65 Knock Rd, Belfast BT5 6LE",
+      "hospital": "Royal Victoria Hospital, 274 Grosvenor Rd, Belfast BT12 6BA",
+      "tips": [
+        "Take a Black Cab tour to learn about the city's political history.",
+        "The Titanic Belfast museum is located on the site where the ship was built.",
+        "Visit the St. George's Market for local food and crafts."
+      ]
+    },
+    {
+      "city": "Bristol",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Clifton Suspension Bridge", "location": "Bridge Rd, Leigh Woods, Bristol BS8 3PA"},
+        {"name": "SS Great Britain", "location": "Great Western Dockyard, Gas Ferry Rd, Bristol BS1 6TY"},
+        {"name": "Banksy Street Art", "location": "Various locations"}
+      ],
+      "restaurants": [
+        {"name": "Casamia", "location": "8 The General, Lower Guinea St, Bristol BS1 6FU"},
+        {"name": "The Lido", "location": "Oakfield Place, Clifton, Bristol BS8 2BJ"}
+      ],
+      "police": "Bridewell Police Station, 1-2 Bridewell St, Bristol BS1 2AA",
+      "hospital": "Bristol Royal Infirmary, Marlborough St, Bristol BS2 8HW",
+      "tips": [
+        "Bristol is the hometown of the anonymous street artist Banksy.",
+        "Explore the vibrant harbourside area.",
+        "The city has a strong independent and creative spirit."
+      ]
+    },
+    {
+      "city": "York",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "York Minster", "location": "Deangate, York YO1 7HH"},
+        {"name": "The Shambles", "location": "Shambles, York YO1 7LZ"},
+        {"name": "National Railway Museum", "location": "Leeman Rd, York YO26 4XJ"}
+      ],
+      "restaurants": [
+        {"name": "Bettys Café Tea Rooms", "location": "6-8 St. Helen's Square, York YO1 8QP"},
+        {"name": "The Star Inn the City", "location": "Lendal Engine House, Museum St, York YO1 7DR"}
+      ],
+      "police": "Fulford Road Police Station, Fulford Rd, York YO10 4BY",
+      "hospital": "York Hospital, Wigginton Rd, York YO31 8HE",
+      "tips": [
+        "Walk the complete circuit of the medieval city walls.",
+        "The Shambles is a historic street, believed to be the inspiration for Diagon Alley.",
+        "Having afternoon tea at Bettys is a classic York experience."
+      ]
+    },
+    {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Roman Baths", "location": "Abbey Churchyard, Bath BA1 1LZ"},
+        {"name": "Royal Crescent", "location": "Royal Crescent, Bath BA1 2LS"},
+        {"name": "Thermae Bath Spa", "location": "The Hetling Pump Room, Hot Bath St, Bath BA1 1SJ"}
+      ],
+      "restaurants": [
+        {"name": "The Circus Restaurant", "location": "34 Brock St, Bath BA1 2LN"},
+        {"name": "The Pump Room Restaurant", "location": "Stall St, Bath BA1 1LZ"}
+      ],
+      "police": "Manvers Street Police Station, Manvers St, Bath BA1 1JZ",
+      "hospital": "Royal United Hospital, Combe Park, Bath BA1 3NG",
+      "tips": [
+        "The entire city is a UNESCO World Heritage site.",
+        "Visit the Thermae Bath Spa to bathe in naturally hot spa water.",
+        "Bath is famous for its elegant Georgian architecture."
+      ]
+    },
+    {
+      "city": "Cambridge",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "King's College Chapel", "location": "King's Parade, Cambridge CB2 1ST"},
+        {"name": "Punting on the River Cam", "location": "Various locations on the River Cam"},
+        {"name": "The Fitzwilliam Museum", "location": "Trumpington St, Cambridge CB2 1RB"}
+      ],
+      "restaurants": [
+        {"name": "Midsummer House", "location": "Midsummer Common, Cambridge CB4 1HA"},
+        {"name": "Fitzbillies", "location": "51-52 Trumpington St, Cambridge CB2 1RG"}
+      ],
+      "police": "Parkside Police Station, Parkside, Cambridge CB1 1JG",
+      "hospital": "Addenbrooke's Hospital, Hills Rd, Cambridge CB2 0QQ",
+      "tips": [
+        "Punting (boating with a long pole) is the quintessential Cambridge activity.",
+        "Explore the grounds of the historic university colleges.",
+        "Try a Chelsea Bun from Fitzbillies bakery."
+      ]
+    },
+    {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Bodleian Library", "location": "Broad St, Oxford OX1 3BG"},
+        {"name": "Christ Church College", "location": "St Aldate's, Oxford OX1 1DP"},
+        {"name": "Pitt Rivers Museum", "location": "South Parks Rd, Oxford OX1 3PP"}
+      ],
+      "restaurants": [
+        {"name": "Le Manoir aux Quat'Saisons", "location": "Church Rd, Great Milton, Oxford OX44 7PD"},
+        {"name": "The Turf Tavern", "location": "4-5 Bath Pl, Oxford OX1 3SU"}
+      ],
+      "police": "St Aldate's Police Station, St Aldate's, Oxford OX1 1SZ",
+      "hospital": "John Radcliffe Hospital, Headley Way, Headington, Oxford OX3 9DU",
+      "tips": [
+        "Many Harry Potter filming locations can be found in the university buildings.",
+        "Climb Carfax Tower for a central view of the 'dreaming spires'.",
+        "The city is best explored on foot or by bicycle."
+      ]
+    },
+    {
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Canterbury Cathedral", "location": "Cathedral House, 11 The Precincts, Canterbury CT1 2EH"},
+        {"name": "The Canterbury Tales", "location": "St Margaret's St, Canterbury CT1 2TG"},
+        {"name": "St Augustine's Abbey", "location": "Longport, Canterbury CT1 1PF"}
+      ],
+      "restaurants": [
+        {"name": "The Goods Shed", "location": "Station Rd W, Canterbury CT2 8AN"},
+        {"name": "The Fordwich Arms", "location": "King St, Fordwich, Canterbury CT2 0DB"}
+      ],
+      "police": "Canterbury Police Station, Old Dover Rd, Canterbury CT1 3JQ",
+      "hospital": "Kent and Canterbury Hospital, Ethelbert Rd, Canterbury CT1 3NG",
+      "tips": [
+        "Canterbury Cathedral is the headquarters of the Church of England.",
+        "The city is a UNESCO World Heritage Site.",
+        "Take a punt along the River Stour for a relaxing view of the city."
+      ]
+    },
+    {
+      "city": "Brighton",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Royal Pavilion", "location": "4/5 Pavilion Buildings, Brighton BN1 1EE"},
+        {"name": "Brighton Palace Pier", "location": "Madeira Dr, Brighton BN2 1TW"},
+        {"name": "The Lanes", "location": "The Lanes, Brighton"}
+      ],
+      "restaurants": [
+        {"name": "The Salt Room", "location": "106 King's Rd, Brighton BN1 2FU"},
+        {"name": "The Coal Shed", "location": "8 Boyce's St, Brighton BN1 1AN"}
+      ],
+      "police": "John Street Police Station, John St, Brighton BN2 0LA",
+      "hospital": "Royal Sussex County Hospital, Eastern Rd, Brighton BN2 5BE",
+      "tips": [
+        "Brighton is a vibrant and famously liberal seaside resort city.",
+        "Explore the narrow, twisting alleyways of The Lanes for independent shops and boutiques.",
+        "The Royal Pavilion is an exotic, Indian-inspired former royal residence."
+      ]
+    },
+    {
+      "city": "St Andrews",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Old Course at St Andrews", "location": "St Andrews KY16 9SF"},
+        {"name": "St Andrews Cathedral", "location": "The Pends, St Andrews KY16 9QL"},
+        {"name": "University of St Andrews", "location": "St Andrews KY16 9AJ"}
+      ],
+      "restaurants": [
+        {"name": "The Peat Inn", "location": "Peat Inn, Cupar KY15 5LH"},
+        {"name": "Forgan's", "location": "110 Market St, St Andrews KY16 9PB"}
+      ],
+      "police": "St Andrews Police Station, 68 Pipeland Rd, St Andrews KY16 8YF",
+      "hospital": "St Andrews Community Hospital, Largo Rd, St Andrews KY16 8AR",
+      "tips": [
+        "St Andrews is known worldwide as the 'Home of Golf'.",
+        "It is home to Scotland's oldest university.",
+        "Walk along West Sands beach, famous for the opening scenes of the film 'Chariots of Fire'."
       ]
     }
   ]
