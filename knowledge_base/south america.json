@@ -1,0 +1,975 @@
+{
+    "Total_South_American_Cities": 50,
+    "South_America": {
+        "Argentina": {
+            "Buenos Aires": {
+                "attractions": [
+                    {"name": "Recoleta Cemetery", "address": "Junín 1760, CABA"},
+                    {"name": "Teatro Colón", "address": "Cerrito 628, CABA"},
+                    {"name": "La Boca & Caminito", "address": "La Boca, CABA"}
+                ],
+                "restaurants": [
+                    {"name": "Don Julio (Steakhouse)", "address": "Guatemala 4691, CABA"},
+                    {"name": "El Ateneo Grand Splendid (Café)", "address": "Av. Santa Fe 1860, CABA"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital General de Agudos José María Ramos Mejía", "address": "Gral. Urquiza 609, CABA"}
+                ],
+                "tips": [
+                    "Use 'Radio Taxi' or apps for cabs; street taxis can pose a risk. Be aware of pickpockets, especially on crowded subways/buses (Subtes/Colectivos).",
+                    "Carry a copy of your passport and leave the original in a safe place."
+                ]
+            },
+            "Córdoba": {
+                "attractions": [
+                    {"name": "Jesuit Block and Estancias (UNESCO)", "address": "Historic Center, Córdoba"},
+                    {"name": "Catedral de Córdoba", "address": "Independencia 80, Córdoba"}
+                ],
+                "restaurants": [
+                    {"name": "El Papagayo", "address": "Arturo M. Bas 290, Córdoba"},
+                    {"name": "Capitán", "address": "Bv. Chacabuco 600, Córdoba"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital San Roque", "address": "Rosario de Santa Fe 374, Córdoba"}
+                ],
+                "tips": [
+                    "Explore the city's historic universities and student life.",
+                    "Enjoy the local *alfajores* (sweet biscuits) and regional *empanadas*."
+                ]
+            },
+            "Mendoza": {
+                "attractions": [
+                    {"name": "Wine Tours (Malbec Wineries)", "address": "Luján de Cuyo & Uco Valley"},
+                    {"name": "Aconcagua Provincial Park", "address": "Las Heras, Mendoza (day trip)"}
+                ],
+                "restaurants": [
+                    {"name": "Siete Fuegos by Francis Mallmann", "address": "The Vines Resort & Spa (Uco Valley)"},
+                    {"name": "Azafrán", "address": "Sarmiento 765, Mendoza"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital Central de Mendoza", "address": "Av. Alem 900, Mendoza"}
+                ],
+                "tips": [
+                    "Rent a bicycle to tour the Maipú wine region independently.",
+                    "Dress in layers for the 'High Mountain Tour' as temperatures change rapidly near the Andes."
+                ]
+            },
+            "Rosario": {
+                "attractions": [
+                    {"name": "National Flag Memorial (Monumento a la Bandera)", "address": "Santa Fe Province"},
+                    {"name": "Parque de la Independencia", "address": "Rosario, Santa Fe Province"}
+                ],
+                "restaurants": [
+                    {"name": "El Cairo Bar", "address": "Sarmiento 701, Rosario"},
+                    {"name": "Escauriza", "address": "Av. Belgrano 541, Rosario"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital Provincial del Centenario", "address": "Urquiza 3100, Rosario"}
+                ],
+                "tips": [
+                    "Rosario is famous for being the birthplace of Lionel Messi and Che Guevara.",
+                    "Enjoy a stroll along the Paraná River promenade."
+                ]
+            },
+            "Mar del Plata": {
+                "attractions": [
+                    {"name": "Playa Grande", "address": "Mar del Plata, Buenos Aires Province"},
+                    {"name": "Torreón del Monje", "address": "Bv. Marítimo P. Peralta Ramos 2200"}
+                ],
+                "restaurants": [
+                    {"name": "Manolo (Churros)", "address": "Rivadavia 2371, Mar del Plata"},
+                    {"name": "Lo de Tata", "address": "Av. Constitución 4099, Mar del Plata"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital Interzonal General de Agudos (HIGA)", "address": "Av. Juan B. Justo 6701"}
+                ],
+                "tips": [
+                    "The city is a major summer beach destination, extremely crowded from December to February.",
+                    "Seafood is the local specialty here."
+                ]
+            },
+            "Salta": {
+                "attractions": [
+                    {"name": "Cerro San Bernardo (Cable Car)", "address": "Salta, Salta Province"},
+                    {"name": "Museo de Arqueología de Alta Montaña (MAAM)", "address": "Mitre 77"}
+                ],
+                "restaurants": [
+                    {"name": "Doña Salta", "address": "Córdoba 46"},
+                    {"name": "Peña Balderrama", "address": "Av. San Martín 1126"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "911", "notes": "Call 911 for all emergencies."},
+                    {"type": "Hospital", "name": "Hospital San Bernardo", "address": "Av. Sarmiento 1301"}
+                ],
+                "tips": [
+                    "Explore the Quebrada de Humahuaca day trip for stunning colored mountains.",
+                    "Salta is known for its folklore music (Peñas) and crisp white Torrontés wine."
+                ]
+            },
+            "Ushuaia": {
+                "attractions": [
+                    {"name": "Tierra del Fuego National Park", "address": "Ushuaia, Tierra del Fuego"},
+                    {"name": "Museo del Fin del Mundo (End of the World Museum)", "address": "Rivadavia 452"}
+                ],
+                "restaurants": [
+                    {"name": "El Viejo Marino (King Crab)", "address": "Av. Maipú 1599"},
+                    {"name": "Ramos Generales", "address": "Av. Maipú 749"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "101", "notes": "Local police emergency number."},
+                    {"type": "Hospital", "name": "Hospital Regional Ushuaia", "address": "Av. 12 de Octubre 1341"}
+                ],
+                "tips": [
+                    "This is the world's southernmost city; prepare for cold, unpredictable weather, even in summer.",
+                    "Ushuaia is the departure point for cruises to Antarctica."
+                ]
+            },
+            "El Calafate": {
+                "attractions": [
+                    {"name": "Perito Moreno Glacier", "address": "Los Glaciares National Park"},
+                    {"name": "Glaciarium (Ice Museum)", "address": "Ruta Provincial 11"}
+                ],
+                "restaurants": [
+                    {"name": "La Tablita (Patagonian Lamb)", "address": "Coronel Rosales 24"}
+                ],
+                "emergency": [
+                    {"type": "Police (General)", "number": "101", "notes": "Local police emergency number."},
+                    {"type": "Hospital", "name": "Hospital José Formenti", "address": "Av. Julio Argentino Roca 2451"}
+                ],
+                "tips": [
+                    "The best way to see the Perito Moreno Glacier is a boat tour or a 'minitrekking' ice walk.",
+                    "Strong winds are common; layers are essential."
+                ]
+            }
+        },
+        "Bolivia": {
+            "La Paz": {
+                "attractions": [
+                    {"name": "Mi Teleférico (Cable Car)", "address": "Multiple stations"},
+                    {"name": "Witches' Market (Mercado de las Brujas)", "address": "Calle Linares"},
+                    {"name": "Valle de la Luna", "address": "Mallasa, La Paz"}
+                ],
+                "restaurants": [
+                    {"name": "Gustu", "address": "Calle 10 300, Zona Sur"},
+                    {"name": "Mercado de Comida Callejera (Street Food Market)", "address": "Calle Illampu"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "110"},
+                    {"type": "Ambulance", "number": "160"},
+                    {"type": "Hospital", "name": "Hospital General Miraflores", "address": "Av. Saavedra 2246"}
+                ],
+                "tips": [
+                    "Hydrate constantly and take it slow to adjust to the high altitude (approx. 3,640m).",
+                    "Do not photograph police or military buildings."
+                ]
+            },
+            "Sucre": {
+                "attractions": [
+                    {"name": "Casa de la Libertad", "address": "Plaza 25 de Mayo"},
+                    {"name": "Mirador de la Recoleta", "address": "Barrio La Recoleta"}
+                ],
+                "restaurants": [
+                    {"name": "El Solar de la Abuela", "address": "C. Bolívar 651"},
+                    {"name": "Pencoas (Salteñas)", "address": "C. Potosí 152"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "110"},
+                    {"type": "Ambulance", "number": "160"},
+                    {"type": "Hospital", "name": "Hospital Santa Bárbara", "address": "C. Calvo 605"}
+                ],
+                "tips": [
+                    "Sucre is Bolivia's constitutional capital and known for its colonial white architecture.",
+                    "Try the local *salteñas* (baked savory pastry) for breakfast."
+                ]
+            },
+            "Santa Cruz de la Sierra": {
+                "attractions": [
+                    {"name": "Plaza 24 de Septiembre", "address": "Historic Center"},
+                    {"name": "Lomas de Arena (Sand Dunes)", "address": "Santa Cruz"}
+                ],
+                "restaurants": [
+                    {"name": "La Casa del Camba", "address": "Av. Cristobal de Mendoza 548"},
+                    {"name": "El Aljibe", "address": "Av. Cristo Redentor"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "110"},
+                    {"type": "Ambulance", "number": "160"},
+                    {"type": "Hospital", "name": "Hospital Japonés", "address": "Av. G-77"}
+                ],
+                "tips": [
+                    "The climate is tropical, contrasting with the high altitude of La Paz.",
+                    "Santa Cruz is Bolivia's economic hub; it has a more modern, commercial feel."
+                ]
+            }
+        },
+        "Brazil": {
+            "Rio de Janeiro": {
+                "attractions": [
+                    {"name": "Christ the Redeemer (Cristo Redentor)", "address": "Parque Nacional da Tijuca"},
+                    {"name": "Sugarloaf Mountain (Pão de Açúcar)", "address": "Urca"},
+                    {"name": "Copacabana & Ipanema Beaches", "address": "Zona Sul"}
+                ],
+                "restaurants": [
+                    {"name": "Churrascaria Palace", "address": "Rua Rodolfo Dantas, 16, Copacabana"},
+                    {"name": "Aprazível", "address": "Rua Aprazível, 62, Santa Teresa"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Tourist Police (DEAT)", "address": "Av. Afranio de Melo Franco, Leblon"}
+                ],
+                "tips": [
+                    "Avoid carrying valuables on Copacabana and Ipanema beaches.",
+                    "Taxis/apps are recommended at night; public transport is extensive but requires caution."
+                ]
+            },
+            "São Paulo": {
+                "attractions": [
+                    {"name": "Avenida Paulista", "address": "Avenida Paulista"},
+                    {"name": "Ibirapuera Park", "address": "Av. Pedro Álvares Cabral"},
+                    {"name": "MASP (Museum of Art of São Paulo)", "address": "Av. Paulista 1578"}
+                ],
+                "restaurants": [
+                    {"name": "D.O.M. (Fine Dining)", "address": "R. Barão de Capanema, 549, Jardins"},
+                    {"name": "Mercado Municipal de São Paulo", "address": "Rua da Cantareira, 306"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Sírio-Libanês", "address": "Rua Dona Adma Jafet, 91"}
+                ],
+                "tips": [
+                    "São Paulo is vast; plan transport carefully, as traffic is notorious. The metro is very efficient.",
+                    "It is the country’s gastronomic capital; try a *rodízio* pizza."
+                ]
+            },
+            "Salvador": {
+                "attractions": [
+                    {"name": "Pelourinho (Historic Center)", "address": "Salvador, Bahia"},
+                    {"name": "Elevador Lacerda", "address": "Praça Tomé de Souza"}
+                ],
+                "restaurants": [
+                    {"name": "Acarajé da Cira (Street Food)", "address": "Rio Vermelho"},
+                    {"name": "Restaurante Amado", "address": "Av. Lafayete Coutinho 660"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Geral do Estado (HGE)", "address": "Av. Vasco da Gama"}
+                ],
+                "tips": [
+                    "Salvador is the heart of Afro-Brazilian culture. Try *Acarajé* and local Baiana cuisine.",
+                    "Be highly aware of your surroundings, especially in the Lower City (*Cidade Baixa*)."
+                ]
+            },
+            "Brasília": {
+                "attractions": [
+                    {"name": "Plano Piloto (Architectural Tour)", "address": "Brasília, DF"},
+                    {"name": "Cathedral of Brasília", "address": "Eixo Monumental"}
+                ],
+                "restaurants": [
+                    {"name": "Restaurante Mangai", "address": "Setor de Clubes Esportivos Sul"},
+                    {"name": "Coco Bambu", "address": "Setor de Clubes Esportivos Sul"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital de Base do DF", "address": "Asa Sul"}
+                ],
+                "tips": [
+                    "The city is divided into numbered sectors (quadras); addresses can be confusing.",
+                    "Brasília is spread out; taxis or rideshares are necessary to see the major sites."
+                ]
+            },
+            "Manaus": {
+                "attractions": [
+                    {"name": "Amazon Theatre (Teatro Amazonas)", "address": "Largo de São Sebastião"},
+                    {"name": "Meeting of Waters (Encontro das Águas)", "address": "Amazon River"},
+                    {"name": "Adolpho Lisboa Market", "address": "Av. Eduardo Ribeiro"}
+                ],
+                "restaurants": [
+                    {"name": "Tambaqui de Banda", "address": "Rua José Clemente 155"},
+                    {"name": "Caxiri Manaus (Amazonian Cuisine)", "address": "Rua 10 de Julho 495"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Universitário Getúlio Vargas", "address": "Av. Joaquim Nabuco 1316"}
+                ],
+                "tips": [
+                    "Manaus is the gateway to the Amazon. Book jungle tours with reputable operators.",
+                    "Be mindful of pickpockets in busy areas like the port and market."
+                ]
+            },
+            "Recife": {
+                "attractions": [
+                    {"name": "Recife Antigo (Old Town)", "address": "Recife, Pernambuco"},
+                    {"name": "Porto de Galinhas (nearby beach resort)", "address": "Ipojuca"}
+                ],
+                "restaurants": [
+                    {"name": "Parraxaxá", "address": "Rua Igarassu 108"},
+                    {"name": "Boi Preto Grill", "address": "Av. Boa Viagem 1432"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital da Restauração", "address": "Derby"}
+                ],
+                "tips": [
+                    "Recife is nicknamed the 'Venice of Brazil' for its waterways and bridges.",
+                    "Be cautious of shark warnings and adhere to local beach safety rules."
+                ]
+            },
+            "Fortaleza": {
+                "attractions": [
+                    {"name": "Beach Park (Water Park)", "address": "Aquiraz, Ceará (outside the city)"},
+                    {"name": "Praia de Iracema", "address": "Fortaleza, Ceará"}
+                ],
+                "restaurants": [
+                    {"name": "Chico do Caranguejo", "address": "Av. Zezé Diogo 4930"},
+                    {"name": "Colosso Fortaleza", "address": "Av. Hermenegildo Barroso 1400"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Geral de Fortaleza (HGF)", "address": "Rua Ávila Goulart 900"}
+                ],
+                "tips": [
+                    "Fortaleza is known for its vibrant nightlife and *forró* music.",
+                    "Book a buggy tour to explore the sand dunes outside the city."
+                ]
+            },
+            "Belo Horizonte": {
+                "attractions": [
+                    {"name": "Pampulha Modern Ensemble (UNESCO)", "address": "Av. Otacílio Negrão de Lima"},
+                    {"name": "Praça da Liberdade (Liberty Square)", "address": "Belo Horizonte, MG"}
+                ],
+                "restaurants": [
+                    {"name": "Xapuri (Mineira Cuisine)", "address": "Rua Mandacaru 260"},
+                    {"name": "Glouton", "address": "Rua Bárbara Heliodora 59"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Felicio Rocho", "address": "R. dos Granjeiros 125"}
+                ],
+                "tips": [
+                    "BH is the capital of Minas Gerais state, known for its unique *mineira* food.",
+                    "The city has an excellent 'boteco' (bar) culture; it is famous for its beer."
+                ]
+            },
+            "Curitiba": {
+                "attractions": [
+                    {"name": "Jardim Botânico de Curitiba", "address": "Av. Professor Lothario Meissner 632"},
+                    {"name": "Ópera de Arame (Wire Opera House)", "address": "Rua João Gava 970"}
+                ],
+                "restaurants": [
+                    {"name": "Madalosso", "address": "Av. Manoel Ribas 5875 (Italian family style)"},
+                    {"name": "Bar do Alemão", "address": "Rua Dr. Claudino dos Santos 63"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital de Clínicas da UFPR", "address": "Rua General Carneiro 181"}
+                ],
+                "tips": [
+                    "Curitiba is known for its high quality of life and innovative public transport (Bus Rapid Transit).",
+                    "Take the scenic Serra Verde Express train ride to Morretes."
+                ]
+            },
+            "Porto Alegre": {
+                "attractions": [
+                    {"name": "Usina do Gasômetro (Gasometer Plant)", "address": "Av. Presidente João Goulart 551"},
+                    {"name": "Mercado Público de Porto Alegre", "address": "Largo Glênio Peres"}
+                ],
+                "restaurants": [
+                    {"name": "Churrascaria Galpão Crioulo", "address": "Av. Loureiro da Silva 255"},
+                    {"name": "Barranco", "address": "Av. Protásio Alves 1576"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Santa Casa de Misericórdia", "address": "Rua Professor Annes Dias 285"}
+                ],
+                "tips": [
+                    "Porto Alegre is the capital of Rio Grande do Sul, known for its Gaucho culture and traditions.",
+                    "Enjoy the sunset over the Guaíba River."
+                ]
+            },
+            "Florianópolis": {
+                "attractions": [
+                    {"name": "Lagoa da Conceição", "address": "Florianópolis, SC"},
+                    {"name": "Praia Mole & Praia da Joaquina (Surfing)", "address": "Florianópolis, SC"}
+                ],
+                "restaurants": [
+                    {"name": "Ostradamus (Oysters)", "address": "Rodovia Baldicero Filomeno 7644"},
+                    {"name": "Restaurante Rosso", "address": "Santo Antônio de Lisboa"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Universitário UFSC", "address": "Rua Professora Maria Flora Pausewang"}
+                ],
+                "tips": [
+                    "Known as 'Ilha da Magia' (Magic Island), it's a paradise for surfers and beach lovers.",
+                    "You will need a car or ride-share to explore the various beaches on the island."
+                ]
+            },
+            "Natal": {
+                "attractions": [
+                    {"name": "Morro do Careca (Dune)", "address": "Ponta Negra Beach"},
+                    {"name": "Forte dos Reis Magos (Three Wise Men Fort)", "address": "Av. Presidente Café Filho"}
+                ],
+                "restaurants": [
+                    {"name": "Camarões Potiguar (Shrimp)", "address": "Av. Eng. Roberto Freire 2616"},
+                    {"name": "Tapiocaria da Vó", "address": "Praça Pedro Velho"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "190"},
+                    {"type": "Ambulance (SAMU)", "number": "192"},
+                    {"type": "Hospital", "name": "Hospital Walfredo Gurgel", "address": "Av. Prudente de Morais 2500"}
+                ],
+                "tips": [
+                    "Natal is near the world's largest cashew tree.",
+                    "The city's biggest beach is Ponta Negra, which has great dining options."
+                ]
+            }
+        },
+        "Chile": {
+            "Santiago": {
+                "attractions": [
+                    {"name": "Cerro San Cristóbal (Metropolitan Park)", "address": "Pío Nono 450, Providencia"},
+                    {"name": "Plaza de Armas", "address": "Historic Center"},
+                    {"name": "Museo Chileno de Arte Precolombino", "address": "Bandera 361"}
+                ],
+                "restaurants": [
+                    {"name": "Bocanáriz (Wine Bar)", "address": "José Victorino Lastarria 276"},
+                    {"name": "Boragó (Fine Dining)", "address": "Av. San Josemaría Escrivá de Balaguer 5970"}
+                ],
+                "emergency": [
+                    {"type": "Police (Carabineros)", "number": "133"},
+                    {"type": "Ambulance", "number": "131"},
+                    {"type": "Hospital", "name": "Clínica Alemana", "address": "Av. Vitacura 5951, Vitacura"}
+                ],
+                "tips": [
+                    "The city has excellent metro system; buy a Bip! card.",
+                    "Chilean wine is world-renowned; take a day trip to the Casablanca Valley or Maipo Valley."
+                ]
+            },
+            "Valparaíso": {
+                "attractions": [
+                    {"name": "Cerro Alegre & Cerro Concepción (Street Art)", "address": "Valparaíso Hills"},
+                    {"name": "La Sebastiana (Pablo Neruda's House)", "address": "Ferrari 692, Cerro Florida"}
+                ],
+                "restaurants": [
+                    {"name": "Fauna (Rooftop Bar)", "address": "Pasaje Rudolf 168"},
+                    {"name": "Porto Viejo", "address": "Cochrane 885"}
+                ],
+                "emergency": [
+                    {"type": "Police (Carabineros)", "number": "133"},
+                    {"type": "Ambulance", "number": "131"},
+                    {"type": "Hospital", "name": "Hospital Carlos Van Buren", "address": "San Ignacio 325"}
+                ],
+                "tips": [
+                    "Ride the historic *ascensores* (funiculars) for scenic views.",
+                    "Try *Chorrillana*, a local dish of fries, meat, and eggs."
+                ]
+            },
+            "Viña del Mar": {
+                "attractions": [
+                    {"name": "Reloj de Flores (Flower Clock)", "address": "Av. España"},
+                    {"name": "Quinta Vergara", "address": "Viña del Mar, Valparaíso Region"}
+                ],
+                "restaurants": [
+                    {"name": "Fattoria", "address": "Av. San Martín 450"},
+                    {"name": "Donde Willy", "address": "Av. San Martín 594"}
+                ],
+                "emergency": [
+                    {"type": "Police (Carabineros)", "number": "133"},
+                    {"type": "Ambulance", "number": "131"},
+                    {"type": "Hospital", "name": "Hospital Naval Almirante Nef", "address": "Las Salinas"}
+                ],
+                "tips": [
+                    "Viña is the more affluent, beach-oriented neighbor of Valparaíso.",
+                    "Enjoy the beaches like Reñaca, but swimming can be restricted due to cold water/currents."
+                ]
+            },
+            "Puerto Montt": {
+                "attractions": [
+                    {"name": "Angelmo Market (Seafood & Crafts)", "address": "Puerto Montt, Los Lagos"},
+                    {"name": "Pérez Rosales National Park (Vicente Pérez Rosales)", "address": "Ensenada (day trip)"}
+                ],
+                "restaurants": [
+                    {"name": "Pa' Mar Adentro", "address": "Angelmo"},
+                    {"name": "El Fogón de Pepe", "address": "Juan Soler Manfredini 114"}
+                ],
+                "emergency": [
+                    {"type": "Police (Carabineros)", "number": "133"},
+                    {"type": "Ambulance", "number": "131"},
+                    {"type": "Hospital", "name": "Hospital Puerto Montt", "address": "Av. Presidente Ibáñez 600"}
+                ],
+                "tips": [
+                    "This is the starting point for exploring Chile's Lake District and Patagonia.",
+                    "The local specialty is *curanto*, a traditional seafood and meat stew cooked in a pit."
+                ]
+            },
+            "San Pedro de Atacama": {
+                "attractions": [
+                    {"name": "Valle de la Luna (Moon Valley)", "address": "Atacama Desert"},
+                    {"name": "El Tatio Geysers", "address": "Andes Mountains (very early morning trip)"}
+                ],
+                "restaurants": [
+                    {"name": "La Estaka", "address": "Caracoles 168"},
+                    {"name": "Restaurante Adobe", "address": "Caracoles 211"}
+                ],
+                "emergency": [
+                    {"type": "Police (Carabineros)", "number": "133"},
+                    {"type": "Ambulance", "number": "131"},
+                    {"type": "Medical Post", "name": "Posta de San Pedro de Atacama", "address": "Gustavo Le Paige 411"}
+                ],
+                "tips": [
+                    "Altitude sickness is a risk; acclimatize slowly and stay hydrated.",
+                    "It is one of the best stargazing spots on earth; book an astronomical tour."
+                ]
+            }
+        },
+        "Colombia": {
+            "Bogotá": {
+                "attractions": [
+                    {"name": "Monserrate Hill", "address": "Carrera 2 Este No. 21-48"},
+                    {"name": "La Candelaria (Historic Center)", "address": "Bogotá, Cundinamarca"},
+                    {"name": "Museo del Oro (Gold Museum)", "address": "Carrera 6 No. 15-88"}
+                ],
+                "restaurants": [
+                    {"name": "Andrés Carne de Res (Chia location is famous)", "address": "Calle 82 # 12-21"},
+                    {"name": "La Puerta Falsa (Ajiaco/Tamal)", "address": "Cl. 11 #6-50"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Fundación Santa Fe de Bogotá", "address": "Carrera 7 No. 117-15"}
+                ],
+                "tips": [
+                    "Try the local specialty *Ajiaco* (potato and chicken soup).",
+                    "Security varies by neighborhood; be cautious in crowded areas and use taxis/apps at night."
+                ]
+            },
+            "Medellín": {
+                "attractions": [
+                    {"name": "Comuna 13 (Graffiti Tour)", "address": "Medellín, Antioquia"},
+                    {"name": "Plaza Botero", "address": "Carrera 52 #51-01"},
+                    {"name": "MetroCable System", "address": "Multiple stations"}
+                ],
+                "restaurants": [
+                    {"name": "El Cielo (Fine Dining)", "address": "Carrera 40 #10A-22"},
+                    {"name": "Mondongo's (Bandeja Paisa)", "address": "Carrera 70 # Circular 3-47"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Hospital General de Medellín", "address": "Carrera 48 #34-51"}
+                ],
+                "tips": [
+                    "Known as the 'City of Eternal Spring' for its pleasant climate.",
+                    "Take the MetroCable for stunning views and to understand the city's transformation and urban planning."
+                ]
+            },
+            "Cartagena": {
+                "attractions": [
+                    {"name": "Walled City (Ciudad Amurallada)", "address": "Historic Center, Cartagena"},
+                    {"name": "Castillo San Felipe de Barajas", "address": "Cartagena, Bolívar"}
+                ],
+                "restaurants": [
+                    {"name": "La Vitrola", "address": "Cl. 33 # 2-01"},
+                    {"name": "Cevichería Donde Cebo", "address": "Cl. 39 #9-39, Manga"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Clínica Cartagena del Mar", "address": "Cl. 33 #62-115"}
+                ],
+                "tips": [
+                    "The Walled City is best explored in the early morning or evening to avoid the intense heat.",
+                    "Street vendors can be persistent; a polite 'No, gracias' is usually sufficient."
+                ]
+            },
+            "Cali": {
+                "attractions": [
+                    {"name": "Cristo Rey Statue", "address": "Cerro de Los Cristales"},
+                    {"name": "Barrio San Antonio (Colonial Architecture)", "address": "Cali, Valle del Cauca"}
+                ],
+                "restaurants": [
+                    {"name": "Platillos Voladores", "address": "Av. 3 Nte. #7-77"},
+                    {"name": "Fronteras del Mar", "address": "Cl. 10 #23"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Hospital Universitario del Valle", "address": "Carrera 66 #30-05"}
+                ],
+                "tips": [
+                    "Cali is the world capital of Salsa; take a dance lesson or visit a *salsateca*.",
+                    "Try the local drink *cholado* (fruit, syrup, and crushed ice)."
+                ]
+            },
+            "Barranquilla": {
+                "attractions": [
+                    {"name": "Barranquilla Carnival Museum", "address": "Carrera 54 #49B-39"},
+                    {"name": "Malecon Puerta de Oro (Promenade)", "address": "Avenida del Río"}
+                ],
+                "restaurants": [
+                    {"name": "Narcobollo", "address": "Cl. 70 #47-75"},
+                    {"name": "La Cueva", "address": "Carrera 43 #59-03"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Clínica General del Norte", "address": "Cl. 70 #49"}
+                ],
+                "tips": [
+                    "Visit during Carnival (February/March) for the largest street party in Colombia.",
+                    "The city is hot and humid; dress in light clothing."
+                ]
+            },
+            "Santa Marta": {
+                "attractions": [
+                    {"name": "Tayrona National Natural Park (nearby)", "address": "Tayrona"},
+                    {"name": "Quinta de San Pedro Alejandrino", "address": "Av. del Libertador"}
+                ],
+                "restaurants": [
+                    {"name": "Ouzo Restaurante", "address": "Cl. 19 #3-03"},
+                    {"name": "Lulo", "address": "Cl. 19 # 3-45"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "123"},
+                    {"type": "Hospital", "name": "Clínica Avidanti", "address": "Cra. 19 #28-84"}
+                ],
+                "tips": [
+                    "This is the oldest surviving city in Colombia, located on the Caribbean coast.",
+                    "Use local buses (*colectivos*) to reach nearby beaches and Tayrona Park."
+                ]
+            }
+        },
+        "Ecuador": {
+            "Quito": {
+                "attractions": [
+                    {"name": "TeleferiQo (Cable Car)", "address": "Av. Occidental"},
+                    {"name": "Historic Center (UNESCO)", "address": "Quito, Pichincha"},
+                    {"name": "La Basílica del Voto Nacional", "address": "Carchi, Quito"}
+                ],
+                "restaurants": [
+                    {"name": "Zazu", "address": "Mariano Aguilera 331"},
+                    {"name": "Pim's Panecillo", "address": "Panecillo Hill"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Vozandes", "address": "Av. 10 de Agosto N39-167"}
+                ],
+                "tips": [
+                    "The city is at high altitude (2,850m); take time to acclimatize and avoid strenuous activity immediately.",
+                    "The Historic Center is very safe during the day, but use taxis at night."
+                ]
+            },
+            "Guayaquil": {
+                "attractions": [
+                    {"name": "Malecón 2000 (Waterfront Promenade)", "address": "Av. Malecón"},
+                    {"name": "Cerro Santa Ana & Las Peñas", "address": "Guayaquil, Guayas"},
+                    {"name": "Parque de las Iguanas", "address": "Chile y 10 de Agosto"}
+                ],
+                "restaurants": [
+                    {"name": "Carbón de Palo", "address": "Av. Principal"},
+                    {"name": "Lo Nuestro", "address": "Victor Emilio Estrada 908"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Guayaquil", "address": "Av. Julián Coronel"}
+                ],
+                "tips": [
+                    "Guayaquil is hotter and more tropical than Quito. It's the economic hub.",
+                    "Be mindful of petty crime, especially on public buses and in crowded markets."
+                ]
+            },
+            "Cuenca": {
+                "attractions": [
+                    {"name": "Catedral de la Inmaculada Concepción", "address": "Parque Calderón"},
+                    {"name": "Museo del Sombrero (Panama Hats)", "address": "Calle Eloy Alfaro 12-89"}
+                ],
+                "restaurants": [
+                    {"name": "Tiesto's", "address": "Juan Jaramillo 4-89"},
+                    {"name": "Café Eucalyptus", "address": "Gran Colombia 9-41"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Regional Vicente Corral Moscoso", "address": "Av. 12 de Abril"}
+                ],
+                "tips": [
+                    "The city is known for its beautiful colonial architecture and large expatriate community.",
+                    "Cuenca is a great base for day trips to Cajas National Park."
+                ]
+            },
+            "Montañita": {
+                "attractions": [
+                    {"name": "Montañita Beach (Surfing)", "address": "Montañita, Santa Elena"},
+                    {"name": "Nightlife on 'Cocktail Street'", "address": "Montañita Center"}
+                ],
+                "restaurants": [
+                    {"name": "Tiki Limbo", "address": "Av. Guayaquil"},
+                    {"name": "Shankha Sushi N' Thai", "address": "Beachfront"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Medical Post", "name": "Subcentro de Salud", "address": "Montañita, Santa Elena"}
+                ],
+                "tips": [
+                    "Montañita is a laid-back, bohemian surf town known for its relaxed atmosphere and parties.",
+                    "Be highly vigilant about personal belongings due to opportunistic theft."
+                ]
+            }
+        },
+        "Guyana": {
+            "Georgetown": {
+                "attractions": [
+                    {"name": "St. George's Cathedral", "address": "North Road"},
+                    {"name": "Stabroek Market", "address": "Water Street"},
+                    {"name": "Botanical Gardens (Manatees)", "address": "Vlissengen Rd"}
+                ],
+                "restaurants": [
+                    {"name": "New Thriving Restaurant", "address": "Camp Street"},
+                    {"name": "Palm Court", "address": "Main Street"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "911"},
+                    {"type": "Ambulance", "number": "913"},
+                    {"type": "Hospital", "name": "Georgetown Public Hospital", "address": "New Market St"}
+                ],
+                "tips": [
+                    "Guyana is the only English-speaking country in South America.",
+                    "Avoid walking alone at night, especially in the downtown area. Use reputable taxi services."
+                ]
+            }
+        },
+        "Paraguay": {
+            "Asunción": {
+                "attractions": [
+                    {"name": "Palacio de los López (Government Palace)", "address": "El Paraguayo Independiente"},
+                    {"name": "Panteón Nacional de los Héroes", "address": "Palma y Chile"},
+                    {"name": "Costanera de Asunción (River Promenade)", "address": "Av. Costanera"}
+                ],
+                "restaurants": [
+                    {"name": "El Migrante", "address": "Alberto de Souza 490"},
+                    {"name": "Lido Bar", "address": "Palma y Chile (Traditional food)"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Central del IPS", "address": "Av. Sacramento 175"}
+                ],
+                "tips": [
+                    "The Guaraní language is widely spoken alongside Spanish.",
+                    "The historic center is safe during the day, but quiet at night. Enjoy the traditional *chipá* bread."
+                ]
+            }
+        },
+        "Peru": {
+            "Lima": {
+                "attractions": [
+                    {"name": "Plaza Mayor de Lima (Plaza de Armas)", "address": "Historic Center"},
+                    {"name": "Miraflores Malecón (Parque del Amor)", "address": "Miraflores"},
+                    {"name": "Catacombs of San Francisco", "address": "Ancash 471"}
+                ],
+                "restaurants": [
+                    {"name": "Central (World's Best Restaurant)", "address": "Av. Pedro de Osma 301, Barranco"},
+                    {"name": "Astrid y Gastón", "address": "Av. Paz Soldán 290, Miraflores"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "105"},
+                    {"type": "Ambulance", "number": "116"},
+                    {"type": "Hospital", "name": "Clínica Delgado", "address": "Av. Angamos Oeste 466, Miraflores"}
+                ],
+                "tips": [
+                    "Lima is the gastronomic capital of South America; book top restaurants far in advance.",
+                    "Miraflores, Barranco, and San Isidro are the safest neighborhoods for tourists."
+                ]
+            },
+            "Cusco": {
+                "attractions": [
+                    {"name": "Plaza de Armas", "address": "Cusco Historic Center"},
+                    {"name": "Coricancha (Temple of the Sun)", "address": "Santo Domingo"},
+                    {"name": "Sacsayhuamán (Inca Fortress)", "address": "Northern Cusco"}
+                ],
+                "restaurants": [
+                    {"name": "Chicha por Gastón Acurio", "address": "Plaza Regocijo 261"},
+                    {"name": "Pachapapa", "address": "Plaza San Blas 120"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "105"},
+                    {"type": "Ambulance", "number": "116"},
+                    {"type": "Hospital", "name": "Clínica Peruano Americana", "address": "Av. Pardo 598"}
+                ],
+                "tips": [
+                    "Cusco is the base for Machu Picchu. Use the tourist ticket (Boleto Turístico) for multiple sites.",
+                    "Be mindful of high altitude (3,400m); consider a day or two of rest upon arrival."
+                ]
+            },
+            "Arequipa": {
+                "attractions": [
+                    {"name": "Monasterio de Santa Catalina", "address": "Santa Catalina 301"},
+                    {"name": "Plaza de Armas", "address": "Arequipa Historic Center"},
+                    {"name": "Colca Canyon (Day Trip)", "address": "Chivay (nearby)"}
+                ],
+                "restaurants": [
+                    {"name": "Chicha por Gastón Acurio", "address": "Santa Catalina 210"},
+                    {"name": "La Nueva Palomino", "address": "Leoncio Prado 122"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "105"},
+                    {"type": "Ambulance", "number": "116"},
+                    {"type": "Hospital", "name": "Clínica Arequipa", "address": "Av. Cayma 500"}
+                ],
+                "tips": [
+                    "The city is nicknamed the 'White City' for its architecture made of *sillar* (volcanic white stone).",
+                    "Try *Rocoto Relleno* (stuffed spicy pepper), the local dish."
+                ]
+            },
+            "Trujillo": {
+                "attractions": [
+                    {"name": "Chan Chan (Pre-Columbian City)", "address": "Huanchaco"},
+                    {"name": "Huaca del Sol y de la Luna (Moche Pyramids)", "address": "Moche Valley"}
+                ],
+                "restaurants": [
+                    {"name": "Causa", "address": "Av. El Golf 488"},
+                    {"name": "Squalo's", "address": "Jr. San Martín 657"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "105"},
+                    {"type": "Ambulance", "number": "116"},
+                    {"type": "Hospital", "name": "Clínica San Pablo", "address": "Av. Húsares de Junín 145"}
+                ],
+                "tips": [
+                    "Trujillo is the capital of the 'Marinera' dance and known for its vibrant celebrations.",
+                    "The nearby beach town of Huanchaco is famous for its *caballitos de totora* (reed boats)."
+                ]
+            },
+            "Iquitos": {
+                "attractions": [
+                    {"name": "Pacaya Samiria National Reserve", "address": "Amazon Rainforest"},
+                    {"name": "Belén Market", "address": "Iquitos, Loreto"},
+                    {"name": "Iron House (Casa de Fierro)", "address": "Plaza de Armas"}
+                ],
+                "restaurants": [
+                    {"name": "Al Frío y Al Fuego (Floating Restaurant)", "address": "Amazon River"},
+                    {"name": "Fitzcarraldo", "address": "Malecón Tarapacá"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "105"},
+                    {"type": "Ambulance", "number": "116"},
+                    {"type": "Hospital", "name": "Hospital Regional de Loreto", "address": "Av. 28 de Julio 150"}
+                ],
+                "tips": [
+                    "Iquitos is the largest city in the world inaccessible by road (only by air or river).",
+                    "Beware of unauthorized guides offering jungle tours; use licensed operators."
+                ]
+            }
+        },
+        "Suriname": {
+            "Paramaribo": {
+                "attractions": [
+                    {"name": "Historic Inner City (UNESCO)", "address": "Paramaribo Center"},
+                    {"name": "St. Peter and Paul Basilica", "address": "Henck Arronstraat 22"},
+                    {"name": "Fort Zeelandia", "address": "Waterkant"}
+                ],
+                "restaurants": [
+                    {"name": "Garden of Eden", "address": "Letitia Vriesdelaan 1"},
+                    {"name": "Roopram Roti (Indian-Surinamese)", "address": "Grote Combéweg 6"}
+                ],
+                "emergency": [
+                    {"type": "Police", "number": "115"},
+                    {"type": "Ambulance/Fire", "number": "116"},
+                    {"type": "Hospital", "name": "Academisch Ziekenhuis Paramaribo", "address": "Flustraat"}
+                ],
+                "tips": [
+                    "Suriname is a former Dutch colony; Dutch, Sranan Tongo, and English are spoken.",
+                    "Try the unique Javanese-Surinamese and Hindustani-Surinamese food."
+                ]
+            }
+        },
+        "Uruguay": {
+            "Montevideo": {
+                "attractions": [
+                    {"name": "Ciudad Vieja (Old Town)", "address": "Montevideo, Uruguay"},
+                    {"name": "Mercado del Puerto (Food Hall)", "address": "Rambla 25 de Agosto de 1825"},
+                    {"name": "La Rambla (Waterfront Promenade)", "address": "Montevideo Coast"}
+                ],
+                "restaurants": [
+                    {"name": "El Palenque (Asado)", "address": "Mercado del Puerto"},
+                    {"name": "La Farmacia (Café)", "address": "Soriano 1184"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Maciel", "address": "25 de Mayo 174"}
+                ],
+                "tips": [
+                    "Uruguay is generally considered the safest country in South America.",
+                    "Try *chivito* (a large steak sandwich) and *medio y medio* (wine spritzer)."
+                ]
+            },
+            "Punta del Este": {
+                "attractions": [
+                    {"name": "La Mano (The Hand Sculpture)", "address": "Parada 1, Brava Beach"},
+                    {"name": "Casapueblo (Nearby resort/museum)", "address": "Punta Ballena"}
+                ],
+                "restaurants": [
+                    {"name": "Lo de Tere", "address": "Rambla Artigas"},
+                    {"name": "La Bourgogne", "address": "Av. Juan Gorlero 243"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Sanatorio Mautone", "address": "Av. Roosevelt"}
+                ],
+                "tips": [
+                    "A luxury resort town, it is extremely busy and expensive during the high summer season (Jan/Feb).",
+                    "There are two main beaches: Mansa (calm) and Brava (rough)."
+                ]
+            },
+            "Colonia del Sacramento": {
+                "attractions": [
+                    {"name": "Barrio Histórico (Historic Quarter, UNESCO)", "address": "Colonia del Sacramento"},
+                    {"name": "Faro de Colonia del Sacramento (Lighthouse)", "address": "Barrio Histórico"}
+                ],
+                "restaurants": [
+                    {"name": "Charco Bistro", "address": "San Pedro 114"},
+                    {"name": "El Drugstore", "address": "Portugal 141"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Hospital", "name": "Hospital Colonia", "address": "Av. Batlle y Ordóñez"}
+                ],
+                "tips": [
+                    "This city is a popular and easy day trip via ferry from Buenos Aires, Argentina.",
+                    "Rent a golf cart or bicycle to explore the small, quaint city center."
+                ]
+            }
+        },
+        "Venezuela": {
+            "Caracas": {
+                "attractions": [
+                    {"name": "Teleférico Warairarepano (Cable Car)", "address": "Macuto, Vargas"},
+                    {"name": "Plaza Bolívar", "address": "Caracas Historic Center"},
+                    {"name": "Panteón Nacional de Venezuela", "address": "Av. Panteón"}
+                ],
+                "restaurants": [
+                    {"name": "El Alazan (Traditional Venezuelan)", "address": "Las Mercedes"},
+                    {"name": "Altamira Village (Shopping & Dining)", "address": "Altamira"}
+                ],
+                "emergency": [
+                    {"type": "Police/Emergency", "number": "911"},
+                    {"type": "Fire", "number": "171"},
+                    {"type": "Hospital", "name": "Hospital Universitario de Caracas", "address": "Ciudad Universitaria"}
+                ],
+                "tips": [
+                    "Due to political and economic instability, visitors must exercise extreme caution. Travel only in daylight and use trusted, pre-arranged transport.",
+                    "Local dishes include *arepas* and *hallacas* (seasonal)."
+                ]
+            }
+        }
+    }
+}
