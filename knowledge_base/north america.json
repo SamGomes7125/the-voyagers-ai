@@ -1,0 +1,1332 @@
+{
+  "Aruba": [
+    {
+      "city": "Oranjestad",
+      "country": "Aruba",
+      "attractions": [
+        {"name": "Eagle Beach", "location": "J.E. Irausquin Blvd, Oranjestad"},
+        {"name": "Arikok National Park", "location": "San Fuego 70, Santa Cruz"},
+        {"name": "California Lighthouse", "location": "Hudishibana, Noord"}
+      ],
+      "restaurants": [
+        {"name": "Yemanja Woodfired Grill", "location": "Wilhelminastraat 2, Oranjestad"},
+        {"name": "Flying Fishbone", "location": "Savaneta 344, Savaneta"}
+      ],
+      "police": "Police Headquarters, Macuarima 65, Santa Cruz",
+      "hospital": "Dr. Horacio E. Oduber Hospital, HOH 1, Oranjestad",
+      "tips": [
+        "Aruba is part of the Kingdom of the Netherlands and has a strong Dutch influence.",
+        "The island lies outside the hurricane belt, making it a popular year-round destination.",
+        "The local currency is the Aruban Florin, but US dollars are widely accepted."
+      ]
+    }
+  ],
+  "Barbados": [
+    {
+      "city": "Bridgetown",
+      "country": "Barbados",
+      "attractions": [
+        {"name": "Carlisle Bay", "location": "Bay Street, Bridgetown"},
+        {"name": "Harrison's Cave", "location": "Allen View, Saint Thomas"},
+        {"name": "Mount Gay Rum Distillery", "location": "Mighty Grynner Hwy, Bridgetown"}
+      ],
+      "restaurants": [
+        {"name": "The Tides Restaurant", "location": "Holetown, Saint James"},
+        {"name": "Oistins Fish Fry", "location": "Oistins, Christ Church"}
+      ],
+      "police": "Royal Barbados Police Force Headquarters, Lower Roebuck Street, Bridgetown",
+      "hospital": "Queen Elizabeth Hospital, Martindale's Road, Bridgetown",
+      "tips": [
+        "Historic Bridgetown and its Garrison are a UNESCO World Heritage site.",
+        "Don't miss the Oistins Fish Fry on a Friday night for a lively local experience.",
+        "Barbados is the easternmost island in the Caribbean."
+      ]
+    }
+  ],
+  "Bermuda": [
+    {
+      "city": "Hamilton",
+      "country": "Bermuda",
+      "attractions": [
+        {"name": "Horseshoe Bay Beach", "location": "Southampton Parish"},
+        {"name": "Historic St. George's", "location": "St. George's Parish"},
+        {"name": "Royal Naval Dockyard", "location": "Sandys Parish"}
+      ],
+      "restaurants": [
+        {"name": "Ascots Restaurant", "location": "24 Rosemont Ave, Pembroke Parish"},
+        {"name": "The Swizzle Inn", "location": "3 Blue Hole Hill, Bailey's Bay"}
+      ],
+      "police": "Bermuda Police Service Headquarters, 10 Prospect, Devonshire",
+      "hospital": "King Edward VII Memorial Hospital, 7 Point Finger Rd, Paget Parish",
+      "tips": [
+        "Bermuda is a British Overseas Territory known for its pink sand beaches.",
+        "Tourists cannot rent cars; the main modes of transport are scooters, electric mini-cars, and public buses/ferries.",
+        "Try the national drink, the Rum Swizzle."
+      ]
+    }
+  ],
+  "Bahamas": [
+    {
+      "city": "Nassau",
+      "country": "Bahamas",
+      "attractions": [
+        {"name": "Queen's Staircase", "location": "Elizabeth Ave, Nassau"},
+        {"name": "Atlantis Paradise Island", "location": "One Casino Drive, Suite 41, Paradise Island"},
+        {"name": "John Watling's Distillery", "location": "17 Delancy St, Nassau"}
+      ],
+      "restaurants": [
+        {"name": "Fish by José Andrés", "location": "The Cove at Atlantis, Paradise Island"},
+        {"name": "Graycliff Restaurant", "location": "West Hill Street, Nassau"}
+      ],
+      "police": "Royal Bahamas Police Force Headquarters, East Street, Nassau",
+      "hospital": "Doctors Hospital, Corner of Shirley Street & Collins Avenue, Nassau",
+      "tips": [
+        "The Bahamian Dollar (BSD) is pegged to the US Dollar (USD), and both are accepted widely.",
+        "Visit the Straw Market for local souvenirs, but be prepared to haggle.",
+        "Remember that traffic drives on the left in the Bahamas."
+      ]
+    }
+  ],
+  "Canada": [
+    {
+      "city": "Toronto",
+      "country": "Canada",
+      "attractions": [
+        {"name": "CN Tower", "location": "290 Bremner Blvd, Toronto, ON"},
+        {"name": "Royal Ontario Museum", "location": "100 Queen's Park, Toronto, ON"},
+        {"name": "Distillery District", "location": "55 Mill St, Toronto, ON"}
+      ],
+      "restaurants": [
+        {"name": "Alo Restaurant", "location": "163 Spadina Ave., Toronto, ON"},
+        {"name": "St. Lawrence Market", "location": "93 Front St E, Toronto, ON"}
+      ],
+      "police": "Toronto Police Headquarters, 40 College St, Toronto, ON",
+      "hospital": "Toronto General Hospital, 200 Elizabeth St, Toronto, ON",
+      "tips": [
+        "Use the TTC (Toronto Transit Commission) which includes subway, streetcars, and buses.",
+        "The city is incredibly diverse; explore neighborhoods like Kensington Market and Chinatown.",
+        "A PRESTO card is the easiest way to pay for public transit."
+      ]
+    },
+    {
+      "city": "Vancouver",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Stanley Park", "location": "Vancouver, BC"},
+        {"name": "Granville Island", "location": "1661 Duranleau St, Vancouver, BC"},
+        {"name": "Capilano Suspension Bridge Park", "location": "3735 Capilano Rd, North Vancouver, BC"}
+      ],
+      "restaurants": [
+        {"name": "St. Lawrence Restaurant", "location": "269 Powell St, Vancouver, BC"},
+        {"name": "Miku", "location": "70-200 Granville St, Vancouver, BC"}
+      ],
+      "police": "Vancouver Police Department, 2120 Cambie St, Vancouver, BC",
+      "hospital": "Vancouver General Hospital, 899 W 12th Ave, Vancouver, BC",
+      "tips": [
+        "Rent a bike to cycle the seawall around Stanley Park for incredible views.",
+        "Be prepared for rain, especially outside of the summer months.",
+        "Explore Gastown for its Victorian architecture, boutiques, and restaurants."
+      ]
+    },
+    {
+      "city": "Montreal",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Old Montreal (Vieux-Montréal)", "location": "Old Montreal, Montreal, QC"},
+        {"name": "Notre-Dame Basilica of Montreal", "location": "110 Notre-Dame St W, Montreal, QC"},
+        {"name": "Mount Royal Park", "location": "1260 Remembrance Rd, Montreal, QC"}
+      ],
+      "restaurants": [
+        {"name": "Au Pied de Cochon", "location": "536 Duluth Ave E, Montreal, QC"},
+        {"name": "Schwartz's Deli", "location": "3895 St Laurent Blvd, Montreal, QC"}
+      ],
+      "police": "Service de police de la Ville de Montréal (SPVM) Headquarters, 1441 Saint-Urbain St, Montreal, QC",
+      "hospital": "McGill University Health Centre, 1001 Décarie Blvd, Montreal, QC",
+      "tips": [
+        "Montreal is the second-largest primarily French-speaking city in the world.",
+        "Try a Montreal-style bagel and poutine, the city's signature dishes.",
+        "The city has a vast underground network (RESO) connecting malls and metro stations."
+      ]
+    },
+    {
+      "city": "Quebec City",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Old Quebec (Vieux-Québec)", "location": "Old Quebec, Quebec City, QC"},
+        {"name": "Fairmont Le Château Frontenac", "location": "1 Rue des Carrières, Quebec City, QC"},
+        {"name": "Plains of Abraham", "location": "835 Wilfrid-Laurier Ave, Quebec City, QC"}
+      ],
+      "restaurants": [
+        {"name": "Le Continental", "location": "26 Rue Saint-Louis, Quebec City, QC"},
+        {"name": "Aux Anciens Canadiens", "location": "34 Rue Saint-Louis, Quebec City, QC"}
+      ],
+      "police": "Service de police de la Ville de Québec, 485, boulevard Langelier, Quebec City, QC",
+      "hospital": "CHU de Québec-Université Laval, 2705 Laurier Blvd, Quebec City, QC",
+      "tips": [
+        "The historic district of Old Quebec is a UNESCO World Heritage site.",
+        "Practice a few basic French phrases, although English is widely spoken in tourist areas.",
+        "Walk along the fortified city walls, the only ones remaining north of Mexico."
+      ]
+    },
+    {
+      "city": "Banff",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Banff National Park", "location": "Banff, AB"},
+        {"name": "Lake Louise", "location": "Lake Louise, AB"},
+        {"name": "Banff Gondola", "location": "1 Mountain Ave, Banff, AB"}
+      ],
+      "restaurants": [
+        {"name": "The Grizzly House", "location": "207 Banff Ave, Banff, AB"},
+        {"name": "Park Distillery Restaurant and Bar", "location": "219 Banff Ave, Banff, AB"}
+      ],
+      "police": "Royal Canadian Mounted Police (RCMP) Banff Detachment, 317 Marten St, Banff, AB",
+      "hospital": "Banff Mineral Springs Hospital, 305 Lynx St, Banff, AB",
+      "tips": [
+        "Book accommodations well in advance, as it's a very popular destination.",
+        "Be 'wildlife aware' as encounters with bears, elk, and other animals are common.",
+        "Visit Lake Louise and Moraine Lake early in the morning to avoid crowds."
+      ]
+    },
+    {
+      "city": "Calgary",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Calgary Stampede", "location": "1410 Olympic Way SE, Calgary, AB"},
+        {"name": "Calgary Tower", "location": "101 9 Ave SW, Calgary, AB"},
+        {"name": "Heritage Park Historical Village", "location": "1900 Heritage Dr SW, Calgary, AB"}
+      ],
+      "restaurants": [
+        {"name": "Major Tom Bar", "location": "700 2 St SW #4000, Calgary, AB"},
+        {"name": "Ten Foot Henry", "location": "1209 1 St SW, Calgary, AB"}
+      ],
+      "police": "Calgary Police Service Headquarters, 5111 47 St NE, Calgary, AB",
+      "hospital": "Foothills Medical Centre, 1403 29 St NW, Calgary, AB",
+      "tips": [
+        "Visit in early July for the Calgary Stampede, the 'Greatest Outdoor Show on Earth'.",
+        "The Plus 15 is a network of indoor skywalks connecting downtown buildings, great for cold winters.",
+        "Calgary is a major gateway to the Canadian Rockies, including Banff National Park."
+      ]
+    },
+    {
+      "city": "Ottawa",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Parliament Hill", "location": "Wellington St, Ottawa, ON"},
+        {"name": "Rideau Canal", "location": "Rideau Canal, Ottawa, ON"},
+        {"name": "Canadian Museum of History", "location": "100 Laurier St, Gatineau, QC (across the river)"}
+      ],
+      "restaurants": [
+        {"name": "Atelier", "location": "540 Rochester St, Ottawa, ON"},
+        {"name": "ByWard Market", "location": "ByWard Market, Ottawa, ON"}
+      ],
+      "police": "Ottawa Police Service Headquarters, 474 Elgin St, Ottawa, ON",
+      "hospital": "The Ottawa Hospital, 501 Smyth Rd, Ottawa, ON",
+      "tips": [
+        "Ottawa is the capital of Canada.",
+        "In winter, the Rideau Canal becomes the world's largest naturally frozen skating rink.",
+        "Try a BeaverTail, a fried dough pastry that originated in Ottawa."
+      ]
+    },
+     {
+      "city": "Winnipeg",
+      "country": "Canada",
+      "attractions": [
+        {"name": "The Forks", "location": "1 Forks Market Rd, Winnipeg, MB"},
+        {"name": "Canadian Museum for Human Rights", "location": "85 Israel Asper Way, Winnipeg, MB"},
+        {"name": "Assiniboine Park", "location": "55 Pavilion Crescent, Winnipeg, MB"}
+      ],
+      "restaurants": [
+        {"name": "Segovia Tapas Bar", "location": "484 Stradbrook Ave, Winnipeg, MB"},
+        {"name": "Deer + Almond", "location": "85 Princess St, Winnipeg, MB"}
+      ],
+      "police": "Winnipeg Police Service Headquarters, 245 Smith St, Winnipeg, MB",
+      "hospital": "Health Sciences Centre Winnipeg, 820 Sherbrook St, Winnipeg, MB",
+      "tips": [
+        "The Forks, at the junction of the Red and Assiniboine rivers, is a historic site and vibrant public space.",
+        "The Canadian Museum for Human Rights is an architectural marvel with powerful exhibits.",
+        "Winnipeg has a thriving arts and culture scene, especially in the Exchange District."
+      ]
+    },
+    {
+      "city": "St. John's",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Signal Hill National Historic Site", "location": "230 Signal Hill Rd, St. John's, NL"},
+        {"name": "Cape Spear Lighthouse National Historic Site", "location": "Blackhead Road, Cape Spear, NL"},
+        {"name": "The Battery", "location": "The Battery, St. John's, NL"}
+      ],
+      "restaurants": [
+        {"name": "Raymonds Restaurant", "location": "95 Water St, St. John's, NL"},
+        {"name": "Mallard Cottage", "location": "8 Barrows Rd, St. John's, NL"}
+      ],
+      "police": "Royal Newfoundland Constabulary Headquarters, 1 Fort Townshend, St. John's, NL",
+      "hospital": "Health Sciences Centre, 300 Prince Philip Dr, St. John's, NL",
+      "tips": [
+        "Visit Cape Spear, the most easterly point in North America.",
+        "Explore the colorful houses of 'Jellybean Row'.",
+        "Get 'screeched-in' at a pub on George Street to become an honorary Newfoundlander."
+      ]
+    },
+    {
+      "city": "Whitehorse",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Miles Canyon", "location": "Miles Canyon Rd, Whitehorse, YT"},
+        {"name": "S.S. Klondike National Historic Site", "location": "10 Robert Service Way, Whitehorse, YT"},
+        {"name": "Yukon Wildlife Preserve", "location": "Takhini Hot Springs Rd, Whitehorse, YT"}
+      ],
+      "restaurants": [
+        {"name": "Wayfarer Oyster House", "location": "101-204 Hawkins St, Whitehorse, YT"},
+        {"name": "Klondike Rib & Salmon", "location": "2116 2nd Ave, Whitehorse, YT"}
+      ],
+      "police": "RCMP Whitehorse Detachment, 4100 4th Ave, Whitehorse, YT",
+      "hospital": "Whitehorse General Hospital, 5 Hospital Rd, Whitehorse, YT",
+      "tips": [
+        "Whitehorse is the capital of the Yukon and a hub for exploring the Canadian North.",
+        "It's a prime destination for viewing the Northern Lights (Aurora Borealis) in winter.",
+        "Learn about the Klondike Gold Rush history that shaped the region."
+      ]
+    },
+    {
+      "city": "Victoria",
+      "country": "Canada",
+      "attractions": [
+        {"name": "The Butchart Gardens", "location": "800 Benvenuto Ave, Brentwood Bay, BC"},
+        {"name": "Inner Harbour", "location": "Inner Harbour, Victoria, BC"},
+        {"name": "Royal BC Museum", "location": "675 Belleville St, Victoria, BC"}
+      ],
+      "restaurants": [
+        {"name": "Red Fish Blue Fish", "location": "1006 Wharf St, Victoria, BC"},
+        {"name": "Nubo Japanese Tapas", "location": "739 Pandora Ave, Victoria, BC"}
+      ],
+      "police": "Victoria Police Department, 850 Caledonia Ave, Victoria, BC",
+      "hospital": "Royal Jubilee Hospital, 1952 Bay St, Victoria, BC",
+      "tips": [
+        "Victoria is known for its British colonial charm and beautiful gardens.",
+        "Enjoy afternoon tea at the Fairmont Empress hotel for a classic experience.",
+        "The city is a popular spot for whale watching tours."
+      ]
+    },
+    {
+      "city": "Halifax",
+      "country": "Canada",
+      "attractions": [
+        {"name": "Halifax Waterfront", "location": "Lower Water St, Halifax, NS"},
+        {"name": "Peggy's Cove Lighthouse", "location": "Peggy's Cove, NS"},
+        {"name": "Citadel Hill National Historic Site", "location": "5425 Sackville St, Halifax, NS"}
+      ],
+      "restaurants": [
+        {"name": "The Five Fishermen Restaurant", "location": "1740 Argyle St, Halifax, NS"},
+        {"name": "The Bicycle Thief", "location": "1475 Lower Water St, Halifax, NS"}
+      ],
+      "police": "Halifax Regional Police Headquarters, 1975 Gottingen St, Halifax, NS",
+      "hospital": "Queen Elizabeth II Health Sciences Centre, 1276 South Park St, Halifax, NS",
+      "tips": [
+        "Halifax has a rich maritime history, deeply connected to the Titanic disaster.",
+        "Try a Halifax Donair, the city's official food.",
+        "A day trip to the picturesque fishing village of Peggy's Cove is a must."
+      ]
+    }
+  ],
+  "Cayman Islands": [
+    {
+      "city": "George Town",
+      "country": "Cayman Islands",
+      "attractions": [
+        {"name": "Seven Mile Beach", "location": "West Bay Road, Grand Cayman"},
+        {"name": "Stingray City", "location": "North Sound, Grand Cayman"},
+        {"name": "Cayman Turtle Centre", "location": "786 Northwest Point Road, West Bay, Grand Cayman"}
+      ],
+      "restaurants": [
+        {"name": "Blue by Eric Ripert", "location": "The Ritz-Carlton, Seven Mile Beach, Grand Cayman"},
+        {"name": "The Brasserie", "location": "171 Elgin Ave, George Town, Grand Cayman"}
+      ],
+      "police": "Royal Cayman Islands Police Service Headquarters, 456 Elgin Ave, George Town",
+      "hospital": "Cayman Islands Hospital (HSA), 95 Hospital Road, George Town",
+      "tips": [
+        "The Cayman Islands is a British Overseas Territory known as a major offshore financial haven.",
+        "Swim with friendly southern stingrays at the famous Stingray City sandbar.",
+        "Seven Mile Beach is consistently ranked as one of the best beaches in the Caribbean."
+      ]
+    }
+  ],
+   "Curaçao": [
+    {
+      "city": "Willemstad",
+      "country": "Curaçao",
+      "attractions": [
+        {"name": "Handelskade", "location": "Handelskade, Willemstad"},
+        {"name": "Queen Emma Pontoon Bridge", "location": "Koningin Emmabrug, Willemstad"},
+        {"name": "Kenepa Beach (Grote Knip)", "location": "Westpunt, Curaçao"}
+      ],
+      "restaurants": [
+        {"name": "The Wine Cellar", "location": "Concordiastraat, Willemstad"},
+        {"name": "Kome", "location": "Johan van Walbeeckplein 6, Willemstad"}
+      ],
+      "police": "Korps Politie Curaçao Headquarters, Winston Churchillweg, Willemstad",
+      "hospital": "Curaçao Medical Center, J.H.J. Hamelbergweg, Willemstad",
+      "tips": [
+        "The historic area of Willemstad, with its colorful Dutch colonial architecture, is a UNESCO World Heritage site.",
+        "Watch the Queen Emma Bridge, known as the 'Swinging Old Lady,' open for ships.",
+        "Curaçao is famous for its namesake blue liqueur; be sure to try it."
+      ]
+    }
+  ],
+  "Cuba": [
+    {
+      "city": "Havana",
+      "country": "Cuba",
+      "attractions": [
+        {"name": "Old Havana (Habana Vieja)", "location": "Old Havana, Havana"},
+        {"name": "Malecón", "location": "Malecón, Havana"},
+        {"name": "El Capitolio (National Capitol Building)", "location": "Paseo de Martí, Havana"}
+      ],
+      "restaurants": [
+        {"name": "La Guarida", "location": "418 Concordia, Havana"},
+        {"name": "Doña Eutimia", "location": "Callejon del Chorro # 60-C, Plaza de la Catedral, Havana"}
+      ],
+      "police": "Estación de Policía Nacional Revolucionaria, Dragones y Amistad, Centro Habana",
+      "hospital": "Hospital Clínico Quirúrgico 'Hermanos Ameijeiras', San Lázaro No. 701, Centro Habana",
+      "tips": [
+        "Internet access is limited; download maps and important information beforehand.",
+        "Bring enough cash (Euros or Canadian Dollars are best to exchange) for your trip.",
+        "Take a ride in a classic American convertible for a quintessential Havana experience."
+      ]
+    }
+  ],
+  "Dominican Republic": [
+    {
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "attractions": [
+        {"name": "Zona Colonial", "location": "Zona Colonial, Santo Domingo"},
+        {"name": "Catedral Primada de América", "location": "Calle Isabel La Católica, Santo Domingo"},
+        {"name": "Los Tres Ojos National Park", "location": "Santo Domingo Este"}
+      ],
+      "restaurants": [
+        {"name": "El Conuco", "location": "Calle Casimiro de Moya #152, Santo Domingo"},
+        {"name": "Jalao", "location": "Calle el Conde #103, Santo Domingo"}
+      ],
+      "police": "Palacio de la Policía Nacional, Avenida Leopoldo Navarro 402, Santo Domingo",
+      "hospital": "Hospiten Santo Domingo, Avenida Alma Mater, Santo Domingo",
+      "tips": [
+        "The Zona Colonial is the oldest permanent European settlement in the Americas.",
+        "Use ride-sharing apps like Uber for safe and reliable transportation.",
+        "Try the local dish 'Sancocho' and 'Presidente' beer."
+      ]
+    },
+     {
+      "city": "Punta Cana",
+      "country": "Dominican Republic",
+      "attractions": [
+        {"name": "Bávaro Beach", "location": "Bávaro, Punta Cana"},
+        {"name": "Hoyo Azul", "location": "Scape Park, Cap Cana"},
+        {"name": "Saona Island", "location": "Isla Saona (Day trip from Punta Cana)"}
+      ],
+      "restaurants": [
+        {"name": "Passion by Martín Berasategui", "location": "Paradisus Palma Real, Playa de Bávaro"},
+        {"name": "Jellyfish Restaurant", "location": "Playa Bávaro, Punta Cana"}
+      ],
+      "police": "POLITUR (Tourist Police), Friusa, Bávaro",
+      "hospital": "Hospiten Bávaro, Carretera Verón-Punta Cana, Bávaro",
+      "tips": [
+        "Punta Cana is famous for its vast stretches of all-inclusive resorts and white sand beaches.",
+        "The area is more of a tourist destination than a traditional city.",
+        "Most activities and nightlife are centered within the resorts."
+      ]
+    }
+  ],
+  "Jamaica": [
+    {
+      "city": "Kingston",
+      "country": "Jamaica",
+      "attractions": [
+        {"name": "Bob Marley Museum", "location": "56 Hope Rd, Kingston"},
+        {"name": "Devon House", "location": "26 Hope Rd, Kingston"},
+        {"name": "Blue Mountains National Park", "location": "Near Kingston"}
+      ],
+      "restaurants": [
+        {"name": "Scotchies", "location": "2 Chelsea Ave, Kingston"},
+        {"name": "Devon House I-Scream", "location": "Devon House, 26 Hope Rd, Kingston"}
+      ],
+      "police": "Jamaica Constabulary Force Headquarters, 101-105 Old Hope Road, Kingston 6",
+      "hospital": "University Hospital of the West Indies, Mona, Kingston 7",
+      "tips": [
+        "Kingston is the cultural and economic heart of Jamaica.",
+        "Try authentic jerk chicken from a local spot like Scotchies.",
+        "Be aware of your surroundings and take standard safety precautions, especially at night."
+      ]
+    },
+     {
+      "city": "Montego Bay",
+      "country": "Jamaica",
+      "attractions": [
+        {"name": "Doctor's Cave Beach", "location": "Gloucester Ave, Montego Bay"},
+        {"name": "Rose Hall Great House", "location": "Rose Hall, Montego Bay"},
+        {"name": "Luminous Lagoon", "location": "Falmouth, Trelawny Parish"}
+      ],
+      "restaurants": [
+        {"name": "Scotchies", "location": "Coral Gardens Ave, Montego Bay"},
+        {"name": "The Houseboat Grill", "location": "Southern Cross Blvd, Montego Bay"}
+      ],
+      "police": "Barnett Street Police Station, Barnett Street, Montego Bay",
+      "hospital": "Cornwall Regional Hospital, Mount Salem Road, Montego Bay",
+      "tips": [
+        "Montego Bay is a major hub for tourism in Jamaica, with many large resorts.",
+        "The 'Hip Strip' (Gloucester Avenue) is the main center for nightlife, shopping, and dining.",
+        "Take an evening boat tour on the Luminous Lagoon to see the magical bioluminescent waters."
+      ]
+    }
+  ],
+  "Mexico": [
+    {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Zócalo (Plaza de la Constitución)", "location": "Plaza de la Constitución S/N, Centro Histórico, Mexico City"},
+        {"name": "Frida Kahlo Museum", "location": "Londres 247, Del Carmen, Coyoacán, Mexico City"},
+        {"name": "Teotihuacan Pyramids", "location": "San Juan Teotihuacán, State of Mexico"}
+      ],
+      "restaurants": [
+        {"name": "Pujol", "location": "Tennyson 133, Polanco, Mexico City"},
+        {"name": "El Cardenal", "location": "Av. de la Paz 32, San Ángel, Mexico City"}
+      ],
+      "police": "Secretaría de Seguridad Ciudadana, Calle de Liverpool 136, Juárez, Mexico City",
+      "hospital": "Hospital ABC Centro Médico, Sur 136 116, Las Américas, Mexico City",
+      "tips": [
+        "The city is at a high altitude (2,240m / 7,350ft), so take it easy on your first day.",
+        "Use the metro for long distances, but be aware of rush hour crowds.",
+        "Book tickets for the Frida Kahlo Museum online well in advance."
+      ]
+    },
+    {
+      "city": "Cancún",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Hotel Zone (Zona Hotelera) Beaches", "location": "Blvd. Kukulcan, Zona Hotelera, Cancún"},
+        {"name": "Chichen Itza", "location": "Yucatan, Mexico (Day trip from Cancún)"},
+        {"name": "Isla Mujeres", "location": "Isla Mujeres, Quintana Roo"}
+      ],
+      "restaurants": [
+        {"name": "La Habichuela Sunset", "location": "Blvd. Kukulcan Km 12.6, Zona Hotelera, Cancún"},
+        {"name": "Taco y Tequila", "location": "La Isla Shopping Village, Blvd. Kukulcan, Zona Hotelera, Cancún"}
+      ],
+      "police": "Secretaría Municipal de Seguridad Pública, Av. Xcaret, Supermanzana 21, Cancún",
+      "hospital": "Hospiten Cancún, Av. Bonampak Lote 7, Supermanzana 10, Cancún",
+      "tips": [
+        "Cancún is famous for its white-sand beaches and turquoise waters.",
+        "US dollars are widely accepted, but you'll get a better rate using Mexican Pesos.",
+        "Take a ferry to Isla Mujeres for a more laid-back atmosphere."
+      ]
+    },
+    {
+      "city": "Cabo San Lucas",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "El Arco (The Arch)", "location": "Land's End, Cabo San Lucas"},
+        {"name": "Medano Beach", "location": "Playa El Medano, Cabo San Lucas"},
+        {"name": "Lover's Beach & Divorce Beach", "location": "Near The Arch, Cabo San Lucas"}
+      ],
+      "restaurants": [
+        {"name": "The Office on the Beach", "location": "Playa El Medano S/N, Cabo San Lucas"},
+        {"name": "El Farallon", "location": "Camino del Mar 1, Cabo San Lucas"}
+      ],
+      "police": "Policía Municipal, Leona Vicario, Colonia Centro, Cabo San Lucas",
+      "hospital": "BlueNet Hospitals, Carretera Transpeninsular Km. 6.3, Cabo San Lucas",
+      "tips": [
+        "Take a water taxi out to see El Arco and the sea lion colony.",
+        "Be careful swimming on the Pacific side beaches due to strong undertows.",
+        "Cabo is a world-class destination for sport fishing and whale watching (in season)."
+      ]
+    },
+    {
+      "city": "Tulum",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Tulum Archaeological Zone", "location": "Carretera Federal, Cancún - Chetumal Km 230, 77780 Tulum"},
+        {"name": "Gran Cenote", "location": "Quintana Roo 109, 77796 Tulum"},
+        {"name": "Tulum Beach", "location": "Zona Hotelera, Tulum"}
+      ],
+      "restaurants": [
+        {"name": "Hartwood", "location": "Carretera Tulum-Boca Paila Km. 7.6, Tulum"},
+        {"name": "Kin Toh", "location": "Azulik Resort, Carretera Tulum-Boca Paila Km. 5, Tulum"}
+      ],
+      "police": "Policía Municipal, Calle Sol Ote, Tulum Centro, 77760 Tulum",
+      "hospital": "Hospital de Tulum, Carretera Federal Tulum-Cancun, 77780 Tulum",
+      "tips": [
+        "The Tulum Ruins are famed for their dramatic location on a cliff overlooking the Caribbean Sea.",
+        "Use biodegradable sunscreen to protect the fragile cenote ecosystems.",
+        "Tulum is split into a beach zone (more upscale and bohemian) and a town (more affordable)."
+      ]
+    },
+    {
+      "city": "Playa del Carmen",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Quinta Avenida (Fifth Avenue)", "location": "5ta Avenida, Playa del Carmen"},
+        {"name": "Xcaret Park", "location": "Carretera Chetúmal-Puerto Juárez Kilómetro 282, Solidaridad"},
+        {"name": "Cozumel Island", "location": "Isla Cozumel (Ferry from Playa del Carmen)"}
+      ],
+      "restaurants": [
+        {"name": "Alux Restaurant", "location": "Av. Juárez Mza. 217, Ejidal, Playa del Carmen"},
+        {"name": "El Fogón", "location": "Av. Constituyentes, Gonzalo Guerrero, Playa del Carmen"}
+      ],
+      "police": "Secretaría de Seguridad Pública, Av. Petempich, Gonzalo Guerrero, Playa del Carmen",
+      "hospital": "Hospiten Riviera Maya, Av. Balamkanche, Playacar, Playa del Carmen",
+      "tips": [
+        "Quinta Avenida is a long pedestrian street packed with shops, restaurants, and bars.",
+        "The city is a central hub for exploring the Riviera Maya.",
+        "Take the ferry to Cozumel for world-class snorkeling and diving."
+      ]
+    },
+    {
+      "city": "Oaxaca",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Monte Albán", "location": "Monte Albán, Oaxaca"},
+        {"name": "Templo de Santo Domingo de Guzmán", "location": "C. de Macedonio Alcalá s/n, Centro, Oaxaca"},
+        {"name": "Hierve el Agua", "location": "San Isidro Roaguía, Oaxaca"}
+      ],
+      "restaurants": [
+        {"name": "Criollo", "location": "Francisco I. Madero 129, Centro, Oaxaca"},
+        {"name": "Los Danzantes Oaxaca", "location": "C. de Macedonio Alcalá 403, Centro, Oaxaca"}
+      ],
+      "police": "Policía Municipal de Oaxaca de Juárez, Morelos 108, Centro, Oaxaca",
+      "hospital": "Hospital Civil Dr. Aurelio Valdivieso, Calz. Porfirio Díaz 400, Reforma, Oaxaca",
+      "tips": [
+        "Oaxaca is considered the culinary capital of Mexico, renowned for its seven types of mole.",
+        "Visit the ancient Zapotec capital of Monte Albán just outside the city.",
+        "The region is the heart of mezcal production; take a tour of a local distillery."
+      ]
+    },
+    {
+      "city": "Mérida",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Paseo de Montejo", "location": "Paseo de Montejo, Mérida, Yucatán"},
+        {"name": "Plaza Grande (Main Square)", "location": "Calle 62, Centro, Mérida, Yucatán"},
+        {"name": "Uxmal", "location": "Uxmal, Yucatán (Day trip from Mérida)"}
+      ],
+      "restaurants": [
+        {"name": "Kuuk", "location": "Av. Rómulo Rozo 488, Itzimná, Mérida, Yucatán"},
+        {"name": "La Chaya Maya", "location": "Calle 55 510, Centro, Mérida, Yucatán"}
+      ],
+      "police": "Policía Municipal de Mérida, Calle 57, Centro, 97000 Mérida, Yucatán",
+      "hospital": "Clínica de Mérida, Av. Itzáes 242, García Ginerés, 97070 Mérida, Yucatán",
+      "tips": [
+        "Mérida is the cultural capital of the Yucatán Peninsula, known for its colonial architecture.",
+        "It's a great base for exploring Mayan ruins like Uxmal and Chichen Itza.",
+        "Try traditional Yucatecan dishes like 'cochinita pibil' (slow-roasted pork)."
+      ]
+    },
+    {
+      "city": "Puerto Vallarta",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Malecón Boardwalk", "location": "Paseo Díaz Ordaz, Puerto Vallarta"},
+        {"name": "Zona Romántica", "location": "Zona Romántica, Puerto Vallarta"},
+        {"name": "Marietas Islands", "location": "Bahía de Banderas, Nayarit (Tour from Puerto Vallarta)"}
+      ],
+      "restaurants": [
+        {"name": "La Palapa Restaurant", "location": "Púlpito 105-3, Emiliano Zapata, Puerto Vallarta"},
+        {"name": "Café des Artistes", "location": "Guadalupe Sánchez 740, El Centro, Puerto Vallarta"}
+      ],
+      "police": "Comisaría de Policía, Av. de las Américas, Las Glorias, Puerto Vallarta",
+      "hospital": "Hospiten Puerto Vallarta, Blvd. Francisco Medina Ascencio 3970, Villa Las Flores",
+      "tips": [
+        "Puerto Vallarta is known for its beautiful beaches on the Pacific coast and its vibrant arts scene.",
+        "Stroll the Malecón in the evening to see street performers and impressive sculptures.",
+        "The Zona Romántica is a charming neighborhood with cobblestone streets and great restaurants."
+      ]
+    },
+    {
+      "city": "San Miguel de Allende",
+      "country": "Mexico",
+      "attractions": [
+        {"name": "Parroquia de San Miguel Arcángel", "location": "Principal S/N, Zona Centro, 37700 San Miguel de Allende"},
+        {"name": "Fábrica La Aurora", "location": "Calz de La Aurora S/N, Zona Centro, 37700 San Miguel de Allende"},
+        {"name": "El Jardín Principal", "location": "Principal S/N, Zona Centro, 37700 San Miguel de Allende"}
+      ],
+      "restaurants": [
+        {"name": "The Restaurant", "location": "Sollano 16, Zona Centro, 37700 San Miguel de Allende"},
+        {"name": "Áperi", "location": "Quebrada 101, Zona Centro, 37700 San Miguel de Allende"}
+      ],
+      "police": "Secretaría de Seguridad Pública, Edificio Administrativo, Paseo de los Conspiradores",
+      "hospital": "Hospital MAC San Miguel de Allende, Camino a Alcocer 12, La Luciérnaga",
+      "tips": [
+        "This colonial-era city is famous for its baroque architecture and thriving arts scene.",
+        "It is a UNESCO World Heritage site and a popular destination for expatriates.",
+        "Explore the many art galleries and artisan shops at Fábrica La Aurora, a converted textile mill."
+      ]
+    }
+  ],
+  "Saint Lucia": [
+    {
+      "city": "Soufrière",
+      "country": "Saint Lucia",
+      "attractions": [
+        {"name": "The Pitons (Gros Piton & Petit Piton)", "location": "Soufrière"},
+        {"name": "Sulphur Springs", "location": "Sulphur Springs Access Rd, Soufrière"},
+        {"name": "Diamond Falls Botanical Gardens", "location": "Soufriere Estate, Soufrière"}
+      ],
+      "restaurants": [
+        {"name": "Dasheene Restaurant", "location": "Ladera Resort, Soufrière"},
+        {"name": "The Beacon Restaurant", "location": "Freedom Street, Soufrière"}
+      ],
+      "police": "Royal Saint Lucia Police Force Station, Sir Arthur Lewis St, Soufrière",
+      "hospital": "Soufriere Hospital, Hospital Road, Soufrière",
+      "tips": [
+        "Soufrière is located in the heart of St. Lucia's most stunning natural scenery.",
+        "The Pitons, two volcanic spires, are a UNESCO World Heritage site.",
+        "Take a therapeutic mud bath at the Sulphur Springs, the Caribbean's only 'drive-in volcano'."
+      ]
+    }
+  ],
+  "USA": [
+    {
+      "city": "New York City",
+      "country": "USA",
+      "attractions": [
+        {"name": "Statue of Liberty & Ellis Island", "location": "New York Harbor"},
+        {"name": "Empire State Building", "location": "20 W 34th St, New York, NY 10001"},
+        {"name": "Central Park", "location": "Central Park, New York, NY"}
+      ],
+      "restaurants": [
+        {"name": "Katz's Delicatessen", "location": "205 E Houston St, New York, NY 10002"},
+        {"name": "Eleven Madison Park", "location": "11 Madison Ave, New York, NY 10010"}
+      ],
+      "police": "NYPD Headquarters, 1 Police Plaza, New York, NY 10038",
+      "hospital": "NewYork-Presbyterian Hospital, 525 E 68th St, New York, NY 10065",
+      "tips": [
+        "The subway is the most efficient way to get around the city.",
+        "Wear comfortable shoes as you will do a lot of walking.",
+        "Many world-class museums, like The Met, have pay-what-you-wish admission for NY residents."
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "country": "USA",
+      "attractions": [
+        {"name": "Hollywood Walk of Fame", "location": "Hollywood Boulevard, Hollywood, CA 90028"},
+        {"name": "Santa Monica Pier", "location": "200 Santa Monica Pier, Santa Monica, CA 90401"},
+        {"name": "Griffith Observatory", "location": "2800 E Observatory Rd, Los Angeles, CA 90027"}
+      ],
+      "restaurants": [
+        {"name": "n/naka", "location": "3455 Overland Ave, Los Angeles, CA 90034"},
+        {"name": "Philippe The Original", "location": "1001 N Alameda St, Los Angeles, CA 90012"}
+      ],
+      "police": "LAPD Headquarters, 100 W 1st St, Los Angeles, CA 90012",
+      "hospital": "Cedars-Sinai Medical Center, 8700 Beverly Blvd, Los Angeles, CA 90048",
+      "tips": [
+        "Renting a car is almost essential to explore the sprawling city.",
+        "Traffic is notoriously bad; plan your travel times accordingly.",
+        "Hike up to the Griffith Observatory for stunning views of the city and the Hollywood Sign."
+      ]
+    },
+    {
+      "city": "Chicago",
+      "country": "USA",
+      "attractions": [
+        {"name": "Millennium Park", "location": "201 E Randolph St, Chicago, IL 60602"},
+        {"name": "Willis Tower Skydeck", "location": "233 S Wacker Dr, Chicago, IL 60606"},
+        {"name": "Art Institute of Chicago", "location": "111 S Michigan Ave, Chicago, IL 60603"}
+      ],
+      "restaurants": [
+        {"name": "Alinea", "location": "1723 N Halsted St, Chicago, IL 60614"},
+        {"name": "Lou Malnati's Pizzeria", "location": "Various locations"}
+      ],
+      "police": "Chicago Police Department Headquarters, 3510 S Michigan Ave, Chicago, IL 60653",
+      "hospital": "Northwestern Memorial Hospital, 251 E Huron St, Chicago, IL 60611",
+      "tips": [
+        "Take an architectural boat tour on the Chicago River.",
+        "You must try a Chicago-style deep-dish pizza.",
+        "The 'L' train is an efficient way to travel between neighborhoods."
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "country": "USA",
+      "attractions": [
+        {"name": "Golden Gate Bridge", "location": "Golden Gate Bridge, San Francisco, CA"},
+        {"name": "Alcatraz Island", "location": "Alcatraz Island, San Francisco, CA"},
+        {"name": "Fisherman's Wharf", "location": "Fisherman's Wharf, San Francisco, CA"}
+      ],
+      "restaurants": [
+        {"name": "State Bird Provisions", "location": "1529 Fillmore St, San Francisco, CA 94115"},
+        {"name": "Boudin Bakery & Cafe", "location": "Pier 39, San Francisco, CA 94133"}
+      ],
+      "police": "SFPD Headquarters, 1245 3rd St, San Francisco, CA 94158",
+      "hospital": "UCSF Medical Center, 505 Parnassus Ave, San Francisco, CA 94143",
+      "tips": [
+        "Book your tickets for Alcatraz weeks or even months in advance.",
+        "Dress in layers; the weather can change quickly and is often cool and foggy.",
+        "Ride a historic cable car for a classic San Francisco experience."
+      ]
+    },
+    {
+      "city": "Las Vegas",
+      "country": "USA",
+      "attractions": [
+        {"name": "The Las Vegas Strip", "location": "Las Vegas Blvd, Las Vegas, NV"},
+        {"name": "Fountains of Bellagio", "location": "3600 S Las Vegas Blvd, Las Vegas, NV 89109"},
+        {"name": "Fremont Street Experience", "location": "Fremont St, Las Vegas, NV 89101"}
+      ],
+      "restaurants": [
+        {"name": "Joël Robuchon", "location": "MGM Grand, 3799 S Las Vegas Blvd, Las Vegas, NV 89109"},
+        {"name": "Bacchanal Buffet", "location": "Caesars Palace, 3570 S Las Vegas Blvd, Las Vegas, NV 89109"}
+      ],
+      "police": "Las Vegas Metropolitan Police Department Headquarters, 400 S Martin L King Blvd, Las Vegas, NV 89106",
+      "hospital": "University Medical Center (UMC), 1800 W Charleston Blvd, Las Vegas, NV 89102",
+      "tips": [
+        "Wear comfortable shoes as you'll walk long distances between casinos.",
+        "Stay hydrated, especially during the hot summer months.",
+        "Look for deals on shows and hotels, especially mid-week."
+      ]
+    },
+    {
+      "city": "Miami",
+      "country": "USA",
+      "attractions": [
+        {"name": "South Beach", "location": "South Beach, Miami Beach, FL"},
+        {"name": "Art Deco Historic District", "location": "Ocean Drive, Miami Beach, FL"},
+        {"name": "Wynwood Walls", "location": "2516 NW 2nd Ave, Miami, FL 33127"}
+      ],
+      "restaurants": [
+        {"name": "Joe's Stone Crab", "location": "11 Washington Ave, Miami Beach, FL 33139"},
+        {"name": "Versailles Restaurant", "location": "3555 SW 8th St, Miami, FL 33135"}
+      ],
+      "police": "Miami Police Department Headquarters, 400 NW 2nd Ave, Miami, FL 33128",
+      "hospital": "Jackson Memorial Hospital, 1611 NW 12th Ave, Miami, FL 33136",
+      "tips": [
+        "Explore the vibrant Cuban culture in the Little Havana neighborhood.",
+        "South Beach is famous for its nightlife and beautiful people.",
+        "Be prepared for high humidity, and protect yourself from the strong sun."
+      ]
+    },
+    {
+      "city": "New Orleans",
+      "country": "USA",
+      "attractions": [
+        {"name": "French Quarter", "location": "French Quarter, New Orleans, LA"},
+        {"name": "Bourbon Street", "location": "Bourbon St, New Orleans, LA"},
+        {"name": "The National WWII Museum", "location": "945 Magazine St, New Orleans, LA 70130"}
+      ],
+      "restaurants": [
+        {"name": "Commander's Palace", "location": "1403 Washington Ave, New Orleans, LA 70130"},
+        {"name": "Café Du Monde", "location": "800 Decatur St, New Orleans, LA 70116"}
+      ],
+      "police": "New Orleans Police Department Headquarters, 715 S Broad St, New Orleans, LA 70119",
+      "hospital": "University Medical Center New Orleans, 2000 Canal St, New Orleans, LA 70112",
+      "tips": [
+        "Try the famous beignets and café au lait at Café Du Monde.",
+        "Listen to live jazz music on Frenchmen Street.",
+        "The city's open container policy allows you to drink alcoholic beverages on the street in plastic cups."
+      ]
+    },
+    {
+      "city": "Washington, D.C.",
+      "country": "USA",
+      "attractions": [
+        {"name": "National Mall", "location": "National Mall, Washington, D.C."},
+        {"name": "Lincoln Memorial", "location": "2 Lincoln Memorial Cir NW, Washington, D.C. 20002"},
+        {"name": "Smithsonian National Air and Space Museum", "location": "600 Independence Ave SW, Washington, D.C. 20560"}
+      ],
+      "restaurants": [
+        {"name": "Old Ebbitt Grill", "location": "675 15th St NW, Washington, D.C. 20005"},
+        {"name": "Ben's Chili Bowl", "location": "1213 U St NW, Washington, D.C. 20009"}
+      ],
+      "police": "Metropolitan Police Department Headquarters, 300 Indiana Ave NW, Washington, D.C. 20001",
+      "hospital": "George Washington University Hospital, 900 23rd St NW, Washington, D.C. 20037",
+      "tips": [
+        "All Smithsonian museums have free admission.",
+        "Wear comfortable shoes as the National Mall is over two miles long.",
+        "The Metro system is an effective way to get around the city and surrounding areas."
+      ]
+    },
+    {
+      "city": "Boston",
+      "country": "USA",
+      "attractions": [
+        {"name": "Freedom Trail", "location": "Starts at Boston Common, Boston, MA"},
+        {"name": "Faneuil Hall Marketplace", "location": "4 S Market St, Boston, MA 02109"},
+        {"name": "Fenway Park", "location": "4 Jersey St, Boston, MA 02215"}
+      ],
+      "restaurants": [
+        {"name": "Union Oyster House", "location": "41 Union St, Boston, MA 02108"},
+        {"name": "Neptune Oyster", "location": "63 Salem St, Boston, MA 02113"}
+      ],
+      "police": "Boston Police Department Headquarters, 1 Schroeder Plaza, Boston, MA 02120",
+      "hospital": "Massachusetts General Hospital, 55 Fruit St, Boston, MA 02114",
+      "tips": [
+        "Walk the 2.5-mile Freedom Trail to see 16 significant historic sites.",
+        "The city is very walkable, but the streets can be confusingly laid out.",
+        "Try New England clam chowder and a lobster roll."
+      ]
+    },
+    {
+      "city": "Seattle",
+      "country": "USA",
+      "attractions": [
+        {"name": "Space Needle", "location": "400 Broad St, Seattle, WA 98109"},
+        {"name": "Pike Place Market", "location": "85 Pike St, Seattle, WA 98101"},
+        {"name": "Chihuly Garden and Glass", "location": "305 Harrison St, Seattle, WA 98109"}
+      ],
+      "restaurants": [
+        {"name": "Canlis", "location": "2576 Aurora Ave N, Seattle, WA 98109"},
+        {"name": "Pike Place Chowder", "location": "1530 Post Alley, Seattle, WA 98101"}
+      ],
+      "police": "Seattle Police Department Headquarters, 610 5th Ave, Seattle, WA 98104",
+      "hospital": "Harborview Medical Center, 325 9th Ave, Seattle, WA 98104",
+      "tips": [
+        "Watch the fishmongers throw fish at Pike Place Market.",
+        "Seattle is known as the Emerald City for its lush greenery.",
+        "Despite its reputation for rain, summers are usually dry and pleasant."
+      ]
+    },
+     {
+      "city": "Jackson",
+      "country": "USA",
+      "attractions": [
+        {"name": "Grand Teton National Park", "location": "Moose, WY"},
+        {"name": "Jackson Town Square", "location": "Jackson, WY 83001"},
+        {"name": "National Elk Refuge", "location": "675 E Broadway Ave, Jackson, WY 83001"}
+      ],
+      "restaurants": [
+        {"name": "Snake River Grill", "location": "84 E Broadway Ave, Jackson, WY 83001"},
+        {"name": "Million Dollar Cowboy Steakhouse", "location": "25 N Cache St, Jackson, WY 83001"}
+      ],
+      "police": "Jackson Police Department, 120 S King St, Jackson, WY 83001",
+      "hospital": "St. John's Health, 625 E Broadway Ave, Jackson, WY 83001",
+      "tips": [
+        "Jackson is the primary gateway town for both Grand Teton and Yellowstone National Parks.",
+        "Take a photo under the famous elk antler arches on the Town Square.",
+        "Accommodations are expensive and book up far in advance, especially in summer."
+      ]
+    },
+    {
+      "city": "Moab",
+      "country": "USA",
+      "attractions": [
+        {"name": "Arches National Park", "location": "Near Moab, UT"},
+        {"name": "Canyonlands National Park", "location": "Near Moab, UT"},
+        {"name": "Dead Horse Point State Park", "location": "UT-313, Moab, UT 84532"}
+      ],
+      "restaurants": [
+        {"name": "Desert Bistro", "location": "36 S 100 W, Moab, UT 84532"},
+        {"name": "Moab Brewery", "location": "686 S Main St, Moab, UT 84532"}
+      ],
+      "police": "Moab City Police Department, 217 E Center St, Moab, UT 84532",
+      "hospital": "Moab Regional Hospital, 450 Williams Way, Moab, UT 84532",
+      "tips": [
+        "Moab is the adventure hub of Utah, perfect for hiking, biking, and off-roading.",
+        "Visit Arches National Park at sunrise or sunset for the best light on the red rock.",
+        "Drink an extreme amount of water; the desert climate is incredibly dry."
+      ]
+    },
+    {
+      "city": "Sedona",
+      "country": "USA",
+      "attractions": [
+        {"name": "Cathedral Rock", "location": "Back O' Beyond Rd, Sedona, AZ 86336"},
+        {"name": "Chapel of the Holy Cross", "location": "780 Chapel Rd, Sedona, AZ 86336"},
+        {"name": "Bell Rock", "location": "Sedona, AZ 86351"}
+      ],
+      "restaurants": [
+        {"name": "Mariposa Latin Inspired Grill", "location": "700 W State Rte 89A, Sedona, AZ 86336"},
+        {"name": "Elote Cafe", "location": "350 Jordan Rd, Sedona, AZ 86336"}
+      ],
+      "police": "Sedona Police Department, 102 Roadrunner Dr, Sedona, AZ 86336",
+      "hospital": "Verde Valley Medical Center - Sedona Campus, 3700 W State Rte 89A, Sedona, AZ 86336",
+      "tips": [
+        "Sedona is famous for its stunning red rock formations and spiritual vortexes.",
+        "Take a Pink Jeep Tour for a thrilling off-road adventure.",
+        "The area is known for its art galleries and new-age shops."
+      ]
+    },
+    {
+      "city": "Key West",
+      "country": "USA",
+      "attractions": [
+        {"name": "Southernmost Point of the Continental U.S.A.", "location": "Whitehead St & South St, Key West, FL 33040"},
+        {"name": "Ernest Hemingway Home and Museum", "location": "907 Whitehead St, Key West, FL 33040"},
+        {"name": "Mallory Square", "location": "400 Wall St, Key West, FL 33040"}
+      ],
+      "restaurants": [
+        {"name": "Blue Heaven", "location": "729 Thomas St, Key West, FL 33040"},
+        {"name": "Latitudes", "location": "245 Front St, Key West, FL 33040 (on Sunset Key)"}
+      ],
+      "police": "Key West Police Department, 1604 N Roosevelt Blvd, Key West, FL 33040",
+      "hospital": "Lower Keys Medical Center, 5900 College Rd, Key West, FL 33040",
+      "tips": [
+        "Enjoy the nightly Sunset Celebration at Mallory Square with street performers.",
+        "You must try a slice of authentic Key lime pie.",
+        "The drive down the Overseas Highway to Key West is a scenic experience in itself."
+      ]
+    },
+    {
+      "city": "St. Louis",
+      "country": "USA",
+      "attractions": [
+        {"name": "Gateway Arch National Park", "location": "St. Louis, MO 63102"},
+        {"name": "City Museum", "location": "750 N 16th St, St. Louis, MO 63103"},
+        {"name": "Forest Park", "location": "5595 Grand Dr, St. Louis, MO 63112"}
+      ],
+      "restaurants": [
+        {"name": "Pappy's Smokehouse", "location": "3106 Olive St, St. Louis, MO 63103"},
+        {"name": "Ted Drewes Frozen Custard", "location": "6726 Chippewa St, St. Louis, MO 63109"}
+      ],
+      "police": "St. Louis Metropolitan Police Department Headquarters, 1915 Olive St, St. Louis, MO 63103",
+      "hospital": "Barnes-Jewish Hospital, 1 Barnes Jewish Hospital Plaza, St. Louis, MO 63110",
+      "tips": [
+        "Ride the tram to the top of the 630-foot Gateway Arch for incredible views.",
+        "The City Museum is a surrealist funhouse made from reclaimed materials, fun for all ages.",
+        "Many of the attractions in Forest Park, including the zoo and art museum, have free admission."
+      ]
+    },
+    {
+      "city": "Memphis",
+      "country": "USA",
+      "attractions": [
+        {"name": "Graceland", "location": "37 Elvis Presley Blvd, Memphis, TN 38116"},
+        {"name": "Beale Street", "location": "Beale St, Memphis, TN"},
+        {"name": "National Civil Rights Museum", "location": "450 Mulberry St, Memphis, TN 38103"}
+      ],
+      "restaurants": [
+        {"name": "Charlie Vergos' Rendezvous", "location": "52 S 2nd St, Memphis, TN 38103"},
+        {"name": "Gus's World Famous Fried Chicken", "location": "310 S Front St, Memphis, TN 38103"}
+      ],
+      "police": "Memphis Police Department, 170 N Main St, Memphis, TN 38103",
+      "hospital": "Regional One Health, 877 Jefferson Ave, Memphis, TN 38103",
+      "tips": [
+        "Memphis is the home of the Blues and the birthplace of Rock 'n' Roll.",
+        "Visit Sun Studio, where legends like Elvis Presley, Johnny Cash, and B.B. King recorded.",
+        "The National Civil Rights Museum is powerfully located at the Lorraine Motel, where Dr. Martin Luther King Jr. was assassinated."
+      ]
+    }
+  ],
+  "U.S. Virgin Islands": [
+    {
+      "city": "Charlotte Amalie",
+      "country": "U.S. Virgin Islands",
+      "attractions": [
+        {"name": "Magens Bay", "location": "Magens Bay, St. Thomas"},
+        {"name": "Blackbeard's Castle", "location": "1001 Blackbeard's Hill, Charlotte Amalie, St. Thomas"},
+        {"name": "99 Steps", "location": "Government Hill, Charlotte Amalie, St. Thomas"}
+      ],
+      "restaurants": [
+        {"name": "Gladys' Cafe", "location": "5600 Royal Dane Mall, Charlotte Amalie, St. Thomas"},
+        {"name": "Oceana Restaurant & Wine Bar", "location": "8 Honduras, Frenchtown, St. Thomas"}
+      ],
+      "police": "Virgin Islands Police Department - Richard Callwood Command, 8000 Nisky Center, St. Thomas",
+      "hospital": "Roy Lester Schneider Hospital, 9048 Sugar Estate, St. Thomas",
+      "tips": [
+        "The U.S. Virgin Islands is a U.S. territory, so Americans don't need a passport.",
+        "Traffic drives on the left, but most cars are standard U.S. left-hand drive.",
+        "Charlotte Amalie is one of the busiest cruise ship ports in the Caribbean and is famous for its duty-free shopping."
+      ]
+    },
+    {
+      "city": "Denver",
+      "country": "USA",
+      "attractions": [
+        {"name": "Rocky Mountain National Park", "location": "Near Estes Park, CO"},
+        {"name": "Red Rocks Park and Amphitheatre", "location": "18300 W Alameda Pkwy, Morrison, CO 80465"},
+        {"name": "Denver Art Museum", "location": "100 W 14th Ave Pkwy, Denver, CO 80204"}
+      ],
+      "restaurants": [
+        {"name": "Buckhorn Exchange", "location": "1000 Osage St, Denver, CO 80204"},
+        {"name": "Snooze, an A.M. Eatery", "location": "Various locations"}
+      ],
+      "police": "Denver Police Administration Building, 1331 Cherokee St, Denver, CO 80204",
+      "hospital": "Denver Health Medical Center, 777 Bannock St, Denver, CO 80204",
+      "tips": [
+        "Denver is nicknamed the 'Mile High City' because its official elevation is exactly one mile.",
+        "Drink plenty of water to stay hydrated and acclimatize to the high altitude.",
+        "The city is a gateway to the Rocky Mountains for skiing and hiking."
+      ]
+    },
+    {
+      "city": "Anchorage",
+      "country": "USA",
+      "attractions": [
+        {"name": "Chugach State Park", "location": "Near Anchorage, AK"},
+        {"name": "Alaska Native Heritage Center", "location": "8800 Heritage Center Dr, Anchorage, AK 99504"},
+        {"name": "Tony Knowles Coastal Trail", "location": "Starts downtown Anchorage, AK"}
+      ],
+      "restaurants": [
+        {"name": "49th State Brewing Co", "location": "717 W 3rd Ave, Anchorage, AK 99501"},
+        {"name": "Glacier Brewhouse", "location": "737 W 5th Ave #110, Anchorage, AK 99501"}
+      ],
+      "police": "Anchorage Police Department Headquarters, 716 W 4th Ave, Anchorage, AK 99501",
+      "hospital": "Providence Alaska Medical Center, 3200 Providence Dr, Anchorage, AK 99508",
+      "tips": [
+        "Be 'bear aware' as moose and bears are frequently seen, even within the city.",
+        "Visit in summer to experience the 'midnight sun,' with nearly 24 hours of daylight.",
+        "Anchorage is the primary hub for accessing Alaska's wilderness."
+      ]
+    },
+    {
+      "city": "Orlando",
+      "country": "USA",
+      "attractions": [
+        {"name": "Walt Disney World Resort", "location": "Lake Buena Vista, FL"},
+        {"name": "Universal Orlando Resort", "location": "6000 Universal Blvd, Orlando, FL 32819"},
+        {"name": "Kennedy Space Center Visitor Complex", "location": "Space Commerce Way, Merritt Island, FL 32953"}
+      ],
+      "restaurants": [
+        {"name": "Victoria & Albert's", "location": "Disney's Grand Floridian Resort & Spa, 4401 Floridian Way, Orlando, FL"},
+        {"name": "The Ravenous Pig", "location": "565 W Fairbanks Ave, Winter Park, FL 32789"}
+      ],
+      "police": "Orlando Police Department Headquarters, 1250 W South St, Orlando, FL 32805",
+      "hospital": "Orlando Regional Medical Center, 52 W Underwood St, Orlando, FL 32806",
+      "tips": [
+        "Orlando is known as the 'Theme Park Capital of the World'.",
+        "Buy tickets online in advance to save time and money.",
+        "Stay hydrated; the heat and humidity can be very intense, especially in summer."
+      ]
+    },
+    {
+      "city": "San Diego",
+      "country": "USA",
+      "attractions": [
+        {"name": "Balboa Park", "location": "1549 El Prado, San Diego, CA 92101"},
+        {"name": "San Diego Zoo", "location": "2920 Zoo Dr, San Diego, CA 92101"},
+        {"name": "USS Midway Museum", "location": "910 N Harbor Dr, San Diego, CA 92101"}
+      ],
+      "restaurants": [
+        {"name": "Phil's BBQ", "location": "3750 Sports Arena Blvd, San Diego, CA 92110"},
+        {"name": "George's at the Cove", "location": "1250 Prospect St, La Jolla, CA 92037"}
+      ],
+      "police": "San Diego Police Department Headquarters, 1401 Broadway, San Diego, CA 92101",
+      "hospital": "UC San Diego Medical Center, 200 W Arbor Dr, San Diego, CA 92103",
+      "tips": [
+        "San Diego is known for its near-perfect weather year-round.",
+        "Try the local specialty: fish tacos.",
+        "Balboa Park is a massive urban cultural park containing museums, gardens, and the zoo."
+      ]
+    },
+    {
+      "city": "Honolulu",
+      "country": "USA",
+      "attractions": [
+        {"name": "Pearl Harbor National Memorial", "location": "1 Arizona Memorial Pl, Honolulu, HI 96818"},
+        {"name": "Waikiki Beach", "location": "Waikiki, Honolulu, HI"},
+        {"name": "Diamond Head State Monument", "location": "Diamond Head Rd, Honolulu, HI 96816"}
+      ],
+      "restaurants": [
+        {"name": "Alan Wong's Honolulu", "location": "1857 S King St, Honolulu, HI 96826"},
+        {"name": "Helena's Hawaiian Food", "location": "1240 N School St, Honolulu, HI 96817"}
+      ],
+      "police": "Honolulu Police Department Headquarters, 801 S Beretania St, Honolulu, HI 96813",
+      "hospital": "The Queen's Medical Center, 1301 Punchbowl St, Honolulu, HI 96813",
+      "tips": [
+        "Reserve tickets for the USS Arizona Memorial at Pearl Harbor well in advance.",
+        "Hike to the top of Diamond Head for panoramic views of Waikiki and the ocean.",
+        "Try a shave ice for a refreshing local treat."
+      ]
+    },
+    {
+      "city": "Austin",
+      "country": "USA",
+      "attractions": [
+        {"name": "Sixth Street", "location": "E 6th St, Austin, TX"},
+        {"name": "Zilker Park", "location": "2207 Lou Neff Rd, Austin, TX 78746"},
+        {"name": "Congress Avenue Bridge (Bat Bridge)", "location": "Congress Ave, Austin, TX 78704"}
+      ],
+      "restaurants": [
+        {"name": "Franklin Barbecue", "location": "900 E 11th St, Austin, TX 78702"},
+        {"name": "Uchi", "location": "801 S Lamar Blvd, Austin, TX 78704"}
+      ],
+      "police": "Austin Police Department Headquarters, 715 E 8th St, Austin, TX 78701",
+      "hospital": "Dell Seton Medical Center at The University of Texas, 1500 Red River St, Austin, TX 78701",
+      "tips": [
+        "Austin's slogan is 'Keep Austin Weird'.",
+        "It's known as the 'Live Music Capital of the World'.",
+        "Watch millions of bats emerge from under the Congress Avenue Bridge at sunset (March-October)."
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "country": "USA",
+      "attractions": [
+        {"name": "The Alamo", "location": "300 Alamo Plaza, San Antonio, TX 78205"},
+        {"name": "San Antonio River Walk", "location": "849 E Commerce St, San Antonio, TX 78205"},
+        {"name": "San Antonio Missions National Historical Park", "location": "6701 San Jose Dr, San Antonio, TX 78214"}
+      ],
+      "restaurants": [
+        {"name": "Boudro's on the Riverwalk", "location": "421 E Commerce St, San Antonio, TX 78205"},
+        {"name": "Mi Tierra Café y Panadería", "location": "218 Produce Row, San Antonio, TX 78207"}
+      ],
+      "police": "San Antonio Police Department Headquarters, 315 S Santa Rosa Ave, San Antonio, TX 78207",
+      "hospital": "University Hospital, 4502 Medical Dr, San Antonio, TX 78229",
+      "tips": [
+        "Remember the Alamo, a historic mission and fortress compound.",
+        "Take a river barge tour along the famous River Walk.",
+        "The San Antonio Missions are collectively a UNESCO World Heritage site."
+      ]
+    },
+    {
+      "city": "Nashville",
+      "country": "USA",
+      "attractions": [
+        {"name": "Grand Ole Opry", "location": "2804 Opryland Dr, Nashville, TN 37214"},
+        {"name": "Country Music Hall of Fame and Museum", "location": "222 Rep. John Lewis Way S, Nashville, TN 37203"},
+        {"name": "Ryman Auditorium", "location": "116 5th Ave N, Nashville, TN 37219"}
+      ],
+      "restaurants": [
+        {"name": "Hattie B's Hot Chicken", "location": "112 19th Ave S, Nashville, TN 37203"},
+        {"name": "The Bluebird Cafe", "location": "4104 Hillsboro Pike, Nashville, TN 37215"}
+      ],
+      "police": "Metropolitan Nashville Police Department Headquarters, 600 Murfreesboro Pike, Nashville, TN 37210",
+      "hospital": "Vanderbilt University Medical Center, 1211 Medical Center Dr, Nashville, TN 37232",
+      "tips": [
+        "Nashville is nicknamed 'Music City'.",
+        "Explore the honky-tonk bars with live music on Broadway.",
+        "Try Nashville hot chicken, but be careful with the spice level."
+      ]
+    },
+    {
+      "city": "Charleston",
+      "country": "USA",
+      "attractions": [
+        {"name": "Historic Charleston City Market", "location": "188 Meeting St, Charleston, SC 29401"},
+        {"name": "Rainbow Row", "location": "83-107 E Bay St, Charleston, SC 29401"},
+        {"name": "Fort Sumter National Monument", "location": "Charleston Harbor, SC"}
+      ],
+      "restaurants": [
+        {"name": "Husk", "location": "76 Queen St, Charleston, SC 29401"},
+        {"name": "FIG", "location": "232 Meeting St, Charleston, SC 29401"}
+      ],
+      "police": "Charleston Police Department, 180 Lockwood Blvd, Charleston, SC 29403",
+      "hospital": "MUSC Health University Medical Center, 171 Ashley Ave, Charleston, SC 29425",
+      "tips": [
+        "Charleston is known for its historic charm, cobblestone streets, and pastel-colored houses.",
+        "Take a horse-drawn carriage tour to learn about the city's history.",
+        "Enjoy Lowcountry cuisine, which features dishes like shrimp and grits."
+      ]
+    },
+    {
+      "city": "Savannah",
+      "country": "USA",
+      "attractions": [
+        {"name": "Forsyth Park", "location": "2 W Gaston St, Savannah, GA 31401"},
+        {"name": "Historic River Street", "location": "River St, Savannah, GA"},
+        {"name": "Bonaventure Cemetery", "location": "330 Bonaventure Rd, Thunderbolt, GA 31404"}
+      ],
+      "restaurants": [
+        {"name": "The Olde Pink House", "location": "23 Abercorn St, Savannah, GA 31401"},
+        {"name": "Mrs. Wilkes' Dining Room", "location": "107 W Jones St, Savannah, GA 31401"}
+      ],
+      "police": "Savannah Police Department, 201 Habersham St, Savannah, GA 31401",
+      "hospital": "Memorial Health University Medical Center, 4700 Waters Ave, Savannah, GA 31404",
+      "tips": [
+        "The city is famous for its 22 historic squares, which act as lovely small parks.",
+        "Wear comfortable shoes for walking on the cobblestones of River Street.",
+        "Take a ghost tour to learn about the city's haunted history."
+      ]
+    },
+    {
+      "city": "Philadelphia",
+      "country": "USA",
+      "attractions": [
+        {"name": "Independence Hall", "location": "520 Chestnut St, Philadelphia, PA 19106"},
+        {"name": "Liberty Bell", "location": "526 Market St, Philadelphia, PA 19106"},
+        {"name": "Philadelphia Museum of Art (and the 'Rocky Steps')", "location": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130"}
+      ],
+      "restaurants": [
+        {"name": "Zahav", "location": "237 St James Pl, Philadelphia, PA 19106"},
+        {"name": "Reading Terminal Market", "location": "51 N 12th St, Philadelphia, PA 19107"}
+      ],
+      "police": "Philadelphia Police Department Headquarters, 400 N Broad St, Philadelphia, PA 19130",
+      "hospital": "Hospital of the University of Pennsylvania, 3400 Spruce St, Philadelphia, PA 19104",
+      "tips": [
+        "Philadelphia is the birthplace of the United States.",
+        "You must try a Philly cheesesteak; debate with locals about whether Pat's or Geno's is better.",
+        "Many of the historic sites are free to visit but may require timed tickets."
+      ]
+    },
+    {
+      "city": "Portland",
+      "country": "USA",
+      "attractions": [
+        {"name": "Powell's City of Books", "location": "1005 W Burnside St, Portland, OR 97209"},
+        {"name": "International Rose Test Garden", "location": "400 SW Kingston Ave, Portland, OR 97205"},
+        {"name": "Lan Su Chinese Garden", "location": "239 NW Everett St, Portland, OR 97209"}
+      ],
+      "restaurants": [
+        {"name": "Le Pigeon", "location": "738 E Burnside St, Portland, OR 97214"},
+        {"name": "Voodoo Doughnut", "location": "22 SW 3rd Ave, Portland, OR 97204"}
+      ],
+      "police": "Portland Police Bureau Central Precinct, 1111 SW 2nd Ave, Portland, OR 97204",
+      "hospital": "OHSU Hospital, 3181 SW Sam Jackson Park Rd, Portland, OR 97239",
+      "tips": [
+        "Portland's slogan is 'Keep Portland Weird'.",
+        "Explore the city's famous food cart pods for a huge variety of delicious food.",
+        "There is no sales tax in Oregon."
+      ]
+    },
+    {
+      "city": "Phoenix",
+      "country": "USA",
+      "attractions": [
+        {"name": "Desert Botanical Garden", "location": "1201 N Galvin Pkwy, Phoenix, AZ 85008"},
+        {"name": "Camelback Mountain", "location": "Phoenix, AZ 85251"},
+        {"name": "Heard Museum", "location": "2301 N Central Ave, Phoenix, AZ 85004"}
+      ],
+      "restaurants": [
+        {"name": "Pizzeria Bianco", "location": "623 E Adams St, Phoenix, AZ 85004"},
+        {"name": "Matt's Big Breakfast", "location": "825 N 1st St, Phoenix, AZ 85004"}
+      ],
+      "police": "Phoenix Police Department Headquarters, 620 W Washington St, Phoenix, AZ 85003",
+      "hospital": "Banner - University Medical Center Phoenix, 1111 E McDowell Rd, Phoenix, AZ 85006",
+      "tips": [
+        "Summers are extremely hot; plan outdoor activities for the early morning.",
+        "Phoenix is located in the Sonoran Desert, offering unique landscapes.",
+        "The area, including nearby Scottsdale, is known for its golf courses and spa resorts."
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "country": "USA",
+      "attractions": [
+        {"name": "Temple Square", "location": "50 N W Temple St, Salt Lake City, UT 84150"},
+        {"name": "Great Salt Lake", "location": "Great Salt Lake, UT"},
+        {"name": "Park City Mountain Resort", "location": "1345 Lowell Ave, Park City, UT 84060"}
+      ],
+      "restaurants": [
+        {"name": "Red Iguana", "location": "736 W N Temple, Salt Lake City, UT 84116"},
+        {"name": "Log Haven", "location": "6451 Millcreek Canyon Rd, Salt Lake City, UT 84109"}
+      ],
+      "police": "Salt Lake City Police Department, 475 S 300 E, Salt Lake City, UT 84111",
+      "hospital": "University of Utah Hospital, 50 N Medical Dr, Salt Lake City, UT 84132",
+      "tips": [
+        "Salt Lake City is the headquarters of The Church of Jesus Christ of Latter-day Saints.",
+        "The city is a gateway to Utah's world-class ski resorts, known for 'The Greatest Snow on Earth®'.",
+        "Utah has unique and sometimes strict liquor laws."
+      ]
+    }
+  ],
+  "Puerto Rico": [
+    {
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "attractions": [
+        {"name": "Old San Juan (Viejo San Juan)", "location": "Old San Juan, San Juan"},
+        {"name": "Castillo San Felipe del Morro", "location": "501 Calle Norzagaray, San Juan"},
+        {"name": "El Yunque National Forest", "location": "Río Grande, Puerto Rico"}
+      ],
+      "restaurants": [
+        {"name": "Marmalade Restaurant & Wine Bar", "location": "317 C. de la Fortaleza, San Juan"},
+        {"name": "Barrachina", "location": "104 C. de la Fortaleza, San Juan"}
+      ],
+      "police": "Cuartel General de la Policia, Avenida Franklin Delano Roosevelt, San Juan",
+      "hospital": "Ashford Presbyterian Community Hospital, 1451 Ashford Ave, San Juan",
+      "tips": [
+        "Puerto Rico is a U.S. territory, so U.S. citizens do not need a passport.",
+        "The currency is the US Dollar.",
+        "Explore the colorful streets and Spanish colonial architecture of Old San Juan."
+      ]
+    }
+  ]
+}
