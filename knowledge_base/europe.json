@@ -64,6 +64,46 @@
         "Stand on the right side of escalators."
       ]
     },
+    {
+      "city": "Graz",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Schlossberg", "location": "Schlossberg, 8010 Graz"},
+        {"name": "Kunsthaus Graz (Art Museum)", "location": "Lendkai 1, 8020 Graz"},
+        {"name": "Landeszeughaus (Styrian Armoury)", "location": "Herrengasse 16, 8010 Graz"}
+      ],
+      "restaurants": [
+        {"name": "Der Steirer", "location": "Belgiergasse 1, 8020 Graz"},
+        {"name": "Landhauskeller", "location": "Schmiedgasse 9, 8010 Graz"}
+      ],
+      "police": "Stadtpolizeikommando Graz, Parkring 4, 8010 Graz",
+      "hospital": "LKH-Universitätsklinikum Graz, Auenbruggerplatz 1, 8036 Graz",
+      "tips": [
+        "The historic center of Graz is a UNESCO World Heritage site.",
+        "Take the funicular or the elevator up the Schlossberg for the best city views.",
+        "The Kunsthaus Graz is nicknamed the 'Friendly Alien' for its unique architecture."
+      ]
+    },
+    {
+      "city": "Linz",
+      "country": "Austria",
+      "attractions": [
+        {"name": "Ars Electronica Center", "location": "Ars-Electronica-Straße 1, 4040 Linz"},
+        {"name": "Lentos Kunstmuseum", "location": "Ernst-Koref-Promenade 1, 4020 Linz"},
+        {"name": "Pöstlingbergbahn", "location": "Hauptplatz, 4020 Linz"}
+      ],
+      "restaurants": [
+        {"name": "Verdi Restaurant & Einkehr", "location": "Landstraße 32, 4020 Linz"},
+        {"name": "Leberkas-Pepi", "location": "Rathausgasse 3, 4020 Linz"}
+      ],
+      "police": "Stadtpolizeikommando Linz, Nietzschestraße 33, 4020 Linz",
+      "hospital": "Kepler Universitätsklinikum, Krankenhausstraße 9, 4020 Linz",
+      "tips": [
+        "Linz is known as a modern city of media arts and technology.",
+        "The Ars Electronica Center is a futuristic museum of technology and society.",
+        "Try a slice of Linzer Torte, one of the oldest known cakes in the world."
+      ]
+    },
       {
       "city": "Innsbruck",
       "country": "Austria",
@@ -186,6 +226,26 @@
         "Take a boat tour on the canals for a different perspective.",
         "Try Belgian chocolate from a local shop.",
         "The city is very picturesque and best explored on foot."
+      ]
+    },
+    {
+      "city": "Dinant",
+      "country": "Belgium",
+      "attractions": [
+        {"name": "Citadel of Dinant", "location": "Place Reine Astrid 3, 5500 Dinant"},
+        {"name": "Collegiate Church of Notre-Dame", "location": "Place Reine Astrid, 5500 Dinant"},
+        {"name": "Maison Adolphe Sax", "location": "Rue Adolphe Sax 37, 5500 Dinant"}
+      ],
+      "restaurants": [
+        {"name": "Le Leff", "location": "Pont Charles de Gaulle, 5500 Dinant"},
+        {"name": "La Broche", "location": "Rue Grande 26, 5500 Dinant"}
+      ],
+      "police": "Police de Proximité de Dinant, Rue Léopold 23, 5500 Dinant",
+      "hospital": "CHU UCL Namur - Site de Dinant, Rue Saint-Jacques 501, 5500 Dinant",
+      "tips": [
+        "Dinant is the birthplace of Adolphe Sax, the inventor of the saxophone.",
+        "Take the cable car up to the Citadel for stunning views of the Meuse Valley.",
+        "Try the 'Couque de Dinant,' an extremely hard, decorative biscuit."
       ]
     },
     {
@@ -538,6 +598,26 @@
         "Don't miss the 'Your Rainbow Panorama' walkway on top of the ARoS museum.",
         "Aarhus is very bike-friendly.",
         "Explore the Latin Quarter for charming streets and shops."
+      ]
+    },
+    {
+      "city": "Billund",
+      "country": "Denmark",
+      "attractions": [
+        {"name": "LEGOLAND Billund", "location": "Nordmarksvej 9, 7190 Billund"},
+        {"name": "LEGO House", "location": "Ole Kirks Plads 1, 7190 Billund"},
+        {"name": "Lalandia", "location": "Ellehammers Allé 3, 7190 Billund"}
+      ],
+      "restaurants": [
+        {"name": "Mini Chef", "location": "LEGO House, Ole Kirks Plads 1, 7190 Billund"},
+        {"name": "Gastropub", "location": "Hotel LEGOLAND, Åstvej 10, 7190 Billund"}
+      ],
+      "police": "Sydøstjyllands Politi - Nærpolitistation Billund, Kløvermarken 35, 7190 Billund",
+      "hospital": "Sygehus Lillebælt, Kolding, Skovvangen 2-8, 6000 Kolding",
+      "tips": [
+        "Billund is the birthplace of the LEGO brick and home to its headquarters.",
+        "Book tickets for LEGOLAND and LEGO House online in advance.",
+        "The town is very family-friendly, built around these main attractions."
       ]
     }
   ],
@@ -926,66 +1006,6 @@
         "This is one of the best-preserved medieval towns on Germany's 'Romantic Road'.",
         "Walk along the top of the old city walls for great views.",
         "Try a 'Schneeball' (snowball), a local deep-fried pastry."
-      ]
-    },
-    {
-      "city": "Vernazza (Cinque Terre)",
-      "country": "Italy",
-      "attractions": [
-        {"name": "Cinque Terre Hiking Trails", "location": "Connecting the five villages"},
-        {"name": "Vernazza Harbour", "location": "Vernazza, 19018"},
-        {"name": "Doria Castle", "location": "Via San Francesco, 19018 Vernazza SP"}
-      ],
-      "restaurants": [
-        {"name": "Ristorante Belforte", "location": "Via G. Guidoni, 42, 19018 Vernazza SP"},
-        {"name": "Trattoria Da Sandro", "location": "Via Roma, 60, 19018 Vernazza SP"}
-      ],
-      "police": "Carabinieri station located in Monterosso al Mare, Via Roma, 23, 19016",
-      "hospital": "Ospedale Sant'Andrea, Via Vittorio Veneto, 197, 19121 La Spezia SP",
-      "tips": [
-        "Vernazza is one of the five picturesque villages of the Cinque Terre.",
-        "The best way to travel between the villages is by train or by hiking.",
-        "Buy a Cinque Terre Card for access to hiking trails and unlimited train travel."
-      ]
-    },
-    {
-      "city": "Genoa",
-      "country": "Italy",
-      "attractions": [
-        {"name": "Aquarium of Genoa", "location": "Ponte Spinola, 16128 Genova GE"},
-        {"name": "Palazzi dei Rolli", "location": "Via Garibaldi, Genova GE"},
-        {"name": "Old Port (Porto Antico)", "location": "Porto Antico, 16128 Genova GE"}
-      ],
-      "restaurants": [
-        {"name": "Trattoria da Maria", "location": "Vico Testadoro, 14r, 16123 Genova GE"},
-        {"name": "Zeffirino", "location": "Via XX Settembre, 20, 16121 Genova GE"}
-      ],
-      "police": "Questura di Genova, Via Armando Diaz, 2, 16121 Genova GE",
-      "hospital": "Ospedale Galliera, Mura delle Cappuccine, 14, 16128 Genova GE",
-      "tips": [
-        "Genoa is the birthplace of Christopher Columbus and pesto sauce.",
-        "Explore the 'caruggi,' the maze of narrow alleyways in the historic center.",
-        "The Palazzi dei Rolli on Via Garibaldi are a UNESCO World Heritage site."
-      ]
-    },
-    {
-      "city": "Como",
-      "country": "Italy",
-      "attractions": [
-        {"name": "Lake Como", "location": "Lake Como"},
-        {"name": "Como-Brunate Funicular", "location": "Piazza Alcide de Gasperi, 4, 22100 Como CO"},
-        {"name": "Villa Olmo", "location": "Via Simone Cantoni, 1, 22100 Como CO"}
-      ],
-      "restaurants": [
-        {"name": "Ristorante Sociale", "location": "Via Rodari, 6, 22100 Como CO"},
-        {"name": "Theoria", "location": "Via Bianchi Giovini, 41, 22100 Como CO"}
-      ],
-      "police": "Questura di Como, Viale Roosevelt, 7, 22100 Como CO",
-      "hospital": "Ospedale Valduce, Via Dante Alighieri, 11, 22100 Como CO",
-      "tips": [
-        "Como is the main town on the beautiful Lake Como.",
-        "Take a ferry to visit other charming lakeside towns like Bellagio and Varenna.",
-        "Ride the funicular up to Brunate for stunning panoramic views of the lake and the Alps."
       ]
     },
     {
@@ -1618,6 +1638,26 @@
         "Don't miss the impressive Baptistery and Camposanto Monumentale."
       ]
     },
+     {
+      "city": "Trieste",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Piazza Unità d'Italia", "location": "Piazza Unità d'Italia, 34121 Trieste"},
+        {"name": "Miramare Castle", "location": "Viale Miramare, 34151 Trieste"},
+        {"name": "Grotta Gigante", "location": "Località Borgo Grotta Gigante 42/A, 34010 Sgonico"}
+      ],
+      "restaurants": [
+        {"name": "Buffet da Pepi", "location": "Via della Cassa di Risparmio 3, 34121 Trieste"},
+        {"name": "Antico Caffè San Marco", "location": "Via Cesare Battisti 18, 34125 Trieste"}
+      ],
+      "police": "Questura di Trieste, Via del Teatro Romano 6, 34121 Trieste",
+      "hospital": "Ospedale di Cattinara, Strada di Fiume 447, 34149 Trieste",
+      "tips": [
+        "Trieste has a unique Central European feel due to its history as a major port of the Austro-Hungarian Empire.",
+        "It is known as Italy's capital of coffee; be sure to visit a historic coffee house.",
+        "The Piazza Unità d'Italia is Europe's largest sea-facing square."
+      ]
+    }
     {
       "city": "Turin",
       "country": "Italy",
@@ -1657,7 +1697,67 @@
         "Use ferries to travel between coastal towns like Positano and Ravello to avoid traffic.",
         "Try the local limoncello liqueur."
       ]
-    }
+    },
+    {
+      "city": "Vernazza (Cinque Terre)",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Cinque Terre Hiking Trails", "location": "Connecting the five villages"},
+        {"name": "Vernazza Harbour", "location": "Vernazza, 19018"},
+        {"name": "Doria Castle", "location": "Via San Francesco, 19018 Vernazza SP"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Belforte", "location": "Via G. Guidoni, 42, 19018 Vernazza SP"},
+        {"name": "Trattoria Da Sandro", "location": "Via Roma, 60, 19018 Vernazza SP"}
+      ],
+      "police": "Carabinieri station located in Monterosso al Mare, Via Roma, 23, 19016",
+      "hospital": "Ospedale Sant'Andrea, Via Vittorio Veneto, 197, 19121 La Spezia SP",
+      "tips": [
+        "Vernazza is one of the five picturesque villages of the Cinque Terre.",
+        "The best way to travel between the villages is by train or by hiking.",
+        "Buy a Cinque Terre Card for access to hiking trails and unlimited train travel."
+      ]
+    },
+    {
+      "city": "Genoa",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Aquarium of Genoa", "location": "Ponte Spinola, 16128 Genova GE"},
+        {"name": "Palazzi dei Rolli", "location": "Via Garibaldi, Genova GE"},
+        {"name": "Old Port (Porto Antico)", "location": "Porto Antico, 16128 Genova GE"}
+      ],
+      "restaurants": [
+        {"name": "Trattoria da Maria", "location": "Vico Testadoro, 14r, 16123 Genova GE"},
+        {"name": "Zeffirino", "location": "Via XX Settembre, 20, 16121 Genova GE"}
+      ],
+      "police": "Questura di Genova, Via Armando Diaz, 2, 16121 Genova GE",
+      "hospital": "Ospedale Galliera, Mura delle Cappuccine, 14, 16128 Genova GE",
+      "tips": [
+        "Genoa is the birthplace of Christopher Columbus and pesto sauce.",
+        "Explore the 'caruggi,' the maze of narrow alleyways in the historic center.",
+        "The Palazzi dei Rolli on Via Garibaldi are a UNESCO World Heritage site."
+      ]
+    },
+    {
+      "city": "Como",
+      "country": "Italy",
+      "attractions": [
+        {"name": "Lake Como", "location": "Lake Como"},
+        {"name": "Como-Brunate Funicular", "location": "Piazza Alcide de Gasperi, 4, 22100 Como CO"},
+        {"name": "Villa Olmo", "location": "Via Simone Cantoni, 1, 22100 Como CO"}
+      ],
+      "restaurants": [
+        {"name": "Ristorante Sociale", "location": "Via Rodari, 6, 22100 Como CO"},
+        {"name": "Theoria", "location": "Via Bianchi Giovini, 41, 22100 Como CO"}
+      ],
+      "police": "Questura di Como, Viale Roosevelt, 7, 22100 Como CO",
+      "hospital": "Ospedale Valduce, Via Dante Alighieri, 11, 22100 Como CO",
+      "tips": [
+        "Como is the main town on the beautiful Lake Como.",
+        "Take a ferry to visit other charming lakeside towns like Bellagio and Varenna.",
+        "Ride the funicular up to Brunate for stunning panoramic views of the lake and the Alps."
+      ]
+    },
   ],
   "Kosovo": [
     {
@@ -2020,6 +2120,26 @@
         "Tap water is safe to drink."
       ]
     },
+    {
+      "city": "Ålesund",
+      "country": "Norway",
+      "attractions": [
+        {"name": "Aksla Viewpoint (Fjellstua)", "location": "Fjelltunvegen, 6007 Ålesund"},
+        {"name": "Art Nouveau Centre (Jugendstilsenteret)", "location": "Apotekergata 16, 6004 Ålesund"},
+        {"name": "Alnes Lighthouse", "location": "Alnes, 6055 Godøya"}
+      ],
+      "restaurants": [
+        {"name": "Maki", "location": "Notenesgata 5, 6002 Ålesund"},
+        {"name": "XL Diner", "location": "Skaregata 2, 6002 Ålesund"}
+      ],
+      "police": "Møre og Romsdal politidistrikt, Nedre Strandgate 50, 6004 Ålesund",
+      "hospital": "Ålesund Sjukehus, Åsehaugen 5, 6017 Ålesund",
+      "tips": [
+        "Ålesund is world-renowned for its beautiful Art Nouveau architecture.",
+        "Climb the 418 steps to the Aksla viewpoint for an iconic panoramic photo.",
+        "The town was rebuilt in the Art Nouveau style after a devastating fire in 1904."
+      ]
+    },
      {
       "city": "Stavanger",
       "country": "Norway",
@@ -2240,6 +2360,26 @@
         "Go on a hunt for the hundreds of small bronze dwarf statues scattered around the city.",
         "Visit Ostrów Tumski, the oldest part of the city.",
         "Wrocław is known as the 'Venice of Poland' due to its many bridges and islands."
+      ]
+    },
+     {
+      "city": "Toruń",
+      "country": "Poland",
+      "attractions": [
+        {"name": "House of Nicolaus Copernicus", "location": "Mikołaja Kopernika 15/17, 87-100 Toruń"},
+        {"name": "Old Town Market Square", "location": "Rynek Staromiejski, 87-100 Toruń"},
+        {"name": "Leaning Tower of Toruń", "location": "Pod Krzywą Wieżą 1, 87-100 Toruń"}
+      ],
+      "restaurants": [
+        {"name": "Szeroka No.9", "location": "Szeroka 9, 87-100 Toruń"},
+        {"name": "Pierogarnia Stary Młyn", "location": "Łazienna 28, 87-100 Toruń"}
+      ],
+      "police": "Komenda Miejska Policji, Grudziądzka 17, 87-100 Toruń",
+      "hospital": "Wojewódzki Szpital Zespolony im. L. Rydygiera, Świętego Józefa 53-59, 87-100 Toruń",
+      "tips": [
+        "Toruń is the birthplace of the astronomer Nicolaus Copernicus.",
+        "The city is famous for its gingerbread (Pierniki); visit the Living Museum of Gingerbread.",
+        "Its medieval town center is a UNESCO World Heritage site and was not destroyed during WWII."
       ]
     }
   ],
@@ -2506,6 +2646,126 @@
         "Be aware of visa requirements for entry to Russia.",
         "The metro is the best way to get around.",
         "Plan your visit to the Hermitage Museum; it's vast."
+      ]
+    },
+      {
+      "city": "Kazan",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Kazan Kremlin", "location": "Kremlin, Kazan, Republic of Tatarstan, 420014"},
+        {"name": "Kul Sharif Mosque", "location": "Sheynkmana St, Kazan, Republic of Tatarstan, 420111"},
+        {"name": "Temple of All Religions", "location": "Staro-Arakchinskaya Ulitsa, 4, Kazan"}
+      ],
+      "restaurants": [
+        {"name": "Tugan Avylym", "location": "Tufana Minnulina St, 14/56, Kazan"},
+        {"name": "Pashmir", "location": "Khadi Taktasha St, 30, Kazan"}
+      ],
+      "police": "Ministry of Internal Affairs for the Republic of Tatarstan, Dzerzhinskogo St, 19, Kazan",
+      "hospital": "Republican Clinical Hospital, Orenburgskiy Trakt, 138, Kazan",
+      "tips": [
+        "Kazan is the capital of the Republic of Tatarstan and presents a unique mix of Tatar and Russian cultures.",
+        "The Kazan Kremlin is a UNESCO World Heritage site.",
+        "Try the local Tatar cuisine, especially the pastry 'chak-chak'."
+      ]
+    },
+    {
+      "city": "Sochi",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Sochi Olympic Park", "location": "Adlersky City District, Sochi"},
+        {"name": "Rosa Khutor Ski Resort", "location": "Esto-Sadok, Krasnodar Krai"},
+        {"name": "Sochi Arboretum", "location": "Kurortny Ave, 74, Sochi"}
+      ],
+      "restaurants": [
+        {"name": "Baran-Rapan", "location": "Nesebirskaya Ulitsa, 1А, Sochi"},
+        {"name": "Red Fox", "location": "Naberezhnaya Lavanda, 3, Esto-Sadok, Sochi"}
+      ],
+      "police": "Sochi City Police Department, Sovetskaya Ulitsa, 4, Sochi",
+      "hospital": "City Hospital No. 4, Dagomysskaya Ulitsa, 42, Sochi",
+      "tips": [
+        "Sochi is a major Russian resort city on the Black Sea, famous for hosting the 2014 Winter Olympics.",
+        "The city has a unique subtropical climate.",
+        "You can enjoy both beaches and mountain ski resorts in the same region."
+      ]
+    },
+    {
+      "city": "Yekaterinburg",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Church on the Blood", "location": "Svyatoy Kvartal, 1А, Yekaterinburg"},
+        {"name": "Vysotskiy Viewing Platform", "location": "Malysheva St, 51, Yekaterinburg"},
+        {"name": "Europe-Asia Border Monument", "location": "Near Yekaterinburg"}
+      ],
+      "restaurants": [
+        {"name": "Stroganov-Grill", "location": "Belinskogo St, 61, Yekaterinburg"},
+        {"name": "Pelmeni Club", "location": "Krasnoarmeyskaya St, 2, Yekaterinburg"}
+      ],
+      "police": "Main Directorate of the Ministry of Internal Affairs for Sverdlovsk Oblast, Prospekt Lenina, 17, Yekaterinburg",
+      "hospital": "Sverdlovsk Regional Clinical Hospital No. 1, Volgogradskaya Ulitsa, 185, Yekaterinburg",
+      "tips": [
+        "Yekaterinburg is located on the geographical border between Europe and Asia.",
+        "The Church on the Blood was built on the site where the last Russian Tsar, Nicholas II, and his family were executed.",
+        "It is the main industrial and cultural center of the Ural region."
+      ]
+    },
+    {
+      "city": "Suzdal",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Suzdal Kremlin", "location": "Kremlovskaya Ulitsa, 20, Suzdal"},
+        {"name": "Museum of Wooden Architecture", "location": "Pushkarskaya Ulitsa, Suzdal"},
+        {"name": "Saviour Monastery of St. Euthymius", "location": "Ulitsa Lenina, 148, Suzdal"}
+      ],
+      "restaurants": [
+        {"name": "Gostiny Dvor", "location": "Kremlovskaya Ulitsa, 2, Suzdal"},
+        {"name": "Russkoe Podvorie", "location": "Ulitsa Lenina, 63А, Suzdal"}
+      ],
+      "police": "Suzdal Police Department, Krasnaya Ploshchad', 5, Suzdal",
+      "hospital": "Suzdal Central District Hospital, Gospital'skaya Ulitsa, 1, Suzdal",
+      "tips": [
+        "Suzdal is a jewel of Russia's 'Golden Ring' of ancient cities.",
+        "The town is like a living open-air museum with countless churches and monasteries.",
+        "There are no railways in Suzdal, adding to its preserved, tranquil atmosphere."
+      ]
+    },
+    {
+      "city": "Nizhny Novgorod",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Nizhny Novgorod Kremlin", "location": "Kremlin, Nizhny Novgorod"},
+        {"name": "Chkalov Stairs", "location": "Nizhne-Volzhskaya Naberezhnaya, Nizhny Novgorod"},
+        {"name": "Nizhny Novgorod Cable Car", "location": "Kazanskaya Naberezhnaya, 8А, Nizhny Novgorod"}
+      ],
+      "restaurants": [
+        {"name": "Pyatkin", "location": "Rozhdestvenskaya Ulitsa, 25, Nizhny Novgorod"},
+        {"name": "Mitrich", "location": "Kovalikhinskaya Ulitsa, 8, Nizhny Novgorod"}
+      ],
+      "police": "Main Directorate of the Ministry of Internal Affairs for Nizhny Novgorod Oblast, Gorkogo Ulitsa, 71, Nizhny Novgorod",
+      "hospital": "Nizhny Novgorod Regional Clinical Hospital, Rodionova Ulitsa, 190, Nizhny Novgorod",
+      "tips": [
+        "The city is beautifully situated at the confluence of the Volga and Oka rivers.",
+        "Walk down the enormous Chkalov Stairs to the river embankment.",
+        "During the Soviet era, it was a closed city named Gorky."
+      ]
+    },
+    {
+      "city": "Kaliningrad",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Kaliningrad Cathedral", "location": "Kanta Ulitsa, 1, Kaliningrad"},
+        {"name": "Museum of the World Ocean", "location": "Naberezhnaya Petra Velikogo, 1, Kaliningrad"},
+        {"name": "Curonian Spit", "location": "National Park near Kaliningrad"}
+      ],
+      "restaurants": [
+        {"name": "Hmel", "location": "Ploshchad' Pobedy, 10, Kaliningrad"},
+        {"name": "Fish Club", "location": "Oktyabr'skaya Ulitsa, 4А, Kaliningrad"}
+      ],
+      "police": "Directorate of the Ministry of Internal Affairs for Kaliningrad Oblast, Sovetskiy Prospekt, 7, Kaliningrad",
+      "hospital": "Kaliningrad Regional Clinical Hospital, Klinicheskaya Ulitsa, 74, Kaliningrad",
+      "tips": [
+        "Kaliningrad is a Russian exclave located between Poland and Lithuania on the Baltic Sea.",
+        "Formerly the German city of Königsberg, it has a unique mix of German and Soviet history.",
+        "A visit to the Curonian Spit, a UNESCO World Heritage site, is a must."
       ]
     }
   ],
@@ -3123,6 +3383,126 @@
         "Bargain at the Grand Bazaar.",
         "Try Turkish coffee and baklava."
       ]
+    },
+     {
+      "city": "Ankara",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Anıtkabir (Mausoleum of Atatürk)", "location": "Yücetepe, Akdeniz Cd. No:31, 06570 Çankaya/Ankara"},
+        {"name": "Museum of Anatolian Civilizations", "location": "Kale, Gözcü Sk. No:2, 06240 Altındağ/Ankara"},
+        {"name": "Ankara Castle (Ankara Kalesi)", "location": "Kale, 06240 Altındağ/Ankara"}
+      ],
+      "restaurants": [
+        {"name": "Trilye", "location": "Hafta Sk. No:11/B, 06700 Çankaya/Ankara"},
+        {"name": "Divan Çengelhan Rahmi Koç Müzesi", "location": "Kale, Depo Sk. No:1, 06230 Altındağ/Ankara"}
+      ],
+      "police": "Ankara Emniyet Müdürlüğü, İskitler, 06070 Altındağ/Ankara",
+      "hospital": "Ankara University Faculty of Medicine Hospitals, Hacettepe, 06230 Altındağ/Ankara",
+      "tips": [
+        "Ankara is the capital of Turkey.",
+        "Anıtkabir, the mausoleum of modern Turkey's founder, is a site of immense national importance.",
+        "The Museum of Anatolian Civilizations is one of the best museums in the country."
+      ]
+    },
+    {
+      "city": "Antalya",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Kaleici (Old Town)", "location": "Kaleiçi, Muratpaşa/Antalya"},
+        {"name": "Düden Waterfalls", "location": "Çağlayan, Lara Cd. No:457, 07230 Muratpaşa/Antalya"},
+        {"name": "Hadrian's Gate", "location": "Barbaros, Atatürk Cd. No:13, 07100 Muratpaşa/Antalya"}
+      ],
+      "restaurants": [
+        {"name": "Seraser Fine Dining Restaurant", "location": "Tuzcular, Paşa Cami Sk. No:10, 07100 Muratpaşa/Antalya"},
+        {"name": "7 Mehmet", "location": "Meltem, Atatürk Kültür Parkı, 07030 Muratpaşa/Antalya"}
+      ],
+      "police": "Antalya İl Emniyet Müdürlüğü, Meltem, 07030 Muratpaşa/Antalya",
+      "hospital": "Akdeniz University Hospital, Pınarbaşı, 07070 Konyaaltı/Antalya",
+      "tips": [
+        "Antalya is the gateway to the Turkish Riviera, also known as the Turquoise Coast.",
+        "Explore the charming narrow streets of Kaleiçi, the historic old town.",
+        "Use Antalya as a base to visit ancient sites like Perge and Aspendos."
+      ]
+    },
+    {
+      "city": "Bodrum",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Bodrum Castle (Castle of St. Peter)", "location": "Çarşı, 48400 Bodrum/Muğla"},
+        {"name": "Mausoleum at Halicarnassus", "location": "Tepecik, Turgut Reis Cd. No:93, 48440 Bodrum/Muğla"},
+        {"name": "Bodrum Marina", "location": "Milta Bodrum Marina, Neyzen Tevfik Cd. No:5, 48400"}
+      ],
+      "restaurants": [
+        {"name": "Kocadon Restaurant", "location": "Çarşı, Saray Sk. No:1, 48400 Bodrum/Muğla"},
+        {"name": "Orfoz Restaurant", "location": "Kumbahçe, Zeki Müren Cd. No:13, 48400 Bodrum/Muğla"}
+      ],
+      "police": "Bodrum İlçe Emniyet Müdürlüğü, Konacık, 48400 Bodrum/Muğla",
+      "hospital": "Acıbadem Bodrum Hastanesi, Ortakent, 48420 Bodrum/Muğla",
+      "tips": [
+        "Bodrum is a trendy and vibrant resort town on the Aegean coast.",
+        "The castle houses the impressive Museum of Underwater Archaeology.",
+        "The Mausoleum was one of the Seven Wonders of the Ancient World."
+      ]
+    },
+    {
+      "city": "Göreme (Cappadocia)",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Göreme Open-Air Museum", "location": "Müze Cd., 50180 Göreme/Nevşehir"},
+        {"name": "Hot Air Balloon Rides", "location": "Cappadocia"},
+        {"name": "Uchisar Castle", "location": "Tekelli, 50240 Uçhisar/Nevşehir"}
+      ],
+      "restaurants": [
+        {"name": "Dibek Traditional Cooking", "location": "Belediye Cad. Hakki Pasa Meydani, Cami Yani No:1, Göreme"},
+        {"name": "Topdeck Cave Restaurant", "location": "Hafiz Abdullah Efendi Sk. No 15, 50180 Göreme"}
+      ],
+      "police": "Göreme Jandarma Karakolu, Müze Cd., 50180 Göreme/Nevşehir",
+      "hospital": "Nevşehir Devlet Hastanesi, 2000 Evler, 50300 Nevşehir Merkez/Nevşehir",
+      "tips": [
+        "Book a hot air balloon ride for your first morning in case of weather cancellations.",
+        "Stay in a traditional 'cave hotel' for a unique experience.",
+        "Explore the underground cities of Kaymaklı or Derinkuyu."
+      ]
+    },
+    {
+      "city": "İzmir",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Ephesus Ancient City", "location": "Acarlar, 35920 Selçuk/İzmir"},
+        {"name": "Kemeraltı Market", "location": "Konak, Anafartalar Cd., 35250 Konak/İzmir"},
+        {"name": "İzmir Clock Tower (Saat Kulesi)", "location": "Konak, Konak Meydanı, 35250 Konak/İzmir"}
+      ],
+      "restaurants": [
+        {"name": "Deniz Restaurant", "location": "Kültür, Atatürk Cd. No:188/B, 35220 Konak/İzmir"},
+        {"name": "Yengeç Restaurant", "location": "İskele, 2012. Sk. No:4, 35430 Urla/İzmir"}
+      ],
+      "police": "İzmir Emniyet Müdürlüğü, Konak, 35260 Konak/İzmir",
+      "hospital": "Ege University Medical Faculty Hospital, Kazımdirik, 35100 Bornova/İzmir",
+      "tips": [
+        "İzmir is the main gateway to the ancient city of Ephesus, a must-see archaeological site.",
+        "Stroll along the Kordon, the city's beautiful waterfront promenade.",
+        "Try a 'boyoz,' a local pastry, for breakfast."
+      ]
+    },
+    {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Pamukkale Thermal Pools (Travertines)", "location": "20280 Pamukkale/Denizli"},
+        {"name": "Hierapolis Ancient City", "location": "20280 Pamukkale/Denizli"},
+        {"name": "Cleopatra's Pool (Antique Pool)", "location": "20280 Pamukkale/Denizli"}
+      ],
+      "restaurants": [
+        {"name": "Kayas Restaurant and Bar", "location": "Atatürk Caddesi, No: 21, Pamukkale"},
+        {"name": "Lamuko's Lokanta", "location": "Atatürk Cd., Pamukkale"}
+      ],
+      "police": "Pamukkale İlçe Emniyet Müdürlüğü, Mehmetçik, 20180 Pamukkale/Denizli",
+      "hospital": "Denizli Devlet Hastanesi, Sırakapılar, 20100 Merkezefendi/Denizli",
+      "tips": [
+        "Pamukkale means 'cotton castle' in Turkish.",
+        "Walk barefoot on the travertines to preserve them, and bring sunglasses for the glare.",
+        "Bring your swimsuit to bathe in the ancient Cleopatra's Pool among Roman columns."
+      ]
     }
   ],
   "Ukraine": [
@@ -3144,6 +3524,66 @@
         "Use the metro for fast and cheap transport.",
         "Learn some basic Ukrainian or Russian phrases.",
         "Borsch is a must-try dish."
+      ]
+    },
+    {
+      "city": "Lviv",
+      "country": "Ukraine",
+      "attractions": [
+        {"name": "Rynok Square (Market Square)", "location": "Ploshcha Rynok, L'viv"},
+        {"name": "Lviv National Opera", "location": "Svobody Ave, 28, L'viv"},
+        {"name": "High Castle Park", "location": "Vysokyi Zamok Park, L'viv"}
+      ],
+      "restaurants": [
+        {"name": "Baczewski Restaurant", "location": "Shevs'ka St, 8, L'viv"},
+        {"name": "Kryivka", "location": "Ploshcha Rynok, 14, L'viv"}
+      ],
+      "police": "Main Department of the National Police in Lviv Oblast, Hoholya St, 1, Lviv",
+      "hospital": "Lviv Regional Clinical Hospital, Nekrasova St, 4, Lviv",
+      "tips": [
+        "The historic city center is a UNESCO World Heritage site.",
+        "Lviv is known for its unique and creative themed restaurants and cafes.",
+        "Always consult current official travel advisories before planning a trip."
+      ]
+    },
+    {
+      "city": "Odesa",
+      "country": "Ukraine",
+      "attractions": [
+        {"name": "Potemkin Stairs", "location": "Prymors'kyi Boulevard, Odesa"},
+        {"name": "Odesa Opera and Ballet Theater", "location": "Chaikovs'koho Ln, 1, Odesa"},
+        {"name": "Derybasivska Street", "location": "Derybasivska St, Odesa"}
+      ],
+      "restaurants": [
+        {"name": "Dacha", "location": "Frantsuz'ky Blvd, 85, Odesa"},
+        {"name": "Bernardazzi", "location": "Bunina St, 15, Odesa"}
+      ],
+      "police": "Main Department of the National Police in Odesa Oblast, Yevropeiska St, 12, Odesa",
+      "hospital": "Odesa Regional Clinical Hospital, Akademika Zabolotnoho St, 26, Odesa",
+      "tips": [
+        "Odesa is a major port city on the Black Sea, known for its beaches and 19th-century architecture.",
+        "The Potemkin Stairs are an iconic symbol of the city.",
+        "Check up-to-date travel advice and safety information from official sources."
+      ]
+    },
+    {
+      "city": "Chernivtsi",
+      "country": "Ukraine",
+      "attractions": [
+        {"name": "Chernivtsi National University (Former Residence of Bukovinian Metropolitans)", "location": "Kotsyubyns'koho St, 2, Chernivtsi"},
+        {"name": "Olha Kobylyanska Street", "location": "Olhy Kobylyans'koi St, Chernivtsi"},
+        {"name": "Chernivtsi Museum of Art", "location": "Tsentralna Square, 10, Chernivtsi"}
+      ],
+      "restaurants": [
+        {"name": "Panska Huralnia", "location": "Olhy Kobylyans'koi St, 5, Chernivtsi"},
+        {"name": "Kwinto", "location": "Holovna St, 43, Chernivtsi"}
+      ],
+      "police": "Main Department of the National Police in Chernivtsi Oblast, Holovna St, 24, Chernivtsi",
+      "hospital": "Chernivtsi Regional Clinical Hospital, Holovna St, 137, Chernivtsi",
+      "tips": [
+        "Often called 'Little Vienna' for its stunning Austro-Hungarian architecture.",
+        "The university complex is a magnificent UNESCO World Heritage site.",
+        "Review travel advisories before making any plans."
       ]
     }
   ],
@@ -3466,6 +3906,66 @@
         "St Andrews is known worldwide as the 'Home of Golf'.",
         "It is home to Scotland's oldest university.",
         "Walk along West Sands beach, famous for the opening scenes of the film 'Chariots of Fire'."
+      ]
+    },
+    {
+      "city": "Aberdeen",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "Marischal College", "location": "Broad St, Aberdeen AB10 1YS"},
+        {"name": "Duthie Park and Winter Gardens", "location": "Polmuir Rd, Aberdeen AB11 7TH"},
+        {"name": "Footdee (Fittie)", "location": "Footdee, Aberdeen"}
+      ],
+      "restaurants": [
+        {"name": "Moonfish Cafe", "location": "9 Correction Wynd, Aberdeen AB10 1HP"},
+        {"name": "The Silver Darling", "location": "Pocra Quay, Aberdeen AB11 5DQ"}
+      ],
+      "police": "Police Scotland - Queen Street, Queen St, Aberdeen AB10 1ZA",
+      "hospital": "Aberdeen Royal Infirmary, Foresterhill Rd, Aberdeen AB25 2ZN",
+      "tips": [
+        "Aberdeen is known as the 'Granite City' because many of its buildings are made of the local grey stone.",
+        "Explore the unique old fishing village of Footdee (pronounced 'Fittie').",
+        "The city is the center of Europe's offshore oil industry."
+      ]
+    },
+    {
+      "city": "Dundee",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "V&A Dundee", "location": "1 Riverside Esplanade, Dundee DD1 4EZ"},
+        {"name": "RRS Discovery", "location": "Discovery Point, Riverside Dr, Dundee DD1 4XA"},
+        {"name": "The McManus: Dundee's Art Gallery & Museum", "location": "Albert Square, Meadowside, Dundee DD1 1DA"}
+      ],
+      "restaurants": [
+        {"name": "The Tayberry Restaurant", "location": "594 Brook St, Broughty Ferry, Dundee DD5 2EA"},
+        {"name": "Collinsons Restaurant", "location": "122-124 Brown St, Broughty Ferry, Dundee DD5 1EN"}
+      ],
+      "police": "Police Scotland - Bell Street, Bell St, Dundee DD1 1AG",
+      "hospital": "Ninewells Hospital, Ninewells Ave, Dundee DD1 9SY",
+      "tips": [
+        "Dundee is a UNESCO City of Design.",
+        "The V&A Dundee is Scotland's first design museum, with a stunning building on the waterfront.",
+        "Visit the RRS Discovery, the ship that took Captain Scott on his first Antarctic expedition."
+      ]
+    },
+    {
+      "city": "Portree (Isle of Skye)",
+      "country": "United Kingdom",
+      "attractions": [
+        {"name": "The Old Man of Storr", "location": "Near Portree, Isle of Skye"},
+        {"name": "The Quiraing", "location": "Near Staffin, Isle of Skye"},
+        {"name": "Fairy Pools", "location": "Glenbrittle, Isle of Skye"}
+      ],
+      "restaurants": [
+        {"name": "The Three Chimneys", "location": "Colbost, Dunvegan, Isle of Skye IV55 8ZT"},
+        {"name": "Scorrybreac Restaurant", "location": "7 Bosville Terrace, Portree IV51 9DG"}
+      ],
+      "police": "Portree Police Station, Somerled Square, Portree IV51 9EH",
+      "hospital": "Portree Hospital, Fancy Hill, Portree IV51 9BZ",
+      "tips": [
+        "Portree is the main town and base for exploring the breathtaking Isle of Skye.",
+        "Book accommodation and car rentals far in advance, especially for summer.",
+        "The weather is notoriously unpredictable; be prepared for rain and wind at any time."
       ]
     }
   ]
