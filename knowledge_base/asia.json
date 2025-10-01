@@ -1,4 +1,26 @@
 {
+  "Afghanistan": [
+    {
+      "city": "Kabul",
+      "country": "Afghanistan",
+      "attractions": [
+        {"name": "Gardens of Babur", "location": "PD 13, Kabul"},
+        {"name": "Darul Aman Palace", "location": "Darulaman, Kabul"},
+        {"name": "National Museum of Afghanistan", "location": "Darulaman, Kabul"}
+      ],
+      "restaurants": [
+        {"name": "Sufi Restaurant", "location": "Kolola Pushta Road, Kabul"},
+        {"name": "Kabul Star Restaurant", "location": "Shahre Naw, Kabul"}
+      ],
+      "police": "Kabul City Police Headquarters, Deh Afghanan, Kabul",
+      "hospital": "Emergency Hospital, Shahr-e Naw, Kabul",
+      "tips": [
+        "**EXTREME CAUTION ADVISED**: Travel to Afghanistan is strongly discouraged due to ongoing conflict, terrorism, and civil unrest. The security situation is extremely volatile.",
+        "Independent travel is not recommended. Consular support from most countries is not available.",
+        "Always consult your government's highest-level travel warnings before considering any travel."
+      ]
+    }
+  ],
   "Armenia": [
     {
       "city": "Yerevan",
@@ -171,6 +193,46 @@
         "Hire a tuk-tuk for the day to easily travel between the temples.",
         "US dollars are widely accepted, so it's often not necessary to exchange for local currency (Riel)."
       ]
+    },
+    {
+      "city": "Kampot",
+      "country": "Cambodia",
+      "attractions": [
+        {"name": "Bokor National Park", "location": "Bokor Mountain, Kampot"},
+        {"name": "La Plantation (Pepper Farm)", "location": "Bosjheng village, Kampot"},
+        {"name": "Kampot River", "location": "Kampot"}
+      ],
+      "restaurants": [
+        {"name": "Rusty Keyhole", "location": "Riverside road, Kampot"},
+        {"name": "Rikitikitavi", "location": "Riverside road, Kampot"}
+      ],
+      "police": "Kampot Provincial Police, National Highway 3, Kampot",
+      "hospital": "Kampot Provincial Referral Hospital, National Highway 3, Kampot",
+      "tips": [
+        "Kampot is a charming, sleepy riverside town famous for producing some of the world's best pepper.",
+        "Take a tour of a pepper plantation to learn about its cultivation.",
+        "Enjoy a sunset river cruise for a relaxing evening."
+      ]
+    },
+    {
+      "city": "Sihanoukville",
+      "country": "Cambodia",
+      "attractions": [
+        {"name": "Otres Beach", "location": "Otres, Sihanoukville"},
+        {"name": "Koh Rong", "location": "Koh Rong Island (ferry from Sihanoukville)"},
+        {"name": "Serendipity Beach", "location": "Serendipity Beach Road, Sihanoukville"}
+      ],
+      "restaurants": [
+        {"name": "Sandan", "location": "Serendipity Beach Road, Sihanoukville"},
+        {"name": "The Secret Garden at Otres Beach", "location": "Otres 1, Sihanoukville"}
+      ],
+      "police": "Sihanoukville Provincial Police, Ekareach Street, Sihanoukville",
+      "hospital": "Sihanoukville Provincial Referral Hospital, Ekareach Street, Sihanoukville",
+      "tips": [
+        "Sihanoukville is Cambodia's primary coastal city and gateway to the southern islands.",
+        "Take a ferry to the islands of Koh Rong or Koh Rong Samloem for more pristine beaches.",
+        "The city has undergone rapid development, so the atmosphere can be very busy."
+      ]
     }
   ],
   "China": [
@@ -192,6 +254,86 @@
         "West Lake is a UNESCO World Heritage site and has inspired poets and artists for centuries.",
         "Rent a boat or a bicycle to explore the vast area around West Lake.",
         "Try local specialties like Dongpo pork and West Lake fish in vinegar gravy."
+      ]
+    },
+     {
+      "city": "Harbin",
+      "country": "China",
+      "attractions": [
+        {"name": "Harbin International Ice and Snow Festival", "location": "Various locations, Harbin"},
+        {"name": "Saint Sophia Cathedral", "location": "95 Toulong St, Daoli District, Harbin"},
+        {"name": "Sun Island Park", "location": "Sun Island, Songbei District, Harbin"}
+      ],
+      "restaurants": [
+        {"name": "Harbin Lao ShangHao", "location": "55 Zhongyang St, Daoli District, Harbin"},
+        {"name": "Dongfang Jiaozi Wang (Oriental King of Dumplings)", "location": "Various locations"}
+      ],
+      "police": "Harbin Public Security Bureau, 26 Hongjun St, Nangang District, Harbin",
+      "hospital": "The First Affiliated Hospital of Harbin Medical University, 23 Youzheng St, Nangang District, Harbin",
+      "tips": [
+        "Visit during winter (Jan-Feb) for the world's largest and most spectacular ice and snow sculpture festival.",
+        "Known as the 'Moscow of the East' for its strong Russian architectural influence.",
+        "Dress in extreme cold-weather clothing; winter temperatures can plummet below -30°C (-22°F)."
+      ]
+    },
+    {
+      "city": "Lijiang",
+      "country": "China",
+      "attractions": [
+        {"name": "Old Town of Lijiang", "location": "Gucheng District, Lijiang"},
+        {"name": "Jade Dragon Snow Mountain", "location": "Yulong Naxi Autonomous County, Lijiang"},
+        {"name": "Tiger Leaping Gorge", "location": "Hutiaoxia Town, Shangri-La"}
+      ],
+      "restaurants": [
+        {"name": "V Sherry Restaurant", "location": "76 Mishi巷, Gucheng District, Lijiang"},
+        {"name": "N's Kitchen", "location": "Wenhua Alley, Gucheng District, Lijiang"}
+      ],
+      "police": "Lijiang Public Security Bureau, Gucheng District, Lijiang",
+      "hospital": "Lijiang People's Hospital, Xianghe Rd, Gucheng District, Lijiang",
+      "tips": [
+        "The Old Town of Lijiang is a UNESCO World Heritage site, famous for its Naxi culture and orderly system of waterways.",
+        "It's a popular base for trips to the stunning Jade Dragon Snow Mountain and Tiger Leaping Gorge.",
+        "Be aware that the old town can be very crowded with domestic tourists."
+      ]
+    }
+    {
+      "city": "Guangzhou",
+      "country": "China",
+      "attractions": [
+        {"name": "Canton Tower", "location": "222 Yuejiang W Rd, Haizhu District, Guangzhou"},
+        {"name": "Shamian Island", "location": "Shamian, Liwan District, Guangzhou"},
+        {"name": "Chen Clan Ancestral Hall", "location": "34 Enlong Li, Zhongshan 7th Rd, Liwan District, Guangzhou"}
+      ],
+      "restaurants": [
+        {"name": "Guangzhou Restaurant", "location": "2 Wenchang S Rd, Liwan District, Guangzhou"},
+        {"name": "Dian Dou De", "location": "Various locations"}
+      ],
+      "police": "Guangzhou Public Security Bureau, 200 Qiyi Rd, Yuexiu District, Guangzhou",
+      "hospital": "First Affiliated Hospital of Sun Yat-sen University, 58 Zhongshan 2nd Rd, Yuexiu District, Guangzhou",
+      "tips": [
+        "Guangzhou is the capital of Cantonese cuisine; it's a paradise for food lovers.",
+        "Explore Shamian Island to see the well-preserved European colonial architecture.",
+        "The city is a major trade and manufacturing hub, home to the famous Canton Fair."
+      ]
+    },
+    {
+      "city": "Tianjin",
+      "country": "China",
+      "attractions": [
+        {"name": "Five Great Avenues (Wudadao)", "location": "Heping District, Tianjin"},
+        {"name": "Tianjin Eye (Ferris Wheel)", "location": "Yongle Bridge, Hebei District, Tianjin"},
+        {"name": "Porcelain House (China House)", "location": "72 Chifeng Dao, Heping District, Tianjin"}
+      ],
+      "restaurants": [
+        {"name": "Goubuli Baozi", "location": "77 Shandong Rd, Heping District, Tianjin"},
+        {"name": "Tianjin Wei码头 (Tianjin Wei Pier)", "location": "Italian Style Town, Hebei District, Tianjin"}
+      ],
+      "police": "Tianjin Public Security Bureau, 22 Hubei Rd, Heping District, Tianjin",
+      "hospital": "Tianjin Medical University General Hospital, 154 Anshan Dao, Heping District, Tianjin",
+      "tips": [
+        "Tianjin is a major port city near Beijing, accessible by a short high-speed train ride.",
+        "Explore the unique collection of European architectural styles in the Five Great Avenues area.",
+        "The Tianjin Eye is a giant Ferris wheel built over a bridge on the Hai River."
       ]
     },
     {
@@ -395,6 +537,66 @@
       ]
     },
     {
+      "city": "Shenzhen",
+      "country": "China",
+      "attractions": [
+        {"name": "Window of the World", "location": "9037 Shennan Ave, Nanshan District, Shenzhen"},
+        {"name": "Splendid China Folk Village", "location": "9003 Shennan Ave, Nanshan District, Shenzhen"},
+        {"name": "Ping An Finance Centre", "location": "5033 Yitian Rd, Futian District, Shenzhen"}
+      ],
+      "restaurants": [
+        {"name": "Social All Day Dining", "location": "8 Jiabin Rd, Luohu District, Shenzhen"},
+        {"name": "SHENZHEN KITCHEN", "location": "9 Fuhua 3rd Rd, Futian District, Shenzhen"}
+      ],
+      "police": "Shenzhen Public Security Bureau, 4018 Jiefang Rd, Luohu District, Shenzhen",
+      "hospital": "Peking University Shenzhen Hospital, 1120 Lianhua Rd, Futian District, Shenzhen",
+      "tips": [
+        "Shenzhen is China's premier tech hub, having grown from a small fishing village to a megacity in just 40 years.",
+        "It's a Special Economic Zone bordering Hong Kong, accessible via metro and border checkpoints.",
+        "Window of the World features miniature replicas of famous global landmarks."
+      ]
+    },
+    {
+      "city": "Chongqing",
+      "country": "China",
+      "attractions": [
+        {"name": "Ciqikou Ancient Town", "location": "Shapingba District, Chongqing"},
+        {"name": "Three Gorges Museum", "location": "236 Renmin Rd, Yuzhong District, Chongqing"},
+        {"name": "Hongya Cave (Hongyadong)", "location": "Jialing River Bridge, Yuzhong District, Chongqing"}
+      ],
+      "restaurants": [
+        {"name": "PeiJie Hotpot", "location": "Various locations"},
+        {"name": "Jin Li Shi Jia", "location": "88 Jianxin N Rd, Jiangbei District, Chongqing"}
+      ],
+      "police": "Chongqing Public Security Bureau, 22 Huanglong Rd, Yubei District, Chongqing",
+      "hospital": "First Affiliated Hospital of Chongqing Medical University, 1 Youyi Rd, Yuzhong District, Chongqing",
+      "tips": [
+        "Chongqing is a massive municipality known for its incredibly hilly terrain and cyberpunk-like cityscape.",
+        "It is the starting point for many Yangtze River cruises through the Three Gorges.",
+        "You must try the famously spicy and numbing Chongqing hot pot."
+      ]
+    },
+    {
+      "city": "Urumqi",
+      "country": "China",
+      "attractions": [
+        {"name": "Heavenly Lake of Tianshan", "location": "Tian Shan Mountains, near Urumqi"},
+        {"name": "Xinjiang Regional Museum", "location": "581 Xibei Rd, Shayibak District, Urumqi"},
+        {"name": "Grand Bazaar", "location": "Tuanjie Rd, Tianshan District, Urumqi"}
+      ],
+      "restaurants": [
+        {"name": "Miraj Restaurant", "location": "Kelamayi E Rd, Xinshi District, Urumqi"},
+        {"name": "Avral", "location": "654 Mingde Rd, Tianshan District, Urumqi"}
+      ],
+      "police": "Urumqi Public Security Bureau, 119 Huanghe Rd, Shayibak District, Urumqi",
+      "hospital": "First Affiliated Hospital of Xinjiang Medical University, 137 Liyushan S Rd, Xinshi District, Urumqi",
+      "tips": [
+        "Urumqi is the capital of the Xinjiang Uyghur Autonomous Region and a major hub in Central Asia.",
+        "It's a gateway for exploring the vast and diverse landscapes of Xinjiang.",
+        "The Xinjiang Regional Museum offers insights into the history of the Silk Road and the region's diverse cultures."
+      ]
+    },
+    {
       "city": "Kunming",
       "country": "China",
       "attractions": [
@@ -412,6 +614,28 @@
         "Kunming is known as the 'City of Eternal Spring' for its pleasant, mild climate year-round.",
         "It is the capital of Yunnan province, one of China's most ethnically diverse regions.",
         "A day trip to the otherworldly Stone Forest is a must."
+      ]
+    }
+  ],
+  "East Timor": [
+    {
+      "city": "Dili",
+      "country": "East Timor",
+      "attractions": [
+        {"name": "Cristo Rei of Dili", "location": "Fatucama, Dili"},
+        {"name": "Archives & Museum of East Timorese Resistance", "location": "Rua Formosa, Dili"},
+        {"name": "Tais Market", "location": "Avenida Bien Haris, Dili"}
+      ],
+      "restaurants": [
+        {"name": "Tito's", "location": "Avenida de Portugal, Dili"},
+        {"name": "Diya Restaurant", "location": "Avenida de Portugal, Dili"}
+      ],
+      "police": "PNTL General Command, Dili",
+      "hospital": "Guido Valadares National Hospital, Bidau, Dili",
+      "tips": [
+        "Dili is the capital of Timor-Leste, one of the world's newest countries.",
+        "It is a fantastic destination for scuba diving and snorkeling in pristine coral reefs.",
+        "The US dollar is the official currency."
       ]
     }
   ],
@@ -456,6 +680,186 @@
         "Known as the 'City of Lakes,' Udaipur is often considered one of India's most romantic destinations.",
         "Take a boat ride on Lake Pichola for stunning views of the City Palace and Lake Palace.",
         "Stay in a converted 'haveli' (traditional mansion) for an authentic experience."
+      ]
+    },
+    {
+      "city": "Mysore (Mysuru)",
+      "country": "India",
+      "attractions": [
+        {"name": "Mysore Palace (Amba Vilas Palace)", "location": "Sayyaji Rao Rd, Mysuru, Karnataka"},
+        {"name": "Brindavan Gardens", "location": "KRS Dam Road, Mandya, Karnataka"},
+        {"name": "Chamundeshwari Temple", "location": "Chamundi Hill, Mysuru, Karnataka"}
+      ],
+      "restaurants": [
+        {"name": "Vinayaka Mylari", "location": "79, Nazarbad Main Rd, Mysuru"},
+        {"name": "Gufha Restaurant", "location": "35/A, Bangalore-Nilgiri Rd, Mysuru"}
+      ],
+      "police": "Mysuru City Police Commissioner's Office, Mirza Road, Mysuru",
+      "hospital": "K.R. Hospital, Irwin Road, Mysuru",
+      "tips": [
+        "The opulent Mysore Palace is spectacularly illuminated on Sundays and public holidays.",
+        "Mysore is a global center for Ashtanga yoga.",
+        "Try the city's signature sweet, Mysore Pak."
+      ]
+    },
+    {
+      "city": "Madurai",
+      "country": "India",
+      "attractions": [
+        {"name": "Meenakshi Amman Temple", "location": "Madurai Main, Madurai, Tamil Nadu"},
+        {"name": "Thirumalai Nayakkar Palace", "location": "Panthadi 1st St, Mahal Area, Madurai"},
+        {"name": "Gandhi Memorial Museum", "location": "Tamukkam, Madurai"}
+      ],
+      "restaurants": [
+        {"name": "Murugan Idli Shop", "location": "Various locations"},
+        {"name": "Amsavalli Bhavan", "location": "63, West Masi Street, Madurai"}
+      ],
+      "police": "Madurai City Police Commissioner's Office, Alagar Kovil Main Rd, Madurai",
+      "hospital": "Government Rajaji Hospital, Panagal Rd, Madurai",
+      "tips": [
+        "The Meenakshi Amman Temple is a breathtaking Dravidian architectural masterpiece with towering gopurams.",
+        "Madurai is one of the oldest continuously inhabited cities in the world.",
+        "Try the local street food, especially 'Jigarthanda,' a unique cold beverage."
+      ]
+    },
+     {
+      "city": "Pune",
+      "country": "India",
+      "attractions": [
+        {"name": "Shaniwar Wada", "location": "Shaniwar Peth, Pune, Maharashtra"},
+        {"name": "Aga Khan Palace", "location": "Nagar Road, Kalyani Nagar, Pune"},
+        {"name": "Sinhagad Fort", "location": "Sinhagad Ghat Rd, Pune, Maharashtra"}
+      ],
+      "restaurants": [
+        {"name": "Vaishali", "location": "1217, Fergusson College Rd, Shivajinagar, Pune"},
+        {"name": "Shabree", "location": "1199, Fergusson College Rd, Shivajinagar, Pune"}
+      ],
+      "police": "Pune City Police Commissioner's Office, 2, Sadhu Vaswani Rd, Camp, Pune",
+      "hospital": "Sassoon General Hospital, Station Road, Agarkar Nagar, Pune",
+      "tips": [
+        "Known as the 'Oxford of the East,' Pune is a major educational and cultural hub.",
+        "It has a more relaxed atmosphere than nearby Mumbai.",
+        "Explore the old city 'peths' for a glimpse into traditional life."
+      ]
+    },
+    {
+      "city": "Lucknow",
+      "country": "India",
+      "attractions": [
+        {"name": "Bara Imambara", "location": "Machchhi Bhavan, Lucknow, Uttar Pradesh"},
+        {"name": "Chota Imambara", "location": "Hussainabad, Lucknow, Uttar Pradesh"},
+        {"name": "Rumi Darwaza", "location": "Hussainabad, Lucknow, Uttar Pradesh"}
+      ],
+      "restaurants": [
+        {"name": "Tunday Kababi", "location": "168/6, Naaz Cinema Road, Aminabad, Lucknow"},
+        {"name": "Dastarkhwan", "location": "Various locations"}
+      ],
+      "police": "Lucknow Police Commissionerate, Vidhan Sabha Marg, Lucknow",
+      "hospital": "King George's Medical University (KGMU), Shah Mina Rd, Lucknow",
+      "tips": [
+        "Lucknow is the 'City of Nawabs,' famous for its refined culture, courtesy, and exquisite cuisine.",
+        "Do not miss trying the 'Galouti Kebab,' which is famous for melting in your mouth.",
+        "The Bara Imambara features a large unsupported vaulted hall and a fascinating labyrinth (Bhulbhulaiya)."
+      ]
+    },
+    {
+      "city": "Ahmedabad",
+      "country": "India",
+      "attractions": [
+        {"name": "Sabarmati Ashram (Gandhi Ashram)", "location": "Gandhi Smarak Sangrahalaya, Ahmedabad, Gujarat"},
+        {"name": "Adalaj Stepwell", "location": "Adalaj, Gandhinagar, Gujarat"},
+        {"name": "Jama Masjid", "location": "Manek Chowk, Gandhi Rd, Ahmedabad"}
+      ],
+      "restaurants": [
+        {"name": "Agashiye", "location": "The House of MG, Lal Darwaja, Ahmedabad"},
+        {"name": "Manek Chowk Night Market", "location": "Manek Chowk, Ahmedabad"}
+      ],
+      "police": "Ahmedabad City Police Commissioner's Office, Shahibaug, Ahmedabad",
+      "hospital": "Ahmedabad Civil Hospital, Asarwa, Ahmedabad",
+      "tips": [
+        "The historic city of Ahmedabad is India's first UNESCO World Heritage City.",
+        "Explore the 'pols,' which are traditional gated housing clusters in the old city.",
+        "Visit Manek Chowk at night when the jewellery market transforms into a bustling street food market."
+      ]
+    },
+    {
+      "city": "Pushkar",
+      "country": "India",
+      "attractions": [
+        {"name": "Pushkar Lake", "location": "Pushkar, Rajasthan"},
+        {"name": "Brahma Temple", "location": "Brahma Temple Rd, Pushkar"},
+        {"name": "Pushkar Camel Fair", "location": "Pushkar (seasonal)"}
+      ],
+      "restaurants": [
+        {"name": "The Laughing Buddha Cafe", "location": "Gau Ghat, Main Market, Pushkar"},
+        {"name": "La Pizzeria", "location": "Varanah Ghat, Pushkar"}
+      ],
+      "police": "Pushkar Police Station, near Ajmer Bus Stand, Pushkar",
+      "hospital": "Government Hospital Pushkar, Ajmer Road, Pushkar",
+      "tips": [
+        "Pushkar is a holy pilgrimage town for Hindus, centered around a sacred lake.",
+        "It is strictly a vegetarian town, and alcohol is prohibited.",
+        "Visit in autumn to witness the famous Pushkar Camel Fair, one of the largest in the world."
+      ]
+    },
+    {
+      "city": "Port Blair",
+      "country": "India",
+      "attractions": [
+        {"name": "Cellular Jail National Memorial", "location": "Atlanta Point, Port Blair"},
+        {"name": "Havelock Island (Swaraj Dweep)", "location": "Andaman Islands"},
+        {"name": "Ross Island (Netaji Subhash Chandra Bose Island)", "location": "Andaman Islands"}
+      ],
+      "restaurants": [
+        {"name": "Anju Coco Resto", "location": "Beach No. 5, Havelock Island"},
+        {"name": "New Lighthouse Restaurant", "location": "Rajiv Gandhi Nagar, Port Blair"}
+      ],
+      "police": "Andaman and Nicobar Police Headquarters, Atlanta Point, Port Blair",
+      "hospital": "G.B. Pant Hospital, Port Blair",
+      "tips": [
+        "Port Blair is the capital of the Andaman and Nicobar Islands.",
+        "Use it as a base to take ferries to beautiful islands like Havelock and Neil for world-class beaches and diving.",
+        "The Cellular Jail is a somber reminder of India's struggle for independence."
+      ]
+    },
+    {
+      "city": "Darjeeling",
+      "country": "India",
+      "attractions": [
+        {"name": "Darjeeling Himalayan Railway ('Toy Train')", "location": "Darjeeling, West Bengal"},
+        {"name": "Tiger Hill", "location": "Tiger Hill, Darjeeling"},
+        {"name": "Padmaja Naidu Himalayan Zoological Park", "location": "Jawahar Parbat, Darjeeling"}
+      ],
+      "restaurants": [
+        {"name": "Glenary's Bakery & Cafe", "location": "Nehru Road, Darjeeling"},
+        {"name": "Keventer's", "location": "Nehru Road, Darjeeling"}
+      ],
+      "police": "Darjeeling Sadar Police Station, Laden La Road, Darjeeling",
+      "hospital": "Darjeeling District Hospital, Dr. Zakir Hussain Road, Darjeeling",
+      "tips": [
+        "Famous for its tea plantations, Darjeeling offers stunning views of Kanchenjunga, the world's third-highest mountain.",
+        "Ride the UNESCO World Heritage 'Toy Train' for a scenic journey.",
+        "Visit Tiger Hill at sunrise for the best mountain views."
+      ]
+    },
+    {
+      "city": "Hyderabad",
+      "country": "India",
+      "attractions": [
+        {"name": "Charminar", "location": "Char Kaman, Ghansi Bazaar, Hyderabad"},
+        {"name": "Golconda Fort", "location": "Khair Complex, Ibrahim Bagh, Hyderabad"},
+        {"name": "Ramoji Film City", "location": "Anaspur Village, Hayathnagar Mandal, Hyderabad"}
+      ],
+      "restaurants": [
+        {"name": "Paradise Biryani", "location": "Various locations"},
+        {"name": "Bawarchi", "location": "RTC Cross Road, Chikkadpally, Hyderabad"}
+      ],
+      "police": "Hyderabad City Police Commissioner's Office, Basheer Bagh, Hyderabad",
+      "hospital": "Osmania General Hospital, Afzal Gunj, Hyderabad",
+      "tips": [
+        "Hyderabad is a hub of history and is world-famous for its biryani.",
+        "Explore the historic lanes and bangle shops around the iconic Charminar.",
+        "Ramoji Film City is one of the largest film studio complexes in the world."
       ]
     },
     {
@@ -757,6 +1161,26 @@
         "It is famous for its classical music and dance traditions (Bharatanatyam).",
         "Take an evening stroll along Marina Beach, one of the longest urban beaches in the world."
       ]
+    },
+    {
+      "city": "Jaisalmer",
+      "country": "India",
+      "attractions": [
+        {"name": "Jaisalmer Fort", "location": "Fort Road, Jaisalmer, Rajasthan"},
+        {"name": "Patwon Ki Haveli", "location": "No. 3129, Near Chouraha, Jaisalmer"},
+        {"name": "Sam Sand Dunes", "location": "Near Jaisalmer, Rajasthan"}
+      ],
+      "restaurants": [
+        {"name": "The Trio", "location": "Gandhi Chowk, Jaisalmer"},
+        {"name": "Gaji's Restaurant", "location": "Near Sunset Point, Kalakar Colony, Jaisalmer"}
+      ],
+      "police": "Jaisalmer District Police Office, Jodhpur Road, Jaisalmer",
+      "hospital": "Government Hospital Jaisalmer, SH-19, Jaisalmer",
+      "tips": [
+        "Known as the 'Golden City,' Jaisalmer rises from the Thar Desert like a mirage.",
+        "Take an overnight camel safari into the Sam Sand Dunes and sleep under the stars.",
+        "Jaisalmer Fort is a 'living fort,' with a quarter of the city's population residing within its walls."
+      ]
     }
   ],
   "Indonesia": [
@@ -778,6 +1202,126 @@
         "Jakarta is a massive, sprawling megacity and the capital of Indonesia.",
         "Traffic is among the worst in the world; use ride-hailing apps like Gojek or Grab.",
         "The city offers a vibrant nightlife and world-class shopping malls."
+      ]
+    },
+    {
+      "city": "Medan",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Tjong A Fie Mansion", "location": "Jl. Jend. A. Yani No.105, Medan"},
+        {"name": "Maimun Palace", "location": "Jl. Brigjend Katamso No.66, Medan"},
+        {"name": "Great Mosque of Medan", "location": "Jl. Sisingamangaraja No.61, Medan"}
+      ],
+      "restaurants": [
+        {"name": "Tip Top Restaurant", "location": "Jl. Jend. A. Yani No.92, Medan"},
+        {"name": "Ucok Durian", "location": "Jl. K.H. Wahid Hasyim No.30, Medan"}
+      ],
+      "police": "Polda Sumut (North Sumatra Regional Police), Jl. Sisingamangaraja No.60, Medan",
+      "hospital": "RSUP H. Adam Malik, Jl. Bunga Lau No.17, Medan",
+      "tips": [
+        "Medan is the main gateway to North Sumatra, including Lake Toba and orangutan viewing in Bukit Lawang.",
+        "The city is a culinary hotspot with a strong mix of Malay, Chinese, and Batak influences.",
+        "If you are a fan of durian, a visit to a 24-hour durian stall like Ucok Durian is a must."
+      ]
+    },
+    {
+      "city": "Makassar",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Fort Rotterdam", "location": "Jl. Ujung Pandang, Makassar"},
+        {"name": "Losari Beach", "location": "Jl. Penghibur, Makassar"},
+        {"name": "Rammang-Rammang Karst Village", "location": "Salebbo, Maros Regency"}
+      ],
+      "restaurants": [
+        {"name": "Rumah Makan Lae Lae", "location": "Jl. Datu Museng No. 8, Makassar"},
+        {"name": "Sop Konro Karebosi", "location": "Jl. Gn. Lompobattang No.41, Makassar"}
+      ],
+      "police": "Polda Sulsel (South Sulawesi Regional Police), Jl. Perintis Kemerdekaan No.Km.16, Makassar",
+      "hospital": "Dr. Wahidin Sudirohusodo Hospital, Jl. Perintis Kemerdekaan No.Km.11, Makassar",
+      "tips": [
+        "Makassar is the largest city in eastern Indonesia and a gateway to the highlands of Tana Toraja and diving spots.",
+        "Try the local specialty, 'Coto Makassar' (a rich beef soup).",
+        "Stroll along Losari Beach in the evening and try 'pisang epe' (pressed grilled banana)."
+      ]
+    },
+    {
+      "city": "Bandung",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Kawah Putih (White Crater)", "location": "Sugihmukti, Pasirjambu, Bandung Regency"},
+        {"name": "Tangkuban Perahu", "location": "Cikahuripan, Lembang, West Bandung Regency"},
+        {"name": "Jalan Braga", "location": "Jalan Braga, Bandung"}
+      ],
+      "restaurants": [
+        {"name": "Lereng Anteng Panoramic Coffee", "location": "Pageurmaneuh, Puncut, Lembang, West Bandung Regency"},
+        {"name": "Sunda Rasa", "location": "Jl. Setiabudi No. 256, Bandung"}
+      ],
+      "police": "Polda Jabar (West Java Regional Police), Jl. Soekarno Hatta No.748, Bandung",
+      "hospital": "Hasan Sadikin Hospital, Jl. Pasteur No.38, Bandung",
+      "tips": [
+        "Known as the 'Paris of Java' for its colonial Art Deco architecture and fashionable outlets.",
+        "Its cooler climate makes it a popular weekend getaway from Jakarta.",
+        "The surrounding area is famous for its volcanic craters, tea plantations, and hot springs."
+      ]
+    },
+    {
+      "city": "Balikpapan",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Samboja Lestari Orangutan Sanctuary", "location": "Near Balikpapan, East Kalimantan"},
+        {"name": "Kemala Beach", "location": "Balikpapan"},
+        {"name": "Sungai Wain Protection Forest", "location": "Karang Joang, Balikpapan"}
+      ],
+      "restaurants": [
+        {"name": "Dandito", "location": "Jl. Marsma R. Iswahyudi No.71, Balikpapan"},
+        {"name": "Ocean's Restaurant", "location": "Jl. Jenderal Sudirman No. 27, Balikpapan"}
+      ],
+      "police": "Polda Kaltim (East Kalimantan Regional Police), Jl. Syarifuddin Yoes, Balikpapan",
+      "hospital": "Siloam Hospitals Balikpapan, Jl. MT Haryono No.23, Balikpapan",
+      "tips": [
+        "Balikpapan is a gateway to the rainforests of Indonesian Borneo.",
+        "It's a primary base for tours to see orangutans in their natural or semi-wild habitat.",
+        "The city itself is a major center for the oil and mining industries."
+      ]
+    },
+    {
+      "city": "Parapat (Lake Toba)",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Lake Toba", "location": "North Sumatra"},
+        {"name": "Samosir Island", "location": "Lake Toba"},
+        {"name": "Sipisopiso Waterfall", "location": "Tongging, North Sumatra"}
+      ],
+      "restaurants": [
+        {"name": "Jenny's Restaurant", "location": "Tuktuk, Samosir Island"},
+        {"name": "Today's Cafe", "location": "Tuktuk, Samosir Island"}
+      ],
+      "police": "Parapat Police Sector, Jl. Sisingamangaraja, Parapat",
+      "hospital": "Parapat General Hospital, Jl. Kolonel TPR Sinaga, Parapat",
+      "tips": [
+        "Parapat is a town on the shore of Lake Toba, the largest volcanic lake in the world.",
+        "Take a ferry to Samosir Island in the middle of the lake to experience the unique culture of the Batak people.",
+        "The area is known for its stunning scenery and relaxed atmosphere."
+      ]
+    },
+    {
+      "city": "Labuan Bajo",
+      "country": "Indonesia",
+      "attractions": [
+        {"name": "Komodo National Park", "location": "East Nusa Tenggara"},
+        {"name": "Padar Island", "location": "Komodo National Park"},
+        {"name": "Pink Beach", "location": "Komodo Island"}
+      ],
+      "restaurants": [
+        {"name": "La Cucina", "location": "Jl. Soekarno Hatta, Labuan Bajo"},
+        {"name": "Made In Italy", "location": "Jl. Soekarno Hatta, Labuan Bajo"}
+      ],
+      "police": "Polres Manggarai Barat, Jl. Frans Nala, Labuan Bajo",
+      "hospital": "Siloam Hospitals Labuan Bajo, Jl. Gabriel Gampur, Labuan Bajo",
+      "tips": [
+        "Labuan Bajo is the main gateway town for trips to Komodo National Park.",
+        "Take a boat tour to see the famous Komodo dragons, the world's largest lizards.",
+        "The hike to the viewpoint on Padar Island offers one of Indonesia's most iconic landscapes."
       ]
     },
     {
@@ -861,6 +1405,70 @@
       ]
     }
   ],
+  "Iran": [
+    {
+      "city": "Tehran",
+      "country": "Iran",
+      "attractions": [
+        {"name": "Golestan Palace", "location": "Panzdah-e-Khordad St, Tehran"},
+        {"name": "National Jewelry Treasury", "location": "Central Bank of Iran, Ferdowsi Ave, Tehran"},
+        {"name": "Azadi Tower", "location": "Azadi Square, Tehran"}
+      ],
+      "restaurants": [
+        {"name": "Dizi", "location": "Iranshahr St, Tehran"},
+        {"name": "Moslem Restaurant", "location": "Grand Bazaar, Tehran"}
+      ],
+      "police": "Tehran Police Headquarters, Daneshgah St, Tehran",
+      "hospital": "Tehran Pars Hospital, Tir انداز Sq, Tehran",
+      "tips": [
+        "Tehran is the bustling, modern capital of Iran.",
+        "Don't miss the staggering collection of royal jewels at the National Jewelry Treasury.",
+        "Use the clean and efficient metro system to navigate the city and avoid heavy traffic."
+      ]
+    },
+    {
+      "city": "Isfahan",
+      "country": "Iran",
+      "attractions": [
+        {"name": "Naqsh-e Jahan Square (Imam Square)", "location": "Isfahan"},
+        {"name": "Sheikh Lotfollah Mosque", "location": "Naqsh-e Jahan Square, Isfahan"},
+        {"name": "Chehel Sotoun Palace", "location": "Ostandari St, Isfahan"}
+      ],
+      "restaurants": [
+        {"name": "Shahrzad Restaurant", "location": "Abbas Abad St, Isfahan"},
+        {"name": "Toranj Food Complex", "location": "Jolfa Hotel, Hakim Nezami St, Isfahan"}
+      ],
+      "police": "Isfahan Provincial Police Headquarters, Isfahan",
+      "hospital": "Al-Zahra Hospital, Sofeh Street, Isfahan",
+      "tips": [
+        "Naqsh-e Jahan Square is a UNESCO World Heritage site and one of the largest city squares in the world.",
+        "Visit the historic bridges, Khaju and Si-o-Se-Pol, which are beautifully lit at night.",
+        "Always check current visa requirements and travel advisories before planning a trip."
+      ]
+    }
+  ],
+  "Iraq": [
+    {
+      "city": "Erbil",
+      "country": "Iraq",
+      "attractions": [
+        {"name": "Erbil Citadel", "location": "City Center, Erbil"},
+        {"name": "Qaysari Bazaar", "location": "South of the Citadel, Erbil"},
+        {"name": "Jalil Khayat Mosque", "location": "Shorsh St, Erbil"}
+      ],
+      "restaurants": [
+        {"name": "Abu Shahab City", "location": "100 Meter Street, Erbil"},
+        {"name": "DC Steakhouse", "location": "Gulan Street, Erbil"}
+      ],
+      "police": "Erbil Police Directorate, 60 Meter Street, Erbil",
+      "hospital": "Emergency Hospital (West), Barzani Namr Street, Erbil",
+      "tips": [
+        "**SERIOUS WARNING ADVISED**: While the Kurdistan Region of Iraq is generally safer than the rest of the country, the situation can be unpredictable. Check official government travel advisories before any consideration of travel.",
+        "The Erbil Citadel is a UNESCO World Heritage site and one of the oldest continuously inhabited settlements in the world.",
+        "The city is the capital of the autonomous Kurdistan Region of Iraq."
+      ]
+    }
+  ],
   "Israel": [
     {
       "city": "Jerusalem",
@@ -880,6 +1488,26 @@
         "Dress modestly when visiting holy sites (cover shoulders and knees).",
         "Be aware that many places close for Shabbat (from Friday sunset to Saturday sunset).",
         "The Old City is divided into four quarters: Jewish, Christian, Muslim, and Armenian."
+      ]
+    },
+    {
+      "city": "Haifa",
+      "country": "Israel",
+      "attractions": [
+        {"name": "Baháʼí Gardens (Terraces of the Baháʼí Faith)", "location": "Yefe Nof St 61, Haifa"},
+        {"name": "German Colony", "location": "Ben Gurion Blvd, Haifa"},
+        {"name": "Stella Maris Monastery", "location": "Stella Maris Rd, Haifa"}
+      ],
+      "restaurants": [
+        {"name": "Fattoush", "location": "Ben Gurion Blvd 38, Haifa"},
+        {"name": "Ein El Wadi", "location": "Sh'ar Al-Wadi 22, Haifa"}
+      ],
+      "police": "Haifa Police Headquarters, Natezon St, Haifa",
+      "hospital": "Rambam Health Care Campus, HaAliya HaShniya St 8, Haifa",
+      "tips": [
+        "The Baháʼí Gardens are a UNESCO World Heritage site and the spiritual center of the Baháʼí Faith.",
+        "Haifa is a major port city known for its peaceful coexistence among different religious groups.",
+        "Take the Carmelit, one of the world's shortest subway systems, up Mount Carmel."
       ]
     },
      {
@@ -903,28 +1531,6 @@
       ]
     }
   ],
-  "Iran": [
-    {
-      "city": "Isfahan",
-      "country": "Iran",
-      "attractions": [
-        {"name": "Naqsh-e Jahan Square (Imam Square)", "location": "Isfahan"},
-        {"name": "Sheikh Lotfollah Mosque", "location": "Naqsh-e Jahan Square, Isfahan"},
-        {"name": "Chehel Sotoun Palace", "location": "Ostandari St, Isfahan"}
-      ],
-      "restaurants": [
-        {"name": "Shahrzad Restaurant", "location": "Abbas Abad St, Isfahan"},
-        {"name": "Toranj Food Complex", "location": "Jolfa Hotel, Hakim Nezami St, Isfahan"}
-      ],
-      "police": "Isfahan Provincial Police Headquarters, Isfahan",
-      "hospital": "Al-Zahra Hospital, Sofeh Street, Isfahan",
-      "tips": [
-        "Naqsh-e Jahan Square is a UNESCO World Heritage site and one of the largest city squares in the world.",
-        "Visit the historic bridges, Khaju and Si-o-Se-Pol, which are beautifully lit at night.",
-        "Always check current visa requirements and travel advisories before planning a trip."
-      ]
-    }
-  ],
   "Japan": [
     {
       "city": "Sapporo",
@@ -944,6 +1550,86 @@
         "Visit in February for the spectacular Sapporo Snow Festival.",
         "Sapporo is famous for its miso ramen.",
         "Hokkaido, the island where Sapporo is located, is renowned for its high-quality dairy and seafood."
+      ]
+    },
+    {
+      "city": "Takayama",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Sanmachi Suji (Old Town)", "location": "Kami Sannomachi, Takayama"},
+        {"name": "Hida Folk Village", "location": "1-590 Kamiokamotomachi, Takayama"},
+        {"name": "Takayama Jinya", "location": "1-5 Hachikenmachi, Takayama"}
+      ],
+      "restaurants": [
+        {"name": "Maruaki", "location": "6 Chome-8 Tenmanmachi, Takayama"},
+        {"name": "Heianraku", "location": "61 Tenmanmachi, Takayama"}
+      ],
+      "police": "Takayama Police Station, 1 Chome-50 Hanasatomachi, Takayama",
+      "hospital": "Takayama Red Cross Hospital, 3 Chome-11 Tenmanmachi, Takayama",
+      "tips": [
+        "Takayama has one of Japan's most beautifully preserved old towns.",
+        "It's located in the mountainous Hida region, often called the Japanese Alps.",
+        "Try the local specialties: Hida beef and sake."
+      ]
+    },
+    {
+      "city": "Nagasaki",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Nagasaki Peace Park", "location": "9 Matsuyamamachi, Nagasaki"},
+        {"name": "Gunkanjima (Hashima Island)", "location": "Hashima Island, Nagasaki"},
+        {"name": "Glover Garden", "location": "8-1 Minamiyamatemachi, Nagasaki"}
+      ],
+      "restaurants": [
+        {"name": "Shikairou", "location": "4-5 Matsugaemachi, Nagasaki"},
+        {"name": "Yosso", "location": "8-9 Motoshikkuimachi, Nagasaki"}
+      ],
+      "police": "Nagasaki Prefectural Police Headquarters, 2-2-20 Edo-machi, Nagasaki",
+      "hospital": "Nagasaki University Hospital, 1-7-1 Sakamoto, Nagasaki",
+      "tips": [
+        "A visit to the Peace Park and Atomic Bomb Museum is a deeply moving and important experience.",
+        "Nagasaki was one of the few ports open to foreign trade for centuries, giving it a unique international history.",
+        "Try the local dishes Champon (a hearty noodle soup) and Castella cake."
+      ]
+    },
+    {
+      "city": "Kamakura",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Great Buddha of Kamakura (Kotoku-in)", "location": "4 Chome-2-28 Hase, Kamakura, Kanagawa"},
+        {"name": "Hasedera Temple", "location": "3 Chome-11-2 Hase, Kamakura, Kanagawa"},
+        {"name": "Tsurugaoka Hachimangu Shrine", "location": "2 Chome-1-31 Yukinoshita, Kamakura, Kanagawa"}
+      ],
+      "restaurants": [
+        {"name": "Kagehan", "location": "1 Chome-8-16 Komachi, Kamakura"},
+        {"name": "bills Shichirigahama", "location": "1 Chome-1-1 Shichirigahama, Kamakura"}
+      ],
+      "police": "Kamakura Police Station, 1 Chome-9-1 Yukinoshita, Kamakura",
+      "hospital": "Shonan Kamakura General Hospital, 1370-1 Okamoto, Kamakura",
+      "tips": [
+        "Kamakura is a charming coastal city and an easy day trip from Tokyo.",
+        "It was the political center of Japan during the Kamakura Period (1185–1333).",
+        "After visiting the temples, relax at one of the city's popular beaches."
+      ]
+    },
+    {
+      "city": "Kobe",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Kobe Harborland", "location": "1 Chome Higashikawasakicho, Chuo Ward, Kobe"},
+        {"name": "Mount Rokko", "location": "Rokkosancho, Nada Ward, Kobe"},
+        {"name": "Arima Onsen", "location": "Arimacho, Kita Ward, Kobe"}
+      ],
+      "restaurants": [
+        {"name": "Steakland Kobe", "location": "1 Chome-9-17 Kitanagasadori, Chuo Ward, Kobe"},
+        {"name": "Wakkoqu", "location": "1 Chome-1-2 Kitanagasadori, Chuo Ward, Kobe"}
+      ],
+      "police": "Hyogo Prefectural Police Headquarters, 5 Chome-4-1 Shimoyamatedori, Chuo Ward, Kobe",
+      "hospital": "Kobe University Hospital, 7 Chome-5-2 Kusunokicho, Chuo Ward, Kobe",
+      "tips": [
+        "Kobe is a cosmopolitan port city famous worldwide for its high-quality marbled beef.",
+        "A visit is not complete without trying an authentic Kobe beef steak.",
+        "The city was devastated by the Great Hanshin Earthquake in 1995 and has since been completely rebuilt."
       ]
     },
     {
@@ -1105,6 +1791,46 @@
         "Try local Okinawan dishes like goya champuru (bitter melon stir-fry) and Okinawa soba.",
         "The Churaumi Aquarium is one of the largest and most impressive in the world."
       ]
+    },
+    {
+      "city": "Hakone",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Hakone Open-Air Museum", "location": "1121 Ninotaira, Hakone, Ashigarashimo District, Kanagawa"},
+        {"name": "Lake Ashinoko (Ashi)", "location": "Lake Ashi, Hakone"},
+        {"name": "Hakone Ropeway", "location": "Gora, Hakone"}
+      ],
+      "restaurants": [
+        {"name": "Tamura Ginkatsu-tei", "location": "1300-726 Gora, Hakone"},
+        {"name": "Amazake-chaya Tea House", "location": "395-1 Hatajuku, Hakone"}
+      ],
+      "police": "Odawara Police Station, 3 Chome-11-21 Ogikubo, Odawara",
+      "hospital": "Hakone-no-mori Hospital, 1320-91 Gora, Hakone",
+      "tips": [
+        "Hakone is a famous mountain resort town known for its hot springs (onsen) and views of Mount Fuji.",
+        "Purchase the Hakone Free Pass for unlimited use of most trains, buses, cable cars, ropeways, and boats in the area.",
+        "Try a black egg boiled in the hot springs of Ōwakudani volcanic valley."
+      ]
+    },
+    {
+      "city": "Nagoya",
+      "country": "Japan",
+      "attractions": [
+        {"name": "Nagoya Castle", "location": "1-1 Honmaru, Naka Ward, Nagoya"},
+        {"name": "Atsuta Shrine", "location": "1 Chome-1-1 Jingu, Atsuta Ward, Nagoya"},
+        {"name": "SCMAGLEV and Railway Park", "location": "3 Chome-2-2 Kinjofuto, Minato Ward, Nagoya"}
+      ],
+      "restaurants": [
+        {"name": "Atsuta Horaiken", "location": "503 Godocho, Atsuta Ward, Nagoya"},
+        {"name": "Yabaton", "location": "Various locations"}
+      ],
+      "police": "Aichi Prefectural Police Headquarters, 2 Chome-1-1 Sannomaru, Naka Ward, Nagoya",
+      "hospital": "Nagoya University Hospital, 65 Tsurumaicho, Showa Ward, Nagoya",
+      "tips": [
+        "Nagoya is a major industrial hub and the birthplace of Toyota.",
+        "Try the local specialty 'Hitsumabushi' (grilled eel on rice) and 'Miso Katsu' (pork cutlet with miso sauce).",
+        "The SCMAGLEV and Railway Park is a must-see for train enthusiasts."
+      ]
     }
   ],
   "Jordan": [
@@ -1129,6 +1855,26 @@
       ]
     },
     {
+      "city": "Aqaba",
+      "country": "Jordan",
+      "attractions": [
+        {"name": "Aqaba Marine Park", "location": "Aqaba"},
+        {"name": "Wadi Rum", "location": "Wadi Rum (Day trip from Aqaba)"},
+        {"name": "Aqaba Fort", "location": "Al-Hafayer Park, Aqaba"}
+      ],
+      "restaurants": [
+        {"name": "Ali Baba Restaurant", "location": "Al-Raghadan St, Aqaba"},
+        {"name": "Diwan The View", "location": "K. Hussein St, Aqaba"}
+      ],
+      "police": "Aqaba Police Directorate, King Hussein Street, Aqaba",
+      "hospital": "Prince Hashem Bin Abdullah Military Hospital, Aqaba",
+      "tips": [
+        "Aqaba is Jordan's only coastal city, located on the Red Sea.",
+        "It is a world-class destination for diving and snorkeling.",
+        "It's a great base for exploring Wadi Rum, the vast desert landscape also known as the 'Valley of the Moon'."
+      ]
+    },
+    {
       "city": "Wadi Musa (Petra)",
       "country": "Jordan",
       "attractions": [
@@ -1147,27 +1893,25 @@
         "Wear comfortable, sturdy shoes as you will be walking for many hours on uneven terrain.",
         "Visit 'Petra by Night' for a magical experience of seeing the Treasury lit by thousands of candles."
       ]
-    }
-  ],
-  "Kyrgyzstan": [
+    },
     {
-      "city": "Bishkek",
-      "country": "Kyrgyzstan",
+      "city": "Wadi Rum Village",
+      "country": "Jordan",
       "attractions": [
-        {"name": "Ala Archa National Park", "location": "Near Bishkek"},
-        {"name": "Ala-Too Square", "location": "Ala-Too Square, Bishkek"},
-        {"name": "Osh Bazaar", "location": "Chuy Avenue, Bishkek"}
+        {"name": "Wadi Rum Protected Area", "location": "Wadi Rum"},
+        {"name": "Khazali Canyon", "location": "Wadi Rum"},
+        {"name": "Burdah Rock Bridge", "location": "Wadi Rum"}
       ],
       "restaurants": [
-        {"name": "Navat", "location": "Togolok Moldo St 114/1, Bishkek"},
-        {"name": "Faiza", "location": "Jibek Jolu Avenue 555, Bishkek"}
+        {"name": "Most meals are provided by Bedouin camps", "location": "Various camps in Wadi Rum"},
+        {"name": "Wadi Rum Rest House", "location": "Wadi Rum Village"}
       ],
-      "police": "Ministry of Internal Affairs, Frunze Street 469, Bishkek",
-      "hospital": "National Hospital of the Ministry of Health, Togolok Moldo Street 1, Bishkek",
+      "police": "Wadi Rum Police Post, Wadi Rum Village",
+      "hospital": "Nearest major hospital is in Aqaba",
       "tips": [
-        "Bishkek is a green city with many Soviet-era buildings and parks.",
-        "It's the main gateway for treks into the stunning Tian Shan mountains.",
-        "Osh Bazaar is a vibrant and sprawling market where you can experience local life."
+        "Wadi Rum is a vast desert landscape known as the 'Valley of the Moon'.",
+        "Take a 4x4 jeep tour to explore the stunning red sand dunes and rock formations.",
+        "Stay overnight in a Bedouin camp to experience their hospitality and sleep under the stars."
       ]
     }
   ],
@@ -1213,6 +1957,48 @@
       ]
     }
   ],
+  "Kyrgyzstan": [
+    {
+      "city": "Bishkek",
+      "country": "Kyrgyzstan",
+      "attractions": [
+        {"name": "Ala Archa National Park", "location": "Near Bishkek"},
+        {"name": "Ala-Too Square", "location": "Ala-Too Square, Bishkek"},
+        {"name": "Osh Bazaar", "location": "Chuy Avenue, Bishkek"}
+      ],
+      "restaurants": [
+        {"name": "Navat", "location": "Togolok Moldo St 114/1, Bishkek"},
+        {"name": "Faiza", "location": "Jibek Jolu Avenue 555, Bishkek"}
+      ],
+      "police": "Ministry of Internal Affairs, Frunze Street 469, Bishkek",
+      "hospital": "National Hospital of the Ministry of Health, Togolok Moldo Street 1, Bishkek",
+      "tips": [
+        "Bishkek is a green city with many Soviet-era buildings and parks.",
+        "It's the main gateway for treks into the stunning Tian Shan mountains.",
+        "Osh Bazaar is a vibrant and sprawling market where you can experience local life."
+      ]
+    },
+    {
+      "city": "Osh",
+      "country": "Kyrgyzstan",
+      "attractions": [
+        {"name": "Sulaiman-Too Sacred Mountain", "location": "Osh"},
+        {"name": "Jayma Bazaar", "location": "Osh"},
+        {"name": "Lenin Statue", "location": "Central Square, Osh"}
+      ],
+      "restaurants": [
+        {"name": "Borsok", "location": "17 Kurmanjan Datka St, Osh"},
+        {"name": "Izium", "location": "271 Kurmanjan Datka St, Osh"}
+      ],
+      "police": "Osh City Police Department, 316 Lenin St, Osh",
+      "hospital": "Osh Interoblast Hospital, 220 Gapar Aytiev St, Osh",
+      "tips": [
+        "Osh is one of the oldest cities in Central Asia, with a history spanning over 3,000 years.",
+        "Sulaiman-Too mountain is a UNESCO World Heritage site and a major place of Islamic pilgrimage.",
+        "Jayma Bazaar, stretching along the river, is one of the most vibrant and ancient markets on the Silk Road."
+      ]
+    }
+  ],
   "Kuwait": [
     {
       "city": "Kuwait City",
@@ -1232,28 +2018,6 @@
         "The Kuwait Towers are an iconic symbol of the modern state of Kuwait.",
         "Explore the traditional Souq Al-Mubarakiya for an authentic market experience.",
         "Summers are incredibly hot, with temperatures often exceeding 45°C (113°F)."
-      ]
-    }
-  ],
-  "Lebanon": [
-    {
-      "city": "Beirut",
-      "country": "Lebanon",
-      "attractions": [
-        {"name": "Jeita Grotto", "location": "Valley of the Dog River, Keserwan District"},
-        {"name": "National Museum of Beirut", "location": "Museum St, Beirut"},
-        {"name": "Zaitunay Bay", "location": "Beirut Marina, Beirut"}
-      ],
-      "restaurants": [
-        {"name": "Tawlet", "location": "12 Rue Naher, Beirut"},
-        {"name": "Em Sherif", "location": "Victorie Malek St, Ashrafieh, Beirut"}
-      ],
-      "police": "Internal Security Forces Headquarters, Ashrafieh, Beirut",
-      "hospital": "American University of Beirut Medical Center (AUBMC), Makdessi St, Beirut",
-      "tips": [
-        "Once known as the 'Paris of the Middle East,' Beirut has a vibrant nightlife and culinary scene.",
-        "The city shows a fascinating mix of modern reconstruction alongside war-scarred buildings.",
-        "Always check current travel advisories before planning a trip to Lebanon."
       ]
     }
   ],
@@ -1279,6 +2043,26 @@
       ]
     },
     {
+      "city": "Vang Vieng",
+      "country": "Laos",
+      "attractions": [
+        {"name": "Nam Song River", "location": "Vang Vieng"},
+        {"name": "Tham Phu Kham Cave and Blue Lagoon", "location": "Near Vang Vieng"},
+        {"name": "Pha Ngern Viewpoint", "location": "Near Vang Vieng"}
+      ],
+      "restaurants": [
+        {"name": "Viman Vang Vieng", "location": "Nam Song Riverside, Vang Vieng"},
+        {"name": "Milan Pizza", "location": "Main Street, Vang Vieng"}
+      ],
+      "police": "Vang Vieng Tourist Police, Main Street, Vang Vieng",
+      "hospital": "Vang Vieng Hospital, Vang Vieng",
+      "tips": [
+        "Vang Vieng is surrounded by a spectacular landscape of limestone karst hills.",
+        "It has transformed from a party town to a center for outdoor adventure activities like kayaking, rock climbing, and hiking.",
+        "Rent a buggy or scooter to explore the beautiful countryside and caves."
+      ]
+    },
+    {
       "city": "Luang Prabang",
       "country": "Laos",
       "attractions": [
@@ -1296,6 +2080,108 @@
         "The entire town is a UNESCO World Heritage site for its unique fusion of traditional and colonial architecture.",
         "Wake up early to witness the Sai Bat, the morning alms-giving ceremony for monks.",
         "Climb Mount Phousi at sunset for a 360-degree view of the town and Mekong River."
+      ]
+    },
+    {
+      "city": "Don Det (Si Phan Don)",
+      "country": "Laos",
+      "attractions": [
+        {"name": "Li Phi Falls (Tad Somphamit)", "location": "Don Khon Island"},
+        {"name": "Khone Phapheng Falls", "location": "Champasak Province"},
+        {"name": "Irrawaddy Dolphins Viewing", "location": "Mekong River, near Don Khon"}
+      ],
+      "restaurants": [
+        {"name": "Mama Leuah", "location": "Don Det"},
+        {"name": "The Garden of Nang", "location": "Don Det"}
+      ],
+      "police": "Nearest main station is in Pakse",
+      "hospital": "Nearest hospital is in Pakse",
+      "tips": [
+        "Si Phan Don, or '4,000 Islands,' is a laid-back archipelago in the Mekong River in Southern Laos.",
+        "Don Det is the main backpacker hub, connected by a bridge to the quieter Don Khon.",
+        "Life moves slowly here; rent a bicycle, relax in a hammock, and enjoy the river views."
+      ]
+    },
+    {
+      "city": "Pakse",
+      "country": "Laos",
+      "attractions": [
+        {"name": "Bolaven Plateau", "location": "Near Pakse"},
+        {"name": "Wat Phou", "location": "Near Champasak"},
+        {"name": "Tad Fane Waterfall", "location": "Bolaven Plateau"}
+      ],
+      "restaurants": [
+        {"name": "Dao Lin", "location": "No. 042, 13 South Road, Pakse"},
+        {"name": "Vida Bakery and Cafe", "location": "13 South Road, Pakse"}
+      ],
+      "police": "Champasak Provincial Police, Pakse",
+      "hospital": "Champasak Provincial Hospital, 13 South Road, Pakse",
+      "tips": [
+        "Pakse is the gateway to southern Laos, including the Bolaven Plateau and the 4,000 Islands (Si Phan Don).",
+        "Rent a motorbike to explore the 'Bolaven Plateau Loop,' famous for coffee plantations and waterfalls.",
+        "Visit the pre-Angkorian Khmer temple complex of Wat Phou, a UNESCO World Heritage site."
+      ]
+    }
+  ],
+  "Lebanon": [
+    {
+      "city": "Baalbek",
+      "country": "Lebanon",
+      "attractions": [
+        {"name": "Baalbek Roman Ruins", "location": "Baalbek"},
+        {"name": "Temple of Bacchus", "location": "Baalbek"},
+        {"name": "Temple of Jupiter", "location": "Baalbek"}
+      ],
+      "restaurants": [
+        {"name": "Lakkis Farm", "location": "Main Road, Baalbek"},
+        {"name": "Ananas", "location": "Ras el-Ain, Baalbek"}
+      ],
+      "police": "Baalbek Police Station, Baalbek",
+      "hospital": "Baalbek Governmental Hospital, Baalbek",
+      "tips": [
+        "**SERIOUS WARNING ADVISED**: Baalbek is in a region where many governments advise against all travel. Check official warnings before any consideration of a trip.",
+        "The Roman ruins at Baalbek are some of the largest and best-preserved in the world.",
+        "The Temple of Bacchus is larger than the Parthenon in Athens."
+      ]
+    },
+    {
+      "city": "Beirut",
+      "country": "Lebanon",
+      "attractions": [
+        {"name": "Jeita Grotto", "location": "Valley of the Dog River, Keserwan District"},
+        {"name": "National Museum of Beirut", "location": "Museum St, Beirut"},
+        {"name": "Zaitunay Bay", "location": "Beirut Marina, Beirut"}
+      ],
+      "restaurants": [
+        {"name": "Tawlet", "location": "12 Rue Naher, Beirut"},
+        {"name": "Em Sherif", "location": "Victorie Malek St, Ashrafieh, Beirut"}
+      ],
+      "police": "Internal Security Forces Headquarters, Ashrafieh, Beirut",
+      "hospital": "American University of Beirut Medical Center (AUBMC), Makdessi St, Beirut",
+      "tips": [
+        "Once known as the 'Paris of the Middle East,' Beirut has a vibrant nightlife and culinary scene.",
+        "The city shows a fascinating mix of modern reconstruction alongside war-scarred buildings.",
+        "Always check current travel advisories before planning a trip to Lebanon."
+      ]
+    },
+    {
+      "city": "Byblos (Jbeil)",
+      "country": "Lebanon",
+      "attractions": [
+        {"name": "Byblos Citadel", "location": "Byblos"},
+        {"name": "Old Souk", "location": "Byblos"},
+        {"name": "Byblos Port", "location": "Byblos"}
+      ],
+      "restaurants": [
+        {"name": "Feniqia", "location": "Old Souk, Byblos"},
+        {"name": "Pepe's Fishing Club", "location": "Byblos Port"}
+      ],
+      "police": "Jbeil Police Station, Jbeil",
+      "hospital": "Notre Dame de Secours University Hospital Center, Byblos",
+      "tips": [
+        "Byblos is one of the oldest continuously inhabited cities in the world.",
+        "The city is a UNESCO World Heritage site with layers of history from Phoenician to Ottoman times.",
+        "It's a charming coastal city and an easy day trip from Beirut."
       ]
     }
   ],
@@ -1343,6 +2229,66 @@
       ]
     },
     {
+      "city": "Kuching",
+      "country": "Malaysia",
+      "attractions": [
+        {"name": "Bako National Park", "location": "Near Kuching, Sarawak"},
+        {"name": "Semenggoh Wildlife Centre", "location": "Jalan Tun Abang Haji Openg, Kuching"},
+        {"name": "Kuching Waterfront", "location": "Jalan Main Bazaar, Kuching"}
+      ],
+      "restaurants": [
+        {"name": "Top Spot Food Court", "location": "Jalan Padungan, Kuching"},
+        {"name": "Lepau Restaurant", "location": "395, Jalan Ban Hock, Kuching"}
+      ],
+      "police": "Ibu Pejabat Polis Kontinjen Sarawak, Jalan Badruddin, Kuching",
+      "hospital": "Sarawak General Hospital, Jalan Hospital, Kuching",
+      "tips": [
+        "Kuching is the capital of Sarawak state in Malaysian Borneo and is known as the 'Cat City'.",
+        "It's a key base for exploring nearby rainforests and seeing orangutans at Semenggoh.",
+        "Try Sarawak Laksa, a unique and flavorful noodle soup."
+      ]
+    },
+    {
+      "city": "Malacca (Melaka)",
+      "country": "Malaysia",
+      "attractions": [
+        {"name": "Jonker Street Night Market", "location": "Jalan Hang Jebat, Melaka"},
+        {"name": "Dutch Square (Red Square)", "location": "Bandar Hilir, Melaka"},
+        {"name": "A Famosa Fort", "location": "Jalan Parameswara, Bandar Hilir, Melaka"}
+      ],
+      "restaurants": [
+        {"name": "Nancy's Kitchen", "location": "13, Jalan KL 3/8, Taman Kota Laksamana, Melaka"},
+        {"name": "Capitol Satay Celup", "location": "41, Lorong Bukit Cina, Bandar Hilir, Melaka"}
+      ],
+      "police": "Ibu Pejabat Polis Kontinjen Melaka, Jalan Peringgit, Melaka",
+      "hospital": "Melaka General Hospital, Jalan Peringgit, Melaka",
+      "tips": [
+        "The historic city of Malacca is a UNESCO World Heritage site.",
+        "Its culture is a unique blend of Malay, Chinese, Portuguese, Dutch, and British influences.",
+        "Take a river cruise to see the city's murals and historic buildings."
+      ]
+    },
+    {
+      "city": "Tanah Rata (Cameron Highlands)",
+      "country": "Malaysia",
+      "attractions": [
+        {"name": "BOH Tea Plantation", "location": "Sungai Palas, Cameron Highlands"},
+        {"name": "Mossy Forest", "location": "Gunung Brinchang, Cameron Highlands"},
+        {"name": "Lavender Garden", "location": "Tringkap, Cameron Highlands"}
+      ],
+      "restaurants": [
+        {"name": "Barracks Cafe", "location": "1, Jalan Gereja, Tanah Rata"},
+        {"name": "The Lord's Cafe", "location": "Jalan Besar, Tanah Rata"}
+      ],
+      "police": "Balai Polis Tanah Rata, Jalan Besar, Tanah Rata",
+      "hospital": "Hospital Sultanah Hajjah Kalsom, Tanah Rata",
+      "tips": [
+        "The Cameron Highlands is a beautiful hill station known for its cool climate and sprawling tea plantations.",
+        "Go for a hike and enjoy the stunning green landscapes.",
+        "Try fresh strawberries, which are grown locally."
+      ]
+    },
+    {
       "city": "George Town (Penang)",
       "country": "Malaysia",
       "attractions": [
@@ -1360,6 +2306,26 @@
         "The historic center of George Town is a UNESCO World Heritage site.",
         "Go on a scavenger hunt to find the famous street art murals by Ernest Zacharevic.",
         "Penang is considered one of the best street food destinations in the world."
+      ]
+    },
+    {
+      "city": "Kota Kinabalu",
+      "country": "Malaysia",
+      "attractions": [
+        {"name": "Mount Kinabalu", "location": "Kinabalu Park, Sabah"},
+        {"name": "Tunku Abdul Rahman National Park", "location": "Off the coast of Kota Kinabalu"},
+        {"name": "Mari Mari Cultural Village", "location": "Inanam, Kota Kinabalu"}
+      ],
+      "restaurants": [
+        {"name": "Welcome Seafood Restaurant", "location": "Lot G18, Kompleks Asia City, Kota Kinabalu"},
+        {"name": "Fatt Kee Seafood Restaurant", "location": "Lot 8, Ground Floor, Block D, Sadong Jaya, Karamunsing"}
+      ],
+      "police": "Ibu Pejabat Polis Kontinjen Sabah, Jalan Kepayan, Kota Kinabalu",
+      "hospital": "Queen Elizabeth Hospital, Karung Berkunci No 2029, Kota Kinabalu",
+      "tips": [
+        "Kota Kinabalu is the gateway to the island of Borneo and its incredible biodiversity.",
+        "Climbing Mount Kinabalu, Southeast Asia's highest peak, requires a permit and booking in advance.",
+        "Go island-hopping in Tunku Abdul Rahman National Park for snorkeling and beaches."
       ]
     }
   ],
@@ -1425,6 +2391,46 @@
         "Rent an e-bike to explore the vast temple-strewn plains at your own pace.",
         "A sunrise hot air balloon ride over the temples is a breathtaking and iconic experience."
       ]
+    },
+    {
+      "city": "Pyin Oo Lwin",
+      "country": "Myanmar",
+      "attractions": [
+        {"name": "National Kandawgyi Botanical Gardens", "location": "Pyin Oo Lwin"},
+        {"name": "Anisakan Falls", "location": "Near Pyin Oo Lwin"},
+        {"name": "Pwe Kauk Falls", "location": "Near Pyin Oo Lwin"}
+      ],
+      "restaurants": [
+        {"name": "The Taj", "location": "Ziwaka Street, Pyin Oo Lwin"},
+        {"name": "Feel Cafe", "location": "Circular Road, Pyin Oo Lwin"}
+      ],
+      "police": "Pyin Oo Lwin District Police Force, Pyin Oo Lwin",
+      "hospital": "Pyin Oo Lwin General Hospital, Pyin Oo Lwin",
+      "tips": [
+        "A former British colonial hill station, Pyin Oo Lwin is known for its cool climate and colonial-era architecture.",
+        "Ride in a 'stagecoach,' a colorful horse-drawn carriage, for a unique tour of the town.",
+        "Always check current travel advisories before planning a trip."
+      ]
+    },
+    {
+      "city": "Mandalay",
+      "country": "Myanmar",
+      "attractions": [
+        {"name": "U Bein Bridge", "location": "Amarapura, near Mandalay"},
+        {"name": "Mandalay Palace", "location": "Mandalay"},
+        {"name": "Mandalay Hill", "location": "Mandalay"}
+      ],
+      "restaurants": [
+        {"name": "Mingalabar Myanmar Restaurant", "location": "71st Street, Between 28th & 29th Street, Mandalay"},
+        {"name": "Unique Myanmar Restaurant", "location": "27th Street, Between 65th & 66th Street, Mandalay"}
+      ],
+      "police": "Mandalay Region Police Force, 84th Street, Mandalay",
+      "hospital": "Mandalay General Hospital, 30th Street, Mandalay",
+      "tips": [
+        "**SERIOUS WARNING ADVISED**: Many governments advise against all non-essential travel to Myanmar due to civil unrest and armed conflict. Check official advisories before planning.",
+        "Mandalay is the last royal capital of Burma.",
+        "Visit the U Bein Bridge, the world's longest teak footbridge, at sunset."
+      ]
     }
   ],
   "Nepal": [
@@ -1446,6 +2452,26 @@
         "Kathmandu is the gateway to the Himalayas and Everest Base Camp treks.",
         "Explore the bustling streets and shops of the Thamel tourist district.",
         "Be prepared for power outages and dusty conditions."
+      ]
+    },
+    {
+      "city": "Sauraha (Chitwan National Park)",
+      "country": "Nepal",
+      "attractions": [
+        {"name": "Chitwan National Park", "location": "Chitwan"},
+        {"name": "Rapti River", "location": "Sauraha"},
+        {"name": "Tharu Cultural Program", "location": "Sauraha"}
+      ],
+      "restaurants": [
+        {"name": "KC's Restaurant", "location": "Sauraha, Chitwan"},
+        {"name": "Jungle View Restaurant", "location": "Sauraha, Chitwan"}
+      ],
+      "police": "Area Police Office, Tandi, Chitwan",
+      "hospital": "Chitwan Medical College Teaching Hospital, Bharatpur",
+      "tips": [
+        "Sauraha is the main village for accessing Chitwan National Park.",
+        "The park is a UNESCO World Heritage site, famous for its population of one-horned rhinos, Bengal tigers, and crocodiles.",
+        "Go on a jeep safari or a canoe trip to spot wildlife."
       ]
     },
      {
@@ -1513,6 +2539,48 @@
       ]
     }
   ],
+  "Pakistan": [
+    {
+      "city": "Lahore",
+      "country": "Pakistan",
+      "attractions": [
+        {"name": "Badshahi Mosque", "location": "Walled City of Lahore, Lahore"},
+        {"name": "Lahore Fort", "location": "Walled City of Lahore, Lahore"},
+        {"name": "Wagah Border", "location": "Wagah, Lahore"}
+      ],
+      "restaurants": [
+        {"name": "Haveli Restaurant", "location": "Food St, Fort Rd, Shahi Mohallah, Lahore"},
+        {"name": "Andaaz Restaurant", "location": "2189 A Fort Rd, Shahi Mohallah, Lahore"}
+      ],
+      "police": "Capital City Police Officer (CCPO) Office, Lower Mall, Lahore",
+      "hospital": "Services Hospital, Ghaus-ul-Azam Rd, Lahore",
+      "tips": [
+        "**CAUTION ADVISED**: Check official government travel advisories regarding safety and security before planning a trip.",
+        "Lahore is the cultural and artistic heart of Pakistan, rich with Mughal heritage.",
+        "The Badshahi Mosque and Lahore Fort are magnificent UNESCO World Heritage sites."
+      ]
+    },
+    {
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "attractions": [
+        {"name": "Faisal Mosque", "location": "Shah Faisal Ave, E-8, Islamabad"},
+        {"name": "Pakistan Monument", "location": "Shakarparian Hills, Islamabad"},
+        {"name": "Margalla Hills National Park", "location": "Islamabad"}
+      ],
+      "restaurants": [
+        {"name": "Monal Restaurant", "location": "Pir Sohawa, Islamabad"},
+        {"name": "Saidpur Village", "location": "Saidpur, Islamabad"}
+      ],
+      "police": "Islamabad Police Headquarters, G-8 Markaz, Islamabad",
+      "hospital": "Pakistan Institute of Medical Sciences (PIMS), G-8/3, Islamabad",
+      "tips": [
+        "**CAUTION ADVISED**: Check official government travel advisories regarding safety and security before planning a trip.",
+        "Islamabad is a modern, green, and well-planned capital city.",
+        "Drive up to Monal restaurant in the Margalla Hills for spectacular views of the entire city."
+      ]
+    }
+  ],
   "Philippines": [
     {
       "city": "Manila",
@@ -1534,6 +2602,86 @@
         "Ride a traditional 'jeepney' for a unique local transport experience."
       ]
     },
+    {
+      "city": "Puerto Princesa",
+      "country": "Philippines",
+      "attractions": [
+        {"name": "Puerto Princesa Subterranean River National Park", "location": "Palawan"},
+        {"name": "Honda Bay", "location": "Santa Lourdes, Puerto Princesa"},
+        {"name": "Ugong Rock Adventures", "location": "Tagabinet, Puerto Princesa"}
+      ],
+      "restaurants": [
+        {"name": "Kalui Restaurant", "location": "369 Rizal Avenue, Puerto Princesa"},
+        {"name": "Kinabuch's Grill and Bar", "location": "369 Rizal Avenue, Puerto Princesa"}
+      ],
+      "police": "Puerto Princesa City Police Office, Rizal Avenue, Puerto Princesa",
+      "hospital": "Ospital ng Palawan, 220 Malvar Street, Puerto Princesa",
+      "tips": [
+        "Puerto Princesa is the capital of Palawan and the gateway to the Underground River, a UNESCO World Heritage Site.",
+        "You must book a permit in advance to visit the Underground River.",
+        "Try the local delicacy 'tamilok' (woodworm) if you are feeling adventurous."
+      ]
+    },
+    {
+      "city": "Banaue",
+      "country": "Philippines",
+      "attractions": [
+        {"name": "Banaue Rice Terraces", "location": "Banaue, Ifugao"},
+        {"name": "Batad Rice Terraces", "location": "Batad, Banaue"},
+        {"name": "Tappiya Falls", "location": "Batad, Banaue"}
+      ],
+      "restaurants": [
+        {"name": "7th Heaven's Cafe", "location": "Banaue, Ifugao"},
+        {"name": "Las Vegas Lodge & Restaurant", "location": "Banaue, Ifugao"}
+      ],
+      "police": "Banaue Municipal Police Station, Poblacion, Banaue",
+      "hospital": "Good News Clinic and Hospital, Poblacion, Banaue",
+      "tips": [
+        "The rice terraces of the Philippine Cordilleras are a UNESCO World Heritage site, often called the 'Eighth Wonder of the World'.",
+        "Trekking is the primary activity; be prepared for strenuous hikes.",
+        "Travel to Banaue requires a long overnight bus ride from Manila."
+      ]
+    },
+     {
+      "city": "Coron",
+      "country": "Philippines",
+      "attractions": [
+        {"name": "Kayangan Lake", "location": "Coron Island"},
+        {"name": "Twin Lagoon", "location": "Coron Island"},
+        {"name": "Barracuda Lake", "location": "Coron Island"}
+      ],
+      "restaurants": [
+        {"name": "Kawayanan Grill", "location": "National Highway, Coron Town Proper"},
+        {"name": "Lolo Nonoy's Food Station", "location": "National Highway, Coron Town Proper"}
+      ],
+      "police": "Coron Municipal Police Station, National Highway, Coron",
+      "hospital": "Coron District Hospital, National Highway, Coron",
+      "tips": [
+        "Coron is world-renowned for its World War II wreck diving sites.",
+        "Island hopping tours are the main activity, taking you to stunning lakes and lagoons with crystal-clear water.",
+        "Climb Mount Tapyas for a panoramic sunset view over Coron Town and the surrounding islands."
+      ]
+    },
+    {
+      "city": "El Nido",
+      "country": "Philippines",
+      "attractions": [
+        {"name": "Bacuit Bay", "location": "El Nido, Palawan"},
+        {"name": "Small Lagoon", "location": "Miniloc Island, El Nido"},
+        {"name": "Big Lagoon", "location": "Miniloc Island, El Nido"}
+      ],
+      "restaurants": [
+        {"name": "Artcafe", "location": "Serena St, Barangay Buena Suerte, El Nido"},
+        {"name": "Altrove Trattoria", "location": "Calle Hama, Barangay Buena Suerte, El Nido"}
+      ],
+      "police": "El Nido Municipal Police Station, Rizal St, El Nido",
+      "hospital": "El Nido Rural Health Unit, Rizal St, El Nido",
+      "tips": [
+        "El Nido is famous for its stunning limestone karsts, lagoons, and white-sand beaches.",
+        "Island hopping tours (labeled A, B, C, D) are the main activity and are regulated.",
+        "Book accommodations and flights well in advance, especially during peak season."
+      ]
+    }
     {
       "city": "Cebu City",
       "country": "Philippines",
@@ -1573,9 +2721,29 @@
         "The island has undergone significant environmental rehabilitation.",
         "Take a 'paraw' (outrigger sailboat) ride at sunset for beautiful photos."
       ]
+    },
+    {
+      "city": "Banaue",
+      "country": "Philippines",
+      "attractions": [
+        {"name": "Banaue Rice Terraces", "location": "Banaue, Ifugao"},
+        {"name": "Batad Rice Terraces", "location": "Batad, Banaue"},
+        {"name": "Tappiya Falls", "location": "Batad, Banaue"}
+      ],
+      "restaurants": [
+        {"name": "7th Heaven's Cafe", "location": "Banaue, Ifugao"},
+        {"name": "Las Vegas Lodge & Restaurant", "location": "Banaue, Ifugao"}
+      ],
+      "police": "Banaue Municipal Police Station, Poblacion, Banaue",
+      "hospital": "Good News Clinic and Hospital, Poblacion, Banaue",
+      "tips": [
+        "The rice terraces of the Philippine Cordilleras are a UNESCO World Heritage site.",
+        "Trekking is the primary activity; be prepared for strenuous hikes.",
+        "Travel to Banaue requires a long overnight bus ride from Manila."
+      ]
     }
   ],
-  "Qatar": [
+   "Qatar": [
     {
       "city": "Doha",
       "country": "Qatar",
@@ -1594,6 +2762,48 @@
         "Doha has a modern and efficient metro system.",
         "Dress conservatively out of respect for local culture.",
         "Visit Souq Waqif in the evening when it comes alive with people and activity."
+      ]
+    }
+  ],
+   "Russia": [
+    {
+      "city": "Irkutsk",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Lake Baikal", "location": "Near Irkutsk"},
+        {"name": "130 Kvartal (Irkutskaya Sloboda)", "location": "130 Kvartal, Irkutsk"},
+        {"name": "Cathedral of the Epiphany", "location": "Sukhe-Batora St, 1А, Irkutsk"}
+      ],
+      "restaurants": [
+        {"name": "Rassolnik", "location": "3 Iyulya St, 3, Irkutsk"},
+        {"name": "Snezhinka", "location": "Litvinova St, 2, Irkutsk"}
+      ],
+      "police": "Main Directorate of the Ministry of Internal Affairs for Irkutsk Oblast, Litvinova St, 15, Irkutsk",
+      "hospital": "Irkutsk Regional Clinical Hospital, Yubileyny, 100, Irkutsk",
+      "tips": [
+        "Irkutsk is the 'Paris of Siberia' and the main gateway to Lake Baikal.",
+        "Lake Baikal is the world's largest, deepest, and oldest freshwater lake.",
+        "In winter, travel on the frozen surface of the lake via hovercraft or car."
+      ]
+    },
+    {
+      "city": "Vladivostok",
+      "country": "Russia",
+      "attractions": [
+        {"name": "Russky Bridge", "location": "Russky Bridge, Vladivostok"},
+        {"name": "Eagle's Nest Viewpoint (Orlinoye Gnezdo)", "location": "Aksakovskaya Ulitsa, Vladivostok"},
+        {"name": "Submarine S-56 Museum", "location": "Korabelnaya Naberezhnaya, Vladivostok"}
+      ],
+      "restaurants": [
+        {"name": "Zuma", "location": "Fontannaya Ulitsa, 2, Vladivostok"},
+        {"name": "Supra", "location": "Admirala Fokina Ulitsa, 1Б, Vladivostok"}
+      ],
+      "police": "Primorsky Krai Police Department, Aleutskaya Ulitsa, 44, Vladivostok",
+      "hospital": "Primorsky Regional Clinical Hospital No. 1, Aleutskaya Ulitsa, 57, Vladivostok",
+      "tips": [
+        "Vladivostok is a major Pacific port city and the terminus of the Trans-Siberian Railway.",
+        "The city's hilly terrain has earned it the nickname 'Russia's San Francisco'.",
+        "Try fresh king crab and scallops, which are local specialties."
       ]
     }
   ],
@@ -1616,6 +2826,86 @@
         "Riyadh is the modern, rapidly transforming capital of Saudi Arabia.",
         "Be aware of and respect local laws and customs, including dress codes.",
         "The historic area of Diriyah is a UNESCO World Heritage site and the ancestral home of the Saudi royal family."
+      ]
+    },
+    {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "attractions": [
+        {"name": "Al-Balad (Old Town)", "location": "Al-Balad, Jeddah"},
+        {"name": "King Fahd's Fountain", "location": "Jeddah Corniche"},
+        {"name": "Jeddah Corniche", "location": "Jeddah"}
+      ],
+      "restaurants": [
+        {"name": "Al Baik", "location": "Various locations"},
+        {"name": "Twina Seafood Restaurant", "location": "Al Kurnaysh Rd, Jeddah"}
+      ],
+      "police": "Jeddah Governorate Police, Al-Baghdadiyah Al-Gharbiyah, Jeddah",
+      "hospital": "King Fahd General Hospital, Al-Nuzlah Al-Yamaniyah District, Jeddah",
+      "tips": [
+        "Jeddah is a historic port city on the Red Sea and the main gateway for pilgrims to Mecca and Medina.",
+        "Al-Balad, the old town, is a UNESCO World Heritage site with beautiful coral-stone houses.",
+        "Stroll along the modern waterfront of the Jeddah Corniche."
+      ]
+    },
+    {
+      "city": "Mecca",
+      "country": "Saudi Arabia",
+      "attractions": [
+        {"name": "Masjid al-Haram (The Grand Mosque)", "location": "Mecca"},
+        {"name": "Kaaba", "location": "Inside Masjid al-Haram, Mecca"},
+        {"name": "Abraj Al Bait (Clock Towers)", "location": "King Abdul Aziz Endowment, Mecca"}
+      ],
+      "restaurants": [
+        {"name": "Albaik", "location": "Various locations"},
+        {"name": "Al Tazaj", "location": "Various locations"}
+      ],
+      "police": "Makkah Province Police, Mecca",
+      "hospital": "King Abdullah Medical City, Mecca",
+      "tips": [
+        "**IMPORTANT NOTE**: Access to the city of Mecca is restricted to Muslims only.",
+        "Mecca is the holiest city in Islam and the site of the annual Hajj pilgrimage.",
+        "Non-Muslims are not permitted to enter the sacred precincts."
+      ]
+    },
+    {
+      "city": "Medina",
+      "country": "Saudi Arabia",
+      "attractions": [
+        {"name": "Al-Masjid an-Nabawi (The Prophet's Mosque)", "location": "Medina"},
+        {"name": "Quba Mosque", "location": "Medina"},
+        {"name": "Mount Uhud", "location": "Medina"}
+      ],
+      "restaurants": [
+        {"name": "Al-Romansiah", "location": "Various locations"},
+        {"name": "Hardee's", "location": "Various locations"}
+      ],
+      "police": "Madinah Province Police, Medina",
+      "hospital": "King Fahd Hospital, Medina",
+      "tips": [
+        "**IMPORTANT NOTE**: While some parts of Medina are open to all, the central holy area around the Prophet's Mosque is restricted to Muslims only.",
+        "Medina is the second holiest city in Islam.",
+        "It is the final resting place of the Prophet Muhammad."
+      ]
+    },
+    {
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "attractions": [
+        {"name": "King Abdulaziz Center for World Culture (Ithra)", "location": "Dhahran"},
+        {"name": "Half Moon Bay", "location": "Near Al Khobar"},
+        {"name": "Marjan Island", "location": "Dammam Corniche"}
+      ],
+      "restaurants": [
+        {"name": "Steak House", "location": "Various locations"},
+        {"name": "Heritage Village", "location": "Dammam Corniche"}
+      ],
+      "police": "Eastern Province Police Headquarters, Dammam",
+      "hospital": "Dammam Medical Complex, Dammam",
+      "tips": [
+        "Dammam is the capital of the oil-rich Eastern Province of Saudi Arabia.",
+        "The King Abdulaziz Center for World Culture (Ithra) is a stunning modern architectural landmark.",
+        "It serves as a base for exploring the wider region, including the city of Al Khobar."
       ]
     }
   ],
@@ -1660,6 +2950,66 @@
         "Get a T-money card for easy payment on subways, buses, and in convenience stores.",
         "Wi-Fi is widely available in most public areas.",
         "Try Korean BBQ and visit a 'jjimjilbang' (public bathhouse) for a local experience."
+      ]
+    },
+    {
+      "city": "Daegu",
+      "country": "South Korea",
+      "attractions": [
+        {"name": "E-World 83 Tower", "location": "200 Duryugongwon-ro, Dalseo-gu, Daegu"},
+        {"name": "Seomun Market", "location": "45 Keunjang-ro 26-gil, Jung-gu, Daegu"},
+        {"name": "Palgongsan Mountain", "location": "Dong-gu, Daegu"}
+      ],
+      "restaurants": [
+        {"name": "Marco's Kitchen", "location": "6 Myeongdeok-ro 35-gil, Nam-gu, Daegu"},
+        {"name": "Geundae Hwaro", "location": "6-1 Dongseong-ro 3-gil, Jung-gu, Daegu"}
+      ],
+      "police": "Daegu Metropolitan Police Agency, 300 Gukchaebosang-ro, Jung-gu, Daegu",
+      "hospital": "Kyungpook National University Hospital, 130 Dongdeok-ro, Jung-gu, Daegu",
+      "tips": [
+        "Daegu is South Korea's fourth-largest city.",
+        "It is known for its scorching summers, earning it the nickname 'Daefrica' (Daegu + Africa).",
+        "Visit the Yangnyeongsi Market, a major hub for traditional oriental medicine."
+      ]
+    },
+    {
+      "city": "Hapcheon",
+      "country": "South Korea",
+      "attractions": [
+        {"name": "Haeinsa Temple", "location": "10 Chiin-gil, Gaya-myeon, Hapcheon-gun"},
+        {"name": "Tripitaka Koreana", "location": "Inside Haeinsa Temple, Hapcheon-gun"},
+        {"name": "Hwangmaesan Royal Azalea Festival", "location": "Hwangmaesan-ro, Gahoe-myeon (Seasonal)"}
+      ],
+      "restaurants": [
+        {"name": "Restaurants are available in the village near the temple", "location": "Gaya-myeon, Hapcheon-gun"},
+        {"name": "Local eateries specialize in mountain vegetable cuisine", "location": "Hapcheon-gun"}
+      ],
+      "police": "Hapcheon Police Station, 30 Hapcheon-daero, Hapcheon-eup, Hapcheon-gun",
+      "hospital": "Hapcheon Hospital, 22 Jungang-ro, Hapcheon-eup, Hapcheon-gun",
+      "tips": [
+        "Hapcheon is a rural county, but it's home to the magnificent Haeinsa Temple, a UNESCO World Heritage site.",
+        "The temple houses the Tripitaka Koreana, the most complete collection of Buddhist scriptures, engraved on 80,000 woodblocks.",
+        "It's a peaceful mountain retreat and an important center for Korean Buddhism."
+      ]
+    },
+     {
+      "city": "Gyeongju",
+      "country": "South Korea",
+      "attractions": [
+        {"name": "Bulguksa Temple", "location": "15-1 Jinhyeon-dong, Gyeongju"},
+        {"name": "Seokguram Grotto", "location": "873-243 Jinhyeon-dong, Gyeongju"},
+        {"name": "Donggung Palace and Wolji Pond", "location": "102 Wonhwa-ro, Gyeongju"}
+      ],
+      "restaurants": [
+        {"name": "Hongsi", "location": "46-5 Sajeong-ro, Gyeongju"},
+        {"name": "Dosol Maeul", "location": "71 Bunhwang-ro, Gyeongju"}
+      ],
+      "police": "Gyeongju Police Station, 260 Taejong-ro, Gyeongju",
+      "hospital": "Dongguk University Gyeongju Hospital, 87 Dongdae-ro, Gyeongju",
+      "tips": [
+        "Known as 'the museum without walls,' Gyeongju was the capital of the ancient Silla Kingdom.",
+        "Rent a bike to explore the historical area, which is relatively flat and spread out.",
+        "Visit the Daereungwon Tomb Complex to see the large burial mounds of Silla kings and nobles."
       ]
     },
     {
@@ -1725,6 +3075,26 @@
       ]
     },
     {
+      "city": "Anuradhapura",
+      "country": "Sri Lanka",
+      "attractions": [
+        {"name": "Jaya Sri Maha Bodhi", "location": "Anuradhapura"},
+        {"name": "Ruwanwelisaya Stupa", "location": "Anuradhapura"},
+        {"name": "Mihintale", "location": "Near Anuradhapura"}
+      ],
+      "restaurants": [
+        {"name": "Little Paradise", "location": "596/1, Freeman Mawatha, Anuradhapura"},
+        {"name": "Casserole", "location": "400/88, Freeman Mawatha, Anuradhapura"}
+      ],
+      "police": "Anuradhapura Police Station, Anuradhapura",
+      "hospital": "Teaching Hospital Anuradhapura, Anuradhapura",
+      "tips": [
+        "Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its vast collection of archaeological ruins.",
+        "The sacred Jaya Sri Maha Bodhi tree is believed to have grown from a cutting of the original Bodhi tree under which the Buddha attained enlightenment.",
+        "Rent a bicycle to explore the sprawling ancient city complex."
+      ]
+    },
+    {
       "city": "Galle",
       "country": "Sri Lanka",
       "attractions": [
@@ -1742,6 +3112,132 @@
         "The Galle Fort, built by the Portuguese and fortified by the Dutch, is a UNESCO World Heritage site.",
         "Walk the fort walls at sunset for stunning ocean views.",
         "Galle is a great base to explore the beautiful beaches of Sri Lanka's south coast."
+      ]
+    },
+    {
+      "city": "Kandy",
+      "country": "Sri Lanka",
+      "attractions": [
+        {"name": "Temple of the Sacred Tooth Relic", "location": "Sri Dalada Veediya, Kandy"},
+        {"name": "Kandy Lake", "location": "Kandy"},
+        {"name": "Royal Botanical Gardens, Peradeniya", "location": "Peradeniya Rd, Kandy"}
+      ],
+      "restaurants": [
+        {"name": "The Empire Cafe", "location": "21 Temple St, Kandy"},
+        {"name": "Balaji Dosai", "location": "33 Colombo St, Kandy"}
+      ],
+      "police": "Kandy Police Station, Yatinuwara Veediya, Kandy",
+      "hospital": "Kandy General Hospital (National Hospital Kandy), Kandy",
+      "tips": [
+        "Kandy is the cultural capital of Sri Lanka, set on a plateau surrounded by mountains.",
+        "The Temple of the Sacred Tooth Relic is one of the most important pilgrimage sites for Buddhists.",
+        "Visit in July or August to witness the spectacular Esala Perahera festival."
+      ]
+    },
+    {
+      "city": "Sigiriya",
+      "country": "Sri Lanka",
+      "attractions": [
+        {"name": "Sigiriya Rock Fortress", "location": "Sigiriya"},
+        {"name": "Pidurangala Rock", "location": "Pidurangala, Sigiriya"},
+        {"name": "Dambulla Cave Temple", "location": "Dambulla"}
+      ],
+      "restaurants": [
+        {"name": "Chooti Restaurant", "location": "Sigiriya Road, Sigiriya"},
+        {"name": "Pradeep Restaurant", "location": "Sigiriya Road, Sigiriya"}
+      ],
+      "police": "Sigiriya Police Station, Sigiriya",
+      "hospital": "Dambulla Base Hospital, Dambulla",
+      "tips": [
+        "Climb the ancient rock fortress of Sigiriya, a UNESCO World Heritage site, for its stunning views and frescoes.",
+        "For a less crowded and more challenging hike with an amazing view of Sigiriya Rock, climb Pidurangala Rock.",
+        "The area is best visited early in the morning to avoid the midday heat."
+      ]
+    }
+  ],
+  "Syria": [
+    {
+      "city": "Damascus",
+      "country": "Syria",
+      "attractions": [
+        {"name": "Umayyad Mosque", "location": "Old City, Damascus"},
+        {"name": "Al-Hamidiyah Souq", "location": "Old City, Damascus"},
+        {"name": "Azem Palace", "location": "Old City, Damascus"}
+      ],
+      "restaurants": [
+        {"name": "Naranj", "location": "Bab Sharqi, Old City, Damascus"},
+        {"name": "Bakdash Ice Cream", "location": "Al-Hamidiyah Souq, Damascus"}
+      ],
+      "police": "Syrian Ministry of Interior, Damascus",
+      "hospital": "Al-Shami Hospital, Al-Afif, Damascus",
+      "tips": [
+        "**EXTREME DANGER WARNING**: Syria remains an active conflict zone. All travel to Syria is strongly advised against by most governments due to terrorism, civil unrest, and widespread violence.",
+        "Damascus is one of the oldest continuously inhabited cities in the world.",
+        "Consular support is not available. Do not travel to Syria."
+      ]
+    }
+  ],
+  "Taiwan": [
+    {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "attractions": [
+        {"name": "Taipei 101", "location": "No. 7, Section 5, Xinyi Rd, Xinyi District, Taipei"},
+        {"name": "National Palace Museum", "location": "No. 221, Sec 2, Zhi Shan Rd, Shilin District, Taipei"},
+        {"name": "Chiang Kai-shek Memorial Hall", "location": "No. 21, Zhongshan S Rd, Zhongzheng District, Taipei"}
+      ],
+      "restaurants": [
+        {"name": "Din Tai Fung", "location": "Various locations (original at Xinyi Rd)"},
+        {"name": "Shilin Night Market", "location": "No. 101, Jihe Rd, Shilin District, Taipei"}
+      ],
+      "police": "Taipei City Police Department, No. 96, Yanping S. Rd., Zhongzheng District, Taipei",
+      "hospital": "National Taiwan University Hospital, No. 7, Zhongshan S. Rd., Zhongzheng District, Taipei",
+      "tips": [
+        "Get an EasyCard for convenient travel on the highly efficient MRT system.",
+        "Exploring the vibrant night markets is a must-do for incredible street food ('xiaochi').",
+        "The National Palace Museum holds the world's largest collection of Chinese imperial artifacts."
+      ]
+    }
+  ],
+  "Tajikistan": [
+    {
+      "city": "Dushanbe",
+      "country": "Tajikistan",
+      "attractions": [
+        {"name": "Rudaki Park", "location": "Rudaki Avenue, Dushanbe"},
+        {"name": "Ismoil Somoni Monument", "location": "Dusti Square, Dushanbe"},
+        {"name": "Navruz Palace (Kohi Navruz)", "location": "Ismoili Somoni Avenue, Dushanbe"}
+      ],
+      "restaurants": [
+        {"name": "Traktir", "location": "Bukhara Street 32, Dushanbe"},
+        {"name": "Rohat Teahouse", "location": "Rudaki Avenue, Dushanbe"}
+      ],
+      "police": "Ministry of Internal Affairs, Tekhron Street 21, Dushanbe",
+      "hospital": "National Medical Center, Sanoi Street, Dushanbe",
+      "tips": [
+        "Dushanbe is known for its beautiful parks and neoclassical architecture.",
+        "The city is a base for travelers heading into the Pamir Mountains.",
+        "Visit the impressive Kohi Navruz, a modern complex that looks like a palace but functions as a cultural and event center."
+      ]
+    },
+     {
+      "city": "Khujand",
+      "country": "Tajikistan",
+      "attractions": [
+        {"name": "Panjshanbe Bazaar", "location": "Khujand"},
+        {"name": "Khujand Fortress", "location": "Khujand"},
+        {"name": "Kayrakkum Reservoir (Tajik Sea)", "location": "Near Khujand"}
+      ],
+      "restaurants": [
+        {"name": "Zaytun", "location": "Ismoili Somoni Avenue, Khujand"},
+        {"name": "Omar Khayyam", "location": "Kamoli Khujandi St, Khujand"}
+      ],
+      "police": "Sughd Region Police Department, Khujand",
+      "hospital": "Sughd Regional Clinical Hospital, Khujand",
+      "tips": [
+        "Khujand is one of the oldest cities in Central Asia, founded by Alexander the Great.",
+        "It is the main city in the fertile Fergana Valley region of Tajikistan.",
+        "Visit the massive and colorful Panjshanbe Bazaar, one of the largest in Central Asia."
       ]
     }
   ],
@@ -1764,6 +3260,26 @@
         "Use the BTS Skytrain or MRT subway to avoid the city's notorious traffic.",
         "Dress respectfully (cover shoulders and knees) when visiting temples.",
         "Thai street food is some of the best in the world; be adventurous but choose busy stalls."
+      ]
+    },
+    {
+      "city": "Pai",
+      "country": "Thailand",
+      "attractions": [
+        {"name": "Pai Canyon (Kong Lan)", "location": "Near Pai"},
+        {"name": "Wat Phra That Mae Yen (Temple on the Hill)", "location": "Mae Hi, Pai"},
+        {"name": "Tha Pai Memorial Bridge", "location": "Mae Hi, Pai"}
+      ],
+      "restaurants": [
+        {"name": "Witching Well", "location": "97 Moo 3, Vieng Tai, Pai"},
+        {"name": "Pai Walking Street", "location": "Chai Songkhram Rd, Wiang Tai, Pai"}
+      ],
+      "police": "Pai Police Station, Wiang Tai, Pai",
+      "hospital": "Pai Hospital, Wiang Tai, Pai",
+      "tips": [
+        "Pai is a small, bohemian town in the mountains of Northern Thailand with a laid-back, hippie vibe.",
+        "Rent a scooter to explore the beautiful surrounding countryside, including waterfalls and hot springs.",
+        "The journey to Pai from Chiang Mai involves a winding road with 762 curves."
       ]
     },
     {
@@ -1805,49 +3321,65 @@
         "Visit an ethical elephant sanctuary, like Elephant Nature Park (book well in advance).",
         "Try Khao Soi, a creamy coconut curry noodle soup that is a local specialty."
       ]
-    }
-  ],
-  "Tajikistan": [
+    },
     {
-      "city": "Dushanbe",
-      "country": "Tajikistan",
+      "city": "Krabi Town",
+      "country": "Thailand",
       "attractions": [
-        {"name": "Rudaki Park", "location": "Rudaki Avenue, Dushanbe"},
-        {"name": "Ismoil Somoni Monument", "location": "Dusti Square, Dushanbe"},
-        {"name": "Navruz Palace (Kohi Navruz)", "location": "Ismoili Somoni Avenue, Dushanbe"}
+        {"name": "Railay Beach", "location": "Railay, Ao Nang"},
+        {"name": "Four Islands Tour", "location": "From Ao Nang"},
+        {"name": "Tiger Cave Temple (Wat Tham Suea)", "location": "Krabi Noi, Mueang Krabi District"}
       ],
       "restaurants": [
-        {"name": "Traktir", "location": "Bukhara Street 32, Dushanbe"},
-        {"name": "Rohat Teahouse", "location": "Rudaki Avenue, Dushanbe"}
+        {"name": "The Grotto", "location": "Rayavadee Resort, Railay Beach"},
+        {"name": "Ruen Mai Restaurant", "location": "315/5 Maharaj Rd, Mueang Krabi District"}
       ],
-      "police": "Ministry of Internal Affairs, Tekhron Street 21, Dushanbe",
-      "hospital": "National Medical Center, Sanoi Street, Dushanbe",
+      "police": "Krabi Provincial Police, 31 Uttarakit Rd, Pak Nam, Mueang Krabi District",
+      "hospital": "Krabi Hospital, 325 Uttarakit Rd, Pak Nam, Mueang Krabi District",
       "tips": [
-        "Dushanbe is known for its beautiful parks and neoclassical architecture.",
-        "The city is a base for travelers heading into the Pamir Mountains.",
-        "Visit the impressive Kohi Navruz, a modern complex that looks like a palace but functions as a cultural and event center."
+        "Krabi is famous for its dramatic limestone cliffs rising out of the turquoise sea.",
+        "Railay Beach is only accessible by boat and is a world-class rock-climbing destination.",
+        "Be prepared to climb 1,237 steps to the top of the Tiger Cave Temple for breathtaking views."
       ]
-    }
-  ],
-  "Taiwan": [
+    },
     {
-      "city": "Taipei",
-      "country": "Taiwan",
+      "city": "Ayutthaya",
+      "country": "Thailand",
       "attractions": [
-        {"name": "Taipei 101", "location": "No. 7, Section 5, Xinyi Rd, Xinyi District, Taipei"},
-        {"name": "National Palace Museum", "location": "No. 221, Sec 2, Zhi Shan Rd, Shilin District, Taipei"},
-        {"name": "Chiang Kai-shek Memorial Hall", "location": "No. 21, Zhongshan S Rd, Zhongzheng District, Taipei"}
+        {"name": "Ayutthaya Historical Park", "location": "Ayutthaya"},
+        {"name": "Wat Mahathat (Buddha Head in Tree Roots)", "location": "Naresuan Rd, Ayutthaya"},
+        {"name": "Wat Chaiwatthanaram", "location": "Ban Pom, Phra Nakhon Si Ayutthaya"}
       ],
       "restaurants": [
-        {"name": "Din Tai Fung", "location": "Various locations (original at Xinyi Rd)"},
-        {"name": "Shilin Night Market", "location": "No. 101, Jihe Rd, Shilin District, Taipei"}
+        {"name": "Baan Khun Phra", "location": "U Thong Rd, Ayutthaya"},
+        {"name": "Malakor", "location": "Chikun Rd, Ayutthaya"}
       ],
-      "police": "Taipei City Police Department, No. 96, Yanping S. Rd., Zhongzheng District, Taipei",
-      "hospital": "National Taiwan University Hospital, No. 7, Zhongshan S. Rd., Zhongzheng District, Taipei",
+      "police": "Ayutthaya Provincial Police, U Thong Rd, Ayutthaya",
+      "hospital": "Phra Nakhon Si Ayutthaya Hospital, U Thong Rd, Ayutthaya",
       "tips": [
-        "Get an EasyCard for convenient travel on the highly efficient MRT system.",
-        "Exploring the vibrant night markets is a must-do for incredible street food ('xiaochi').",
-        "The National Palace Museum holds the world's largest collection of Chinese imperial artifacts."
+        "Ayutthaya was the magnificent former capital of the Kingdom of Siam.",
+        "Rent a bicycle to explore the sprawling ruins of the historical park, a UNESCO World Heritage site.",
+        "It's an easy and popular day trip from Bangkok by train or van."
+      ]
+    },
+    {
+      "city": "Pattaya",
+      "country": "Thailand",
+      "attractions": [
+        {"name": "Sanctuary of Truth", "location": "206/2 Moo 5, Soi Naklua 12, Naklua, Banglamung"},
+        {"name": "Walking Street", "location": "Walking St, Pattaya City"},
+        {"name": "Jomtien Beach", "location": "Jomtien, Pattaya City"}
+      ],
+      "restaurants": [
+        {"name": "The Glass House", "location": "5/22 Moo 2, Na Jomtien"},
+        {"name": "Cabbages & Condoms", "location": "366/11 Moo 12, Phra Tam Nak 4 Road"}
+      ],
+      "police": "Pattaya City Police Station, 100 Soi 9, Beach Road, Pattaya City",
+      "hospital": "Bangkok Hospital Pattaya, 301 Sukhumvit Road, Pattaya City",
+      "tips": [
+        "Pattaya is a resort city famous for its vibrant and intense nightlife, centered around Walking Street.",
+        "Jomtien Beach to the south is generally more relaxed and family-friendly.",
+        "The Sanctuary of Truth is an incredible all-wood building covered in intricate carvings."
       ]
     }
   ],
@@ -1870,6 +3402,28 @@
         "Travel to Turkmenistan almost always requires a guided tour.",
         "Ashgabat is known for its unique and grandiose white marble architecture.",
         "A tour to the Darvaza Gas Crater, often called the 'Door to Hell,' is an unforgettable experience."
+      ]
+    }
+  ],
+ "Turkey": [
+    {
+      "city": "Konya",
+      "country": "Turkey",
+      "attractions": [
+        {"name": "Mevlana Museum", "location": "Aziziye, Mevlana Cd. No:1, 42030 Karatay/Konya"},
+        {"name": "Alaeddin Hill Park", "location": "Hamidiye, 42040 Meram/Konya"},
+        {"name": "Çatalhöyük", "location": "Küçükköy, 42500 Çumra/Konya"}
+      ],
+      "restaurants": [
+        {"name": "Halk Etliekmek", "location": "Feritpaşa, Ulaş Baba Cd., 42060 Selçuklu/Konya"},
+        {"name": "Somatçı Fihi Ma Fih", "location": "Aziziye, Müze Alanı Sk. No:3, 42030 Karatay/Konya"}
+      ],
+      "police": "Konya İl Emniyet Müdürlüğü, Feritpaşa, 42060 Selçuklu/Konya",
+      "hospital": "Konya City Hospital, Hacıkaymak, 42080 Selçuklu/Konya",
+      "tips": [
+        "Konya is a spiritually significant city, home to the tomb of the Sufi mystic Rumi.",
+        "It is the center of the Mevlevi Order, also known as the Whirling Dervishes; try to see a 'sema' ceremony.",
+        "Try the local specialty, 'Etli Ekmek' (a long, thin flatbread with minced meat)."
       ]
     }
   ],
@@ -1937,6 +3491,66 @@
         ]
       },
       {
+      "city": "Khiva",
+      "country": "Uzbekistan",
+      "attractions": [
+        {"name": "Itchan Kala (Walled Inner Town)", "location": "Itchan Kala, Khiva"},
+        {"name": "Kalta Minor Minaret", "location": "Itchan Kala, Khiva"},
+        {"name": "Juma Mosque", "location": "Itchan Kala, Khiva"}
+      ],
+      "restaurants": [
+        {"name": "Terrassa Cafe & Restaurant", "location": "Inside Itchan Kala, Khiva"},
+        {"name": "Khorezm Art Restaurant", "location": "Inside Itchan Kala, Khiva"}
+      ],
+      "police": "Khiva City Police Department, Khiva",
+      "hospital": "Khiva District Medical Association, Khiva",
+      "tips": [
+        "Khiva's inner town, Itchan Kala, is a perfectly preserved Silk Road city and feels like stepping back in time.",
+        "The entire inner town is a UNESCO World Heritage site.",
+        "Climb one of the minarets or the city walls for a spectacular view over the sand-colored city."
+      ]
+    },
+       {
+      "city": "Nukus",
+      "country": "Uzbekistan",
+      "attractions": [
+        {"name": "Nukus Museum of Art (Savitsky Museum)", "location": "Dosnazarov ko'chasi, Nukus"},
+        {"name": "Mizdakhan Necropolis", "location": "Near Xojeli, Karakalpakstan"},
+        {"name": "Aral Sea Ship Graveyard", "location": "Moynaq, Karakalpakstan (long trip from Nukus)"}
+      ],
+      "restaurants": [
+        {"name": "Neo", "location": "Garezsizlik koshesi, Nukus"},
+        {"name": "Cinnamon", "location": "A. Dosnazarov koshesi, Nukus"}
+      ],
+      "police": "Karakalpakstan Ministry of Internal Affairs, Nukus",
+      "hospital": "Karakalpakstan Republican Hospital, Nukus",
+      "tips": [
+        "Nukus is the capital of the autonomous Republic of Karakalpakstan.",
+        "The main reason to visit is the incredible Savitsky Museum, which houses a world-renowned collection of forbidden Soviet avant-garde art.",
+        "It's a remote city, serving as a base for trips to the Aral Sea disaster zone."
+      ]
+    },
+      {
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "attractions": [
+        {"name": "Chorsu Bazaar", "location": "Tashkent"},
+        {"name": "Tashkent Metro", "location": "Various stations, Tashkent"},
+        {"name": "Amir Timur Museum", "location": "1 Amir Temur Avenue, Tashkent"}
+      ],
+      "restaurants": [
+        {"name": "Central Asian Plov Centre", "location": "1 Iftixor ko'chasi, Tashkent"},
+        {"name": "Caravan", "location": "22 Abdulla Kahhar Street, Tashkent"}
+      ],
+      "police": "Ministry of Internal Affairs, 1 Yunus Rajabiy ko'chasi, Tashkent",
+      "hospital": "Tashkent International Clinic, 38 Sarikul street, Tashkent",
+      "tips": [
+        "Tashkent is the modern capital of Uzbekistan with a mix of Soviet-era architecture and modern buildings.",
+        "The Tashkent Metro stations are stunningly ornate, each with a unique artistic theme.",
+        "Go to the Central Asian Plov Centre around lunchtime to see massive cauldrons of the national dish being cooked."
+      ]
+    },
+      {
       "city": "Bukhara",
       "country": "Uzbekistan",
       "attractions": [
@@ -1979,6 +3593,26 @@
         ]
       },
        {
+      "city": "Hue",
+      "country": "Vietnam",
+      "attractions": [
+        {"name": "Imperial City (The Citadel)", "location": "Huế"},
+        {"name": "Tomb of Tu Duc", "location": "Thủy Bằng, Hương Thủy, Thừa Thiên Huế"},
+        {"name": "Thien Mu Pagoda", "location": "Hương Long, Huế"}
+      ],
+      "restaurants": [
+        {"name": "Les Jardins de La Carambole", "location": "32 Đặng Trần Côn, Thuận Hoà, Huế"},
+        {"name": "Hanh Restaurant", "location": "11 Phó Đức Chính, Phú Hội, Huế"}
+      ],
+      "police": "Thua Thien Hue Provincial Police, 27 Trần Cao Vân, Phú Hội, Huế",
+      "hospital": "Hue Central Hospital, 16 Lê Lợi, Vĩnh Ninh, Huế",
+      "tips": [
+        "Hue was the imperial capital of Vietnam during the Nguyen Dynasty.",
+        "Explore the vast complex of the Imperial City and the elaborate tombs of the emperors along the Perfume River.",
+        "Try Bún bò Huế, a spicy beef noodle soup that originated here."
+      ]
+    },
+       {
       "city": "Ha Long City",
       "country": "Vietnam",
       "attractions": [
@@ -1996,6 +3630,26 @@
         "Ha Long City is the main gateway for boat tours of the iconic Ha Long Bay.",
         "Take an overnight cruise to fully experience the beauty of the bay and its thousands of limestone karsts.",
         "Ha Long Bay is a UNESCO World Heritage site."
+      ]
+    },
+      {
+      "city": "Sapa",
+      "country": "Vietnam",
+      "attractions": [
+        {"name": "Fansipan Mountain", "location": "Hoàng Liên National Park, Sapa"},
+        {"name": "Muong Hoa Valley", "location": "Near Sapa"},
+        {"name": "Cat Cat Village", "location": "Sản Sá Hồ, Sa Pa, Lao Cai"}
+      ],
+      "restaurants": [
+        {"name": "The Hill Station Signature Restaurant", "location": "37 Fansipan, Sa Pa, Lao Cai"},
+        {"name": "Good Morning Vietnam Restaurant", "location": "63B Fansipan, Sa Pa, Lao Cai"}
+      ],
+      "police": "Sapa Police Station, Thạch Sơn, Sa Pa, Lao Cai",
+      "hospital": "Sapa General Hospital, Điện Biên Phủ, Sa Pa, Lao Cai",
+      "tips": [
+        "Sapa is a mountain town famous for its spectacular terraced rice fields.",
+        "It's the best place in Vietnam to go trekking and experience the culture of local ethnic minority groups like the Hmong and Red Dao.",
+        "Take the cable car to the peak of Fansipan, the 'Roof of Indochina'."
       ]
     },
     {
