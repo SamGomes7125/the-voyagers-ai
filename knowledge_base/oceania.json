@@ -1,6 +1,8 @@
 {
     "Australia": {
         "Sydney": {
+            "latitude": -33.8688, 
+            "longitude": 151.2093,
             "attractions": [
                 {"name": "Sydney Opera House", "address": "Bennelong Point, Sydney NSW 2000, Australia"},
                 {"name": "Harbour Bridge Climb", "address": "3 Cumberland St, The Rocks NSW 2000, Australia"},
@@ -24,6 +26,8 @@
             ]
         },
         "Melbourne": {
+            "latitude": -37.8136, 
+            "longitude": 144.9631, 
             "attractions": [
                 {"name": "Federation Square", "address": "Corner of Swanston St & Flinders St, Melbourne VIC 3000, Australia"},
                 {"name": "Royal Botanic Gardens", "address": "Birdwood Ave, South Yarra VIC 3141, Australia"},
@@ -47,6 +51,8 @@
             ]
         },
         "Adelaide": {
+            "latitude": -34.9285, 
+            "longitude": 138.6007,
             "attractions": [
                 {"name": "Adelaide Oval", "address": "War Memorial Dr, North Adelaide SA 5006, Australia"},
                 {"name": "Barossa Valley", "address": "Barossa Valley SA, Australia"},
@@ -68,6 +74,8 @@
             ]
         },
         "Perth": {
+            "latitude": -31.9505, 
+            "longitude": 115.8605,
             "attractions": [
                 {"name": "Kings Park & Botanic Garden", "address": "Fraser Ave, Kings Park WA 6005, Australia"},
                 {"name": "Cottesloe Beach", "address": "Marine Parade, Cottesloe WA 6011, Australia"},
@@ -89,6 +97,8 @@
             ]
         },
         "Brisbane": {
+            "latitude": -27.4698, 
+            "longitude": 153.0251,
             "attractions": [
                 {"name": "South Bank Parklands", "address": "South Bank, South Brisbane QLD 4101, Australia"},
                 {"name": "Lone Pine Koala Sanctuary", "address": "708 Jesmond Rd, Fig Tree Pocket QLD 4069, Australia"}
@@ -108,6 +118,8 @@
             ]
         },
         "Cairns": {
+            "latitude": -16.9186, 
+            "longitude": 145.7781, 
             "attractions": [
                 {"name": "Great Barrier Reef", "address": "Cairns QLD, Australia"},
                 {"name": "Daintree Rainforest", "address": "Daintree National Park, QLD, Australia"}
@@ -127,6 +139,8 @@
             ]
         },
         "Gold Coast": {
+            "latitude": -28.0167, 
+            "longitude": 153.4000,
             "attractions": [
                 {"name": "Surfers Paradise Beach", "address": "Surfers Paradise QLD 4217, Australia"},
                 {"name": "Dreamworld", "address": "Dreamworld Pkwy, Coomera QLD 4209, Australia"},
@@ -147,6 +161,8 @@
             ]
         },
         "Canberra": {
+             "latitude": -35.2809, 
+            "longitude": 149.1300, 
             "attractions": [
                 {"name": "Australian War Memorial", "address": "Treloar Cres, Campbell ACT 2612, Australia"},
                 {"name": "Parliament House", "address": "Parliament Dr, Canberra ACT 2600, Australia"},
@@ -168,6 +184,8 @@
             ]
         },
         "Hobart": {
+            "latitude": -42.8821,
+            "longitude": 147.3272,
             "attractions": [
                 {"name": "MONA (Museum of Old and New Art)", "address": "655 Main Rd, Berriedale TAS 7011, Australia"},
                 {"name": "Mount Wellington", "address": "Pinnacle Rd, Wellington Park TAS 7054, Australia"},
@@ -189,6 +207,8 @@
             ]
         },
         "Darwin": {
+            "latitude": -12.4634, 
+            "longitude": 130.8456,
             "attractions": [
                 {"name": "Mindil Beach Sunset Market", "address": "Maria Liveris Dr, The Gardens NT 0820, Australia"},
                 {"name": "Crocosaurus Cove", "address": "58 Mitchell St, Darwin City NT 0800, Australia"},
@@ -212,6 +232,8 @@
     },
     "New Zealand": {
         "Auckland": {
+            "latitude": -36.8485,
+            "longitude": 174.7633,
             "attractions": [
                 {"name": "Sky Tower", "address": "Corner Victoria and Federal Streets, Auckland CBD, Auckland 1010, New Zealand"},
                 {"name": "Waiheke Island", "address": "Ferry terminal: Pier 13, Downtown Ferry Terminal, Auckland 1010, New Zealand"}
@@ -228,6 +250,8 @@
             ]
         },
         "Queenstown": {
+            "latitude": -45.0312, 
+            "longitude": 168.6626,
             "attractions": [
                 {"name": "Skyline Gondola", "address": "53 Brecon St, Queenstown 9300, New Zealand"},
                 {"name": "Shotover Jet", "address": "3 Arthurs Point Rd, Arthurs Point, Queenstown 9371, New Zealand"},
@@ -245,6 +269,8 @@
             ]
         },
         "Wellington": {
+            "latitude": -41.2865, 
+            "longitude": 174.7762,
             "attractions": [
                 {"name": "Te Papa Tongarewa", "address": "55 Cable St, Te Aro, Wellington 6011, New Zealand"},
                 {"name": "Wellington Cable Car", "address": "280 Lambton Quay, Wellington 6011, New Zealand"},
@@ -266,6 +292,8 @@
             ]
         },
         "Christchurch": {
+            "latitude": -43.5321, 
+            "longitude": 172.6362,
             "attractions": [
                 {"name": "Christchurch Botanic Gardens", "address": "Rolleston Ave, Christchurch Central, Christchurch 8013, New Zealand"},
                 {"name": "International Antarctic Centre", "address": "38 Orchard Rd, Harewood, Christchurch 8053, New Zealand"},
@@ -289,6 +317,8 @@
     },
     "Fiji": {
         "Nadi": {
+            "latitude": -17.7765, 
+            "longitude": 177.4350, 
             "attractions": [
                 {"name": "Sri Siva Subramaniya Temple", "address": "Queens Rd, Nadi, Fiji"},
                 {"name": "Denarau Island", "address": "Denarau Island, Nadi, Fiji"},
@@ -306,6 +336,8 @@
             ]
         },
         "Suva": {
+            "latitude": -18.1416, 
+            "longitude": 178.4419,
             "attractions": [
                 {"name": "Colo-i-Suva Forest Park", "address": "Princes Road, Suva, Fiji"},
                 {"name": "Fiji Museum", "address": "Cakobau Rd, Suva, Fiji"}
@@ -324,6 +356,8 @@
     },
     "Papua New Guinea": {
         "Port Moresby": {
+            "latitude": -9.4438, 
+            "longitude": 147.1803,
             "attractions": [
                 {"name": "Port Moresby Nature Park", "address": "Goro Kaeaga Rd, Port Moresby, Papua New Guinea"},
                 {"name": "National Museum & Art Gallery", "address": "Independent Drive, Waigani, Port Moresby, Papua New Guinea"}
@@ -346,6 +380,8 @@
     },
     "Samoa": {
         "Apia": {
+            "latitude": -13.8333, 
+            "longitude": -171.7667,
             "attractions": [
                 {"name": "To Sua Ocean Trench", "address": "Main South Coast Rd, Lotofaga, Samoa"},
                 {"name": "Robert Louis Stevenson Museum", "address": "Togafu'afu'a Rd, Apia, Samoa"}
@@ -367,6 +403,8 @@
     },
     "Vanuatu": {
         "Port Vila": {
+            "latitude": -17.7333,
+            "longitude": 168.3167,
             "attractions": [
                 {"name": "Mele Cascades Waterfall", "address": "Mele Rd, Port Vila, Vanuatu"},
                 {"name": "Hideaway Island Marine Sanctuary", "address": "Hideaway Island, Port Vila, Vanuatu"}
@@ -388,6 +426,8 @@
     },
     "Tonga": {
         "Nuku'alofa": {
+            "latitude": -21.1394, 
+            "longitude": -175.2049,
             "attractions": [
                 {"name": "Royal Palace", "address": "Vuna Rd, Nuku'alofa, Tonga"},
                 {"name": "Ha'amonga 'a Maui Trilithon", "address": "Muu, Tonga"}
@@ -409,6 +449,8 @@
     },
     "Solomon Islands": {
         "Honiara": {
+            "latitude": -9.4456, 
+            "longitude": 159.9729,
             "attractions": [
                 {"name": "Solomon Islands National Museum", "address": "Mendana Ave, Honiara, Solomon Islands"},
                 {"name": "Vilu War Museum", "address": "Vilu, Solomon Islands"}
@@ -430,6 +472,8 @@
     },
     "Kiribati": {
         "Tarawa": {
+            "latitude": 1.4518, 
+            "longitude": 173.0304,
             "attractions": [
                 {"name": "Betio War Memorial", "address": "Rue de Betio, Betio, Kiribati"},
                 {"name": "Parliament House", "address": "Ambo, Tarawa, Kiribati"}
@@ -451,6 +495,8 @@
     },
     "Cook Islands": {
         "Rarotonga": {
+            "latitude": -21.2292, 
+            "longitude": -159.7764, 
             "attractions": [
                 {"name": "Muri Lagoon", "address": "Muri, Rarotonga, Cook Islands"},
                 {"name": "Cook Islands Christian Church", "address": "Avarua, Rarotonga, Cook Islands"}
@@ -473,6 +519,8 @@
     },
     "French Polynesia": {
         "Papeete": {
+            "latitude": -17.5516, 
+            "longitude": -149.5585,
             "attractions": [
                 {"name": "Marché de Pape'ete (Pape'ete Market)", "address": "Rue Colette, Papeete 98714, French Polynesia"},
                 {"name": "Musée de Tahiti et des Îles", "address": "Pointe des Pêcheurs, Punaauia, French Polynesia"},
@@ -496,6 +544,8 @@
     },
     "New Caledonia": {
         "Nouméa": {
+            "latitude": -22.2763, 
+            "longitude": 166.4572,
             "attractions": [
                 {"name": "Tjibaou Cultural Centre", "address": "Max Frouin, Tina, Nouméa 98800, New Caledonia"},
                 {"name": "Place des Cocotiers", "address": "Nouméa, New Caledonia"},
@@ -519,6 +569,8 @@
     },
     "United States": {
         "Honolulu": {
+            "latitude": 21.3099,
+            "longitude": -157.8581,
             "attractions": [
                 {"name": "Waikiki Beach", "address": "Waikiki, Honolulu, HI 96815, USA"},
                 {"name": "Diamond Head State Monument", "address": "4003 Diamond Head Rd, Honolulu, HI 96815, USA"},
