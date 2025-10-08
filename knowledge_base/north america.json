@@ -727,30 +727,55 @@
   ],
   "Saint Lucia": [
     {
-      "city": "Soufrière",
-      "country": "Saint Lucia",
-      "attractions": [
-        {"name": "The Pitons (Gros Piton & Petit Piton)", "location": "Soufrière"},
-        {"name": "Sulphur Springs", "location": "Sulphur Springs Access Rd, Soufrière"},
-        {"name": "Diamond Falls Botanical Gardens", "location": "Soufriere Estate, Soufrière"}
-      ],
-      "restaurants": [
-        {"name": "Dasheene Restaurant", "location": "Ladera Resort, Soufrière"},
-        {"name": "The Beacon Restaurant", "location": "Freedom Street, Soufrière"}
-      ],
-      "police": "Royal Saint Lucia Police Force Station, Sir Arthur Lewis St, Soufrière",
-      "hospital": "Soufriere Hospital, Hospital Road, Soufrière",
-      "tips": [
-        "Soufrière is located in the heart of St. Lucia's most stunning natural scenery.",
-        "The Pitons, two volcanic spires, are a UNESCO World Heritage site.",
-        "Take a therapeutic mud bath at the Sulphur Springs, the Caribbean's only 'drive-in volcano'."
-      ]
-    }
+     "Soufrière": {
+            "latitude": 13.8566,
+            "longitude": -61.0566,
+            "attractions": [
+                {"name": "The Pitons", "address": "Soufrière, Saint Lucia"},
+                {"name": "Sulphur Springs", "address": "Soufrière, Saint Lucia"}
+            ],
+            "restaurants": [
+                {"name": "Dasheene", "address": "Ladera Resort, Soufrière, Saint Lucia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Soufrière Police Station", "address": "Soufrière, Saint Lucia"},
+                {"type": "Hospital", "name": "Soufrière Hospital", "address": "Soufrière, Saint Lucia"}
+            ],
+            "tips": [
+                "Saint Lucia drives on the left side of the road.",
+                "Best time to visit: December–April (dry season).",
+                "Carry cash, as smaller establishments might not accept cards.",
+                "Climb Gros Piton for breathtaking views."
+            ]
+        },
+        "Castries": {
+            "latitude": 14.0101,
+            "longitude": -60.9875,
+            "attractions": [
+                {"name": "Castries Market", "address": "Castries, Saint Lucia"},
+                {"name": "Derek Walcott Square", "address": "Castries, Saint Lucia"}
+            ],
+            "restaurants": [
+                {"name": "The Coal Pot", "address": "Vigie Marina, Castries, Saint Lucia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Central Police Station Castries", "address": "Bridge St, Castries, Saint Lucia"},
+                {"type": "Hospital", "name": "Victoria Hospital", "address": "Castries, Saint Lucia"}
+            ],
+            "tips": [
+                "Castries is the capital and main port of Saint Lucia.",
+                "Local buses (minibuses) are an affordable transport option.",
+                "Expect humid tropical weather year-round.",
+                "Avoid visiting on cruise ship days for fewer crowds."
+            ]
+        }
   ],
   "USA": [
     {
       "city": "New York City",
       "country": "USA",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
       "attractions": [
         {"name": "Statue of Liberty & Ellis Island", "location": "New York Harbor"},
         {"name": "Empire State Building", "location": "20 W 34th St, New York, NY 10001"},
@@ -771,6 +796,8 @@
     {
       "city": "Los Angeles",
       "country": "USA",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
       "attractions": [
         {"name": "Hollywood Walk of Fame", "location": "Hollywood Boulevard, Hollywood, CA 90028"},
         {"name": "Santa Monica Pier", "location": "200 Santa Monica Pier, Santa Monica, CA 90401"},
@@ -791,6 +818,8 @@
     {
       "city": "Chicago",
       "country": "USA",
+      "latitude": 41.8781,
+      "longitude": -87.6298,
       "attractions": [
         {"name": "Millennium Park", "location": "201 E Randolph St, Chicago, IL 60602"},
         {"name": "Willis Tower Skydeck", "location": "233 S Wacker Dr, Chicago, IL 60606"},
@@ -811,6 +840,8 @@
     {
       "city": "San Francisco",
       "country": "USA",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
       "attractions": [
         {"name": "Golden Gate Bridge", "location": "Golden Gate Bridge, San Francisco, CA"},
         {"name": "Alcatraz Island", "location": "Alcatraz Island, San Francisco, CA"},
@@ -831,6 +862,8 @@
     {
       "city": "Las Vegas",
       "country": "USA",
+      "latitude": 36.1699,
+      "longitude": -115.1398,
       "attractions": [
         {"name": "The Las Vegas Strip", "location": "Las Vegas Blvd, Las Vegas, NV"},
         {"name": "Fountains of Bellagio", "location": "3600 S Las Vegas Blvd, Las Vegas, NV 89109"},
@@ -851,6 +884,8 @@
     {
       "city": "Miami",
       "country": "USA",
+      "latitude": 25.7617,
+      "longitude": -80.1918,
       "attractions": [
         {"name": "South Beach", "location": "South Beach, Miami Beach, FL"},
         {"name": "Art Deco Historic District", "location": "Ocean Drive, Miami Beach, FL"},
@@ -871,6 +906,8 @@
     {
       "city": "New Orleans",
       "country": "USA",
+      "latitude": 29.9511,
+      "longitude": -90.0715,
       "attractions": [
         {"name": "French Quarter", "location": "French Quarter, New Orleans, LA"},
         {"name": "Bourbon Street", "location": "Bourbon St, New Orleans, LA"},
@@ -891,6 +928,8 @@
     {
       "city": "Washington, D.C.",
       "country": "USA",
+      "latitude": 38.8951,
+      "longitude": -77.0364,
       "attractions": [
         {"name": "National Mall", "location": "National Mall, Washington, D.C."},
         {"name": "Lincoln Memorial", "location": "2 Lincoln Memorial Cir NW, Washington, D.C. 20002"},
@@ -911,6 +950,8 @@
     {
       "city": "Boston",
       "country": "USA",
+      "latitude": 42.3601,
+      "longitude": -71.0589,
       "attractions": [
         {"name": "Freedom Trail", "location": "Starts at Boston Common, Boston, MA"},
         {"name": "Faneuil Hall Marketplace", "location": "4 S Market St, Boston, MA 02109"},
@@ -931,6 +972,8 @@
     {
       "city": "Seattle",
       "country": "USA",
+      "latitude": 47.6062,
+      "longitude": -122.3321,
       "attractions": [
         {"name": "Space Needle", "location": "400 Broad St, Seattle, WA 98109"},
         {"name": "Pike Place Market", "location": "85 Pike St, Seattle, WA 98101"},
@@ -951,6 +994,8 @@
      {
       "city": "Jackson",
       "country": "USA",
+       "latitude": 43.4799,
+      "longitude": -110.7624,
       "attractions": [
         {"name": "Grand Teton National Park", "location": "Moose, WY"},
         {"name": "Jackson Town Square", "location": "Jackson, WY 83001"},
@@ -971,6 +1016,8 @@
     {
       "city": "Moab",
       "country": "USA",
+      "latitude": 38.5733,
+      "longitude": -109.5498,
       "attractions": [
         {"name": "Arches National Park", "location": "Near Moab, UT"},
         {"name": "Canyonlands National Park", "location": "Near Moab, UT"},
@@ -991,6 +1038,8 @@
     {
       "city": "Sedona",
       "country": "USA",
+      "latitude": 34.8697,
+      "longitude": -111.7609,
       "attractions": [
         {"name": "Cathedral Rock", "location": "Back O' Beyond Rd, Sedona, AZ 86336"},
         {"name": "Chapel of the Holy Cross", "location": "780 Chapel Rd, Sedona, AZ 86336"},
@@ -1011,6 +1060,8 @@
     {
       "city": "Key West",
       "country": "USA",
+      "latitude": 24.5551,
+      "longitude": -81.7800,
       "attractions": [
         {"name": "Southernmost Point of the Continental U.S.A.", "location": "Whitehead St & South St, Key West, FL 33040"},
         {"name": "Ernest Hemingway Home and Museum", "location": "907 Whitehead St, Key West, FL 33040"},
@@ -1031,6 +1082,8 @@
     {
       "city": "St. Louis",
       "country": "USA",
+      "latitude": 38.6270,
+      "longitude": -90.1994,
       "attractions": [
         {"name": "Gateway Arch National Park", "location": "St. Louis, MO 63102"},
         {"name": "City Museum", "location": "750 N 16th St, St. Louis, MO 63103"},
@@ -1051,6 +1104,8 @@
     {
       "city": "Memphis",
       "country": "USA",
+      "latitude": 35.1495,
+      "longitude": -90.0490,
       "attractions": [
         {"name": "Graceland", "location": "37 Elvis Presley Blvd, Memphis, TN 38116"},
         {"name": "Beale Street", "location": "Beale St, Memphis, TN"},
@@ -1067,32 +1122,12 @@
         "Visit Sun Studio, where legends like Elvis Presley, Johnny Cash, and B.B. King recorded.",
         "The National Civil Rights Museum is powerfully located at the Lorraine Motel, where Dr. Martin Luther King Jr. was assassinated."
       ]
-    }
-  ],
-  "U.S. Virgin Islands": [
-    {
-      "city": "Charlotte Amalie",
-      "country": "U.S. Virgin Islands",
-      "attractions": [
-        {"name": "Magens Bay", "location": "Magens Bay, St. Thomas"},
-        {"name": "Blackbeard's Castle", "location": "1001 Blackbeard's Hill, Charlotte Amalie, St. Thomas"},
-        {"name": "99 Steps", "location": "Government Hill, Charlotte Amalie, St. Thomas"}
-      ],
-      "restaurants": [
-        {"name": "Gladys' Cafe", "location": "5600 Royal Dane Mall, Charlotte Amalie, St. Thomas"},
-        {"name": "Oceana Restaurant & Wine Bar", "location": "8 Honduras, Frenchtown, St. Thomas"}
-      ],
-      "police": "Virgin Islands Police Department - Richard Callwood Command, 8000 Nisky Center, St. Thomas",
-      "hospital": "Roy Lester Schneider Hospital, 9048 Sugar Estate, St. Thomas",
-      "tips": [
-        "The U.S. Virgin Islands is a U.S. territory, so Americans don't need a passport.",
-        "Traffic drives on the left, but most cars are standard U.S. left-hand drive.",
-        "Charlotte Amalie is one of the busiest cruise ship ports in the Caribbean and is famous for its duty-free shopping."
-      ]
     },
-    {
+     {
       "city": "Denver",
       "country": "USA",
+       "latitude": 39.7392,
+      "longitude": -104.9903,
       "attractions": [
         {"name": "Rocky Mountain National Park", "location": "Near Estes Park, CO"},
         {"name": "Red Rocks Park and Amphitheatre", "location": "18300 W Alameda Pkwy, Morrison, CO 80465"},
@@ -1113,6 +1148,8 @@
     {
       "city": "Anchorage",
       "country": "USA",
+      "latitude": 61.2181,
+      "longitude": -149.9003,
       "attractions": [
         {"name": "Chugach State Park", "location": "Near Anchorage, AK"},
         {"name": "Alaska Native Heritage Center", "location": "8800 Heritage Center Dr, Anchorage, AK 99504"},
@@ -1131,57 +1168,64 @@
       ]
     },
     {
-      "city": "Orlando",
-      "country": "USA",
-      "attractions": [
-        {"name": "Walt Disney World Resort", "location": "Lake Buena Vista, FL"},
-        {"name": "Universal Orlando Resort", "location": "6000 Universal Blvd, Orlando, FL 32819"},
-        {"name": "Kennedy Space Center Visitor Complex", "location": "Space Commerce Way, Merritt Island, FL 32953"}
-      ],
-      "restaurants": [
-        {"name": "Victoria & Albert's", "location": "Disney's Grand Floridian Resort & Spa, 4401 Floridian Way, Orlando, FL"},
-        {"name": "The Ravenous Pig", "location": "565 W Fairbanks Ave, Winter Park, FL 32789"}
-      ],
-      "police": "Orlando Police Department Headquarters, 1250 W South St, Orlando, FL 32805",
-      "hospital": "Orlando Regional Medical Center, 52 W Underwood St, Orlando, FL 32806",
-      "tips": [
-        "Orlando is known as the 'Theme Park Capital of the World'.",
-        "Buy tickets online in advance to save time and money.",
-        "Stay hydrated; the heat and humidity can be very intense, especially in summer."
-      ]
-    },
-    {
-      "city": "San Diego",
-      "country": "USA",
-      "attractions": [
-        {"name": "Balboa Park", "location": "1549 El Prado, San Diego, CA 92101"},
-        {"name": "San Diego Zoo", "location": "2920 Zoo Dr, San Diego, CA 92101"},
-        {"name": "USS Midway Museum", "location": "910 N Harbor Dr, San Diego, CA 92101"}
-      ],
-      "restaurants": [
-        {"name": "Phil's BBQ", "location": "3750 Sports Arena Blvd, San Diego, CA 92110"},
-        {"name": "George's at the Cove", "location": "1250 Prospect St, La Jolla, CA 92037"}
-      ],
-      "police": "San Diego Police Department Headquarters, 1401 Broadway, San Diego, CA 92101",
-      "hospital": "UC San Diego Medical Center, 200 W Arbor Dr, San Diego, CA 92103",
-      "tips": [
-        "San Diego is known for its near-perfect weather year-round.",
-        "Try the local specialty: fish tacos.",
-        "Balboa Park is a massive urban cultural park containing museums, gardens, and the zoo."
-      ]
-    },
+    "city": "Orlando",
+    "country": "USA",
+    "latitude": 28.5383,
+    "longitude": -81.3792,
+    "attractions": [
+      {"name": "Walt Disney World Resort", "location": "Lake Buena Vista, FL"},
+      {"name": "Universal Orlando Resort", "location": "6000 Universal Blvd, Orlando, FL 32819"},
+      {"name": "Kennedy Space Center Visitor Complex", "location": "Space Commerce Way, Merritt Island, FL 32953"}
+    ],
+    "restaurants": [
+      {"name": "Victoria & Albert's", "location": "Disney's Grand Floridian Resort & Spa, 4401 Floridian Way, Orlando, FL"},
+      {"name": "The Ravenous Pig", "location": "565 W Fairbanks Ave, Winter Park, FL 32789"}
+    ],
+    "police": "Orlando Police Department Headquarters, 1250 W South St, Orlando, FL 32805",
+    "hospital": "Orlando Regional Medical Center, 52 W Underwood St, Orlando, FL 32806",
+    "tips": [
+      "Orlando is known as the 'Theme Park Capital of the World'.",
+      "Buy tickets online in advance to save time and money.",
+      "Stay hydrated; the heat and humidity can be very intense, especially in summer."
+    ]
+  },
+  {
+    "city": "San Diego",
+    "country": "USA",
+    "latitude": 32.7157,
+    "longitude": -117.1611,
+    "attractions": [
+      {"name": "Balboa Park", "location": "1549 El Prado, San Diego, CA 92101"},
+      {"name": "San Diego Zoo", "location": "2920 Zoo Dr, San Diego, CA 92101"},
+      {"name": "USS Midway Museum", "location": "910 N Harbor Dr, San Diego, CA 92101"}
+    ],
+    "restaurants": [
+      {"name": "Phil's BBQ", "location": "3750 Sports Arena Blvd, San Diego, CA 92110"},
+      {"name": "George's at the Cove", "location": "1250 Prospect St, La Jolla, CA 92037"}
+    ],
+    "police": "San Diego Police Department Headquarters, 1401 Broadway, San Diego, CA 92101",
+    "hospital": "UC San Diego Medical Center, 200 W Arbor Dr, San Diego, CA 92103",
+    "tips": [
+      "San Diego is known for its near-perfect weather year-round.",
+      "Try the local specialty: fish tacos.",
+      "Balboa Park is a massive urban cultural park containing museums, gardens, and the zoo."
+    ]
+  },
     {
       "city": "Honolulu",
       "country": "USA",
+      "latitude": 21.3099,
+      "longitude": -157.8581,
       "attractions": [
-        {"name": "Pearl Harbor National Memorial", "location": "1 Arizona Memorial Pl, Honolulu, HI 96818"},
-        {"name": "Waikiki Beach", "location": "Waikiki, Honolulu, HI"},
-        {"name": "Diamond Head State Monument", "location": "Diamond Head Rd, Honolulu, HI 96816"}
-      ],
+          {"name": "Waikiki Beach", "address": "Waikiki, Honolulu, HI 96815, USA"},
+          {"name": "Diamond Head State Monument", "address": "4003 Diamond Head Rd, Honolulu, HI 96815, USA"},
+          {"name": "Pearl Harbor National Memorial", "address": "1 Arizona Memorial Pl, Honolulu, HI 96818, USA"},
+          {"name": "Iolani Palace", "address": "364 S King St, Honolulu, HI 96813, USA"}
+            ],
       "restaurants": [
-        {"name": "Alan Wong's Honolulu", "location": "1857 S King St, Honolulu, HI 96826"},
-        {"name": "Helena's Hawaiian Food", "location": "1240 N School St, Honolulu, HI 96817"}
-      ],
+          {"name": "Duke's Waikiki", "address": "2335 Kalakaua Ave #116, Honolulu, HI 96815, USA"},
+          {"name": "The Pig and the Lady", "address": "83 N King St, Honolulu, HI 96817, USA"}
+            ],
       "police": "Honolulu Police Department Headquarters, 801 S Beretania St, Honolulu, HI 96813",
       "hospital": "The Queen's Medical Center, 1301 Punchbowl St, Honolulu, HI 96813",
       "tips": [
@@ -1190,207 +1234,251 @@
         "Try a shave ice for a refreshing local treat."
       ]
     },
-    {
-      "city": "Austin",
-      "country": "USA",
-      "attractions": [
-        {"name": "Sixth Street", "location": "E 6th St, Austin, TX"},
-        {"name": "Zilker Park", "location": "2207 Lou Neff Rd, Austin, TX 78746"},
-        {"name": "Congress Avenue Bridge (Bat Bridge)", "location": "Congress Ave, Austin, TX 78704"}
-      ],
-      "restaurants": [
-        {"name": "Franklin Barbecue", "location": "900 E 11th St, Austin, TX 78702"},
-        {"name": "Uchi", "location": "801 S Lamar Blvd, Austin, TX 78704"}
-      ],
-      "police": "Austin Police Department Headquarters, 715 E 8th St, Austin, TX 78701",
-      "hospital": "Dell Seton Medical Center at The University of Texas, 1500 Red River St, Austin, TX 78701",
-      "tips": [
-        "Austin's slogan is 'Keep Austin Weird'.",
-        "It's known as the 'Live Music Capital of the World'.",
-        "Watch millions of bats emerge from under the Congress Avenue Bridge at sunset (March-October)."
-      ]
-    },
-    {
-      "city": "San Antonio",
-      "country": "USA",
-      "attractions": [
-        {"name": "The Alamo", "location": "300 Alamo Plaza, San Antonio, TX 78205"},
-        {"name": "San Antonio River Walk", "location": "849 E Commerce St, San Antonio, TX 78205"},
-        {"name": "San Antonio Missions National Historical Park", "location": "6701 San Jose Dr, San Antonio, TX 78214"}
-      ],
-      "restaurants": [
-        {"name": "Boudro's on the Riverwalk", "location": "421 E Commerce St, San Antonio, TX 78205"},
-        {"name": "Mi Tierra Café y Panadería", "location": "218 Produce Row, San Antonio, TX 78207"}
-      ],
-      "police": "San Antonio Police Department Headquarters, 315 S Santa Rosa Ave, San Antonio, TX 78207",
-      "hospital": "University Hospital, 4502 Medical Dr, San Antonio, TX 78229",
-      "tips": [
-        "Remember the Alamo, a historic mission and fortress compound.",
-        "Take a river barge tour along the famous River Walk.",
-        "The San Antonio Missions are collectively a UNESCO World Heritage site."
-      ]
-    },
-    {
-      "city": "Nashville",
-      "country": "USA",
-      "attractions": [
-        {"name": "Grand Ole Opry", "location": "2804 Opryland Dr, Nashville, TN 37214"},
-        {"name": "Country Music Hall of Fame and Museum", "location": "222 Rep. John Lewis Way S, Nashville, TN 37203"},
-        {"name": "Ryman Auditorium", "location": "116 5th Ave N, Nashville, TN 37219"}
-      ],
-      "restaurants": [
-        {"name": "Hattie B's Hot Chicken", "location": "112 19th Ave S, Nashville, TN 37203"},
-        {"name": "The Bluebird Cafe", "location": "4104 Hillsboro Pike, Nashville, TN 37215"}
-      ],
-      "police": "Metropolitan Nashville Police Department Headquarters, 600 Murfreesboro Pike, Nashville, TN 37210",
-      "hospital": "Vanderbilt University Medical Center, 1211 Medical Center Dr, Nashville, TN 37232",
-      "tips": [
-        "Nashville is nicknamed 'Music City'.",
-        "Explore the honky-tonk bars with live music on Broadway.",
-        "Try Nashville hot chicken, but be careful with the spice level."
-      ]
-    },
-    {
-      "city": "Charleston",
-      "country": "USA",
-      "attractions": [
-        {"name": "Historic Charleston City Market", "location": "188 Meeting St, Charleston, SC 29401"},
-        {"name": "Rainbow Row", "location": "83-107 E Bay St, Charleston, SC 29401"},
-        {"name": "Fort Sumter National Monument", "location": "Charleston Harbor, SC"}
-      ],
-      "restaurants": [
-        {"name": "Husk", "location": "76 Queen St, Charleston, SC 29401"},
-        {"name": "FIG", "location": "232 Meeting St, Charleston, SC 29401"}
-      ],
-      "police": "Charleston Police Department, 180 Lockwood Blvd, Charleston, SC 29403",
-      "hospital": "MUSC Health University Medical Center, 171 Ashley Ave, Charleston, SC 29425",
-      "tips": [
-        "Charleston is known for its historic charm, cobblestone streets, and pastel-colored houses.",
-        "Take a horse-drawn carriage tour to learn about the city's history.",
-        "Enjoy Lowcountry cuisine, which features dishes like shrimp and grits."
-      ]
-    },
-    {
-      "city": "Savannah",
-      "country": "USA",
-      "attractions": [
-        {"name": "Forsyth Park", "location": "2 W Gaston St, Savannah, GA 31401"},
-        {"name": "Historic River Street", "location": "River St, Savannah, GA"},
-        {"name": "Bonaventure Cemetery", "location": "330 Bonaventure Rd, Thunderbolt, GA 31404"}
-      ],
-      "restaurants": [
-        {"name": "The Olde Pink House", "location": "23 Abercorn St, Savannah, GA 31401"},
-        {"name": "Mrs. Wilkes' Dining Room", "location": "107 W Jones St, Savannah, GA 31401"}
-      ],
-      "police": "Savannah Police Department, 201 Habersham St, Savannah, GA 31401",
-      "hospital": "Memorial Health University Medical Center, 4700 Waters Ave, Savannah, GA 31404",
-      "tips": [
-        "The city is famous for its 22 historic squares, which act as lovely small parks.",
-        "Wear comfortable shoes for walking on the cobblestones of River Street.",
-        "Take a ghost tour to learn about the city's haunted history."
-      ]
-    },
-    {
-      "city": "Philadelphia",
-      "country": "USA",
-      "attractions": [
-        {"name": "Independence Hall", "location": "520 Chestnut St, Philadelphia, PA 19106"},
-        {"name": "Liberty Bell", "location": "526 Market St, Philadelphia, PA 19106"},
-        {"name": "Philadelphia Museum of Art (and the 'Rocky Steps')", "location": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130"}
-      ],
-      "restaurants": [
-        {"name": "Zahav", "location": "237 St James Pl, Philadelphia, PA 19106"},
-        {"name": "Reading Terminal Market", "location": "51 N 12th St, Philadelphia, PA 19107"}
-      ],
-      "police": "Philadelphia Police Department Headquarters, 400 N Broad St, Philadelphia, PA 19130",
-      "hospital": "Hospital of the University of Pennsylvania, 3400 Spruce St, Philadelphia, PA 19104",
-      "tips": [
-        "Philadelphia is the birthplace of the United States.",
-        "You must try a Philly cheesesteak; debate with locals about whether Pat's or Geno's is better.",
-        "Many of the historic sites are free to visit but may require timed tickets."
-      ]
-    },
-    {
-      "city": "Portland",
-      "country": "USA",
-      "attractions": [
-        {"name": "Powell's City of Books", "location": "1005 W Burnside St, Portland, OR 97209"},
-        {"name": "International Rose Test Garden", "location": "400 SW Kingston Ave, Portland, OR 97205"},
-        {"name": "Lan Su Chinese Garden", "location": "239 NW Everett St, Portland, OR 97209"}
-      ],
-      "restaurants": [
-        {"name": "Le Pigeon", "location": "738 E Burnside St, Portland, OR 97214"},
-        {"name": "Voodoo Doughnut", "location": "22 SW 3rd Ave, Portland, OR 97204"}
-      ],
-      "police": "Portland Police Bureau Central Precinct, 1111 SW 2nd Ave, Portland, OR 97204",
-      "hospital": "OHSU Hospital, 3181 SW Sam Jackson Park Rd, Portland, OR 97239",
-      "tips": [
-        "Portland's slogan is 'Keep Portland Weird'.",
-        "Explore the city's famous food cart pods for a huge variety of delicious food.",
-        "There is no sales tax in Oregon."
-      ]
-    },
-    {
-      "city": "Phoenix",
-      "country": "USA",
-      "attractions": [
-        {"name": "Desert Botanical Garden", "location": "1201 N Galvin Pkwy, Phoenix, AZ 85008"},
-        {"name": "Camelback Mountain", "location": "Phoenix, AZ 85251"},
-        {"name": "Heard Museum", "location": "2301 N Central Ave, Phoenix, AZ 85004"}
-      ],
-      "restaurants": [
-        {"name": "Pizzeria Bianco", "location": "623 E Adams St, Phoenix, AZ 85004"},
-        {"name": "Matt's Big Breakfast", "location": "825 N 1st St, Phoenix, AZ 85004"}
-      ],
-      "police": "Phoenix Police Department Headquarters, 620 W Washington St, Phoenix, AZ 85003",
-      "hospital": "Banner - University Medical Center Phoenix, 1111 E McDowell Rd, Phoenix, AZ 85006",
-      "tips": [
-        "Summers are extremely hot; plan outdoor activities for the early morning.",
-        "Phoenix is located in the Sonoran Desert, offering unique landscapes.",
-        "The area, including nearby Scottsdale, is known for its golf courses and spa resorts."
-      ]
-    },
-    {
-      "city": "Salt Lake City",
-      "country": "USA",
-      "attractions": [
-        {"name": "Temple Square", "location": "50 N W Temple St, Salt Lake City, UT 84150"},
-        {"name": "Great Salt Lake", "location": "Great Salt Lake, UT"},
-        {"name": "Park City Mountain Resort", "location": "1345 Lowell Ave, Park City, UT 84060"}
-      ],
-      "restaurants": [
-        {"name": "Red Iguana", "location": "736 W N Temple, Salt Lake City, UT 84116"},
-        {"name": "Log Haven", "location": "6451 Millcreek Canyon Rd, Salt Lake City, UT 84109"}
-      ],
-      "police": "Salt Lake City Police Department, 475 S 300 E, Salt Lake City, UT 84111",
-      "hospital": "University of Utah Hospital, 50 N Medical Dr, Salt Lake City, UT 84132",
-      "tips": [
-        "Salt Lake City is the headquarters of The Church of Jesus Christ of Latter-day Saints.",
-        "The city is a gateway to Utah's world-class ski resorts, known for 'The Greatest Snow on Earth®'.",
-        "Utah has unique and sometimes strict liquor laws."
-      ]
-    }
-  ],
-  "Puerto Rico": [
-    {
-      "city": "San Juan",
-      "country": "Puerto Rico",
-      "attractions": [
-        {"name": "Old San Juan (Viejo San Juan)", "location": "Old San Juan, San Juan"},
-        {"name": "Castillo San Felipe del Morro", "location": "501 Calle Norzagaray, San Juan"},
-        {"name": "El Yunque National Forest", "location": "Río Grande, Puerto Rico"}
-      ],
-      "restaurants": [
-        {"name": "Marmalade Restaurant & Wine Bar", "location": "317 C. de la Fortaleza, San Juan"},
-        {"name": "Barrachina", "location": "104 C. de la Fortaleza, San Juan"}
-      ],
-      "police": "Cuartel General de la Policia, Avenida Franklin Delano Roosevelt, San Juan",
-      "hospital": "Ashford Presbyterian Community Hospital, 1451 Ashford Ave, San Juan",
-      "tips": [
-        "Puerto Rico is a U.S. territory, so U.S. citizens do not need a passport.",
-        "The currency is the US Dollar.",
-        "Explore the colorful streets and Spanish colonial architecture of Old San Juan."
-      ]
-    }
-  ]
+   {
+    "city": "Austin",
+    "country": "USA",
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "attractions": [
+      {"name": "Sixth Street", "location": "E 6th St, Austin, TX"},
+      {"name": "Zilker Park", "location": "2207 Lou Neff Rd, Austin, TX 78746"},
+      {"name": "Congress Avenue Bridge (Bat Bridge)", "location": "Congress Ave, Austin, TX 78704"}
+    ],
+    "restaurants": [
+      {"name": "Franklin Barbecue", "location": "900 E 11th St, Austin, TX 78702"},
+      {"name": "Uchi", "location": "801 S Lamar Blvd, Austin, TX 78704"}
+    ],
+    "police": "Austin Police Department Headquarters, 715 E 8th St, Austin, TX 78701",
+    "hospital": "Dell Seton Medical Center at The University of Texas, 1500 Red River St, Austin, TX 78701",
+    "tips": [
+      "Austin's slogan is 'Keep Austin Weird'.",
+      "It's known as the 'Live Music Capital of the World'.",
+      "Watch millions of bats emerge from under the Congress Avenue Bridge at sunset (March-October)."
+    ]
+  },
+  {
+    "city": "San Antonio",
+    "country": "USA",
+    "latitude": 29.4241,
+    "longitude": -98.4936,
+    "attractions": [
+      {"name": "The Alamo", "location": "300 Alamo Plaza, San Antonio, TX 78205"},
+      {"name": "San Antonio River Walk", "location": "849 E Commerce St, San Antonio, TX 78205"},
+      {"name": "San Antonio Missions National Historical Park", "location": "6701 San Jose Dr, San Antonio, TX 78214"}
+    ],
+    "restaurants": [
+      {"name": "Boudro's on the Riverwalk", "location": "421 E Commerce St, San Antonio, TX 78205"},
+      {"name": "Mi Tierra Café y Panadería", "location": "218 Produce Row, San Antonio, TX 78207"}
+    ],
+    "police": "San Antonio Police Department Headquarters, 315 S Santa Rosa Ave, San Antonio, TX 78207",
+    "hospital": "University Hospital, 4502 Medical Dr, San Antonio, TX 78229",
+    "tips": [
+      "Remember the Alamo, a historic mission and fortress compound.",
+      "Take a river barge tour along the famous River Walk.",
+      "The San Antonio Missions are collectively a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city": "Nashville",
+    "country": "USA",
+    "latitude": 36.1627,
+    "longitude": -86.7816,
+    "attractions": [
+      {"name": "Grand Ole Opry", "location": "2804 Opryland Dr, Nashville, TN 37214"},
+      {"name": "Country Music Hall of Fame and Museum", "location": "222 Rep. John Lewis Way S, Nashville, TN 37203"},
+      {"name": "Ryman Auditorium", "location": "116 5th Ave N, Nashville, TN 37219"}
+    ],
+    "restaurants": [
+      {"name": "Hattie B's Hot Chicken", "location": "112 19th Ave S, Nashville, TN 37203"},
+      {"name": "The Bluebird Cafe", "location": "4104 Hillsboro Pike, Nashville, TN 37215"}
+    ],
+    "police": "Metropolitan Nashville Police Department Headquarters, 600 Murfreesboro Pike, Nashville, TN 37210",
+    "hospital": "Vanderbilt University Medical Center, 1211 Medical Center Dr, Nashville, TN 37232",
+    "tips": [
+      "Nashville is nicknamed 'Music City'.",
+      "Explore the honky-tonk bars with live music on Broadway.",
+      "Try Nashville hot chicken, but be careful with the spice level."
+    ]
+  },
+  {
+    "city": "Charleston",
+    "country": "USA",
+    "latitude": 32.7765,
+    "longitude": -79.9311,
+    "attractions": [
+      {"name": "Historic Charleston City Market", "location": "188 Meeting St, Charleston, SC 29401"},
+      {"name": "Rainbow Row", "location": "83-107 E Bay St, Charleston, SC 29401"},
+      {"name": "Fort Sumter National Monument", "location": "Charleston Harbor, SC"}
+    ],
+    "restaurants": [
+      {"name": "Husk", "location": "76 Queen St, Charleston, SC 29401"},
+      {"name": "FIG", "location": "232 Meeting St, Charleston, SC 29401"}
+    ],
+    "police": "Charleston Police Department, 180 Lockwood Blvd, Charleston, SC 29403",
+    "hospital": "MUSC Health University Medical Center, 171 Ashley Ave, Charleston, SC 29425",
+    "tips": [
+      "Charleston is known for its historic charm, cobblestone streets, and pastel-colored houses.",
+      "Take a horse-drawn carriage tour to learn about the city's history.",
+      "Enjoy Lowcountry cuisine, which features dishes like shrimp and grits."
+    ]
+  },
+  {
+    "city": "Savannah",
+    "country": "USA",
+    "latitude": 32.0809,
+    "longitude": -81.0912,
+    "attractions": [
+      {"name": "Forsyth Park", "location": "2 W Gaston St, Savannah, GA 31401"},
+      {"name": "Historic River Street", "location": "River St, Savannah, GA"},
+      {"name": "Bonaventure Cemetery", "location": "330 Bonaventure Rd, Thunderbolt, GA 31404"}
+    ],
+    "restaurants": [
+      {"name": "The Olde Pink House", "location": "23 Abercorn St, Savannah, GA 31401"},
+      {"name": "Mrs. Wilkes' Dining Room", "location": "107 W Jones St, Savannah, GA 31401"}
+    ],
+    "police": "Savannah Police Department, 201 Habersham St, Savannah, GA 31401",
+    "hospital": "Memorial Health University Medical Center, 4700 Waters Ave, Savannah, GA 31404",
+    "tips": [
+      "The city is famous for its 22 historic squares, which act as lovely small parks.",
+      "Wear comfortable shoes for walking on the cobblestones of River Street.",
+      "Take a ghost tour to learn about the city's haunted history."
+    ]
+  },
+  {
+    "city": "Philadelphia",
+    "country": "USA",
+    "latitude": 39.9526,
+    "longitude": -75.1652,
+    "attractions": [
+      {"name": "Independence Hall", "location": "520 Chestnut St, Philadelphia, PA 19106"},
+      {"name": "Liberty Bell", "location": "526 Market St, Philadelphia, PA 19106"},
+      {"name": "Philadelphia Museum of Art (and the 'Rocky Steps')", "location": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130"}
+    ],
+    "restaurants": [
+      {"name": "Zahav", "location": "237 St James Pl, Philadelphia, PA 19106"},
+      {"name": "Reading Terminal Market", "location": "51 N 12th St, Philadelphia, PA 19107"}
+    ],
+    "police": "Philadelphia Police Department Headquarters, 400 N Broad St, Philadelphia, PA 19130",
+    "hospital": "Hospital of the University of Pennsylvania, 3400 Spruce St, Philadelphia, PA 19104",
+    "tips": [
+      "Philadelphia is the birthplace of the United States.",
+      "You must try a Philly cheesesteak; debate with locals about whether Pat's or Geno's is better.",
+      "Many of the historic sites are free to visit but may require timed tickets."
+    ]
+  },
+  {
+    "city": "Portland",
+    "country": "USA",
+    "latitude": 45.5152,
+    "longitude": -122.6784,
+    "attractions": [
+      {"name": "Powell's City of Books", "location": "1005 W Burnside St, Portland, OR 97209"},
+      {"name": "International Rose Test Garden", "location": "400 SW Kingston Ave, Portland, OR 97205"},
+      {"name": "Lan Su Chinese Garden", "location": "239 NW Everett St, Portland, OR 97209"}
+    ],
+    "restaurants": [
+      {"name": "Le Pigeon", "location": "738 E Burnside St, Portland, OR 97214"},
+      {"name": "Voodoo Doughnut", "location": "22 SW 3rd Ave, Portland, OR 97204"}
+    ],
+    "police": "Portland Police Bureau Central Precinct, 1111 SW 2nd Ave, Portland, OR 97204",
+    "hospital": "OHSU Hospital, 3181 SW Sam Jackson Park Rd, Portland, OR 97239",
+    "tips": [
+      "Portland's slogan is 'Keep Portland Weird'.",
+      "Explore the city's famous food cart pods for a huge variety of delicious food.",
+      "There is no sales tax in Oregon."
+    ]
+  },
+  {
+    "city": "Phoenix",
+    "country": "USA",
+    "latitude": 33.4484,
+    "longitude": -112.0740,
+    "attractions": [
+      {"name": "Desert Botanical Garden", "location": "1201 N Galvin Pkwy, Phoenix, AZ 85008"},
+      {"name": "Camelback Mountain", "location": "Phoenix, AZ 85251"},
+      {"name": "Heard Museum", "location": "2301 N Central Ave, Phoenix, AZ 85004"}
+    ],
+    "restaurants": [
+      {"name": "Pizzeria Bianco", "location": "623 E Adams St, Phoenix, AZ 85004"},
+      {"name": "Matt's Big Breakfast", "location": "825 N 1st St, Phoenix, AZ 85004"}
+    ],
+    "police": "Phoenix Police Department Headquarters, 620 W Washington St, Phoenix, AZ 85003",
+    "hospital": "Banner - University Medical Center Phoenix, 1111 E McDowell Rd, Phoenix, AZ 85006",
+    "tips": [
+      "Summers are extremely hot; plan outdoor activities for the early morning.",
+      "Phoenix is located in the Sonoran Desert, offering unique landscapes.",
+      "The area, including nearby Scottsdale, is known for its golf courses and spa resorts."
+    ]
+  },
+  {
+    "city": "Salt Lake City",
+    "country": "USA",
+    "latitude": 40.7608,
+    "longitude": -111.8910,
+    "attractions": [
+      {"name": "Temple Square", "location": "50 N W Temple St, Salt Lake City, UT 84150"},
+      {"name": "Great Salt Lake", "location": "Great Salt Lake, UT"},
+      {"name": "Park City Mountain Resort", "location": "1345 Lowell Ave, Park City, UT 84060"}
+    ],
+    "restaurants": [
+      {"name": "Red Iguana", "location": "736 W N Temple, Salt Lake City, UT 84116"},
+      {"name": "Log Haven", "location": "6451 Millcreek Canyon Rd, Salt Lake City, UT 84109"}
+    ],
+    "police": "Salt Lake City Police Department, 475 S 300 E, Salt Lake City, UT 84111",
+    "hospital": "University of Utah Hospital, 50 N Medical Dr, Salt Lake City, UT 84132",
+    "tips": [
+      "Salt Lake City is the headquarters of The Church of Jesus Christ of Latter-day Saints.",
+      "The city is a gateway to Utah's world-class ski resorts, known for 'The Greatest Snow on Earth®'.",
+      "Utah has unique and sometimes strict liquor laws."
+    ]
+  }
+],
+ "U.S. Virgin Islands": [
+  {
+    "city": "Charlotte Amalie",
+    "country": "U.S. Virgin Islands",
+    "latitude": 18.3419,
+    "longitude": -64.9307,
+    "attractions": [
+      {"name": "Magens Bay", "location": "Magens Bay, St. Thomas"},
+      {"name": "Blackbeard's Castle", "location": "1001 Blackbeard's Hill, Charlotte Amalie, St. Thomas"},
+      {"name": "99 Steps", "location": "Government Hill, Charlotte Amalie, St. Thomas"}
+    ],
+    "restaurants": [
+      {"name": "Gladys' Cafe", "location": "5600 Royal Dane Mall, Charlotte Amalie, St. Thomas"},
+      {"name": "Oceana Restaurant & Wine Bar", "location": "8 Honduras, Frenchtown, St. Thomas"}
+    ],
+    "police": "Virgin Islands Police Department - Richard Callwood Command, 8000 Nisky Center, St. Thomas",
+    "hospital": "Roy Lester Schneider Hospital, 9048 Sugar Estate, St. Thomas",
+    "tips": [
+      "The U.S. Virgin Islands is a U.S. territory, so Americans don't need a passport.",
+      "Traffic drives on the left, but most cars are standard U.S. left-hand drive.",
+      "Charlotte Amalie is one of the busiest cruise ship ports in the Caribbean and is famous for its duty-free shopping."
+    ]
+  }
+],
+"Puerto Rico": [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "latitude": 18.4655,
+    "longitude": -66.1057,
+    "attractions": [
+      {"name": "Old San Juan (Viejo San Juan)", "location": "Old San Juan, San Juan"},
+      {"name": "Castillo San Felipe del Morro", "location": "501 Calle Norzagaray, San Juan"},
+      {"name": "El Yunque National Forest", "location": "Río Grande, Puerto Rico"}
+    ],
+    "restaurants": [
+      {"name": "Marmalade Restaurant & Wine Bar", "location": "317 C. de la Fortaleza, San Juan"},
+      {"name": "Barrachina", "location": "104 C. de la Fortaleza, San Juan"}
+    ],
+    "police": "Cuartel General de la Policia, Avenida Franklin Delano Roosevelt, San Juan",
+    "hospital": "Ashford Presbyterian Community Hospital, 1451 Ashford Ave, San Juan",
+    "tips": [
+      "Puerto Rico is a U.S. territory, so U.S. citizens do not need a passport.",
+      "The currency is the US Dollar.",
+      "Explore the colorful streets and Spanish colonial architecture of Old San Juan."
+    ]
+  }
+]
 }
