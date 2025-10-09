@@ -1,248 +1,272 @@
 {
     "North Africa": {
-        "Egypt": {
-            "Alexandria": {
-                "attractions": [
-                    {"name": "Citadel of Qaitbay", "address": "El-Gaish Rd, Anfoushi, Alexandria, Egypt"},
-                    {"name": "Bibliotheca Alexandrina", "address": "Al Azarita, Alexandria, Egypt"},
-                    {"name": "Catacombs of Kom El Shoqafa", "address": "Alexandria, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "Fish Market", "address": "El Gaish Rd, Alexandria, Egypt"},
-                    {"name": "Balbaa", "address": "El Nasr Rd, Alexandria, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Alexandria Security Directorate", "address": "Alexandria, Egypt"},
-                    {"type": "Hospital", "name": "Alexandria University Main Hospital (Al Miri)", "address": "9 Al Bastmi, Alexandria, Egypt"}
-                ],
-                "tips": [
-                    "Alexandria is a major port city known for its Greco-Roman history.",
-                    "The city has an extensive tram system, which is a key form of public transport.",
-                    "Be prepared for a mix of modern and historical sites."
-                ]
-            },
-            "Aswan": {
-                "attractions": [
-                    {"name": "Philae Temple", "address": "Island of Philae, Aswan, Egypt"},
-                    {"name": "High Dam", "address": "Aswan, Egypt"},
-                    {"name": "Unfinished Obelisk", "address": "Fatimid Cemetery, Aswan, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "Nubian House", "address": "Bigeh Island, Aswan, Egypt"},
-                    {"name": "1902 Restaurant", "address": "Old Cataract Hotel, Abtal El Tahrir St, Aswan, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Aswan Police Station", "address": "Abtal El Tahrir St, Aswan, Egypt"},
-                    {"type": "Hospital", "name": "Aswan Public Hospital", "address": "Nasr St, Aswan, Egypt"}
-                ],
-                "tips": [
-                    "Take a felucca (traditional sailboat) ride on the Nile.",
-                    "Visit a local Nubian village for a cultural experience.",
-                    "Aswan is a quieter city compared to Cairo and Luxor."
-                ]
-            },
-            "Cairo": {
-                "attractions": [
-                    {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
-                    {"name": "Khan el-Khalili", "address": "El-Gamaliya, Cairo Governorate, Egypt"},
-                    {"name": "Egyptian Museum", "address": "Tahrir Square, Downtown Cairo, Cairo Governorate, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "Koshary Abou Tarek", "address": "16 Maarouf St, Downtown Cairo, Cairo Governorate, Egypt"},
-                    {"name": "Giannini's New York Italian Restaurant", "address": "Four Seasons Hotel Cairo at The First Residence, 35 Giza St, Giza Governorate, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "New Cairo 1st Police Station", "address": "Rd. 1, 4Th District, New Cairo, Cairo, Egypt"},
-                    {"type": "Hospital", "name": "Cairo Specialized Hospital (CSH)", "address": "4 Abou Ebaid El Bakry St. Off Ghernata St Roxy, Heliopolis, Cairo, Egypt"}
-                ],
-                "tips": [
-                    "Use a reliable ride-hailing app like Uber for transport.",
-                    "Bargaining is expected in markets like Khan el-Khalili.",
-                    "Dress modestly, especially when visiting religious sites."
-                ]
-            },
-            "Giza": {
-                "attractions": [
-                    {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
-                    {"name": "Saqqara", "address": "Giza, Egypt"},
-                    {"name": "Dahshur", "address": "Giza, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "The Smokery", "address": "Pyramids Hills, Giza, Egypt"},
-                    {"name": "Felfela", "address": "Pyramids St, Giza, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Giza Police Directorate", "address": "Al Giza, Giza Governorate, Egypt"},
-                    {"type": "Hospital", "name": "Giza General Hospital", "address": "Al Haram St, Giza, Egypt"}
-                ],
-                "tips": [
-                    "Stay in a pyramid-view hotel for the best experience.",
-                    "Hire a guide to navigate the pyramid complex.",
-                    "Visit early in the morning to avoid the heat and crowds."
-                ]
-            },
-            "Hurghada": {
-                "attractions": [
-                    {"name": "Giftun Island", "address": "Hurghada, Egypt"},
-                    {"name": "El Dahar", "address": "Hurghada, Egypt"},
-                    {"name": "Hurghada Marina", "address": "Hurghada, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "Starfish Restaurant", "address": "El Cornish St, Hurghada, Egypt"},
-                    {"name": "Felfela", "address": "El-Nasr St, Hurghada, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Hurghada Police Station", "address": "El-Nasr St, Hurghada, Egypt"},
-                    {"type": "Hospital", "name": "Hurghada General Hospital", "address": "Hurghada, Egypt"}
-                ],
-                "tips": [
-                    "Hurghada is a top spot for scuba diving and snorkeling.",
-                    "Many resorts offer all-inclusive packages.",
-                    "Be prepared for the dry desert climate."
-                ]
-            },
-            "Luxor": {
-                "attractions": [
-                    {"name": "Valley of the Kings", "address": "Luxor, Luxor Governorate, Egypt"},
-                    {"name": "Karnak Temple Complex", "address": "Luxor, Luxor Governorate, Egypt"},
-                    {"name": "Luxor Temple", "address": "El-Karnak, Luxor, Luxor Governorate, Egypt"}
-                ],
-                "restaurants": [
-                    {"name": "1886 Restaurant", "address": "Winter Palace Hotel, Corniche El Nil St, Luxor, Egypt"},
-                    {"name": "Aladdin's Kingdom Restaurant", "address": "El-Bahar St, Luxor, Egypt"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Luxor Police Station", "address": "Corniche El Nil, Luxor, Egypt"},
-                    {"type": "Hospital", "name": "Luxor International Hospital", "address": "Qurna, Luxor, Egypt"}
-                ],
-                "tips": [
-                    "Hire a licensed guide to explore the historical sites.",
-                    "Stay hydrated and avoid the midday sun.",
-                    "Take a hot air balloon ride for a unique view of the temples."
-                ]
-            }
+    "Egypt": {
+        "Alexandria": {
+            "latitude": 31.2001,
+            "longitude": 29.9187,
+            "attractions": [
+                {"name": "Citadel of Qaitbay", "address": "El-Gaish Rd, Anfoushi, Alexandria, Egypt"},
+                {"name": "Bibliotheca Alexandrina", "address": "Al Azarita, Alexandria, Egypt"},
+                {"name": "Catacombs of Kom El Shoqafa", "address": "Alexandria, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "Fish Market", "address": "El Gaish Rd, Alexandria, Egypt"},
+                {"name": "Balbaa", "address": "El Nasr Rd, Alexandria, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Alexandria Security Directorate", "address": "Alexandria, Egypt"},
+                {"type": "Hospital", "name": "Alexandria University Main Hospital (Al Miri)", "address": "9 Al Bastmi, Alexandria, Egypt"}
+            ],
+            "tips": [
+                "Alexandria is a major port city known for its Greco-Roman history.",
+                "The city has an extensive tram system, which is a key form of public transport.",
+                "Be prepared for a mix of modern and historical sites."
+            ]
         },
-        "Morocco": {
-            "Agadir": {
-                "attractions": [
-                    {"name": "Agadir Oufella Kasbah", "address": "Agadir, Morocco"},
-                    {"name": "Agadir Beach", "address": "Agadir, Morocco"},
-                    {"name": "Souk El Had", "address": "Agadir, Morocco"}
-                ],
-                "restaurants": [
-                    {"name": "Pure Passion", "address": "Marina D'Agadir, Agadir, Morocco"},
-                    {"name": "Restaurant Le Flore", "address": "Promenade Tawada, Agadir, Morocco"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Police Prefecture of Agadir", "address": "Rue 18 Novembre, Agadir, Morocco"},
-                    {"type": "Hospital", "name": "Hôpital Hassan II", "address": "Agadir, Morocco"}
-                ],
-                "tips": [
-                    "Agadir is a modern city and a popular beach resort.",
-                    "The souk is a great place to buy souvenirs, but be prepared to bargain.",
-                    "The city is known for its fresh seafood."
-                ]
-            },
-            "Casablanca": {
-                "attractions": [
-                    {"name": "Hassan II Mosque", "address": "Boulevard de la Corniche, Casablanca, Morocco"},
-                    {"name": "Mohammed V Square", "address": "Place Mohammed V, Casablanca, Morocco"},
-                    {"name": "La Corniche", "address": "Boulevard de la Corniche, Casablanca, Morocco"}
-                ],
-                "restaurants": [
-                    {"name": "Le Cabestan Ocean View", "address": "Piste De Sidi Abderrahman, Casablanca, Morocco"},
-                    {"name": "Rick's Café", "address": "248 Boulevard Sour Jdid, Casablanca, Morocco"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Police Station (Prefecture)", "address": "Rue de la Préfecture, Casablanca, Morocco"},
-                    {"type": "Hospital", "name": "Polyclinique du Sud", "address": "Angle Bd d'Anfa et Rue Dakhla, Casablanca, Morocco"}
-                ],
-                "tips": [
-                    "Casablanca is more modern than other Moroccan cities.",
-                    "Dress respectfully, though it is less conservative than other cities.",
-                    "Use official taxis or ride-hailing apps like Careem."
-                ]
-            },
-            "Chefchaouen": {
-                "attractions": [
-                    {"name": "Kasbah Museum", "address": "Place Outa Hammam, Chefchaouen, Morocco"},
-                    {"name": "Ras El Ma Waterfall", "address": "Chefchaouen, Morocco"},
-                    {"name": "Spanish Mosque", "address": "Chefchaouen, Morocco"}
-                ],
-                "restaurants": [
-                    {"name": "Bab Ssour", "address": "Rue Bab Ssour, Chefchaouen, Morocco"},
-                    {"name": "Restaurant Pizzeria Mandala", "address": "Chefchaouen, Morocco"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Chefchaouen Police Station", "address": "Avenue Hassan II, Chefchaouen, Morocco"},
-                    {"type": "Hospital", "name": "Hôpital Mohammed V", "address": "Chefchaouen, Morocco"}
-                ],
-                "tips": [
-                    "Wear comfortable shoes for walking up and down the steep streets.",
-                    "Chefchaouen is known for its serene and relaxed atmosphere.",
-                    "The medina's blue walls are perfect for photos."
-                ]
-            },
-            "Fes": {
-                "attractions": [
-                    {"name": "Fes el-Bali (Old Medina)", "address": "Fes, Morocco"},
-                    {"name": "Chouara Tannery", "address": "Derb Chaouara, Fes, Morocco"},
-                    {"name": "Al-Attarine Madrasa", "address": "Rue Talaa Seghira, Fes, Morocco"}
-                ],
-                "restaurants": [
-                    {"name": "Café Clock", "address": "Derb El Magana, Fes, Morocco"},
-                    {"name": "Fes Café", "address": "53, Derb El Magana, Fes, Morocco"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Fes Police Station", "address": "Avenue Hassan II, Fes, Morocco"},
-                    {"type": "Hospital", "name": "Hôpital Ibn Sina", "address": "Fes, Morocco"}
-                ],
-                "tips": [
-                    "Hire a local guide to navigate the labyrinthine medina.",
-                    "Be respectful of local customs, especially when visiting religious sites.",
-                    "The city is a hub for Moroccan cuisine and handicrafts."
-                ]
-            },
-            "Marrakesh": {
-                "attractions": [
-                    {"name": "Jemaa el-Fnaa", "address": "Marrakesh, Morocco"},
-                    {"name": "Bahia Palace", "address": "Rue Riad Zitoun el Jadid, Marrakech 40000, Morocco"},
-                    {"name": "Jardin Majorelle", "address": "Rue Yves Saint Laurent, Marrakesh 40090, Morocco"}
-                ],
-                "restaurants": [
-                    {"name": "Le Jardin", "address": "32 Souk Sidi Abdelaziz, Marrakesh 40000, Morocco"},
-                    {"name": "Al Fassia", "address": "55 Blvd Zerktouni, Guéliz, Marrakesh 40000, Morocco"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Tourist Brigade", "address": "Place Jemaâ El Fna, Marrakesh, Morocco"},
-                    {"type": "Hospital", "name": "American Hospital International", "address": "Bd Mohamed VI, Marrakech, Morocco"}
-                ],
-                "tips": [
-                    "Negotiate prices when shopping in the souks.",
-                    "Be mindful of pickpockets in crowded areas.",
-                    "Drink plenty of water to stay hydrated."
-                ]
-            }
+        "Aswan": {
+            "latitude": 24.0889,
+            "longitude": 32.8998,
+            "attractions": [
+                {"name": "Philae Temple", "address": "Island of Philae, Aswan, Egypt"},
+                {"name": "High Dam", "address": "Aswan, Egypt"},
+                {"name": "Unfinished Obelisk", "address": "Fatimid Cemetery, Aswan, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "Nubian House", "address": "Bigeh Island, Aswan, Egypt"},
+                {"name": "1902 Restaurant", "address": "Old Cataract Hotel, Abtal El Tahrir St, Aswan, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Aswan Police Station", "address": "Abtal El Tahrir St, Aswan, Egypt"},
+                {"type": "Hospital", "name": "Aswan Public Hospital", "address": "Nasr St, Aswan, Egypt"}
+            ],
+            "tips": [
+                "Take a felucca (traditional sailboat) ride on the Nile.",
+                "Visit a local Nubian village for a cultural experience.",
+                "Aswan is a quieter city compared to Cairo and Luxor."
+            ]
         },
-        "Tunisia": {
-            "Tunis": {
-                "attractions": [
-                    {"name": "Medina of Tunis", "address": "Rue de la Kasbah, Tunis, Tunisia"},
-                    {"name": "Bardo National Museum", "address": "P1, Le Bardo 2000, Tunisia"},
-                    {"name": "Ruins of Carthage", "address": "Carthage, Tunisia"}
-                ],
-                "restaurants": [
-                    {"name": "Dar El Jeld", "address": "5-10, Rue Dar El Jeld, Tunis, Tunisia"},
-                    {"name": "Fondouk El Attarine", "address": "Rue El Attarine, Tunis, Tunisia"}
-                ],
-                "emergency": [
-                    {"type": "Police Station", "name": "Central Police Station", "address": "Avenue Habib Bourguiba, Tunis, Tunisia"},
-                    {"type": "Hospital", "name": "Hôpital Charles Nicolle", "address": "Rue Jebel Lakhdar, Tunis, Tunisia"}
-                ],
-                "tips": [
-                    "Explore the medina on foot and get lost in the alleys.",
-                    "Take a day trip to the charming blue and white village of Sidi Bou Said.",
-                    "Be aware of your surroundings in crowded areas."
+        "Cairo": {
+            "latitude": 30.0444,
+            "longitude": 31.2357,
+            "attractions": [
+                {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
+                {"name": "Khan el-Khalili", "address": "El-Gamaliya, Cairo Governorate, Egypt"},
+                {"name": "Egyptian Museum", "address": "Tahrir Square, Downtown Cairo, Cairo Governorate, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "Koshary Abou Tarek", "address": "16 Maarouf St, Downtown Cairo, Cairo Governorate, Egypt"},
+                {"name": "Giannini's New York Italian Restaurant", "address": "Four Seasons Hotel Cairo at The First Residence, 35 Giza St, Giza Governorate, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "New Cairo 1st Police Station", "address": "Rd. 1, 4Th District, New Cairo, Cairo, Egypt"},
+                {"type": "Hospital", "name": "Cairo Specialized Hospital (CSH)", "address": "4 Abou Ebaid El Bakry St. Off Ghernata St Roxy, Heliopolis, Cairo, Egypt"}
+            ],
+            "tips": [
+                "Use a reliable ride-hailing app like Uber for transport.",
+                "Bargaining is expected in markets like Khan el-Khalili.",
+                "Dress modestly, especially when visiting religious sites."
+            ]
+        },
+        "Giza": {
+            "latitude": 29.9765,
+            "longitude": 31.1313,
+            "attractions": [
+                {"name": "Pyramids of Giza & Sphinx", "address": "Al Haram, Giza Governorate, Egypt"},
+                {"name": "Saqqara", "address": "Giza, Egypt"},
+                {"name": "Dahshur", "address": "Giza, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "The Smokery", "address": "Pyramids Hills, Giza, Egypt"},
+                {"name": "Felfela", "address": "Pyramids St, Giza, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Giza Police Directorate", "address": "Al Giza, Giza Governorate, Egypt"},
+                {"type": "Hospital", "name": "Giza General Hospital", "address": "Al Haram St, Giza, Egypt"}
+            ],
+            "tips": [
+                "Stay in a pyramid-view hotel for the best experience.",
+                "Hire a guide to navigate the pyramid complex.",
+                "Visit early in the morning to avoid the heat and crowds."
+            ]
+        },
+        "Hurghada": {
+            "latitude": 27.2579,
+            "longitude": 33.8116,
+            "attractions": [
+                {"name": "Giftun Island", "address": "Hurghada, Egypt"},
+                {"name": "El Dahar", "address": "Hurghada, Egypt"},
+                {"name": "Hurghada Marina", "address": "Hurghada, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "Starfish Restaurant", "address": "El Cornish St, Hurghada, Egypt"},
+                {"name": "Felfela", "address": "El-Nasr St, Hurghada, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Hurghada Police Station", "address": "El-Nasr St, Hurghada, Egypt"},
+                {"type": "Hospital", "name": "Hurghada General Hospital", "address": "Hurghada, Egypt"}
+            ],
+            "tips": [
+                "Hurghada is a top spot for scuba diving and snorkeling.",
+                "Many resorts offer all-inclusive packages.",
+                "Be prepared for the dry desert climate."
+            ]
+        },
+        "Luxor": {
+            "latitude": 25.6872,
+            "longitude": 32.6396,
+            "attractions": [
+                {"name": "Valley of the Kings", "address": "Luxor, Luxor Governorate, Egypt"},
+                {"name": "Karnak Temple Complex", "address": "Luxor, Luxor Governorate, Egypt"},
+                {"name": "Luxor Temple", "address": "El-Karnak, Luxor, Luxor Governorate, Egypt"}
+            ],
+            "restaurants": [
+                {"name": "1886 Restaurant", "address": "Winter Palace Hotel, Corniche El Nil St, Luxor, Egypt"},
+                {"name": "Aladdin's Kingdom Restaurant", "address": "El-Bahar St, Luxor, Egypt"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Luxor Police Station", "address": "Corniche El Nil, Luxor, Egypt"},
+                {"type": "Hospital", "name": "Luxor International Hospital", "address": "Qurna, Luxor, Egypt"}
+            ],
+            "tips": [
+                "Hire a licensed guide to explore the historical sites.",
+                "Stay hydrated and avoid the midday sun.",
+                "Take a hot air balloon ride for a unique view of the temples."
+            ]
+        }
+    },
+    "Morocco": {
+        "Agadir": {
+            "latitude": 30.4278,
+            "longitude": -9.5981,
+            "attractions": [
+                {"name": "Agadir Oufella Kasbah", "address": "Agadir, Morocco"},
+                {"name": "Agadir Beach", "address": "Agadir, Morocco"},
+                {"name": "Souk El Had", "address": "Agadir, Morocco"}
+            ],
+            "restaurants": [
+                {"name": "Pure Passion", "address": "Marina D'Agadir, Agadir, Morocco"},
+                {"name": "Restaurant Le Flore", "address": "Promenade Tawada, Agadir, Morocco"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Police Prefecture of Agadir", "address": "Rue 18 Novembre, Agadir, Morocco"},
+                {"type": "Hospital", "name": "Hôpital Hassan II", "address": "Agadir, Morocco"}
+            ],
+            "tips": [
+                "Agadir is a modern city and a popular beach resort.",
+                "The souk is a great place to buy souvenirs, but be prepared to bargain.",
+                "The city is known for its fresh seafood."
+            ]
+        },
+        "Casablanca": {
+            "latitude": 33.5731,
+            "longitude": -7.5898,
+            "attractions": [
+                {"name": "Hassan II Mosque", "address": "Boulevard de la Corniche, Casablanca, Morocco"},
+                {"name": "Mohammed V Square", "address": "Place Mohammed V, Casablanca, Morocco"},
+                {"name": "La Corniche", "address": "Boulevard de la Corniche, Casablanca, Morocco"}
+            ],
+            "restaurants": [
+                {"name": "Le Cabestan Ocean View", "address": "Piste De Sidi Abderrahman, Casablanca, Morocco"},
+                {"name": "Rick's Café", "address": "248 Boulevard Sour Jdid, Casablanca, Morocco"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Police Station (Prefecture)", "address": "Rue de la Préfecture, Casablanca, Morocco"},
+                {"type": "Hospital", "name": "Polyclinique du Sud", "address": "Angle Bd d'Anfa et Rue Dakhla, Casablanca, Morocco"}
+            ],
+            "tips": [
+                "Casablanca is more modern than other Moroccan cities.",
+                "Dress respectfully, though it is less conservative than other cities.",
+                "Use official taxis or ride-hailing apps like Careem."
+            ]
+        },
+        "Chefchaouen": {
+            "latitude": 35.1681,
+            "longitude": -5.2697,
+            "attractions": [
+                {"name": "Kasbah Museum", "address": "Place Outa Hammam, Chefchaouen, Morocco"},
+                {"name": "Ras El Ma Waterfall", "address": "Chefchaouen, Morocco"},
+                {"name": "Spanish Mosque", "address": "Chefchaouen, Morocco"}
+            ],
+            "restaurants": [
+                {"name": "Bab Ssour", "address": "Rue Bab Ssour, Chefchaouen, Morocco"},
+                {"name": "Restaurant Pizzeria Mandala", "address": "Chefchaouen, Morocco"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Chefchaouen Police Station", "address": "Avenue Hassan II, Chefchaouen, Morocco"},
+                {"type": "Hospital", "name": "Hôpital Mohammed V", "address": "Chefchaouen, Morocco"}
+            ],
+            "tips": [
+                "Wear comfortable shoes for walking up and down the steep streets.",
+                "Chefchaouen is known for its serene and relaxed atmosphere.",
+                "The medina's blue walls are perfect for photos."
+            ]
+        },
+        "Fes": {
+            "latitude": 34.0331,
+            "longitude": -5.0003,
+            "attractions": [
+                {"name": "Fes el-Bali (Old Medina)", "address": "Fes, Morocco"},
+                {"name": "Chouara Tannery", "address": "Derb Chaouara, Fes, Morocco"},
+                {"name": "Al-Attarine Madrasa", "address": "Rue Talaa Seghira, Fes, Morocco"}
+            ],
+            "restaurants": [
+                {"name": "Café Clock", "address": "Derb El Magana, Fes, Morocco"},
+                {"name": "Fes Café", "address": "53, Derb El Magana, Fes, Morocco"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Fes Police Station", "address": "Avenue Hassan II, Fes, Morocco"},
+                {"type": "Hospital", "name": "Hôpital Ibn Sina", "address": "Fes, Morocco"}
+            ],
+            "tips": [
+                "Hire a local guide to navigate the labyrinthine medina.",
+                "Be respectful of local customs, especially when visiting religious sites.",
+                "The city is a hub for Moroccan cuisine and handicrafts."
+            ]
+        },
+        "Marrakesh": {
+            "latitude": 31.6295,
+            "longitude": -7.9811,
+            "attractions": [
+                {"name": "Jemaa el-Fnaa", "address": "Marrakesh, Morocco"},
+                {"name": "Bahia Palace", "address": "Rue Riad Zitoun el Jadid, Marrakech 40000, Morocco"},
+                {"name": "Jardin Majorelle", "address": "Rue Yves Saint Laurent, Marrakesh 40090, Morocco"}
+            ],
+            "restaurants": [
+                {"name": "Le Jardin", "address": "32 Souk Sidi Abdelaziz, Marrakesh 40000, Morocco"},
+                {"name": "Al Fassia", "address": "55 Blvd Zerktouni, Guéliz, Marrakesh 40000, Morocco"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Tourist Brigade", "address": "Place Jemaâ El Fna, Marrakesh, Morocco"},
+                {"type": "Hospital", "name": "American Hospital International", "address": "Bd Mohamed VI, Marrakech, Morocco"}
+            ],
+            "tips": [
+                "Negotiate prices when shopping in the souks.",
+                "Be mindful of pickpockets in crowded areas.",
+                "Drink plenty of water to stay hydrated."
+            ]
+        }
+    },
+    "Tunisia": {
+        "Tunis": {
+            "latitude": 36.8065,
+            "longitude": 10.1815,
+            "attractions": [
+                {"name": "Medina of Tunis", "address": "Rue de la Kasbah, Tunis, Tunisia"},
+                {"name": "Bardo National Museum", "address": "P1, Le Bardo 2000, Tunisia"},
+                {"name": "Ruins of Carthage", "address": "Carthage, Tunisia"}
+            ],
+            "restaurants": [
+                {"name": "Dar El Jeld", "address": "5-10, Rue Dar El Jeld, Tunis, Tunisia"},
+                {"name": "Fondouk El Attarine", "address": "Rue El Attarine, Tunis, Tunisia"}
+            ],
+            "emergency": [
+                {"type": "Police Station", "name": "Central Police Station", "address": "Avenue Habib Bourguiba, Tunis, Tunisia"},
+                {"type": "Hospital", "name": "Hôpital Charles Nicolle", "address": "Rue Jebel Lakhdar, Tunis, Tunisia"}
+            ],
+            "tips": [
+                "Explore the medina on foot and get lost in the alleys.",
+                "Take a day trip to the charming blue and white village of Sidi Bou Said.",
+                "Be aware of your surroundings in crowded areas."
                 ]
             }
         }
@@ -250,6 +274,8 @@
     "West Africa": {
         "Burkina Faso": {
             "Ouagadougou": {
+                "latitude": 12.3714,
+                "longitude": -1.5197,
                 "attractions": [
                     {"name": "Musée de la Musique", "address": "Avenue de la Nation, Ouagadougou, Burkina Faso"},
                     {"name": "National Museum of Ouagadougou", "address": "Avenue du Boulevard de l'Indépendance, Ouagadougou, Burkina Faso"}
@@ -271,6 +297,8 @@
         },
         "Ghana": {
             "Accra": {
+                "latitude": 5.6037,
+                "longitude": -0.1870,
                 "attractions": [
                     {"name": "Kwame Nkrumah Memorial Park", "address": "High Street, Accra, Ghana"},
                     {"name": "Jamestown Lighthouse", "address": "Jamestown, Accra, Ghana"},
@@ -291,6 +319,8 @@
                 ]
             },
             "Kumasi": {
+                "latitude": 6.6666,
+                "longitude": -1.6163,
                 "attractions": [
                     {"name": "Manhyia Palace Museum", "address": "Manhyia, Kumasi, Ghana"},
                     {"name": "Kejetia Market", "address": "Kumasi, Ghana"},
@@ -313,6 +343,8 @@
         },
         "The Gambia": {
             "Banjul": {
+                "latitude": 13.4549,
+                "longitude": -16.5790,
                 "attractions": [
                     {"name": "Arch 22", "address": "Independence Drive, Banjul, The Gambia"},
                     {"name": "Albert Market", "address": "Banjul, The Gambia"},
@@ -335,6 +367,8 @@
         },
         "Nigeria": {
             "Abuja": {
+                "latitude": 9.0765,
+                "longitude": 7.3986,
                 "attractions": [
                     {"name": "Aso Rock", "address": "Aso Rock, Abuja, Nigeria"},
                     {"name": "Zuma Rock", "address": "Kaduna-Abuja Expressway, Abuja, Nigeria"},
@@ -355,6 +389,8 @@
                 ]
             },
             "Lagos": {
+                "latitude": 6.5244,
+                "longitude": 3.3792,
                 "attractions": [
                     {"name": "Lekki Conservation Centre", "address": "Km 19 Lekki-Epe Expressway, Lekki, Nigeria"},
                     {"name": "Nike Art Gallery", "address": "2 Elegushi Road, Lekki Phase 1, Lekki, Nigeria"},
@@ -377,6 +413,8 @@
         },
         "Senegal": {
             "Dakar": {
+                "latitude": 14.7167,
+                "longitude": -17.4677,
                 "attractions": [
                     {"name": "Gorée Island", "address": "Dakar, Senegal"},
                     {"name": "African Renaissance Monument", "address": "N1, Dakar, Senegal"},
@@ -399,6 +437,8 @@
         },
         "Togo": {
             "Lomé": {
+                "latitude": 6.1725,
+                "longitude": 1.2314,
                 "attractions": [
                     {"name": "Lomé Grand Market", "address": "Lomé, Togo"},
                     {"name": "Togo National Museum", "address": "Lomé, Togo"},
@@ -423,6 +463,8 @@
     "Central Africa": {
         "Angola": {
             "Luanda": {
+                "latitude": -8.8390,
+                "longitude": 13.2894,
                 "attractions": [
                     {"name": "Fortress of São Miguel", "address": "Morro da Fortaleza, Luanda, Angola"},
                     {"name": "Luanda Bay", "address": "Luanda, Angola"},
@@ -445,6 +487,8 @@
         },
         "Chad": {
             "N'Djamena": {
+                "latitude": 12.1348,
+                "longitude": 15.0557,
                 "attractions": [
                     {"name": "Chad National Museum", "address": "Avenue du Boulevard de l'Indépendance, N'Djamena, Chad"},
                     {"name": "Place de la Nation", "address": "N'Djamena, Chad"},
@@ -467,6 +511,8 @@
         },
         "Democratic Republic of Congo": {
             "Kinshasa": {
+                "latitude": -4.4419,
+                "longitude": 15.2663,
                 "attractions": [
                     {"name": "Lola ya Bonobo", "address": "Kinshasa, DRC"},
                     {"name": "Mount Mangengenge", "address": "Kinshasa, DRC"},
@@ -489,6 +535,8 @@
         },
         "Gabon": {
             "Libreville": {
+                "latitude": 0.4162,
+                "longitude": 9.4673,
                 "attractions": [
                     {"name": "Pointe-Denis Beach", "address": "Libreville, Gabon"},
                     {"name": "L'Eglise St-Michel", "address": "Libreville, Gabon"},
@@ -513,6 +561,8 @@
     "East Africa": {
         "Ethiopia": {
             "Addis Ababa": {
+                "latitude": 9.1450,
+                "longitude": 40.4897,
                 "attractions": [
                     {"name": "National Museum of Ethiopia", "address": "Addis Ababa, Ethiopia"},
                     {"name": "Holy Trinity Cathedral", "address": "Haile Gebre Silase Rd, Addis Ababa, Ethiopia"},
@@ -535,6 +585,8 @@
         },
         "Kenya": {
             "Mombasa": {
+                "latitude": -4.0435,
+                "longitude": 39.6682,
                 "attractions": [
                     {"name": "Fort Jesus", "address": "Mombasa, Kenya"},
                     {"name": "Mombasa Marine National Park and Reserve", "address": "Mombasa, Kenya"},
@@ -555,6 +607,8 @@
                 ]
             },
             "Nairobi": {
+                "latitude": -1.2921,
+                "longitude": 36.8219,
                 "attractions": [
                     {"name": "Nairobi National Park", "address": "Langata Rd, Nairobi, Kenya"},
                     {"name": "Giraffe Centre", "address": "Duma Rd, Nairobi, Kenya"},
@@ -577,6 +631,8 @@
         },
         "Rwanda": {
             "Kigali": {
+                "latitude": -1.9706,
+                "longitude": 30.1044,
                 "attractions": [
                     {"name": "Kigali Genocide Memorial", "address": "KG 14 Ave, Kigali, Rwanda"},
                     {"name": "Kandt House Museum", "address": "KN 90 St, Kigali, Rwanda"}
@@ -598,6 +654,8 @@
         },
         "Tanzania": {
             "Arusha": {
+                "latitude": -3.3667,
+                "longitude": 36.6833,
                 "attractions": [
                     {"name": "Arusha National Park", "address": "Tanzania"},
                     {"name": "Shanga Workshop", "address": "Dodoma Rd, Arusha, Tanzania"},
@@ -618,6 +676,8 @@
                 ]
             },
             "Dar es Salaam": {
+                "latitude": -6.7924,
+                "longitude": 39.2083,
                 "attractions": [
                     {"name": "Kariakoo Market", "address": "Kariakoo, Dar es Salaam, Tanzania"},
                     {"name": "National Museum and House of Culture", "address": "Shaaban Robert St, Dar es Salaam, Tanzania"},
@@ -638,6 +698,8 @@
                 ]
             },
             "Stone Town (Zanzibar)": {
+                "latitude": -6.1640,
+                "longitude": 39.1926,
                 "attractions": [
                     {"name": "Forodhani Gardens", "address": "Forodhani St, Zanzibar, Tanzania"},
                     {"name": "House of Wonders", "address": "Mizingani Road, Stone Town, Zanzibar, Tanzania"},
@@ -660,6 +722,8 @@
         },
         "Uganda": {
             "Kampala": {
+                "latitude": 0.3476,
+                "longitude": 32.5825,
                 "attractions": [
                     {"name": "Uganda National Museum", "address": "Kira Rd, Kampala, Uganda"},
                     {"name": "Kasubi Tombs", "address": "Kasubi, Kampala, Uganda"},
@@ -682,6 +746,8 @@
         },
         "Zambia": {
             "Lusaka": {
+                "latitude": -15.3875,
+                "longitude": 28.3228,
                 "attractions": [
                     {"name": "Lusaka National Park", "address": "Lusaka, Zambia"},
                     {"name": "Lusaka National Museum", "address": "Independence Ave, Lusaka, Zambia"},
@@ -706,6 +772,8 @@
     "Southern Africa": {
         "Botswana": {
             "Gaborone": {
+                "latitude": -24.6282,
+                "longitude": 25.9231,
                 "attractions": [
                     {"name": "Three Chiefs' Statues", "address": "Independence Ave, Gaborone, Botswana"},
                     {"name": "Gaborone Game Reserve", "address": "Gaborone, Botswana"},
@@ -728,6 +796,8 @@
         },
         "Madagascar": {
             "Antananarivo": {
+                "latitude": -18.8792,
+                "longitude": 47.5079,
                 "attractions": [
                     {"name": "Rova of Antananarivo", "address": "Rova, Antananarivo, Madagascar"},
                     {"name": "Andafiavaratra Palace", "address": "Rue Andafiavaratra, Antananarivo, Madagascar"},
@@ -748,6 +818,8 @@
                 ]
             },
             "Antsirabe": {
+                "latitude": -19.8658,
+                "longitude": 47.0333,
                 "attractions": [
                     {"name": "Lake Tritriva", "address": "Antsirabe, Madagascar"},
                     {"name": "Lake Andraikiba", "address": "Antsirabe, Madagascar"},
@@ -770,6 +842,8 @@
         },
         "Mauritius": {
             "Port Louis": {
+                "latitude": -20.1667,
+                "longitude": 57.5000,
                 "attractions": [
                     {"name": "Aapravasi Ghat", "address": "Port Louis, Mauritius"},
                     {"name": "Central Market", "address": "Corderie St, Port Louis, Mauritius"},
@@ -792,6 +866,8 @@
         },
         "Mozambique": {
             "Maputo": {
+                "latitude": -25.9653,
+                "longitude": 32.5892,
                 "attractions": [
                     {"name": "Maputo Railway Station", "address": "Praça dos Trabalhadores, Maputo, Mozambique"},
                     {"name": "Maputo Fortress", "address": "Avenida 10 de Novembro, Maputo, Mozambique"},
@@ -814,6 +890,8 @@
         },
         "Namibia": {
             "Windhoek": {
+                "latitude": -22.5609,
+                "longitude": 17.0658,
                 "attractions": [
                     {"name": "Christuskirche", "address": "Robert Mugabe Ave, Windhoek, Namibia"},
                     {"name": "Parliament of Namibia", "address": "Lüderitz St, Windhoek, Namibia"},
@@ -836,6 +914,8 @@
         },
         "South Africa": {
             "Cape Town": {
+                "latitude": -33.9249,
+                "longitude": 18.4241,
                 "attractions": [
                     {"name": "Table Mountain", "address": "Tafelberg Rd, Cape Town, South Africa"},
                     {"name": "V&A Waterfront", "address": "19 Dock Rd, Cape Town, 8001, South Africa"},
@@ -856,6 +936,8 @@
                 ]
             },
             "Durban": {
+                "latitude": -29.8587,
+                "longitude": 31.0218,
                 "attractions": [
                     {"name": "Golden Mile", "address": "Durban, South Africa"},
                     {"name": "uShaka Marine World", "address": "1 King Shaka Ave, Durban, 4001, South Africa"},
@@ -876,6 +958,8 @@
                 ]
             },
             "Johannesburg": {
+                "latitude": -26.2041,
+                "longitude": 28.0473,
                 "attractions": [
                     {"name": "Apartheid Museum", "address": "Cnr of Northern Parkway & Gold Reef Roads, Ormonde, Johannesburg, 2001, South Africa"},
                     {"name": "Soweto & Orlando Towers", "address": "Chris Hani Rd, Orlando East, Soweto, 1804, South Africa"},
@@ -896,6 +980,8 @@
                 ]
             },
             "Pretoria": {
+                "latitude": -25.7479,
+                "longitude": 28.2293,
                 "attractions": [
                     {"name": "Union Buildings", "address": "Government Ave, Pretoria, 0002, South Africa"},
                     {"name": "Voortrekker Monument", "address": "Eeufees Rd, Pretoria, South Africa"},
@@ -918,6 +1004,8 @@
         },
         "Zimbabwe": {
             "Harare": {
+                "latitude": -17.8252,
+                "longitude": 31.0335,
                 "attractions": [
                     {"name": "National Heroes Acre", "address": "Harare, Zimbabwe"},
                     {"name": "Chapungu Sculpture Park", "address": "Harare, Zimbabwe"},
@@ -938,6 +1026,8 @@
                 ]
             },
             "Victoria Falls": {
+                "latitude": -17.9244,
+                "longitude": 25.8564,
                 "attractions": [
                     {"name": "Victoria Falls National Park", "address": "Victoria Falls, Zimbabwe"},
                     {"name": "Zambezi River", "address": "Victoria Falls, Zimbabwe"},
