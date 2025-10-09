@@ -3,6 +3,8 @@
     {
       "city": "Kabul",
       "country": "Afghanistan",
+      "latitude": 34.5281,
+      "longitude": 69.1723,
       "attractions": [
         {"name": "Gardens of Babur", "location": "PD 13, Kabul"},
         {"name": "Darul Aman Palace", "location": "Darulaman, Kabul"},
@@ -25,6 +27,8 @@
     {
       "city": "Yerevan",
       "country": "Armenia",
+      "latitude": 40.1811,
+      "longitude": 44.sep5136,
       "attractions": [
         {"name": "Republic Square", "location": "Republic Square, Yerevan"},
         {"name": "Yerevan Cascade", "location": "10 Tamanyan St, Yerevan"},
@@ -47,6 +51,8 @@
     {
       "city": "Baku",
       "country": "Azerbaijan",
+      "latitude": 40.4093,
+      "longitude": 49.8671,
       "attractions": [
         {"name": "Heydar Aliyev Center", "location": "1 Heydar Aliyev Ave, Baku"},
         {"name": "Icherisheher (Old City)", "location": "Icherisheher, Baku"},
@@ -69,6 +75,8 @@
     {
       "city": "Dhaka",
       "country": "Bangladesh",
+      "latitude": 23.7104,
+      "longitude": 90.4074,
       "attractions": [
         {"name": "Lalbagh Fort", "location": "Lalbagh, Dhaka"},
         {"name": "Ahsan Manzil (Pink Palace)", "location": "Islampur Rd, Dhaka"},
@@ -89,6 +97,8 @@
     {
       "city": "Chittagong",
       "country": "Bangladesh",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
       "attractions": [
         {"name": "Patenga Sea Beach", "location": "Patenga, Chittagong"},
         {"name": "Foy's Lake", "location": "Pahartali, Chittagong"},
@@ -111,6 +121,8 @@
     {
       "city": "Manama",
       "country": "Bahrain",
+      "latitude": 26.2361,
+      "longitude": 50.5831,
       "attractions": [
         {"name": "Bahrain National Museum", "location": "Shaikh Hamad Causeway, Manama"},
         {"name": "Al-Fatih Grand Mosque", "location": "Awal Avenue, Manama"},
@@ -133,6 +145,8 @@
     {
       "city": "Bandar Seri Begawan",
       "country": "Brunei",
+      "latitude": 4.9031,
+      "longitude": 114.9398,
       "attractions": [
         {"name": "Sultan Omar Ali Saifuddien Mosque", "location": "Jalan McArthur, Bandar Seri Begawan"},
         {"name": "Kampong Ayer (Water Village)", "location": "Brunei River, Bandar Seri Begawan"},
@@ -155,6 +169,8 @@
     {
       "city": "Thimphu",
       "country": "Bhutan",
+      "latitude": 27.4728,
+      "longitude": 89.6390,
       "attractions": [
         {"name": "Buddha Dordenma", "location": "Kuenselphodrang Nature Park, Thimphu"},
         {"name": "Tashichho Dzong", "location": "Chaglimithang, Thimphu"},
@@ -172,9 +188,11 @@
         "The hike to the iconic Tiger's Nest monastery near Paro is a must-do."
       ]
     },
-     {
+    {
       "city": "Punakha",
       "country": "Bhutan",
+      "latitude": 27.5752,
+      "longitude": 89.8781,
       "attractions": [
         {"name": "Punakha Dzong", "location": "Punakha"},
         {"name": "Punakha Suspension Bridge", "location": "Near Punakha Dzong, Punakha"},
@@ -197,6 +215,8 @@
     {
       "city": "Phnom Penh",
       "country": "Cambodia",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
       "attractions": [
         {"name": "Royal Palace", "location": "Samdach Sothearos Blvd (3), Phnom Penh"},
         {"name": "Tuol Sleng Genocide Museum", "location": "St 113, Phnom Penh"},
@@ -217,6 +237,8 @@
     {
       "city": "Siem Reap",
       "country": "Cambodia",
+      "latitude": 13.3671,
+      "longitude": 103.8448,
       "attractions": [
         {"name": "Angkor Wat", "location": "Angkor Archaeological Park, Siem Reap"},
         {"name": "Angkor Thom", "location": "Angkor Archaeological Park, Siem Reap"},
@@ -237,6 +259,8 @@
     {
       "city": "Kampot",
       "country": "Cambodia",
+      "latitude": 10.6169,
+      "longitude": 104.1810,
       "attractions": [
         {"name": "Bokor National Park", "location": "Bokor Mountain, Kampot"},
         {"name": "La Plantation (Pepper Farm)", "location": "Bosjheng village, Kampot"},
@@ -257,6 +281,8 @@
     {
       "city": "Sihanoukville",
       "country": "Cambodia",
+      "latitude": 10.6230,
+      "longitude": 103.5122,
       "attractions": [
         {"name": "Otres Beach", "location": "Otres, Sihanoukville"},
         {"name": "Koh Rong", "location": "Koh Rong Island (ferry from Sihanoukville)"},
