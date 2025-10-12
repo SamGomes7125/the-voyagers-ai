@@ -305,6 +305,8 @@
     {
       "city": "Hangzhou",
       "country": "China",
+      "latitude": 30.2552778,
+      "longitude": 120.1688889,
       "attractions": [
         {"name": "West Lake", "location": "Xihu District, Hangzhou"},
         {"name": "Lingyin Temple", "location": "1 Fayun Alley, Xihu District, Hangzhou"},
@@ -322,9 +324,11 @@
         "Try local specialties like Dongpo pork and West Lake fish in vinegar gravy."
       ]
     },
-     {
+    {
       "city": "Harbin",
       "country": "China",
+      "latitude": 45.7500000,
+      "longitude": 126.6500000,
       "attractions": [
         {"name": "Harbin International Ice and Snow Festival", "location": "Various locations, Harbin"},
         {"name": "Saint Sophia Cathedral", "location": "95 Toulong St, Daoli District, Harbin"},
@@ -339,12 +343,14 @@
       "tips": [
         "Visit during winter (Jan-Feb) for the world's largest and most spectacular ice and snow sculpture festival.",
         "Known as the 'Moscow of the East' for its strong Russian architectural influence.",
-        "Dress in extreme cold-weather clothing; winter temperatures can plummet below -30°C (-22°F)."
+        "Dress in extreme cold-weather clothing; winter temperatures can plummet below –30 °C."
       ]
     },
     {
       "city": "Lijiang",
       "country": "China",
+      "latitude": 26.8547,
+      "longitude": 100.2283,
       "attractions": [
         {"name": "Old Town of Lijiang", "location": "Gucheng District, Lijiang"},
         {"name": "Jade Dragon Snow Mountain", "location": "Yulong Naxi Autonomous County, Lijiang"},
@@ -361,10 +367,12 @@
         "It's a popular base for trips to the stunning Jade Dragon Snow Mountain and Tiger Leaping Gorge.",
         "Be aware that the old town can be very crowded with domestic tourists."
       ]
-    }
+    },
     {
       "city": "Guangzhou",
       "country": "China",
+      "latitude": 23.1291,
+      "longitude": 113.2644,
       "attractions": [
         {"name": "Canton Tower", "location": "222 Yuejiang W Rd, Haizhu District, Guangzhou"},
         {"name": "Shamian Island", "location": "Shamian, Liwan District, Guangzhou"},
@@ -385,6 +393,8 @@
     {
       "city": "Tianjin",
       "country": "China",
+      "latitude": 39.1422,
+      "longitude": 117.1767,
       "attractions": [
         {"name": "Five Great Avenues (Wudadao)", "location": "Heping District, Tianjin"},
         {"name": "Tianjin Eye (Ferris Wheel)", "location": "Yongle Bridge, Hebei District, Tianjin"},
@@ -405,6 +415,8 @@
     {
       "city": "Xi'an",
       "country": "China",
+      "latitude": 34.3416,
+      "longitude": 108.9398,
       "attractions": [
         {"name": "Terracotta Army (Emperor Qinshihuang's Mausoleum Site Museum)", "location": "Lintong District, Xi'an"},
         {"name": "Xi'an City Wall", "location": "City Center, Xi'an"},
@@ -425,6 +437,8 @@
     {
       "city": "Guilin",
       "country": "China",
+      "latitude": 25.2720,
+      "longitude": 110.2900,
       "attractions": [
         {"name": "Li River Cruise (to Yangshuo)", "location": "Li River, Guilin"},
         {"name": "Reed Flute Cave", "location": "1 Ludi Rd, Xiufeng District, Guilin"},
@@ -445,6 +459,8 @@
     {
       "city": "Chengdu",
       "country": "China",
+      "latitude": 30.5728,
+      "longitude": 104.0668,
       "attractions": [
         {"name": "Chengdu Research Base of Giant Panda Breeding", "location": "1375 Xiongmao Ave, Chenghua District, Chengdu"},
         {"name": "Jinli Ancient Street", "location": "231 Wuhouci St, Wuhou District, Chengdu"},
@@ -465,6 +481,8 @@
     {
       "city": "Lhasa",
       "country": "China",
+      "latitude": 29.652491,
+      "longitude": 91.172112,
       "attractions": [
         {"name": "Potala Palace", "location": "35 Beijing Middle Rd, Chengguan District, Lhasa"},
         {"name": "Jokhang Temple", "location": "Barkhor Square, Chengguan District, Lhasa"},
@@ -478,13 +496,15 @@
       "hospital": "Tibet Autonomous Region People's Hospital, 18 Linkuo North Rd, Lhasa",
       "tips": [
         "Travel to Tibet requires a special permit that must be arranged through a tour agency.",
-        "Lhasa is at a very high altitude (3,656m / 11,995ft); acclimatize slowly and drink lots of water.",
+        "Lhasa is at very high altitude (≈3650 m); acclimatize slowly and drink plenty of water.",
         "Walk the kora (pilgrimage circuit) around Jokhang Temple with local pilgrims on Barkhor Street."
       ]
     },
     {
       "city": "Suzhou",
       "country": "China",
+      "latitude": 31.3017,
+      "longitude": 120.5800,
       "attractions": [
         {"name": "Humble Administrator's Garden", "location": "178 Dongbei St, Gusu District, Suzhou"},
         {"name": "Pingjiang Road", "location": "Pingjiang Lu, Gusu District, Suzhou"},
@@ -505,6 +525,8 @@
     {
       "city": "Zhangjiajie",
       "country": "China",
+      "latitude": 29.117001,
+      "longitude": 110.478996,
       "attractions": [
         {"name": "Zhangjiajie National Forest Park (Wulingyuan)", "location": "Wulingyuan District, Zhangjiajie"},
         {"name": "Tianmen Mountain", "location": "Yongding District, Zhangjiajie"},
@@ -517,174 +539,16 @@
       "police": "Zhangjiajie Public Security Bureau, Yongding Ave, Yongding District, Zhangjiajie",
       "hospital": "Zhangjiajie People's Hospital, 192 Jiefang Rd, Yongding District, Zhangjiajie",
       "tips": [
-        "The pillar-like rock formations in the National Forest Park were the inspiration for the 'Hallelujah Mountains' in the movie Avatar.",
-        "Take the world's longest cable car ride up Tianmen Mountain.",
-        "Allow at least 2-3 days to explore the vast park area properly."
-      ]
-    },
-    {
-      "city": "Beijing",
-      "country": "China",
-      "attractions": [
-        {"name": "The Great Wall of China (Mutianyu section)", "location": "Huairou District, Beijing"},
-        {"name": "Forbidden City", "location": "4 Jingshan Front St, Dongcheng, Beijing"},
-        {"name": "Temple of Heaven", "location": "1 Tiantan E Rd, Dongcheng, Beijing"}
-      ],
-      "restaurants": [
-        {"name": "Da Dong Roast Duck", "location": "Various locations"},
-        {"name": "TRB Hutong", "location": "23 Shatan Beijie, Dongcheng, Beijing"}
-      ],
-      "police": "Beijing Municipal Public Security Bureau, 9 Qianmen E St, Dongcheng, Beijing",
-      "hospital": "Peking Union Medical College Hospital, 1 Shuaifuyuan, Dongcheng, Beijing",
-      "tips": [
-        "A VPN is necessary to access many western websites and apps.",
-        "The subway system is extensive, efficient, and the easiest way to get around.",
-        "Allow a full day to explore the Forbidden City and another for the Great Wall."
-      ]
-    },
-    {
-      "city": "Shanghai",
-      "country": "China",
-      "attractions": [
-        {"name": "The Bund (Wai Tan)", "location": "Zhongshan East 1st Rd, Huangpu, Shanghai"},
-        {"name": "Yu Garden", "location": "279 Yuyuan Old St, Huangpu, Shanghai"},
-        {"name": "Shanghai Tower", "location": "501 Yincheng Middle Rd, Lujiazui, Pudong, Shanghai"}
-      ],
-      "restaurants": [
-        {"name": "Ultraviolet by Paul Pairet", "location": "Secret location"},
-        {"name": "Din Tai Fung", "location": "Various locations"}
-      ],
-      "police": "Shanghai Municipal Public Security Bureau, 128 Wuning S Rd, Jing'an, Shanghai",
-      "hospital": "Huashan Hospital, 12 Wulumuqi Middle Rd, Jing'an, Shanghai",
-      "tips": [
-        "Stroll along The Bund at night for a spectacular view of the Pudong skyline.",
-        "Explore the charming, narrow lanes of the Former French Concession.",
-        "Mobile payments (Alipay/WeChat Pay) are dominant; setting one up can be helpful but cash is still accepted."
-      ]
-    },
-    {
-      "city": "Hong Kong",
-      "country": "China",
-      "attractions": [
-        {"name": "Victoria Peak (The Peak)", "location": "The Peak, Hong Kong"},
-        {"name": "Star Ferry", "location": "Between Tsim Sha Tsui and Central/Wan Chai"},
-        {"name": "Tian Tan Buddha (Big Buddha)", "location": "Ngong Ping, Lantau Island"}
-      ],
-      "restaurants": [
-        {"name": "Tim Ho Wan", "location": "Various locations"},
-        {"name": "Mott 32", "location": "Standard Chartered Bank Building, 4-4A Des Voeux Rd Central, Central"}
-      ],
-      "police": "Hong Kong Police Headquarters, 1 Arsenal St, Wan Chai",
-      "hospital": "Queen Mary Hospital, 102 Pok Fu Lam Rd, Pok Fu Lam",
-      "tips": [
-        "Use an Octopus Card for seamless travel on all public transport, including ferries.",
-        "Take the Peak Tram up to Victoria Peak for iconic skyline views.",
-        "Explore the bustling street markets in Mong Kok, like the Ladies' Market."
-      ]
-    },
-    {
-      "city": "Macau",
-      "country": "China",
-      "attractions": [
-        {"name": "Ruins of St. Paul's", "location": "Santo António, Macau"},
-        {"name": "Senado Square", "location": "Largo do Senado, Macau"},
-        {"name": "The Venetian Macao", "location": "Estrada da Baía de N. Senhora da Esperança, Macau"}
-      ],
-      "restaurants": [
-        {"name": "The Eight", "location": "Grand Lisboa Hotel, Avenida de Lisboa, Macau"},
-        {"name": "Lord Stow's Bakery", "location": "1 Rua do Tassara, Coloane, Macau"}
-      ],
-      "police": "Macau Public Security Police Force Headquarters, 4 Praceta de 1 de Outubro, Macau",
-      "hospital": "Centro Hospitalar Conde de São Januário, Estrada do Visconde de S. Januário, Macau",
-      "tips": [
-        "Known as the 'Vegas of the East,' Macau is the world's largest gambling hub.",
-        "Don't miss trying the famous Portuguese-style egg tarts.",
-        "The historic centre is a UNESCO World Heritage site, showcasing a unique blend of Chinese and Portuguese cultures."
-      ]
-    },
-    {
-      "city": "Shenzhen",
-      "country": "China",
-      "attractions": [
-        {"name": "Window of the World", "location": "9037 Shennan Ave, Nanshan District, Shenzhen"},
-        {"name": "Splendid China Folk Village", "location": "9003 Shennan Ave, Nanshan District, Shenzhen"},
-        {"name": "Ping An Finance Centre", "location": "5033 Yitian Rd, Futian District, Shenzhen"}
-      ],
-      "restaurants": [
-        {"name": "Social All Day Dining", "location": "8 Jiabin Rd, Luohu District, Shenzhen"},
-        {"name": "SHENZHEN KITCHEN", "location": "9 Fuhua 3rd Rd, Futian District, Shenzhen"}
-      ],
-      "police": "Shenzhen Public Security Bureau, 4018 Jiefang Rd, Luohu District, Shenzhen",
-      "hospital": "Peking University Shenzhen Hospital, 1120 Lianhua Rd, Futian District, Shenzhen",
-      "tips": [
-        "Shenzhen is China's premier tech hub, having grown from a small fishing village to a megacity in just 40 years.",
-        "It's a Special Economic Zone bordering Hong Kong, accessible via metro and border checkpoints.",
-        "Window of the World features miniature replicas of famous global landmarks."
-      ]
-    },
-    {
-      "city": "Chongqing",
-      "country": "China",
-      "attractions": [
-        {"name": "Ciqikou Ancient Town", "location": "Shapingba District, Chongqing"},
-        {"name": "Three Gorges Museum", "location": "236 Renmin Rd, Yuzhong District, Chongqing"},
-        {"name": "Hongya Cave (Hongyadong)", "location": "Jialing River Bridge, Yuzhong District, Chongqing"}
-      ],
-      "restaurants": [
-        {"name": "PeiJie Hotpot", "location": "Various locations"},
-        {"name": "Jin Li Shi Jia", "location": "88 Jianxin N Rd, Jiangbei District, Chongqing"}
-      ],
-      "police": "Chongqing Public Security Bureau, 22 Huanglong Rd, Yubei District, Chongqing",
-      "hospital": "First Affiliated Hospital of Chongqing Medical University, 1 Youyi Rd, Yuzhong District, Chongqing",
-      "tips": [
-        "Chongqing is a massive municipality known for its incredibly hilly terrain and cyberpunk-like cityscape.",
-        "It is the starting point for many Yangtze River cruises through the Three Gorges.",
-        "You must try the famously spicy and numbing Chongqing hot pot."
-      ]
-    },
-    {
-      "city": "Urumqi",
-      "country": "China",
-      "attractions": [
-        {"name": "Heavenly Lake of Tianshan", "location": "Tian Shan Mountains, near Urumqi"},
-        {"name": "Xinjiang Regional Museum", "location": "581 Xibei Rd, Shayibak District, Urumqi"},
-        {"name": "Grand Bazaar", "location": "Tuanjie Rd, Tianshan District, Urumqi"}
-      ],
-      "restaurants": [
-        {"name": "Miraj Restaurant", "location": "Kelamayi E Rd, Xinshi District, Urumqi"},
-        {"name": "Avral", "location": "654 Mingde Rd, Tianshan District, Urumqi"}
-      ],
-      "police": "Urumqi Public Security Bureau, 119 Huanghe Rd, Shayibak District, Urumqi",
-      "hospital": "First Affiliated Hospital of Xinjiang Medical University, 137 Liyushan S Rd, Xinshi District, Urumqi",
-      "tips": [
-        "Urumqi is the capital of the Xinjiang Uyghur Autonomous Region and a major hub in Central Asia.",
-        "It's a gateway for exploring the vast and diverse landscapes of Xinjiang.",
-        "The Xinjiang Regional Museum offers insights into the history of the Silk Road and the region's diverse cultures."
-      ]
-    },
-    {
-      "city": "Kunming",
-      "country": "China",
-      "attractions": [
-        {"name": "Stone Forest (Shilin)", "location": "Shilin Yi Autonomous County, Yunnan"},
-        {"name": "Dian Lake (Dian Chi)", "location": "Xishan District, Kunming"},
-        {"name": "Yuantong Temple", "location": "30 Yuantong St, Wuhua District, Kunming"}
-      ],
-      "restaurants": [
-        {"name": "1910 La Gare du Sud", "location": "8 Houxin St, Xishan District, Kunming"},
-        {"name": "Tusheng Shiguan", "location": "7 Cuihu S Rd, Wuhua District, Kunming"}
-      ],
-      "police": "Kunming Public Security Bureau, 518 Beijing Rd, Panlong District, Kunming",
-      "hospital": "First Affiliated Hospital of Kunming Medical University, 295 Xichang Rd, Xishan District, Kunming",
-      "tips": [
-        "Kunming is known as the 'City of Eternal Spring' for its pleasant, mild climate year-round.",
-        "It is the capital of Yunnan province, one of China's most ethnically diverse regions.",
-        "A day trip to the otherworldly Stone Forest is a must."
+        "The pillar-like rock formations in the National Forest Park were the inspiration for the 'Hallelujah Mountains' in the movie *Avatar*.",
+        "Take the world’s longest cable car ride up Tianmen Mountain.",
+        "Allow at least 2–3 days to explore the vast park area properly."
       ]
     },
     {
       "city": "Nanjing",
       "country": "China",
+      "latitude": 32.060775,
+      "longitude": 118.778921,
       "attractions": [
         {"name": "Sun Yat-sen Mausoleum", "location": "Zhongshan Scenic Area, Xuanwu District, Nanjing"},
         {"name": "Nanjing Massacre Memorial Hall", "location": "418 Shuiximen St, Jianye District, Nanjing"},
@@ -702,87 +566,271 @@
         "Try the local specialty, salt-cured duck."
       ]
     },
-    {
-      "city": "Kashgar",
-      "country": "China",
-      "attractions": [
-        {"name": "Kashgar Old City", "location": "Kashgar, Xinjiang"},
-        {"name": "Sunday Livestock Market", "location": "Kashgar, Xinjiang"},
-        {"name": "Id Kah Mosque", "location": "Jiefang North Rd, Kashgar"}
-      ],
-      "restaurants": [
-        {"name": "Altun Orda", "location": "Near Id Kah Mosque, Kashgar"},
-        {"name": "Nuran Restaurant", "location": "Renmin W Rd, Kashgar"}
-      ],
-      "police": "Kashgar Public Security Bureau, Renmin E Rd, Kashgar",
-      "hospital": "Kashgar Prefecture First People's Hospital, Seman Rd, Kashgar",
-      "tips": [
-        "Kashgar is a historic oasis city on the Silk Road, with a culture that is more Central Asian than Chinese.",
-        "Visit the Sunday Livestock Market for an unforgettable, chaotic spectacle of trading animals.",
-        "Explore the alleyways of the Old City and observe traditional Uyghur life."
-      ]
-    },
-    {
-      "city": "Xiamen",
-      "country": "China",
-      "attractions": [
-        {"name": "Gulangyu Island", "location": "Siming District, Xiamen"},
-        {"name": "Nanputuo Temple", "location": "515 Siming S Rd, Siming District, Xiamen"},
-        {"name": "Zhongshan Road Pedestrian Street", "location": "Zhongshan Rd, Siming District, Xiamen"}
-      ],
-      "restaurants": [
-        {"name": "Huang Zehe Peanut Soup Stall", "location": "22-24 Zhongshan Rd, Siming District, Xiamen"},
-        {"name": "Xiao Yan Jing Food Stall", "location": "Hubin Middle Rd, Siming District, Xiamen"}
-      ],
-      "police": "Xiamen Public Security Bureau, 106 Xinhua Rd, Siming District, Xiamen",
-      "hospital": "Zhongshan Hospital, Fudan University Xiamen Branch, 201-209 Hubin S Rd, Siming District",
-      "tips": [
-        "Xiamen is a coastal city known for its pleasant climate and the colonial architecture of Gulangyu Island.",
-        "Gulangyu is a vehicle-free island, perfect for walking and exploring.",
-        "Try the local seafood and specialties like satay noodles and oyster omelets."
-      ]
-    },
-    {
-      "city": "Qingdao",
-      "country": "China",
-      "attractions": [
-        {"name": "Tsingtao Brewery Museum", "location": "56 Dengzhou Rd, Shibei District, Qingdao"},
-        {"name": "Zhanqiao Pier", "location": "14 Taiping Rd, Shinan District, Qingdao"},
-        {"name": "Badaguan Scenic Area", "location": "Shinan District, Qingdao"}
-      ],
-      "restaurants": [
-        {"name": "Kaiyue Hotel", "location": "8 Xuzhou Rd, Shinan District, Qingdao"},
-        {"name": "Qingdao Beer Street", "location": "Dengzhou Rd, Shibei District, Qingdao"}
-      ],
-      "police": "Qingdao Public Security Bureau, 29 Hubei Rd, Shinan District, Qingdao",
-      "hospital": "The Affiliated Hospital of Qingdao University, 16 Jiangsu Rd, Shinan District, Qingdao",
-      "tips": [
-        "Qingdao is famous for its German colonial heritage and is the home of Tsingtao beer.",
-        "Visit in summer for the International Beer Festival.",
-        "The Badaguan area is known for its beautiful European-style villas and tree-lined streets."
-      ]
-    },
-    {
-      "city": "Dalian",
-      "country": "China",
-      "attractions": [
-        {"name": "Xinghai Square", "location": "Shahekou District, Dalian"},
-        {"name": "Laohutan Ocean Park", "location": "9 Binhai Middle Rd, Zhongshan District, Dalian"},
-        {"name": "Dalian Shell Museum", "location": "10 Chenxi St, Shahekou District, Dalian"}
-      ],
-      "restaurants": [
-        {"name": "TianTian YuGang", "location": "10 Renmin Rd, Zhongshan District, Dalian"},
-        {"name": "Xian-Yu-Wan", "location": "Various locations"}
-      ],
-      "police": "Dalian Public Security Bureau, 88 Renmin Square, Xigang District, Dalian",
-      "hospital": "The First Affiliated Hospital of Dalian Medical University, 222 Zhongshan Rd, Xigang District, Dalian",
-      "tips": [
-        "Dalian is a major port city with a history of Russian and Japanese occupation, reflected in its architecture.",
-        "Known for its clean air and numerous public squares.",
-        "It's a popular summer seaside resort for domestic tourists."
-      ]
-    }
-  ],
+  {
+    "city": "Beijing",
+    "country": "China",
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "attractions": [
+      {"name": "The Great Wall of China (Mutianyu section)", "location": "Huairou District, Beijing"},
+      {"name": "Forbidden City", "location": "4 Jingshan Front St, Dongcheng, Beijing"},
+      {"name": "Temple of Heaven", "location": "1 Tiantan E Rd, Dongcheng, Beijing"}
+    ],
+    "restaurants": [
+      {"name": "Da Dong Roast Duck", "location": "Various locations"},
+      {"name": "TRB Hutong", "location": "23 Shatan Beijie, Dongcheng, Beijing"}
+    ],
+    "police": "Beijing Municipal Public Security Bureau, 9 Qianmen E St, Dongcheng, Beijing",
+    "hospital": "Peking Union Medical College Hospital, 1 Shuaifuyuan, Dongcheng, Beijing",
+    "tips": [
+      "A VPN is necessary to access many western websites and apps.",
+      "The subway system is extensive, efficient, and the easiest way to get around.",
+      "Allow a full day to explore the Forbidden City and another for the Great Wall."
+    ]
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "attractions": [
+      {"name": "The Bund (Wai Tan)", "location": "Zhongshan East 1st Rd, Huangpu, Shanghai"},
+      {"name": "Yu Garden", "location": "279 Yuyuan Old St, Huangpu, Shanghai"},
+      {"name": "Shanghai Tower", "location": "501 Yincheng Middle Rd, Lujiazui, Pudong, Shanghai"}
+    ],
+    "restaurants": [
+      {"name": "Ultraviolet by Paul Pairet", "location": "Secret location"},
+      {"name": "Din Tai Fung", "location": "Various locations"}
+    ],
+    "police": "Shanghai Municipal Public Security Bureau, 128 Wuning S Rd, Jing'an, Shanghai",
+    "hospital": "Huashan Hospital, 12 Wulumuqi Middle Rd, Jing'an, Shanghai",
+    "tips": [
+      "Stroll along The Bund at night for a spectacular view of the Pudong skyline.",
+      "Explore the charming, narrow lanes of the Former French Concession.",
+      "Mobile payments (Alipay/WeChat Pay) are dominant; setting one up can be helpful but cash is still accepted."
+    ]
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "latitude": 22.3193,
+    "longitude": 114.1694,
+    "attractions": [
+      {"name": "Victoria Peak (The Peak)", "location": "The Peak, Hong Kong"},
+      {"name": "Star Ferry", "location": "Between Tsim Sha Tsui and Central/Wan Chai"},
+      {"name": "Tian Tan Buddha (Big Buddha)", "location": "Ngong Ping, Lantau Island"}
+    ],
+    "restaurants": [
+      {"name": "Tim Ho Wan", "location": "Various locations"},
+      {"name": "Mott 32", "location": "Standard Chartered Bank Building, 4-4A Des Voeux Rd Central, Central"}
+    ],
+    "police": "Hong Kong Police Headquarters, 1 Arsenal St, Wan Chai",
+    "hospital": "Queen Mary Hospital, 102 Pok Fu Lam Rd, Pok Fu Lam",
+    "tips": [
+      "Use an Octopus Card for seamless travel on all public transport, including ferries.",
+      "Take the Peak Tram up to Victoria Peak for iconic skyline views.",
+      "Explore the bustling street markets in Mong Kok, like the Ladies' Market."
+    ]
+  },
+  {
+    "city": "Macau",
+    "country": "China",
+    "latitude": 22.1987,
+    "longitude": 113.5439,
+    "attractions": [
+      {"name": "Ruins of St. Paul's", "location": "Santo António, Macau"},
+      {"name": "Senado Square", "location": "Largo do Senado, Macau"},
+      {"name": "The Venetian Macao", "location": "Estrada da Baía de N. Senhora da Esperança, Macau"}
+    ],
+    "restaurants": [
+      {"name": "The Eight", "location": "Grand Lisboa Hotel, Avenida de Lisboa, Macau"},
+      {"name": "Lord Stow's Bakery", "location": "1 Rua do Tassara, Coloane, Macau"}
+    ],
+    "police": "Macau Public Security Police Force Headquarters, 4 Praceta de 1 de Outubro, Macau",
+    "hospital": "Centro Hospitalar Conde de São Januário, Estrada do Visconde de S. Januário, Macau",
+    "tips": [
+      "Known as the 'Vegas of the East,' Macau is the world's largest gambling hub.",
+      "Don't miss trying the famous Portuguese-style egg tarts.",
+      "The historic centre is a UNESCO World Heritage site, showcasing a unique blend of Chinese and Portuguese cultures."
+    ]
+  },
+  {
+    "city": "Shenzhen",
+    "country": "China",
+    "latitude": 22.5431,
+    "longitude": 114.0579,
+    "attractions": [
+      {"name": "Window of the World", "location": "9037 Shennan Ave, Nanshan District, Shenzhen"},
+      {"name": "Splendid China Folk Village", "location": "9003 Shennan Ave, Nanshan District, Shenzhen"},
+      {"name": "Ping An Finance Centre", "location": "5033 Yitian Rd, Futian District, Shenzhen"}
+    ],
+    "restaurants": [
+      {"name": "Social All Day Dining", "location": "8 Jiabin Rd, Luohu District, Shenzhen"},
+      {"name": "SHENZHEN KITCHEN", "location": "9 Fuhua 3rd Rd, Futian District, Shenzhen"}
+    ],
+    "police": "Shenzhen Public Security Bureau, 4018 Jiefang Rd, Luohu District, Shenzhen",
+    "hospital": "Peking University Shenzhen Hospital, 1120 Lianhua Rd, Futian District, Shenzhen",
+    "tips": [
+      "Shenzhen is China's premier tech hub, having grown from a small fishing village to a megacity in just 40 years.",
+      "It's a Special Economic Zone bordering Hong Kong, accessible via metro and border checkpoints.",
+      "Window of the World features miniature replicas of famous global landmarks."
+    ]
+  },
+  {
+    "city": "Chongqing",
+    "country": "China",
+    "latitude": 29.563,
+    "longitude": 106.5516,
+    "attractions": [
+      {"name": "Ciqikou Ancient Town", "location": "Shapingba District, Chongqing"},
+      {"name": "Three Gorges Museum", "location": "236 Renmin Rd, Yuzhong District, Chongqing"},
+      {"name": "Hongya Cave (Hongyadong)", "location": "Jialing River Bridge, Yuzhong District, Chongqing"}
+    ],
+    "restaurants": [
+      {"name": "PeiJie Hotpot", "location": "Various locations"},
+      {"name": "Jin Li Shi Jia", "location": "88 Jianxin N Rd, Jiangbei District, Chongqing"}
+    ],
+    "police": "Chongqing Public Security Bureau, 22 Huanglong Rd, Yubei District, Chongqing",
+    "hospital": "First Affiliated Hospital of Chongqing Medical University, 1 Youyi Rd, Yuzhong District, Chongqing",
+    "tips": [
+      "Chongqing is a massive municipality known for its incredibly hilly terrain and cyberpunk-like cityscape.",
+      "It is the starting point for many Yangtze River cruises through the Three Gorges.",
+      "You must try the famously spicy and numbing Chongqing hot pot."
+    ]
+  },
+  {
+    "city": "Urumqi",
+    "country": "China",
+    "latitude": 43.8256,
+    "longitude": 87.6168,
+    "attractions": [
+      {"name": "Heavenly Lake of Tianshan", "location": "Tian Shan Mountains, near Urumqi"},
+      {"name": "Xinjiang Regional Museum", "location": "581 Xibei Rd, Shayibak District, Urumqi"},
+      {"name": "Grand Bazaar", "location": "Tuanjie Rd, Tianshan District, Urumqi"}
+    ],
+    "restaurants": [
+      {"name": "Miraj Restaurant", "location": "Kelamayi E Rd, Xinshi District, Urumqi"},
+      {"name": "Avral", "location": "654 Mingde Rd, Tianshan District, Urumqi"}
+    ],
+    "police": "Urumqi Public Security Bureau, 119 Huanghe Rd, Shayibak District, Urumqi",
+    "hospital": "First Affiliated Hospital of Xinjiang Medical University, 137 Liyushan S Rd, Xinshi District, Urumqi",
+    "tips": [
+      "Urumqi is the capital of the Xinjiang Uyghur Autonomous Region and a major hub in Central Asia.",
+      "It's a gateway for exploring the vast and diverse landscapes of Xinjiang.",
+      "The Xinjiang Regional Museum offers insights into the history of the Silk Road and the region's diverse cultures."
+    ]
+  },
+  {
+    "city": "Kunming",
+    "country": "China",
+    "latitude": 25.0389,
+    "longitude": 102.7183,
+    "attractions": [
+      {"name": "Stone Forest (Shilin)", "location": "Shilin Yi Autonomous County, Yunnan"},
+      {"name": "Dian Lake (Dian Chi)", "location": "Xishan District, Kunming"},
+      {"name": "Yuantong Temple", "location": "30 Yuantong St, Wuhua District, Kunming"}
+    ],
+    "restaurants": [
+      {"name": "1910 La Gare du Sud", "location": "8 Houxin St, Xishan District, Kunming"},
+      {"name": "Tusheng Shiguan", "location": "7 Cuihu S Rd, Wuhua District, Kunming"}
+    ],
+    "police": "Kunming Public Security Bureau, 518 Beijing Rd, Panlong District, Kunming",
+    "hospital": "First Affiliated Hospital of Kunming Medical University, 295 Xichang Rd, Xishan District, Kunming",
+    "tips": [
+      "Kunming is known as the 'City of Eternal Spring' for its pleasant, mild climate year-round.",
+      "It is the capital of Yunnan province, one of China's most ethnically diverse regions.",
+      "A day trip to the otherworldly Stone Forest is a must."
+    ]
+  },
+  {
+    "city": "Kashgar",
+    "country": "China",
+    "latitude": 39.4704,
+    "longitude": 75.9898,
+    "attractions": [
+      {"name": "Kashgar Old City", "location": "Kashgar, Xinjiang"},
+      {"name": "Sunday Livestock Market", "location": "Kashgar, Xinjiang"},
+      {"name": "Id Kah Mosque", "location": "Jiefang North Rd, Kashgar"}
+    ],
+    "restaurants": [
+      {"name": "Altun Orda", "location": "Near Id Kah Mosque, Kashgar"},
+      {"name": "Nuran Restaurant", "location": "Renmin W Rd, Kashgar"}
+    ],
+    "police": "Kashgar Public Security Bureau, Renmin E Rd, Kashgar",
+    "hospital": "Kashgar Prefecture First People's Hospital, Seman Rd, Kashgar",
+    "tips": [
+      "Kashgar is a historic oasis city on the Silk Road, with a culture that is more Central Asian than Chinese.",
+      "Visit the Sunday Livestock Market for an unforgettable, chaotic spectacle of trading animals.",
+      "Explore the alleyways of the Old City and observe traditional Uyghur life."
+    ]
+  },
+  {
+    "city": "Xiamen",
+    "country": "China",
+    "latitude": 24.4798,
+    "longitude": 118.0894,
+    "attractions": [
+      {"name": "Gulangyu Island", "location": "Siming District, Xiamen"},
+      {"name": "Nanputuo Temple", "location": "515 Siming S Rd, Siming District, Xiamen"},
+      {"name": "Zhongshan Road Pedestrian Street", "location": "Zhongshan Rd, Siming District, Xiamen"}
+    ],
+    "restaurants": [
+      {"name": "Huang Zehe Peanut Soup Stall", "location": "22-24 Zhongshan Rd, Siming District, Xiamen"},
+      {"name": "Xiao Yan Jing Food Stall", "location": "Hubin Middle Rd, Siming District, Xiamen"}
+    ],
+    "police": "Xiamen Public Security Bureau, 106 Xinhua Rd, Siming District, Xiamen",
+    "hospital": "Zhongshan Hospital, Fudan University Xiamen Branch, 201-209 Hubin S Rd, Siming District",
+    "tips": [
+      "Xiamen is a coastal city known for its pleasant climate and the colonial architecture of Gulangyu Island.",
+      "Gulangyu is a vehicle-free island, perfect for walking and exploring.",
+      "Try the local seafood and specialties like satay noodles and oyster omelets."
+    ]
+  },
+  {
+    "city": "Qingdao",
+    "country": "China",
+    "latitude": 36.0671,
+    "longitude": 120.3826,
+    "attractions": [
+      {"name": "Tsingtao Brewery Museum", "location": "56 Dengzhou Rd, Shibei District, Qingdao"},
+      {"name": "Zhanqiao Pier", "location": "14 Taiping Rd, Shinan District, Qingdao"},
+      {"name": "Badaguan Scenic Area", "location": "Shinan District, Qingdao"}
+    ],
+    "restaurants": [
+      {"name": "Kaiyue Hotel", "location": "8 Xuzhou Rd, Shinan District, Qingdao"},
+      {"name": "Qingdao Beer Street", "location": "Dengzhou Rd, Shibei District, Qingdao"}
+    ],
+    "police": "Qingdao Public Security Bureau, 29 Hubei Rd, Shinan District, Qingdao",
+    "hospital": "The Affiliated Hospital of Qingdao University, 16 Jiangsu Rd, Shinan District, Qingdao",
+    "tips": [
+      "Qingdao is famous for its German colonial heritage and is the home of Tsingtao beer.",
+      "Visit in summer for the International Beer Festival.",
+      "The Badaguan area is known for its beautiful European-style villas and tree-lined streets."
+    ]
+  },
+  {
+    "city": "Dalian",
+    "country": "China",
+    "latitude": 38.914,
+    "longitude": 121.6147,
+    "attractions": [
+      {"name": "Xinghai Square", "location": "Shahekou District, Dalian"},
+      {"name": "Laohutan Ocean Park", "location": "9 Binhai Middle Rd, Zhongshan District, Dalian"},
+      {"name": "Dalian Shell Museum", "location": "10 Chenxi St, Shahekou District, Dalian"}
+    ],
+    "restaurants": [
+      {"name": "TianTian YuGang", "location": "10 Renmin Rd, Zhongshan District, Dalian"},
+      {"name": "Xian-Yu-Wan", "location": "Various locations"}
+    ],
+    "police": "Dalian Public Security Bureau, 88 Renmin Square, Xigang District, Dalian",
+    "hospital": "The First Affiliated Hospital of Dalian Medical University, 222 Zhongshan Rd, Xigang District, Dalian",
+    "tips": [
+      "Dalian is a major port city with a history of Russian and Japanese occupation, reflected in its architecture.",
+      "Known for its clean air and numerous public squares.",
+      "It's a popular summer seaside resort for domestic tourists."
+    ]
+  }
+],
   "East Timor": [
     {
       "city": "Dili",
