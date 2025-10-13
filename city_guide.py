@@ -1,0 +1,52 @@
+import json
+import os
+import math
+
+# ----------------------------
+# Haversine formula to calculate distance
+# ----------------------------
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371  # Earth radius in km
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon/2)**2
+    return 2 * R * math.asin(math.sqrt(a))
+
+# ----------------------------
+# Load all cities from JSON files in /knowledge_base
+# ----------------------------
+def load_all_cities(base_path="knowledge_base"):
+    cities_data = []
+    for file in os.listdir(base_path):
+        if file.endswith(".json"):
+            path = os.path.join(base_path, file)
+            with open(path, "r", encoding="utf-8") as f:
+                continent_data = json.load(f)
+                for country, cities in continent_data.items():
+                    for city_name, city_info in cities.items():
+                        cities_data.append({
+                            "city": city_name,
+                            "country": country,
+                            "continent": file.replace(".json", ""),
+                            "latitude": city_info.get("latitude"),
+                            "longitude": city_info.get("longitude"),
+                            "attractions": city_info.get("attractions", []),
+                            "restaurants": city_info.get("restaurants", []),
+                            "emergency": city_info.get("emergency", []),
+                            "tips": city_info.get("tips", [])
+                        })
+    return cities_data
+
+# ----------------------------
+# Find nearest city from user's coordinates
+# ----------------------------
+def find_nearest_city(lat, lon, cities_data):
+    min_distance = float("inf")
+    nearest_city = None
+    for city in cities_data:
+        if city["latitude"] and city["longitude"]:
+            distance = haversine(lat, lon, city["latitude"], city["longitude"])
+            if distance < min_distance:
+                min_distance = distance
+                nearest_city = city
+    return nearest_city, round(min_distance, 1)
