@@ -3,6 +3,8 @@
     {
       "city": "Tirana",
       "country": "Albania",
+      "latitude": 41.33,
+      "longitude": 19.78,
       "attractions": [
         {"name": "Skanderbeg Square", "location": "Sheshi Skënderbej, Tirana"},
         {"name": "Bunk'Art 2", "location": "Rruga Abdi Toptani, Tirana"},
@@ -25,6 +27,8 @@
     {
       "city": "Andorra la Vella",
       "country": "Andorra",
+      "latitude": 42.5078,
+      "longitude": 1.5211,
       "attractions": [
         {"name": "Caldea Thermal Spa", "location": "Parc de la Mola, 10, AD700 Escaldes-Engordany"},
         {"name": "Casa de la Vall", "location": "Carrer de la Vall, AD500 Andorra la Vella"},
@@ -47,6 +51,8 @@
     {
       "city": "Vienna",
       "country": "Austria",
+      "latitude": 48.2206,
+      "longitude": 16.3799,
       "attractions": [
         {"name": "Schönbrunn Palace", "location": "Schönbrunner Schloßstraße 47, 1130 Wien"},
         {"name": "St. Stephen's Cathedral", "location": "Stephansplatz 3, 1010 Wien"},
@@ -67,6 +73,8 @@
     {
       "city": "Graz",
       "country": "Austria",
+      "latitude": 47.0708,
+      "longitude": 15.4386,
       "attractions": [
         {"name": "Schlossberg", "location": "Schlossberg, 8010 Graz"},
         {"name": "Kunsthaus Graz (Art Museum)", "location": "Lendkai 1, 8020 Graz"},
@@ -87,6 +95,8 @@
     {
       "city": "Linz",
       "country": "Austria",
+      "latitude": 48.23,
+      "longitude": 14.18,
       "attractions": [
         {"name": "Ars Electronica Center", "location": "Ars-Electronica-Straße 1, 4040 Linz"},
         {"name": "Lentos Kunstmuseum", "location": "Ernst-Koref-Promenade 1, 4020 Linz"},
@@ -104,9 +114,11 @@
         "Try a slice of Linzer Torte, one of the oldest known cakes in the world."
       ]
     },
-      {
+    {
       "city": "Innsbruck",
       "country": "Austria",
+      "latitude": 47.27,
+      "longitude": 11.35,
       "attractions": [
         {"name": "Golden Roof (Goldenes Dachl)", "location": "Herzog-Friedrich-Straße 15, 6020 Innsbruck"},
         {"name": "Nordkette Cable Car", "location": "Rennweg 3, 6020 Innsbruck"},
@@ -127,6 +139,8 @@
     {
       "city": "Hallstatt",
       "country": "Austria",
+      "latitude": 47.562,
+      "longitude": 13.649,
       "attractions": [
         {"name": "Hallstatt Skywalk 'World Heritage View'", "location": "Salzbergstraße 21, 4830 Hallstatt"},
         {"name": "Salzwelten Hallstatt (Salt Mine)", "location": "Salzbergstraße 21, 4830 Hallstatt"},
@@ -147,6 +161,8 @@
     {
       "city": "Salzburg",
       "country": "Austria",
+      "latitude": 47.8,
+      "longitude": 13.05,
       "attractions": [
         {"name": "Hohensalzburg Fortress", "location": "Mönchsberg 34, 5020 Salzburg"},
         {"name": "Mirabell Palace", "location": "Mirabellplatz 4, 5020 Salzburg"},
@@ -169,6 +185,8 @@
     {
       "city": "Minsk",
       "country": "Belarus",
+      "latitude": 53.93,
+      "longitude": 27.64,
       "attractions": [
         {"name": "Independence Square", "location": "Independence Square, Minsk"},
         {"name": "Church of Saints Simon and Helena", "location": "ul. Sovetskaya 15, Minsk"},
@@ -191,6 +209,8 @@
     {
       "city": "Brussels",
       "country": "Belgium",
+      "latitude": 50.8549,
+      "longitude": 4.3755,
       "attractions": [
         {"name": "Grand-Place", "location": "Grand-Place, 1000 Bruxelles"},
         {"name": "Manneken Pis", "location": "Rue de l'Etuve 25, 1000 Bruxelles"},
@@ -211,6 +231,8 @@
     {
       "city": "Bruges",
       "country": "Belgium",
+      "latitude": 51.21,
+      "longitude": 3.22,
       "attractions": [
         {"name": "Belfry of Bruges", "location": "Markt 1, 8000 Brugge"},
         {"name": "Markt", "location": "Markt, 8000 Brugge"},
@@ -231,6 +253,8 @@
     {
       "city": "Dinant",
       "country": "Belgium",
+      "latitude": 50.2605,
+      "longitude": 4.9127,
       "attractions": [
         {"name": "Citadel of Dinant", "location": "Place Reine Astrid 3, 5500 Dinant"},
         {"name": "Collegiate Church of Notre-Dame", "location": "Place Reine Astrid, 5500 Dinant"},
@@ -251,6 +275,8 @@
     {
       "city": "Ghent",
       "country": "Belgium",
+      "latitude": 51.05,
+      "longitude": 3.72,
       "attractions": [
         {"name": "Gravensteen Castle", "location": "Sint-Veerleplein 11, 9000 Gent"},
         {"name": "St. Bavo's Cathedral", "location": "Sint-Baafsplein, 9000 Gent"},
@@ -271,6 +297,8 @@
     {
       "city": "Antwerp",
       "country": "Belgium",
+      "latitude": 51.2194,
+      "longitude": 4.4025,
       "attractions": [
         {"name": "Cathedral of Our Lady", "location": "Groenplaats 21, 2000 Antwerpen"},
         {"name": "Antwerpen-Centraal Railway Station", "location": "Koningin Astridplein 27, 2018 Antwerpen"},
@@ -293,6 +321,8 @@
     {
       "city": "Sarajevo",
       "country": "Bosnia and Herzegovina",
+      "latitude": 43.86,
+      "longitude": 18.41,
       "attractions": [
         {"name": "Baščaršija", "location": "Baščaršija, Sarajevo"},
         {"name": "Latin Bridge", "location": "Obala Kulina bana, Sarajevo 71000"},
@@ -313,6 +343,8 @@
     {
       "city": "Mostar",
       "country": "Bosnia and Herzegovina",
+      "latitude": 43.3436,
+      "longitude": 17.8075,
       "attractions": [
         {"name": "Stari Most (Old Bridge)", "location": "Stari Most, Mostar 88000"},
         {"name": "Koski Mehmed Pasha Mosque", "location": "Mala Tepa 16, Mostar 88000"},
@@ -335,6 +367,8 @@
     {
       "city": "Sofia",
       "country": "Bulgaria",
+      "latitude": 42.7136,
+      "longitude": 23.3792,
       "attractions": [
         {"name": "Alexander Nevsky Cathedral", "location": "pl. Sveti Aleksandar Nevski, 1000 Sofia"},
         {"name": "Vitosha Boulevard", "location": "Vitosha Blvd, Sofia"},
@@ -355,6 +389,8 @@
     {
       "city": "Plovdiv",
       "country": "Bulgaria",
+      "latitude": 42.15,
+      "longitude": 24.75,
       "attractions": [
         {"name": "Plovdiv Roman Theatre", "location": "Plovdiv Center, Plovdiv 4000"},
         {"name": "Plovdiv Old Town", "location": "Stariat grad, Plovdiv"},
@@ -377,14 +413,31 @@
     {
       "city": "Dubrovnik",
       "country": "Croatia",
+      "latitude": 42.640278,
+      "longitude": 18.108333,
       "attractions": [
-        {"name": "Old City Walls", "location": "Stradun, Old Town, 20000 Dubrovnik"},
-        {"name": "Stradun (Placa)", "location": "Stradun, Old Town, 20000 Dubrovnik"},
-        {"name": "Mount Srđ", "location": "Mount Srđ, Dubrovnik"}
+        {
+          "name": "Old City Walls",
+          "location": "Stradun, Old Town, 20000 Dubrovnik"
+        },
+        {
+          "name": "Stradun (Placa)",
+          "location": "Stradun, Old Town, 20000 Dubrovnik"
+        },
+        {
+          "name": "Mount Srđ",
+          "location": "Mount Srđ, Dubrovnik"
+        }
       ],
       "restaurants": [
-        {"name": "Proto", "location": "Široka ul. 1, 20000 Dubrovnik"},
-        {"name": "360°", "location": "Ul. Sv. Dominika bb, 20000 Dubrovnik"}
+        {
+          "name": "Proto",
+          "location": "Široka ul. 1, 20000 Dubrovnik"
+        },
+        {
+          "name": "360°",
+          "location": "Ul. Sv. Dominika bb, 20000 Dubrovnik"
+        }
       ],
       "police": "Policijska uprava dubrovačko-neretvanska, Dr. Ante Starčevića 13, 20000 Dubrovnik",
       "hospital": "Opća bolnica Dubrovnik, Ul. Roka Mišetića, 20000 Dubrovnik",
@@ -397,14 +450,31 @@
     {
       "city": "Zagreb",
       "country": "Croatia",
+      "latitude": 45.81,
+      "longitude": 15.98,
       "attractions": [
-        {"name": "St. Mark's Church", "location": "Trg Svetog Marka 5, 10000 Zagreb"},
-        {"name": "Stone Gate", "location": "Kamenita ul. 2, 10000 Zagreb"},
-        {"name": "Dolac Market", "location": "Dolac, 10000 Zagreb"}
+        {
+          "name": "St. Mark's Church",
+          "location": "Trg Svetog Marka 5, 10000 Zagreb"
+        },
+        {
+          "name": "Stone Gate",
+          "location": "Kamenita ul. 2, 10000 Zagreb"
+        },
+        {
+          "name": "Dolac Market",
+          "location": "Dolac, 10000 Zagreb"
+        }
       ],
       "restaurants": [
-        {"name": "Dubravkin Put", "location": "Dubravkin put 2, 10000 Zagreb"},
-        {"name": "Pod Zidom", "location": "Ul. Pod zidom 5, 10000 Zagreb"}
+        {
+          "name": "Dubravkin Put",
+          "location": "Dubravkin put 2, 10000 Zagreb"
+        },
+        {
+          "name": "Pod Zidom",
+          "location": "Ul. Pod zidom 5, 10000 Zagreb"
+        }
       ],
       "police": "Policijska uprava zagrebačka, Ulica Grada Vukovara 33, 10000 Zagreb",
       "hospital": "Klinička bolnica Dubrava, Avenija Gojka Šuška 6, 10000 Zagreb",
@@ -417,14 +487,31 @@
     {
       "city": "Split",
       "country": "Croatia",
+      "latitude": 43.51,
+      "longitude": 16.44,
       "attractions": [
-        {"name": "Diocletian's Palace", "location": "Dioklecijanova ul. 1, 21000, Split"},
-        {"name": "Riva Promenade", "location": "Obala Hrvatskog narodnog preporoda, 21000, Split"},
-        {"name": "Marjan Hill", "location": "Marjan, Split"}
+        {
+          "name": "Diocletian's Palace",
+          "location": "Dioklecijanova ul. 1, 21000, Split"
+        },
+        {
+          "name": "Riva Promenade",
+          "location": "Obala Hrvatskog narodnog preporoda, 21000, Split"
+        },
+        {
+          "name": "Marjan Hill",
+          "location": "Marjan, Split"
+        }
       ],
       "restaurants": [
-        {"name": "Konoba Varos", "location": "Ban Mladenova 7, 21000, Split"},
-        {"name": "Bokeria Kitchen & Wine Bar", "location": "Domaldova ul. 8, 21000, Split"}
+        {
+          "name": "Konoba Varos",
+          "location": "Ban Mladenova 7, 21000, Split"
+        },
+        {
+          "name": "Bokeria Kitchen & Wine Bar",
+          "location": "Domaldova ul. 8, 21000, Split"
+        }
       ],
       "police": "Policijska uprava splitsko-dalmatinska, Trg Hrvatske bratske zajednice 9, 21000 Split",
       "hospital": "KBC Split (Firule), Spinčićeva ul. 1, 21000 Split",
@@ -437,14 +524,31 @@
     {
       "city": "Zadar",
       "country": "Croatia",
+      "latitude": 44.119371,
+      "longitude": 15.2313648,
       "attractions": [
-        {"name": "Sea Organ (Morske Orgulje)", "location": "Obala kralja Petra Krešimira IV, 23000, Zadar"},
-        {"name": "The Greeting to the Sun", "location": "Istarska obala, 23000, Zadar"},
-        {"name": "St. Donatus' Church", "location": "Trg Rimskog Foruma, 23000, Zadar"}
+        {
+          "name": "Sea Organ (Morske Orgulje)",
+          "location": "Obala kralja Petra Krešimira IV, 23000, Zadar"
+        },
+        {
+          "name": "The Greeting to the Sun",
+          "location": "Istarska obala, 23000, Zadar"
+        },
+        {
+          "name": "St. Donatus' Church",
+          "location": "Trg Rimskog Foruma, 23000, Zadar"
+        }
       ],
       "restaurants": [
-        {"name": "Restaurant Foša", "location": "Ul. kralja Dmitra Zvonimira 2, 23000, Zadar"},
-        {"name": "Pet Bunara", "location": "Ul. Stratico 1, 23000, Zadar"}
+        {
+          "name": "Restaurant Foša",
+          "location": "Ul. kralja Dmitra Zvonimira 2, 23000, Zadar"
+        },
+        {
+          "name": "Pet Bunara",
+          "location": "Ul. Stratico 1, 23000, Zadar"
+        }
       ],
       "police": "Policijska uprava zadarska, Ul. bana Josipa Jelačića 30, 23000 Zadar",
       "hospital": "Opća bolnica Zadar, Ul. Bože Peričića 5, 23000 Zadar",
@@ -459,14 +563,31 @@
     {
       "city": "Nicosia",
       "country": "Cyprus",
+      "latitude": 35.16,
+      "longitude": 33.38,
       "attractions": [
-        {"name": "Ledra Street", "location": "Ledra Street, Nicosia"},
-        {"name": "Cyprus Museum", "location": "Mouseiou 1, Nicosia 1097"},
-        {"name": "Buyuk Han", "location": "Asmaaltı Sokak, Nicosia"}
+        {
+          "name": "Ledra Street",
+          "location": "Ledra Street, Nicosia"
+        },
+        {
+          "name": "Cyprus Museum",
+          "location": "Mouseiou 1, Nicosia 1097"
+        },
+        {
+          "name": "Buyuk Han",
+          "location": "Asmaaltı Sokak, Nicosia"
+        }
       ],
       "restaurants": [
-        {"name": "Piatsa Gourounaki", "location": "Faneromenis 92, Nicosia 1011"},
-        {"name": "To Anamma", "location": "Ledra Street 89, Nicosia"}
+        {
+          "name": "Piatsa Gourounaki",
+          "location": "Faneromenis 92, Nicosia 1011"
+        },
+        {
+          "name": "To Anamma",
+          "location": "Ledra Street 89, Nicosia"
+        }
       ],
       "police": "Cyprus Police Headquarters, Evaggelou Floraki, Nicosia 1478",
       "hospital": "Nicosia General Hospital, Nicosia-Limassol Old Rd 215, Strovolos 2029",
@@ -481,14 +602,31 @@
     {
       "city": "Prague",
       "country": "Czech Republic",
+      "latitude": 50.08815,
+      "longitude": 14.41585,
       "attractions": [
-        {"name": "Prague Castle", "location": "Pražský hrad, 119 08 Prague 1"},
-        {"name": "Charles Bridge", "location": "Karlův most, 110 00 Prague 1"},
-        {"name": "Old Town Square", "location": "Staroměstské náměstí, 110 00 Prague 1"}
+        {
+          "name": "Prague Castle",
+          "location": "Pražský hrad, 119 08 Prague 1"
+        },
+        {
+          "name": "Charles Bridge",
+          "location": "Karlův most, 110 00 Prague 1"
+        },
+        {
+          "name": "Old Town Square",
+          "location": "Staroměstské náměstí, 110 00 Prague 1"
+        }
       ],
       "restaurants": [
-        {"name": "La Degustation Bohême Bourgeoise", "location": "Haštalská 18, 110 00 Staré Město, Czechia"},
-        {"name": "Eska", "location": "Pernerova 49, 186 00 Karlín, Czechia"}
+        {
+          "name": "La Degustation Bohême Bourgeoise",
+          "location": "Haštalská 18, 110 00 Staré Město, Czechia"
+        },
+        {
+          "name": "Eska",
+          "location": "Pernerova 49, 186 00 Karlín, Czechia"
+        }
       ],
       "police": "Policie ČR, Bartolomějská 1, 110 00 Nové Město, Czechia",
       "hospital": "Fakultní nemocnice v Motole, V Úvalu 84, 150 06 Praha 5",
@@ -501,14 +639,31 @@
     {
       "city": "Český Krumlov",
       "country": "Czech Republic",
+      "latitude": 48.8111,
+      "longitude": 14.315278,
       "attractions": [
-        {"name": "Český Krumlov Castle", "location": "Zámek 59, 381 01 Český Krumlov"},
-        {"name": "Old Town Square", "location": "Náměstí Svornosti, 381 01 Český Krumlov"},
-        {"name": "Egon Schiele Art Centrum", "location": "Široká 71, 381 01 Český Krumlov"}
+        {
+          "name": "Český Krumlov Castle",
+          "location": "Zámek 59, 381 01 Český Krumlov"
+        },
+        {
+          "name": "Old Town Square",
+          "location": "Náměstí Svornosti, 381 01 Český Krumlov"
+        },
+        {
+          "name": "Egon Schiele Art Centrum",
+          "location": "Široká 71, 381 01 Český Krumlov"
+        }
       ],
       "restaurants": [
-        {"name": "Krčma v Šatlavské ulici", "location": "Šatlavská 143, 381 01 Český Krumlov"},
-        {"name": "Le Jardin", "location": "Parkán 103, 381 01 Český Krumlov"}
+        {
+          "name": "Krčma v Šatlavské ulici",
+          "location": "Šatlavská 143, 381 01 Český Krumlov"
+        },
+        {
+          "name": "Le Jardin",
+          "location": "Parkán 103, 381 01 Český Krumlov"
+        }
       ],
       "police": "Obvodní oddělení Policie ČR, Vyšehradská 256, 381 01 Český Krumlov",
       "hospital": "Nemocnice Český Krumlov, Nemocniční 429, 381 01 Český Krumlov",
@@ -521,14 +676,31 @@
     {
       "city": "Brno",
       "country": "Czech Republic",
+      "latitude": 49.1925,
+      "longitude": 16.608333,
       "attractions": [
-        {"name": "Špilberk Castle", "location": "Špilberk 210/1, 662 24 Brno"},
-        {"name": "Cathedral of St. Peter and Paul", "location": "Petrov 9, 602 00 Brno"},
-        {"name": "Villa Tugendhat", "location": "Černopolní 45, 613 00 Brno"}
+        {
+          "name": "Špilberk Castle",
+          "location": "Špilberk 210/1, 662 24 Brno"
+        },
+        {
+          "name": "Cathedral of St. Peter and Paul",
+          "location": "Petrov 9, 602 00 Brno"
+        },
+        {
+          "name": "Villa Tugendhat",
+          "location": "Černopolní 45, 613 00 Brno"
+        }
       ],
       "restaurants": [
-        {"name": "Stopkova Plzeňská Pivnice", "location": "Česká 5, 602 00 Brno"},
-        {"name": "Pavillon", "location": "Jezuitská 687/6, 602 00 Brno"}
+        {
+          "name": "Stopkova Plzeňská Pivnice",
+          "location": "Česká 5, 602 00 Brno"
+        },
+        {
+          "name": "Pavillon",
+          "location": "Jezuitská 687/6, 602 00 Brno"
+        }
       ],
       "police": "Krajské ředitelství policie Jihomoravského kraje, Kounicova 24, 611 32 Brno",
       "hospital": "Fakultní nemocnice u sv. Anny v Brně, Pekařská 53, 656 91 Brno",
@@ -543,14 +715,31 @@
     {
       "city": "Copenhagen",
       "country": "Denmark",
+      "latitude": 55.68,
+      "longitude": 12.59,
       "attractions": [
-        {"name": "Tivoli Gardens", "location": "Vesterbrogade 3, 1630 København V"},
-        {"name": "Nyhavn", "location": "Nyhavn, 1051 København K"},
-        {"name": "The Little Mermaid", "location": "Langelinie, 2100 København Ø"}
+        {
+          "name": "Tivoli Gardens",
+          "location": "Vesterbrogade 3, 1630 København V"
+        },
+        {
+          "name": "Nyhavn",
+          "location": "Nyhavn, 1051 København K"
+        },
+        {
+          "name": "The Little Mermaid",
+          "location": "Langelinie, 2100 København Ø"
+        }
       ],
       "restaurants": [
-        {"name": "Noma", "location": "Refshalevej 96, 1432 København K"},
-        {"name": "Aamanns 1921", "location": "Niels Hemmingsens Gade 19-21, 1153 København K"}
+        {
+          "name": "Noma",
+          "location": "Refshalevej 96, 1432 København K"
+        },
+        {
+          "name": "Aamanns 1921",
+          "location": "Niels Hemmingsens Gade 19-21, 1153 København K"
+        }
       ],
       "police": "Københavns Politi, Polititorvet 14, 1560 København V",
       "hospital": "Rigshospitalet, Blegdamsvej 9, 2100 København Ø",
@@ -563,14 +752,31 @@
     {
       "city": "Odense",
       "country": "Denmark",
+      "latitude": 55.399,
+      "longitude": 10.392,
       "attractions": [
-        {"name": "Hans Christian Andersen Museum", "location": "H.C. Andersen Haven 1, 5000 Odense"},
-        {"name": "Den Fynske Landsby (Funen Village)", "location": "Sejerskovvej 20, 5260 Odense"},
-        {"name": "St. Alban's Church", "location": "Adelgade 1, 5000 Odense"}
+        {
+          "name": "Hans Christian Andersen Museum",
+          "location": "H.C. Andersen Haven 1, 5000 Odense"
+        },
+        {
+          "name": "Den Fynske Landsby (Funen Village)",
+          "location": "Sejerskovvej 20, 5260 Odense"
+        },
+        {
+          "name": "St. Alban's Church",
+          "location": "Adelgade 1, 5000 Odense"
+        }
       ],
       "restaurants": [
-        {"name": "Sortebro Kro", "location": "Sejerskovvej 20, 5260 Odense"},
-        {"name": "Vår", "location": "Vestergade 98, 5000 Odense"}
+        {
+          "name": "Sortebro Kro",
+          "location": "Sejerskovvej 20, 5260 Odense"
+        },
+        {
+          "name": "Vår",
+          "location": "Vestergade 98, 5000 Odense"
+        }
       ],
       "police": "Fyns Politi, Hans Mules Gade 1-3, 5000 Odense",
       "hospital": "Odense University Hospital, J.B. Winsløws Vej 4, 5000 Odense",
@@ -579,18 +785,35 @@
         "Follow the footsteps of H.C. Andersen on a walking tour.",
         "The city is very accessible by bicycle."
       ]
-    }
-     {
+    },
+    {
       "city": "Aarhus",
       "country": "Denmark",
+      "latitude": 56.15,
+      "longitude": 10.22,
       "attractions": [
-        {"name": "ARoS Aarhus Art Museum", "location": "Aros Allé 2, 8000 Aarhus"},
-        {"name": "Den Gamle By (The Old Town Museum)", "location": "Viborgvej 2, 8000 Aarhus"},
-        {"name": "Moesgaard Museum", "location": "Moesgård Allé 15, 8270 Højbjerg"}
+        {
+          "name": "ARoS Aarhus Art Museum",
+          "location": "Aros Allé 2, 8000 Aarhus"
+        },
+        {
+          "name": "Den Gamle By (The Old Town Museum)",
+          "location": "Viborgvej 2, 8000 Aarhus"
+        },
+        {
+          "name": "Moesgaard Museum",
+          "location": "Moesgård Allé 15, 8270 Højbjerg"
+        }
       ],
       "restaurants": [
-        {"name": "Frederikshøj", "location": "Oddervej 19, 8000 Aarhus"},
-        {"name": "Aarhus Street Food", "location": "Ny Banegårdsgade 46, 8000 Aarhus"}
+        {
+          "name": "Frederikshøj",
+          "location": "Oddervej 19, 8000 Aarhus"
+        },
+        {
+          "name": "Aarhus Street Food",
+          "location": "Ny Banegårdsgade 46, 8000 Aarhus"
+        }
       ],
       "police": "Østjyllands Politi, Ridderstræde 1, 8000 Aarhus",
       "hospital": "Aarhus University Hospital, Palle Juul-Jensens Boulevard 99, 8200 Aarhus",
@@ -603,14 +826,31 @@
     {
       "city": "Billund",
       "country": "Denmark",
+      "latitude": 55.728449,
+      "longitude": 9.112366000000002,
       "attractions": [
-        {"name": "LEGOLAND Billund", "location": "Nordmarksvej 9, 7190 Billund"},
-        {"name": "LEGO House", "location": "Ole Kirks Plads 1, 7190 Billund"},
-        {"name": "Lalandia", "location": "Ellehammers Allé 3, 7190 Billund"}
+        {
+          "name": "LEGOLAND Billund",
+          "location": "Nordmarksvej 9, 7190 Billund"
+        },
+        {
+          "name": "LEGO House",
+          "location": "Ole Kirks Plads 1, 7190 Billund"
+        },
+        {
+          "name": "Lalandia",
+          "location": "Ellehammers Allé 3, 7190 Billund"
+        }
       ],
       "restaurants": [
-        {"name": "Mini Chef", "location": "LEGO House, Ole Kirks Plads 1, 7190 Billund"},
-        {"name": "Gastropub", "location": "Hotel LEGOLAND, Åstvej 10, 7190 Billund"}
+        {
+          "name": "Mini Chef",
+          "location": "LEGO House, Ole Kirks Plads 1, 7190 Billund"
+        },
+        {
+          "name": "Gastropub",
+          "location": "Hotel LEGOLAND, Åstvej 10, 7190 Billund"
+        }
       ],
       "police": "Sydøstjyllands Politi - Nærpolitistation Billund, Kløvermarken 35, 7190 Billund",
       "hospital": "Sygehus Lillebælt, Kolding, Skovvangen 2-8, 6000 Kolding",
@@ -625,14 +865,31 @@
     {
       "city": "Tallinn",
       "country": "Estonia",
+      "latitude": 59.4,
+      "longitude": 24.6,
       "attractions": [
-        {"name": "Toompea Castle", "location": "Lossi plats 1, 10137 Tallinn"},
-        {"name": "Old Town", "location": "Old Town, Tallinn"},
-        {"name": "Kadriorg Palace", "location": "A. Weizenbergi 37, 10127 Tallinn"}
+        {
+          "name": "Toompea Castle",
+          "location": "Lossi plats 1, 10137 Tallinn"
+        },
+        {
+          "name": "Old Town",
+          "location": "Old Town, Tallinn"
+        },
+        {
+          "name": "Kadriorg Palace",
+          "location": "A. Weizenbergi 37, 10127 Tallinn"
+        }
       ],
       "restaurants": [
-        {"name": "NOA Chef's Hall", "location": "Ranna tee 3, 11911 Tallinn"},
-        {"name": "Olde Hansa", "location": "Vana turg 1, 10140 Tallinn"}
+        {
+          "name": "NOA Chef's Hall",
+          "location": "Ranna tee 3, 11911 Tallinn"
+        },
+        {
+          "name": "Olde Hansa",
+          "location": "Vana turg 1, 10140 Tallinn"
+        }
       ],
       "police": "Politsei- ja Piirivalveamet, Pärnu maantee 139, 15192 Tallinn",
       "hospital": "Põhja-Eesti Regionaalhaigla, J. Sütiste tee 19, 13419 Tallinn",
@@ -647,14 +904,31 @@
     {
       "city": "Helsinki",
       "country": "Finland",
+      "latitude": 60.17,
+      "longitude": 24.62,
       "attractions": [
-        {"name": "Suomenlinna", "location": "Suomenlinna, 00190 Helsinki"},
-        {"name": "Temppeliaukio Church", "location": "Lutherinkatu 3, 00100 Helsinki"},
-        {"name": "Kauppatori (Market Square)", "location": "Eteläranta, 00130 Helsinki"}
+        {
+          "name": "Suomenlinna",
+          "location": "Suomenlinna, 00190 Helsinki"
+        },
+        {
+          "name": "Temppeliaukio Church",
+          "location": "Lutherinkatu 3, 00100 Helsinki"
+        },
+        {
+          "name": "Kauppatori (Market Square)",
+          "location": "Eteläranta, 00130 Helsinki"
+        }
       ],
       "restaurants": [
-        {"name": "Olo", "location": "Pohjoisesplanadi 5, 00170 Helsinki"},
-        {"name": "Savoy", "location": "Eteläesplanadi 14, 00130 Helsinki"}
+        {
+          "name": "Olo",
+          "location": "Pohjoisesplanadi 5, 00170 Helsinki"
+        },
+        {
+          "name": "Savoy",
+          "location": "Eteläesplanadi 14, 00130 Helsinki"
+        }
       ],
       "police": "Helsinki Police Department, Pasilanraitio 13, 00240 Helsinki",
       "hospital": "Helsinki University Central Hospital, Haartmaninkatu 4, 00290 Helsinki",
@@ -667,34 +941,68 @@
     {
       "city": "Rovaniemi",
       "country": "Finland",
+      "latitude": 66.5,
+      "longitude": 25.733333,
       "attractions": [
-        {"name": "Santa Claus Village", "location": "Tähtikuja 1, 96930 Rovaniemi"},
-        {"name": "Arktikum", "location": "Pohjoisranta 4, 96200 Rovaniemi"},
-        {"name": "Ranua Wildlife Park", "location": "Rovaniementie 29, 97700 Ranua"}
+        {
+          "name": "Santa Claus Village",
+          "location": "Tähtikuja 1, 96930 Rovaniemi"
+        },
+        {
+          "name": "Arktikum",
+          "location": "Pohjoisranta 4, 96200 Rovaniemi"
+        },
+        {
+          "name": "Ranua Wildlife Park",
+          "location": "Rovaniementie 29, 97700 Ranua"
+        }
       ],
       "restaurants": [
-        {"name": "Ravintola Nili", "location": "Valtakatu 20, 96200 Rovaniemi"},
-        {"name": "Arctic Restaurant", "location": "Valtakatu 19, 96200 Rovaniemi"}
+        {
+          "name": "Ravintola Nili",
+          "location": "Valtakatu 20, 96200 Rovaniemi"
+        },
+        {
+          "name": "Arctic Restaurant",
+          "location": "Valtakatu 19, 96200 Rovaniemi"
+        }
       ],
       "police": "Lapin poliisilaitos, Hallituskatu 1, 96100 Rovaniemi",
       "hospital": "Lapland Central Hospital, Ounasrinteentie 22, 96400 Rovaniemi",
       "tips": [
         "Rovaniemi is the official hometown of Santa Claus.",
-        "Visit in winter for the best chance to see the Northern Lights (Aurora Borealis).",
+        "Visit in winter for the best chance to see the **Northern Lights (Aurora Borealis)**.",
         "Dress in very warm layers during winter."
       ]
     },
     {
       "city": "Turku",
       "country": "Finland",
+      "latitude": 60.52,
+      "longitude": 22.27,
       "attractions": [
-        {"name": "Turku Castle", "location": "Linnankatu 80, 20100 Turku"},
-        {"name": "Turku Cathedral", "location": "Tuomiokirkonkatu 1, 20500 Turku"},
-        {"name": "Aboa Vetus Ars Nova Museum", "location": "Itäinen Rantakatu 4-6, 20700 Turku"}
+        {
+          "name": "Turku Castle",
+          "location": "Linnankatu 80, 20100 Turku"
+        },
+        {
+          "name": "Turku Cathedral",
+          "location": "Tuomiokirkonkatu 1, 20500 Turku"
+        },
+        {
+          "name": "Aboa Vetus Ars Nova Museum",
+          "location": "Itäinen Rantakatu 4-6, 20700 Turku"
+        }
       ],
       "restaurants": [
-        {"name": "Kaskis", "location": "Kaskenkatu 6 A, 20700 Turku"},
-        {"name": "Smör", "location": "Läntinen Rantakatu 3, 20100 Turku"}
+        {
+          "name": "Kaskis",
+          "location": "Kaskenkatu 6 A, 20700 Turku"
+        },
+        {
+          "name": "Smör",
+          "location": "Läntinen Rantakatu 3, 20100 Turku"
+        }
       ],
       "police": "Lounais-Suomen poliisilaitos, Eerikinkatu 40-42, 20100 Turku",
       "hospital": "Turku University Hospital (TYKS), Kiinamyllynkatu 4-8, 20520 Turku",
@@ -709,14 +1017,16 @@
     {
       "city": "Paris",
       "country": "France",
+      "latitude": 48.86,
+      "longitude": 2.35,
       "attractions": [
-        {"name": "Eiffel Tower", "location": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris"},
-        {"name": "Louvre Museum", "location": "Rue de Rivoli, 75001 Paris"},
-        {"name": "Notre-Dame Cathedral", "location": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris"}
+        { "name": "Eiffel Tower", "location": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris" },
+        { "name": "Louvre Museum", "location": "Rue de Rivoli, 75001 Paris" },
+        { "name": "Notre-Dame Cathedral", "location": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris" }
       ],
       "restaurants": [
-        {"name": "Le Jules Verne", "location": "Eiffel Tower, 2nd floor"},
-        {"name": "L'Ambroisie", "location": "9 Place des Vosges, 75004 Paris"}
+        { "name": "Le Jules Verne", "location": "Eiffel Tower, 2nd floor" },
+        { "name": "L'Ambroisie", "location": "9 Place des Vosges, 75004 Paris" }
       ],
       "police": "Préfecture de Police de Paris, 1 Rue de Lutèce, 75004 Paris",
       "hospital": "Hôpital de la Pitié-Salpêtrière, 47-83 Boulevard de l'Hôpital, 75013 Paris",
@@ -729,14 +1039,16 @@
     {
       "city": "Nice",
       "country": "France",
+      "latitude": 43.70,
+      "longitude": 7.26,
       "attractions": [
-        {"name": "Promenade des Anglais", "location": "Promenade des Anglais, Nice"},
-        {"name": "Castle Hill", "location": "Quai Rauba Capeu, 06300 Nice"},
-        {"name": "Vieille Ville (Old Town)", "location": "Vieux-Nice, Nice"}
+        { "name": "Promenade des Anglais", "location": "Promenade des Anglais, Nice" },
+        { "name": "Castle Hill", "location": "Quai Rauba Capeu, 06300 Nice" },
+        { "name": "Vieille Ville (Old Town)", "location": "Vieux-Nice, Nice" }
       ],
       "restaurants": [
-        {"name": "Le Chantecler", "location": "37 Promenade des Anglais, 06000 Nice"},
-        {"name": "La Petite Maison", "location": "11 Rue Saint-François de Paule, 06300 Nice"}
+        { "name": "Le Chantecler", "location": "37 Promenade des Anglais, 06000 Nice" },
+        { "name": "La Petite Maison", "location": "11 Rue Saint-François de Paule, 06300 Nice" }
       ],
       "police": "Hôtel de Police de Nice, 179 Rue de France, 06000 Nice",
       "hospital": "CHU de Nice, Hôpital Pasteur, 30 Avenue de la Voie Romaine, 06000 Nice",
@@ -749,14 +1061,16 @@
     {
       "city": "Reims",
       "country": "France",
+      "latitude": 49.26,
+      "longitude": 4.03,
       "attractions": [
-        {"name": "Cathédrale Notre-Dame de Reims", "location": "Place du Cardinal Luçon, 51100 Reims"},
-        {"name": "Palais du Tau", "location": "2 Place du Cardinal Luçon, 51100 Reims"},
-        {"name": "Champagne Cellars (e.g., Veuve Clicquot, Taittinger)", "location": "Various locations, Reims"}
+        { "name": "Cathédrale Notre-Dame de Reims", "location": "Place du Cardinal Luçon, 51100 Reims" },
+        { "name": "Palais du Tau", "location": "2 Place du Cardinal Luçon, 51100 Reims" },
+        { "name": "Champagne Cellars (e.g., Veuve Clicquot, Taittinger)", "location": "Various locations, Reims" }
       ],
       "restaurants": [
-        {"name": "L'Assiette Champenoise", "location": "40 Avenue Paul Vaillant-Couturier, 51430 Tinqueux"},
-        {"name": "Le Foch", "location": "37 Boulevard Foch, 51100 Reims"}
+        { "name": "L'Assiette Champenoise", "location": "40 Avenue Paul Vaillant-Couturier, 51430 Tinqueux" },
+        { "name": "Le Foch", "location": "37 Boulevard Foch, 51100 Reims" }
       ],
       "police": "Hôtel de Police, 40 Boulevard Louis Roederer, 51100 Reims",
       "hospital": "CHU de Reims - Hôpital Robert Debré, Rue du Général Koenig, 51100 Reims",
@@ -769,14 +1083,16 @@
     {
       "city": "Colmar",
       "country": "France",
+      "latitude": 48.08,
+      "longitude": 7.36,
       "attractions": [
-        {"name": "La Petite Venise (Little Venice)", "location": "Quai de la Poissonnerie, 68000 Colmar"},
-        {"name": "Musée Unterlinden", "location": "Place des Unterlinden, 68000 Colmar"},
-        {"name": "Old Town", "location": "Vieille Ville, Colmar"}
+        { "name": "La Petite Venise (Little Venice)", "location": "Quai de la Poissonnerie, 68000 Colmar" },
+        { "name": "Musée Unterlinden", "location": "Place des Unterlinden, 68000 Colmar" },
+        { "name": "Old Town", "location": "Vieille Ville, Colmar" }
       ],
       "restaurants": [
-        {"name": "JY's", "location": "17 Rue de la Poissonnerie, 68000 Colmar"},
-        {"name": "Wistub Brenner", "location": "1 Rue Turenne, 68000 Colmar"}
+        { "name": "JY's", "location": "17 Rue de la Poissonnerie, 68000 Colmar" },
+        { "name": "Wistub Brenner", "location": "1 Rue Turenne, 68000 Colmar" }
       ],
       "police": "Commissariat de Police de Colmar, 38 Avenue de la République, 68000 Colmar",
       "hospital": "Hôpitaux Civils de Colmar, 39 Avenue de la Liberté, 68000 Colmar",
@@ -789,14 +1105,16 @@
     {
       "city": "Lille",
       "country": "France",
+      "latitude": 50.63,
+      "longitude": 3.06,
       "attractions": [
-        {"name": "Palais des Beaux-Arts de Lille", "location": "Place de la République, 59000 Lille"},
-        {"name": "Vieille Bourse (Old Stock Exchange)", "location": "Place du Théâtre, 59800 Lille"},
-        {"name": "Grand Place (Place du Général-de-Gaulle)", "location": "Place du Général-de-Gaulle, 59800 Lille"}
+        { "name": "Palais des Beaux-Arts de Lille", "location": "Place de la République, 59000 Lille" },
+        { "name": "Vieille Bourse (Old Stock Exchange)", "location": "Place du Théâtre, 59800 Lille" },
+        { "name": "Grand Place (Place du Général-de-Gaulle)", "location": "Place du Général-de-Gaulle, 59800 Lille" }
       ],
       "restaurants": [
-        {"name": "Estaminet Au Vieux de la Vieille", "location": "2 Rue des Vieux Murs, 59800 Lille"},
-        {"name": "Bloempot", "location": "22 Rue des Bouchers, 59800 Lille"}
+        { "name": "Estaminet Au Vieux de la Vieille", "location": "2 Rue des Vieux Murs, 59800 Lille" },
+        { "name": "Bloempot", "location": "22 Rue des Bouchers, 59800 Lille" }
       ],
       "police": "Hôtel de Police, 19 Rue de Marquillies, 59000 Lille",
       "hospital": "CHU de Lille - Hôpital Claude Huriez, Rue Michel Polonovski, 59000 Lille",
@@ -806,17 +1124,19 @@
         "Visit in September for the Braderie de Lille, Europe's largest flea market."
       ]
     },
-     {
+    {
       "city": "Lyon",
       "country": "France",
+      "latitude": 45.76,
+      "longitude": 4.84,
       "attractions": [
-        {"name": "Vieux Lyon (Old Lyon)", "location": "Vieux Lyon, 69005 Lyon"},
-        {"name": "Basilica of Notre-Dame de Fourvière", "location": "8 Place de Fourvière, 69005 Lyon"},
-        {"name": "Parc de la Tête d'Or", "location": "Parc de la Tête d'Or, 69006 Lyon"}
+        { "name": "Vieux Lyon (Old Lyon)", "location": "Vieux Lyon, 69005 Lyon" },
+        { "name": "Basilica of Notre-Dame de Fourvière", "location": "8 Place de Fourvière, 69005 Lyon" },
+        { "name": "Parc de la Tête d'Or", "location": "Parc de la Tête d'Or, 69006 Lyon" }
       ],
       "restaurants": [
-        {"name": "L'Auberge du Pont de Collonges (Paul Bocuse)", "location": "40 Rue de la Plage, 69660 Collonges-au-Mont-d'Or"},
-        {"name": "Les Halles de Lyon Paul Bocuse", "location": "102 Cours Lafayette, 69003 Lyon"}
+        { "name": "L'Auberge du Pont de Collonges (Paul Bocuse)", "location": "40 Rue de la Plage, 69660 Collonges-au-Mont-d'Or" },
+        { "name": "Les Halles de Lyon Paul Bocuse", "location": "102 Cours Lafayette, 69003 Lyon" }
       ],
       "police": "Hôtel de Police, 40 Rue Marius Berliet, 69008 Lyon",
       "hospital": "Hôpital Edouard Herriot, 5 Place d'Arsonval, 69003 Lyon",
@@ -829,14 +1149,16 @@
     {
       "city": "Marseille",
       "country": "France",
+      "latitude": 43.30,
+      "longitude": 5.37,
       "attractions": [
-        {"name": "Old Port of Marseille", "location": "Vieux-Port, 13001 Marseille"},
-        {"name": "Basilique Notre-Dame de la Garde", "location": "Rue Fort du Sanctuaire, 13281 Marseille"},
-        {"name": "Calanques National Park", "location": "Near Marseille"}
+        { "name": "Old Port of Marseille", "location": "Vieux-Port, 13001 Marseille" },
+        { "name": "Basilique Notre-Dame de la Garde", "location": "Rue Fort du Sanctuaire, 13281 Marseille" },
+        { "name": "Calanques National Park", "location": "Near Marseille" }
       ],
       "restaurants": [
-        {"name": "Le Petit Nice", "location": "17 Rue des Braves Anse de Maldormé, 13007 Marseille"},
-        {"name": "Chez Fonfon", "location": "140 Rue du Vallon des Auffes, 13007 Marseille"}
+        { "name": "Le Petit Nice", "location": "17 Rue des Braves Anse de Maldormé, 13007 Marseille" },
+        { "name": "Chez Fonfon", "location": "140 Rue du Vallon des Auffes, 13007 Marseille" }
       ],
       "police": "Hôtel de Police, 2 Rue Antoine Becker, 13002 Marseille",
       "hospital": "Hôpital de la Timone, 264 Rue Saint-Pierre, 13005 Marseille",
@@ -849,14 +1171,16 @@
     {
       "city": "Strasbourg",
       "country": "France",
+      "latitude": 48.58,
+      "longitude": 7.75,
       "attractions": [
-        {"name": "Cathédrale Notre-Dame de Strasbourg", "location": "Place de la Cathédrale, 67000 Strasbourg"},
-        {"name": "La Petite France", "location": "Petite-France, 67000 Strasbourg"},
-        {"name": "European Parliament", "location": "Allée du Printemps, 67000 Strasbourg"}
+        { "name": "Cathédrale Notre-Dame de Strasbourg", "location": "Place de la Cathédrale, 67000 Strasbourg" },
+        { "name": "La Petite France", "location": "Petite-France, 67000 Strasbourg" },
+        { "name": "European Parliament", "location": "Allée du Printemps, 67000 Strasbourg" }
       ],
       "restaurants": [
-        {"name": "Maison Kammerzell", "location": "16 Place de la Cathédrale, 67000 Strasbourg"},
-        {"name": "Au Pont Corbeau", "location": "21 Quai Saint-Nicolas, 67000 Strasbourg"}
+        { "name": "Maison Kammerzell", "location": "16 Place de la Cathédrale, 67000 Strasbourg" },
+        { "name": "Au Pont Corbeau", "location": "21 Quai Saint-Nicolas, 67000 Strasbourg" }
       ],
       "police": "Hôtel de Police, 34 Route de l'Hôpital, 67100 Strasbourg",
       "hospital": "Hôpitaux Universitaires de Strasbourg, 1 Place de l'Hôpital, 67000 Strasbourg",
@@ -869,14 +1193,16 @@
     {
       "city": "Bordeaux",
       "country": "France",
+      "latitude": 44.84,
+      "longitude": -0.58,
       "attractions": [
-        {"name": "Place de la Bourse & Miroir d'eau", "location": "Place de la Bourse, 33000 Bordeaux"},
-        {"name": "La Cité du Vin", "location": "134 Quai de Bacalan, 33300 Bordeaux"},
-        {"name": "Bordeaux Cathedral (Cathédrale Saint-André)", "location": "Place Pey Berland, 33000 Bordeaux"}
+        { "name": "Place de la Bourse & Miroir d'eau", "location": "Place de la Bourse, 33000 Bordeaux" },
+        { "name": "La Cité du Vin", "location": "134 Quai de Bacalan, 33300 Bordeaux" },
+        { "name": "Bordeaux Cathedral (Cathédrale Saint-André)", "location": "Place Pey Berland, 33000 Bordeaux" }
       ],
       "restaurants": [
-        {"name": "Le Quatrième Mur", "location": "2 Place de la Comédie, 33000 Bordeaux"},
-        {"name": "L'Entrecôte", "location": "4 Cours du 30 Juillet, 33000 Bordeaux"}
+        { "name": "Le Quatrième Mur", "location": "2 Place de la Comédie, 33000 Bordeaux" },
+        { "name": "L'Entrecôte", "location": "4 Cours du 30 Juillet, 33000 Bordeaux" }
       ],
       "police": "Hôtel de Police, 49 Rue François de Sourdis, 33000 Bordeaux",
       "hospital": "CHU de Bordeaux - Hôpital Pellegrin, Place Amélie Raba Léon, 33000 Bordeaux",
@@ -889,14 +1215,16 @@
     {
       "city": "Avignon",
       "country": "France",
+      "latitude": 43.95,
+      "longitude": 4.81,
       "attractions": [
-        {"name": "Palais des Papes (Palace of the Popes)", "location": "Place du Palais, 84000 Avignon"},
-        {"name": "Pont d'Avignon (Pont Saint-Bénézet)", "location": "Boulevard de la Ligne, 84000 Avignon"},
-        {"name": "Rocher des Doms", "location": "Montée du Moulin, 84000 Avignon"}
+        { "name": "Palais des Papes (Palace of the Popes)", "location": "Place du Palais, 84000 Avignon" },
+        { "name": "Pont d'Avignon (Pont Saint-Bénézet)", "location": "Boulevard de la Ligne, 84000 Avignon" },
+        { "name": "Rocher des Doms", "location": "Montée du Moulin, 84000 Avignon" }
       ],
       "restaurants": [
-        {"name": "La Fourchette", "location": "17 Rue Racine, 84000 Avignon"},
-        {"name": "Hiély Lucullus", "location": "5 Rue de la République, 84000 Avignon"}
+        { "name": "La Fourchette", "location": "17 Rue Racine, 84000 Avignon" },
+        { "name": "Hiély Lucullus", "location": "5 Rue de la République, 84000 Avignon" }
       ],
       "police": "Commissariat de Police, 4 Boulevard de l'Oulle, 84000 Avignon",
       "hospital": "Centre Hospitalier d'Avignon, 305 Rue Raoul Follereau, 84000 Avignon",
@@ -909,14 +1237,16 @@
     {
       "city": "Cannes",
       "country": "France",
+      "latitude": 43.55,
+      "longitude": 7.01,
       "attractions": [
-        {"name": "Palais des Festivals et des Congrès", "location": "1 Boulevard de la Croisette, 06400 Cannes"},
-        {"name": "Boulevard de la Croisette", "location": "Boulevard de la Croisette, 06400 Cannes"},
-        {"name": "Le Suquet (Old Town)", "location": "Le Suquet, 06400 Cannes"}
+        { "name": "Palais des Festivals et des Congrès", "location": "1 Boulevard de la Croisette, 06400 Cannes" },
+        { "name": "Boulevard de la Croisette", "location": "Boulevard de la Croisette, 06400 Cannes" },
+        { "name": "Le Suquet (Old Town)", "location": "Le Suquet, 06400 Cannes" }
       ],
       "restaurants": [
-        {"name": "La Palme d'Or", "location": "73 Boulevard de la Croisette, 06400 Cannes"},
-        {"name": "Astoux et Brun", "location": "27 Rue Félix Faure, 06400 Cannes"}
+        { "name": "La Palme d'Or", "location": "73 Boulevard de la Croisette, 06400 Cannes" },
+        { "name": "Astoux et Brun", "location": "27 Rue Félix Faure, 06400 Cannes" }
       ],
       "police": "Commissariat de Police, 1 Avenue de Grasse, 06400 Cannes",
       "hospital": "Centre Hospitalier de Cannes, 15 Avenue des Broussailles, 06400 Cannes",
@@ -929,14 +1259,16 @@
     {
       "city": "Mont Saint-Michel",
       "country": "France",
+      "latitude": 48.64,
+      "longitude": -1.51,
       "attractions": [
-        {"name": "Abbaye du Mont-Saint-Michel", "location": "50170 Mont Saint-Michel"},
-        {"name": "Grande Rue", "location": "Grande Rue, 50170 Mont Saint-Michel"},
-        {"name": "The Bay of Mont-Saint-Michel", "location": "Bay of Mont-Saint-Michel"}
+        { "name": "Abbaye du Mont-Saint-Michel", "location": "50170 Mont Saint-Michel" },
+        { "name": "Grande Rue", "location": "Grande Rue, 50170 Mont Saint-Michel" },
+        { "name": "The Bay of Mont-Saint-Michel", "location": "Bay of Mont-Saint-Michel" }
       ],
       "restaurants": [
-        {"name": "La Mère Poulard", "location": "Grande Rue, 50170 Mont Saint-Michel"},
-        {"name": "Le Pré Salé", "location": "Route du Mont-Saint-Michel, 50170 Le Mont-Saint-Michel"}
+        { "name": "La Mère Poulard", "location": "Grande Rue, 50170 Mont Saint-Michel" },
+        { "name": "Le Pré Salé", "location": "Route du Mont-Saint-Michel, 50170 Le Mont-Saint-Michel" }
       ],
       "police": "Gendarmerie Nationale, 1 Rue de la Mairie, 50170 Pontorson",
       "hospital": "Centre Hospitalier Avranches-Granville, 59 Rue de la Liberté, 50300 Avranches",
@@ -951,14 +1283,16 @@
     {
       "city": "Berlin",
       "country": "Germany",
+      "latitude": 52.52,
+      "longitude": 13.40,
       "attractions": [
-        {"name": "Brandenburg Gate", "location": "Pariser Platz, 10117 Berlin"},
-        {"name": "Reichstag Building", "location": "Platz der Republik 1, 11011 Berlin"},
-        {"name": "East Side Gallery", "location": "Mühlenstraße 3-100, 10243 Berlin"}
+        { "name": "Brandenburg Gate", "location": "Pariser Platz, 10117 Berlin" },
+        { "name": "Reichstag Building", "location": "Platz der Republik 1, 11011 Berlin" },
+        { "name": "East Side Gallery", "location": "Mühlenstraße 3-100, 10243 Berlin" }
       ],
       "restaurants": [
-        {"name": "Facil", "location": "Potsdamer Platz 3, 10785 Berlin"},
-        {"name": "Curry 36", "location": "Mehringdamm 36, 10961 Berlin"}
+        { "name": "Facil", "location": "Potsdamer Platz 3, 10785 Berlin" },
+        { "name": "Curry 36", "location": "Mehringdamm 36, 10961 Berlin" }
       ],
       "police": "Polizeipräsidium Berlin, Platz der Luftbrücke 6, 12101 Berlin",
       "hospital": "Charité – Universitätsmedizin Berlin, Charitépl. 1, 10117 Berlin",
@@ -968,17 +1302,19 @@
         "Don't jaywalk; it's taken seriously."
       ]
     },
-     {
+    {
       "city": "Nuremberg",
       "country": "Germany",
+      "latitude": 49.45,
+      "longitude": 11.08,
       "attractions": [
-        {"name": "Nuremberg Castle (Kaiserburg)", "location": "Burg 17, 90403 Nürnberg"},
-        {"name": "Documentation Center Nazi Party Rally Grounds", "location": "Bayernstraße 110, 90478 Nürnberg"},
-        {"name": "Hauptmarkt (Main Market Square)", "location": "Hauptmarkt, 90403 Nürnberg"}
+        { "name": "Nuremberg Castle (Kaiserburg)", "location": "Burg 17, 90403 Nürnberg" },
+        { "name": "Documentation Center Nazi Party Rally Grounds", "location": "Bayernstraße 110, 90478 Nürnberg" },
+        { "name": "Hauptmarkt (Main Market Square)", "location": "Hauptmarkt, 90403 Nürnberg" }
       ],
       "restaurants": [
-        {"name": "Bratwursthäusle bei St. Sebald", "location": "Rathauspl. 1, 90403 Nürnberg"},
-        {"name": "Albrecht-Dürer-Stube", "location": "Albrecht-Dürer-Straße 6, 90403 Nürnberg"}
+        { "name": "Bratwursthäusle bei St. Sebald", "location": "Rathauspl. 1, 90403 Nürnberg" },
+        { "name": "Albrecht-Dürer-Stube", "location": "Albrecht-Dürer-Straße 6, 90403 Nürnberg" }
       ],
       "police": "Polizeipräsidium Mittelfranken, Jakobsplatz 5, 90402 Nürnberg",
       "hospital": "Klinikum Nürnberg Nord, Prof.-Ernst-Nathan-Straße 1, 90419 Nürnberg",
@@ -991,14 +1327,16 @@
     {
       "city": "Rothenburg ob der Tauber",
       "country": "Germany",
+      "latitude": 49.38,
+      "longitude": 10.19,
       "attractions": [
-        {"name": "Plönlein (Little Square)", "location": "Plönlein, 91541 Rothenburg ob der Tauber"},
-        {"name": "Medieval City Walls", "location": "Throughout the Old Town"},
-        {"name": "German Christmas Museum (Deutsches Weihnachtsmuseum)", "location": "Herrngasse 1, 91541 Rothenburg ob der Tauber"}
+        { "name": "Plönlein (Little Square)", "location": "Plönlein, 91541 Rothenburg ob der Tauber" },
+        { "name": "Medieval City Walls", "location": "Throughout the Old Town" },
+        { "name": "German Christmas Museum (Deutsches Weihnachtsmuseum)", "location": "Herrngasse 1, 91541 Rothenburg ob der Tauber" }
       ],
       "restaurants": [
-        {"name": "Zur Höll", "location": "Burggasse 8, 91541 Rothenburg ob der Tauber"},
-        {"name": "Baumeisterhaus", "location": "Obere Schmiedgasse 1, 91541 Rothenburg ob der Tauber"}
+        { "name": "Zur Höll", "location": "Burggasse 8, 91541 Rothenburg ob der Tauber" },
+        { "name": "Baumeisterhaus", "location": "Obere Schmiedgasse 1, 91541 Rothenburg ob der Tauber" }
       ],
       "police": "Polizeiinspektion Rothenburg ob der Tauber, Ansbacher Str. 7, 91541 Rothenburg",
       "hospital": "Klinik Rothenburg, Ansbacher Str. 131, 91541 Rothenburg ob der Tauber",
@@ -1011,14 +1349,16 @@
     {
       "city": "Munich",
       "country": "Germany",
+      "latitude": 48.14,
+      "longitude": 11.58,
       "attractions": [
-        {"name": "Marienplatz", "location": "Marienplatz, 80331 München"},
-        {"name": "Englischer Garten", "location": "Englischer Garten, München"},
-        {"name": "Nymphenburg Palace", "location": "Schloss Nymphenburg 1, 80638 München"}
+        { "name": "Marienplatz", "location": "Marienplatz, 80331 München" },
+        { "name": "Englischer Garten", "location": "Englischer Garten, München" },
+        { "name": "Nymphenburg Palace", "location": "Schloss Nymphenburg 1, 80638 München" }
       ],
       "restaurants": [
-        {"name": "Hofbräuhaus", "location": "Platzl 9, 80331 München"},
-        {"name": "Tantris", "location": "Johann-Fichte-Straße 7, 80805 München"}
+        { "name": "Hofbräuhaus", "location": "Platzl 9, 80331 München" },
+        { "name": "Tantris", "location": "Johann-Fichte-Straße 7, 80805 München" }
       ],
       "police": "Polizeipräsidium München, Ettstraße 2, 80331 München",
       "hospital": "Klinikum rechts der Isar der TUM, Ismaninger Str. 22, 81675 München",
@@ -1031,14 +1371,16 @@
     {
       "city": "Hamburg",
       "country": "Germany",
+      "latitude": 53.55,
+      "longitude": 9.99,
       "attractions": [
-        {"name": "Miniatur Wunderland", "location": "Kehrwieder 2-4/Block D, 20457 Hamburg"},
-        {"name": "Elbphilharmonie", "location": "Platz der Deutschen Einheit 1, 20457 Hamburg"},
-        {"name": "Speicherstadt", "location": "Speicherstadt, Hamburg"}
+        { "name": "Miniatur Wunderland", "location": "Kehrwieder 2-4/Block D, 20457 Hamburg" },
+        { "name": "Elbphilharmonie", "location": "Platz der Deutschen Einheit 1, 20457 Hamburg" },
+        { "name": "Speicherstadt", "location": "Speicherstadt, Hamburg" }
       ],
       "restaurants": [
-        {"name": "Haerlin", "location": "Neuer Jungfernstieg 9-14, 20354 Hamburg"},
-        {"name": "Bullerei", "location": "Lagerstraße 34b, 20357 Hamburg"}
+        { "name": "Haerlin", "location": "Neuer Jungfernstieg 9-14, 20354 Hamburg" },
+        { "name": "Bullerei", "location": "Lagerstraße 34b, 20357 Hamburg" }
       ],
       "police": "Polizei Hamburg, Bruno-Bürgel-Weg 6, 22111 Hamburg",
       "hospital": "Universitätsklinikum Hamburg-Eppendorf (UKE), Martinistraße 52, 20251 Hamburg",
@@ -1051,14 +1393,16 @@
     {
       "city": "Cologne",
       "country": "Germany",
+      "latitude": 50.94,
+      "longitude": 6.96,
       "attractions": [
-        {"name": "Cologne Cathedral (Kölner Dom)", "location": "Domkloster 4, 50667 Köln"},
-        {"name": "Hohenzollern Bridge", "location": "Hohenzollernbrücke, 50667 Köln"},
-        {"name": "Chocolate Museum (Schokoladenmuseum)", "location": "Am Schokoladenmuseum 1A, 50678 Köln"}
+        { "name": "Cologne Cathedral (Kölner Dom)", "location": "Domkloster 4, 50667 Köln" },
+        { "name": "Hohenzollern Bridge", "location": "Hohenzollernbrücke, 50667 Köln" },
+        { "name": "Chocolate Museum (Schokoladenmuseum)", "location": "Am Schokoladenmuseum 1A, 50678 Köln" }
       ],
       "restaurants": [
-        {"name": "Früh am Dom", "location": "Am Hof 12, 50667 Köln"},
-        {"name": "Hanse Stube", "location": "Trankgasse 1-5, 50667 Köln"}
+        { "name": "Früh am Dom", "location": "Am Hof 12, 50667 Köln" },
+        { "name": "Hanse Stube", "location": "Trankgasse 1-5, 50667 Köln" }
       ],
       "police": "Polizeipräsidium Köln, Walter-Pauli-Ring 2-6, 51103 Köln",
       "hospital": "Uniklinik Köln, Kerpener Str. 62, 50937 Köln",
@@ -1071,14 +1415,16 @@
     {
       "city": "Frankfurt",
       "country": "Germany",
+      "latitude": 50.11,
+      "longitude": 8.68,
       "attractions": [
-        {"name": "Römerberg", "location": "Römerberg 26, 60311 Frankfurt am Main"},
-        {"name": "Main Tower", "location": "Neue Mainzer Str. 52-58, 60311 Frankfurt am Main"},
-        {"name": "Städel Museum", "location": "Schaumainkai 63, 60596 Frankfurt am Main"}
+        { "name": "Römerberg", "location": "Römerberg 26, 60311 Frankfurt am Main" },
+        { "name": "Main Tower", "location": "Neue Mainzer Str. 52-58, 60311 Frankfurt am Main" },
+        { "name": "Städel Museum", "location": "Schaumainkai 63, 60596 Frankfurt am Main" }
       ],
       "restaurants": [
-        {"name": "Apfelwein Wagner", "location": "Schweizer Str. 71, 60594 Frankfurt am Main"},
-        {"name": "Restaurant Medici", "location": "Weißadlergasse 2, 60311 Frankfurt am Main"}
+        { "name": "Apfelwein Wagner", "location": "Schweizer Str. 71, 60594 Frankfurt am Main" },
+        { "name": "Restaurant Medici", "location": "Weißadlergasse 2, 60311 Frankfurt am Main" }
       ],
       "police": "Polizeipräsidium Frankfurt am Main, Adickesallee 70, 60322 Frankfurt am Main",
       "hospital": "Universitätsklinikum Frankfurt, Theodor-Stern-Kai 7, 60590 Frankfurt am Main",
@@ -1091,14 +1437,16 @@
     {
       "city": "Heidelberg",
       "country": "Germany",
+      "latitude": 49.41,
+      "longitude": 8.71,
       "attractions": [
-        {"name": "Heidelberg Castle (Schloss Heidelberg)", "location": "Schlosshof 1, 69117 Heidelberg"},
-        {"name": "Old Bridge (Alte Brücke)", "location": "Am Hackteufel, 69117 Heidelberg"},
-        {"name": "Philosophers' Walk (Philosophenweg)", "location": "Philosophenweg, 69120 Heidelberg"}
+        { "name": "Heidelberg Castle (Schloss Heidelberg)", "location": "Schlosshof 1, 69117 Heidelberg" },
+        { "name": "Old Bridge (Alte Brücke)", "location": "Am Hackteufel, 69117 Heidelberg" },
+        { "name": "Philosophers' Walk (Philosophenweg)", "location": "Philosophenweg, 69120 Heidelberg" }
       ],
       "restaurants": [
-        {"name": "Hackteufel", "location": "Steingasse 7, 69117 Heidelberg"},
-        {"name": "Schnitzelbank", "location": "Bauamtsgasse 7, 69117 Heidelberg"}
+        { "name": "Hackteufel", "location": "Steingasse 7, 69117 Heidelberg" },
+        { "name": "Schnitzelbank", "location": "Bauamtsgasse 7, 69117 Heidelberg" }
       ],
       "police": "Polizeirevier Heidelberg-Mitte, Römerstraße 2-4, 69115 Heidelberg",
       "hospital": "Universitätsklinikum Heidelberg, Im Neuenheimer Feld 672, 69120 Heidelberg",
@@ -1111,14 +1459,16 @@
     {
       "city": "Dresden",
       "country": "Germany",
+      "latitude": 51.05,
+      "longitude": 13.74,
       "attractions": [
-        {"name": "Frauenkirche (Church of Our Lady)", "location": "Neumarkt, 01067 Dresden"},
-        {"name": "Zwinger Palace", "location": "Sophienstraße, 01067 Dresden"},
-        {"name": "Semperoper Dresden (Opera House)", "location": "Theaterplatz 2, 01067 Dresden"}
+        { "name": "Frauenkirche (Church of Our Lady)", "location": "Neumarkt, 01067 Dresden" },
+        { "name": "Zwinger Palace", "location": "Sophienstraße, 01067 Dresden" },
+        { "name": "Semperoper Dresden (Opera House)", "location": "Theaterplatz 2, 01067 Dresden" }
       ],
       "restaurants": [
-        {"name": "Pulverturm an der Frauenkirche", "location": "An der Frauenkirche 12, 01067 Dresden"},
-        {"name": "Kastenmeiers", "location": "Tzschirnerpl. 3-5, 01067 Dresden"}
+        { "name": "Pulverturm an der Frauenkirche", "location": "An der Frauenkirche 12, 01067 Dresden" },
+        { "name": "Kastenmeiers", "location": "Tzschirnerpl. 3-5, 01067 Dresden" }
       ],
       "police": "Polizeidirektion Dresden, Schießgasse 7, 01067 Dresden",
       "hospital": "Universitätsklinikum Carl Gustav Carus Dresden, Fetscherstraße 74, 01307 Dresden",
@@ -1131,14 +1481,16 @@
     {
       "city": "Leipzig",
       "country": "Germany",
+      "latitude": 51.34,
+      "longitude": 12.37,
       "attractions": [
-        {"name": "St. Thomas Church (Thomaskirche)", "location": "Thomaskirchhof 18, 04109 Leipzig"},
-        {"name": "Monument to the Battle of the Nations", "location": "Straße des 18. Oktober 100, 04299 Leipzig"},
-        {"name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig"}
+        { "name": "St. Thomas Church (Thomaskirche)", "location": "Thomaskirchhof 18, 04109 Leipzig" },
+        { "name": "Monument to the Battle of the Nations", "location": "Straße des 18. Oktober 100, 04299 Leipzig" },
+        { "name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig" }
       ],
       "restaurants": [
-        {"name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig"},
-        {"name": "Max Enk", "location": "Markt 12, 04109 Leipzig"}
+        { "name": "Auerbachs Keller", "location": "Mädler-Passage, Grimmaische Str. 2-4, 04109 Leipzig" },
+        { "name": "Max Enk", "location": "Markt 12, 04109 Leipzig" }
       ],
       "police": "Polizeidirektion Leipzig, Dimitroffstraße 1, 04107 Leipzig",
       "hospital": "Universitätsklinikum Leipzig, Liebigstraße 20, 04103 Leipzig",
@@ -1153,14 +1505,16 @@
     {
       "city": "Athens",
       "country": "Greece",
+      "latitude": 37.98,
+      "longitude": 23.73,
       "attractions": [
-        {"name": "Acropolis of Athens", "location": "Acropolis, Athens 105 58"},
-        {"name": "Parthenon", "location": "Acropolis, Athens 105 58"},
-        {"name": "Ancient Agora of Athens", "location": "Adrianou 24, Athina 105 55"}
+        { "name": "Acropolis of Athens", "location": "Acropolis, Athens 105 58" },
+        { "name": "Parthenon", "location": "Acropolis, Athens 105 58" },
+        { "name": "Ancient Agora of Athens", "location": "Adrianou 24, Athina 105 55" }
       ],
       "restaurants": [
-        {"name": "Funky Gourmet", "location": "135 Paramithias, Keramikos, Athens"},
-        {"name": "Avli", "location": "Agios Dimitriou 11, Athens"}
+        { "name": "Funky Gourmet", "location": "135 Paramithias, Keramikos, Athens" },
+        { "name": "Avli", "location": "Agios Dimitriou 11, Athens" }
       ],
       "police": "Athens Police Headquarters, Leof. Alexandras 173, Athina 115 22",
       "hospital": "Evangelismos General Hospital, Leof. Vasilissis Sofias 45-47, Athina 106 76",
@@ -1173,14 +1527,16 @@
     {
       "city": "Corfu Town",
       "country": "Greece",
+      "latitude": 39.62,
+      "longitude": 19.92,
       "attractions": [
-        {"name": "Old Fortress of Corfu", "location": "Corfu 491 00"},
-        {"name": "The Liston", "location": "Liston, Corfu Town"},
-        {"name": "Achilleion Palace", "location": "Gastouri 490 84"}
+        { "name": "Old Fortress of Corfu", "location": "Corfu 491 00" },
+        { "name": "The Liston", "location": "Liston, Corfu Town" },
+        { "name": "Achilleion Palace", "location": "Gastouri 490 84" }
       ],
       "restaurants": [
-        {"name": "The Venetian Well", "location": "Kremasti Square, Corfu Town"},
-        {"name": "Rex", "location": "Kapodistriou 66, Corfu Town"}
+        { "name": "The Venetian Well", "location": "Kremasti Square, Corfu Town" },
+        { "name": "Rex", "location": "Kapodistriou 66, Corfu Town" }
       ],
       "police": "Corfu Police Directorate, Leof. Alexandras 19, Kerkira 491 00",
       "hospital": "General Hospital of Corfu, Ioulias Andreadi, Kerkira 491 00",
@@ -1189,18 +1545,20 @@
         "Try the local ginger beer, known as 'tsitsibira'.",
         "Rent a scooter or car to explore the island's many beautiful beaches."
       ]
-    }
+    },
     {
       "city": "Thessaloniki",
       "country": "Greece",
+      "latitude": 40.64,
+      "longitude": 22.94,
       "attractions": [
-        {"name": "White Tower of Thessaloniki", "location": "Thessaloniki 546 21"},
-        {"name": "Aristotelous Square", "location": "Plateia Aristotelous, Thessaloniki"},
-        {"name": "Rotunda", "location": "Plateia Agiou Georgiou Rotonta 5, Thessaloniki 546 35"}
+        { "name": "White Tower of Thessaloniki", "location": "Thessaloniki 546 21" },
+        { "name": "Aristotelous Square", "location": "Plateia Aristotelous, Thessaloniki" },
+        { "name": "Rotunda", "location": "Plateia Agiou Georgiou Rotonta 5, Thessaloniki 546 35" }
       ],
       "restaurants": [
-        {"name": "To Palio Tachtipoleio", "location": "Verias 2, Thessaloniki 546 25"},
-        {"name": "Mourga", "location": "Christopoulou 12, Thessaloniki 546 35"}
+        { "name": "To Palio Tachtipoleio", "location": "Verias 2, Thessaloniki 546 25" },
+        { "name": "Mourga", "location": "Christopoulou 12, Thessaloniki 546 35" }
       ],
       "police": "Thessaloniki Police Headquarters, Monastiriou 326, Thessaloniki 546 28",
       "hospital": "AHEPA University General Hospital, St. Kyriakidis 1, Thessaloniki 546 36",
@@ -1213,14 +1571,16 @@
     {
       "city": "Santorini (Fira)",
       "country": "Greece",
+      "latitude": 36.42,
+      "longitude": 25.43,
       "attractions": [
-        {"name": "Caldera Views", "location": "Fira, 84700"},
-        {"name": "Akrotiri Archaeological Site", "location": "Akrotiri, 84700"},
-        {"name": "Oia Sunset", "location": "Oia, 84702"}
+        { "name": "Caldera Views", "location": "Fira, 84700" },
+        { "name": "Akrotiri Archaeological Site", "location": "Akrotiri, 84700" },
+        { "name": "Oia Sunset", "location": "Oia, 84702" }
       ],
       "restaurants": [
-        {"name": "Metaxi Mas", "location": "Exo Gonia, 84700"},
-        {"name": "Ammoudi Fish Tavern", "location": "Ammoudi Bay, Oia, 84702"}
+        { "name": "Metaxi Mas", "location": "Exo Gonia, 84700" },
+        { "name": "Ammoudi Fish Tavern", "location": "Ammoudi Bay, Oia, 84702" }
       ],
       "police": "Police Station of Thira, Fira, 84700",
       "hospital": "Santorini General Hospital, Karterados, 84700",
@@ -1230,17 +1590,19 @@
         "Walk the caldera path from Fira to Oia for stunning views."
       ]
     },
-{
+    {
       "city": "Heraklion (Crete)",
       "country": "Greece",
+      "latitude": 35.34,
+      "longitude": 25.14,
       "attractions": [
-        {"name": "Palace of Knossos", "location": "Knossos 714 09"},
-        {"name": "Heraklion Archaeological Museum", "location": "Xanthoudidou 2, Iraklio 712 02"},
-        {"name": "Koules Fortress", "location": "Venetian Harbour, Heraklion"}
+        { "name": "Palace of Knossos", "location": "Knossos 714 09" },
+        { "name": "Heraklion Archaeological Museum", "location": "Xanthoudidou 2, Iraklio 712 02" },
+        { "name": "Koules Fortress", "location": "Venetian Harbour, Heraklion" }
       ],
       "restaurants": [
-        {"name": "Peskesi", "location": "Kapetan Haralampi 6-8, Iraklio 712 02"},
-        {"name": "Ippokampos", "location": "Sofokli Venizelou 3, Iraklio 712 02"}
+        { "name": "Peskesi", "location": "Kapetan Haralampi 6-8, Iraklio 712 02" },
+        { "name": "Ippokampos", "location": "Sofokli Venizelou 3, Iraklio 712 02" }
       ],
       "police": "Heraklion Police Headquarters, Leof. 62 Martyron, Iraklio 713 03",
       "hospital": "Venizeleio General Hospital of Heraklion, Leof. Knossou, Iraklio 714 09",
@@ -1253,14 +1615,16 @@
     {
       "city": "Mykonos Town",
       "country": "Greece",
+      "latitude": 37.45,
+      "longitude": 25.33,
       "attractions": [
-        {"name": "Mykonos Windmills (Kato Mili)", "location": "Mýkonos 846 00"},
-        {"name": "Little Venice", "location": "Mýkonos 846 00"},
-        {"name": "Delos (Day Trip)", "location": "Island of Delos"}
+        { "name": "Mykonos Windmills (Kato Mili)", "location": "Mýkonos 846 00" },
+        { "name": "Little Venice", "location": "Mýkonos 846 00" },
+        { "name": "Delos (Day Trip)", "location": "Island of Delos" }
       ],
       "restaurants": [
-        {"name": "Kiki's Tavern", "location": "Agios Sostis Beach, Mykonos"},
-        {"name": "Nammos", "location": "Psarou Beach, Mykonos"}
+        { "name": "Kiki's Tavern", "location": "Agios Sostis Beach, Mykonos" },
+        { "name": "Nammos", "location": "Psarou Beach, Mykonos" }
       ],
       "police": "Mykonos Police Station, Mykonos Town, 846 00",
       "hospital": "Mykonos Health Center, Mykonos Town, 846 00",
@@ -1273,14 +1637,16 @@
     {
       "city": "Rhodes Town",
       "country": "Greece",
+      "latitude": 36.44,
+      "longitude": 28.22,
       "attractions": [
-        {"name": "Palace of the Grand Master", "location": "Ippoton, Rodos 851 00"},
-        {"name": "Street of the Knights", "location": "Ippoton, Rodos 851 00"},
-        {"name": "Acropolis of Lindos", "location": "Acropolis of Lindos, Lindos 851 07"}
+        { "name": "Palace of the Grand Master", "location": "Ippoton, Rodos 851 00" },
+        { "name": "Street of the Knights", "location": "Ippoton, Rodos 851 00" },
+        { "name": "Acropolis of Lindos", "location": "Acropolis of Lindos, Lindos 851 07" }
       ],
       "restaurants": [
-        {"name": "Tamam", "location": "Leontos 1, Rodos 851 00"},
-        {"name": "Mavrikos", "location": "Main Square, Lindos 851 07"}
+        { "name": "Tamam", "location": "Leontos 1, Rodos 851 00" },
+        { "name": "Mavrikos", "location": "Main Square, Lindos 851 07" }
       ],
       "police": "Rhodes Police Directorate, Leof. Eleftherias 43, Rodos 851 00",
       "hospital": "General Hospital of Rhodes, Agioi Apostoloi, Rodos 851 00",
@@ -1289,12 +1655,14 @@
         "Walk the impressive city walls for great views.",
         "Take a day trip to the picturesque village of Lindos."
       ]
-    },
+    }
   ],
   "Hungary": [
     {
       "city": "Budapest",
       "country": "Hungary",
+      "latitude": 47.5,
+      "longitude": 19.04,
       "attractions": [
         {"name": "Hungarian Parliament Building", "location": "Kossuth Lajos tér 1-3, 1055 Budapest"},
         {"name": "Buda Castle", "location": "Szent György tér 2, 1014 Budapest"},
@@ -1317,6 +1685,8 @@
     {
       "city": "Reykjavik",
       "country": "Iceland",
+      "latitude": 64.15,
+      "longitude": -21.94,
       "attractions": [
         {"name": "Hallgrímskirkja Church", "location": "Hallgrímstorg 1, 101 Reykjavík"},
         {"name": "Blue Lagoon", "location": "Norðurljósavegur 9, 240 Grindavík"},
@@ -1337,6 +1707,8 @@
     {
       "city": "Akureyri",
       "country": "Iceland",
+      "latitude": 65.68,
+      "longitude": -18.09,
       "attractions": [
         {"name": "Akureyrarkirkja (Akureyri Church)", "location": "Eyrarlandsvegur, 600 Akureyri"},
         {"name": "Akureyri Botanical Garden", "location": "Eyrarlandsvegur, 600 Akureyri"},
@@ -1359,6 +1731,8 @@
     {
       "city": "Dublin",
       "country": "Ireland",
+      "latitude": 53.35,
+      "longitude": -6.26,
       "attractions": [
         {"name": "Guinness Storehouse", "location": "St James's Gate, Dublin 8, D08 VF1A"},
         {"name": "Trinity College Dublin", "location": "College Green, Dublin 2"},
@@ -1379,6 +1753,8 @@
     {
       "city": "Galway",
       "country": "Ireland",
+      "latitude": 53.27,
+      "longitude": -9.05,
       "attractions": [
         {"name": "Spanish Arch", "location": "2 The Long Walk, Galway"},
         {"name": "Shop Street", "location": "Shop Street, Galway"},
@@ -1401,6 +1777,8 @@
     {
       "city": "Rome",
       "country": "Italy",
+      "latitude": 41.90,
+      "longitude": 12.48,
       "attractions": [
         {"name": "Colosseum", "location": "Piazza del Colosseo, 1, 00184 Roma"},
         {"name": "Vatican City", "location": "Vatican City"},
@@ -1421,6 +1799,8 @@
     {
       "city": "Florence",
       "country": "Italy",
+      "latitude": 43.77,
+      "longitude": 11.26,
       "attractions": [
         {"name": "Duomo", "location": "Piazza del Duomo, 50122 Firenze"},
         {"name": "Uffizi Gallery", "location": "Piazzale degli Uffizi, 6, 50122 Firenze"},
@@ -1441,6 +1821,8 @@
     {
       "city": "Venice",
       "country": "Italy",
+      "latitude": 45.44,
+      "longitude": 12.32,
       "attractions": [
         {"name": "St. Mark's Basilica", "location": "Piazza San Marco, 328, 30124 Venezia"},
         {"name": "Doge's Palace", "location": "Piazza San Marco, 1, 30124 Venezia"},
@@ -1461,6 +1843,8 @@
     {
       "city": "Milan",
       "country": "Italy",
+      "latitude": 45.47,
+      "longitude": 9.18,
       "attractions": [
         {"name": "Duomo di Milano", "location": "Piazza del Duomo, 20122 Milano"},
         {"name": "Galleria Vittorio Emanuele II", "location": "Piazza del Duomo, 20123 Milano"},
@@ -1481,6 +1865,8 @@
     {
       "city": "Naples",
       "country": "Italy",
+      "latitude": 40.85,
+      "longitude": 14.27,
       "attractions": [
         {"name": "Pompeii Archaeological Park", "location": "80045 Pompei, Metropolitan City of Naples"},
         {"name": "Naples National Archaeological Museum", "location": "Piazza Museo, 19, 80135 Napoli"},
@@ -1501,6 +1887,8 @@
     {
       "city": "Bologna",
       "country": "Italy",
+      "latitude": 44.49,
+      "longitude": 11.34,
       "attractions": [
         {"name": "Piazza Maggiore", "location": "Piazza Maggiore, 40124 Bologna"},
         {"name": "Two Towers (Le Due Torri)", "location": "Piazza di Porta Ravegnana, 40126 Bologna"},
@@ -1521,6 +1909,8 @@
     {
       "city": "Palermo",
       "country": "Italy",
+      "latitude": 38.12,
+      "longitude": 13.36,
       "attractions": [
         {"name": "Palermo Cathedral", "location": "Via Vittorio Emanuele, 90134 Palermo PA"},
         {"name": "Norman Palace (Palazzo dei Normanni)", "location": "Piazza del Parlamento, 1, 90134 Palermo PA"},
@@ -1541,6 +1931,8 @@
     {
       "city": "Catania",
       "country": "Italy",
+      "latitude": 37.51,
+      "longitude": 15.08,
       "attractions": [
         {"name": "Piazza del Duomo", "location": "Piazza del Duomo, 95124 Catania CT"},
         {"name": "Mount Etna", "location": "Mount Etna, Province of Catania"},
@@ -1561,6 +1953,8 @@
     {
       "city": "Cagliari",
       "country": "Italy",
+      "latitude": 39.22,
+      "longitude": 9.12,
       "attractions": [
         {"name": "Bastione Saint Remy", "location": "Via Mario de Candia, 09124 Cagliari CA"},
         {"name": "Poetto Beach", "location": "Spiaggia del Poetto, Cagliari"},
@@ -1578,9 +1972,11 @@
         "Look for the wild pink flamingos in the Molentargius salt flats."
       ]
     },
-        {
+    {
       "city": "Verona",
       "country": "Italy",
+      "latitude": 45.44,
+      "longitude": 10.99,
       "attractions": [
         {"name": "Verona Arena", "location": "Piazza Bra, 1, 37121 Verona VR"},
         {"name": "Juliet's House (Casa di Giulietta)", "location": "Via Cappello, 23, 37121 Verona VR"},
@@ -1601,6 +1997,8 @@
     {
       "city": "Siena",
       "country": "Italy",
+      "latitude": 43.32,
+      "longitude": 11.33,
       "attractions": [
         {"name": "Piazza del Campo", "location": "Il Campo, 53100 Siena SI"},
         {"name": "Siena Cathedral (Duomo di Siena)", "location": "Piazza del Duomo, 8, 53100 Siena SI"},
@@ -1621,6 +2019,8 @@
     {
       "city": "Pisa",
       "country": "Italy",
+      "latitude": 43.72,
+      "longitude": 10.40,
       "attractions": [
         {"name": "Leaning Tower of Pisa", "location": "Piazza del Duomo, 56126 Pisa PI"},
         {"name": "Piazza dei Miracoli (Square of Miracles)", "location": "Piazza del Duomo, 56126 Pisa PI"},
@@ -1638,9 +2038,11 @@
         "Don't miss the impressive Baptistery and Camposanto Monumentale."
       ]
     },
-     {
+    {
       "city": "Trieste",
       "country": "Italy",
+      "latitude": 45.65,
+      "longitude": 13.77,
       "attractions": [
         {"name": "Piazza Unità d'Italia", "location": "Piazza Unità d'Italia, 34121 Trieste"},
         {"name": "Miramare Castle", "location": "Viale Miramare, 34151 Trieste"},
@@ -1657,10 +2059,12 @@
         "It is known as Italy's capital of coffee; be sure to visit a historic coffee house.",
         "The Piazza Unità d'Italia is Europe's largest sea-facing square."
       ]
-    }
+    },
     {
       "city": "Turin",
       "country": "Italy",
+      "latitude": 45.07,
+      "longitude": 7.67,
       "attractions": [
         {"name": "Mole Antonelliana (National Cinema Museum)", "location": "Via Montebello, 20, 10124 Torino TO"},
         {"name": "Egyptian Museum (Museo Egizio)", "location": "Via Accademia delle Scienze, 6, 10123 Torino TO"},
@@ -1681,6 +2085,8 @@
     {
       "city": "Amalfi",
       "country": "Italy",
+      "latitude": 40.63,
+      "longitude": 14.60,
       "attractions": [
         {"name": "Amalfi Cathedral (Duomo di Amalfi)", "location": "Piazza Duomo, 1, 84011 Amalfi SA"},
         {"name": "Amalfi Coast Drive", "location": "Strada Statale 163 Amalfitana"},
@@ -1701,6 +2107,8 @@
     {
       "city": "Vernazza (Cinque Terre)",
       "country": "Italy",
+      "latitude": 44.13,
+      "longitude": 9.68,
       "attractions": [
         {"name": "Cinque Terre Hiking Trails", "location": "Connecting the five villages"},
         {"name": "Vernazza Harbour", "location": "Vernazza, 19018"},
@@ -1721,6 +2129,8 @@
     {
       "city": "Genoa",
       "country": "Italy",
+      "latitude": 44.41,
+      "longitude": 8.93,
       "attractions": [
         {"name": "Aquarium of Genoa", "location": "Ponte Spinola, 16128 Genova GE"},
         {"name": "Palazzi dei Rolli", "location": "Via Garibaldi, Genova GE"},
@@ -1741,6 +2151,8 @@
     {
       "city": "Como",
       "country": "Italy",
+      "latitude": 45.81,
+      "longitude": 9.09,
       "attractions": [
         {"name": "Lake Como", "location": "Lake Como"},
         {"name": "Como-Brunate Funicular", "location": "Piazza Alcide de Gasperi, 4, 22100 Como CO"},
@@ -1757,12 +2169,14 @@
         "Take a ferry to visit other charming lakeside towns like Bellagio and Varenna.",
         "Ride the funicular up to Brunate for stunning panoramic views of the lake and the Alps."
       ]
-    },
+    }
   ],
   "Kosovo": [
     {
       "city": "Pristina",
       "country": "Kosovo",
+      "latitude": 42.66,
+      "longitude": 21.16,
       "attractions": [
         {"name": "Newborn Monument", "location": "Luan Haradinaj, Prishtinë"},
         {"name": "National Library of Kosovo", "location": "Hasan Prishtina, Prishtinë"},
@@ -1785,6 +2199,8 @@
     {
       "city": "Riga",
       "country": "Latvia",
+      "latitude": 56.95,
+      "longitude": 24.11,
       "attractions": [
         {"name": "Old Town", "location": "Old Town, Riga"},
         {"name": "House of the Blackheads", "location": "Rātslaukums 7, Centra rajons, Rīga, LV-1050"},
@@ -1803,10 +2219,12 @@
       ]
     }
   ],
-"Liechtenstein": [
+  "Liechtenstein": [
     {
       "city": "Vaduz",
       "country": "Liechtenstein",
+      "latitude": 47.14,
+      "longitude": 9.52,
       "attractions": [
         {"name": "Vaduz Castle (Schloss Vaduz)", "location": "Bergstrasse 2, 9490 Vaduz"},
         {"name": "Kunstmuseum Liechtenstein (Art Museum)", "location": "Städtle 32, 9490 Vaduz"},
@@ -1829,6 +2247,8 @@
     {
       "city": "Vilnius",
       "country": "Lithuania",
+      "latitude": 54.69,
+      "longitude": 25.28,
       "attractions": [
         {"name": "Gediminas' Tower", "location": "Arsenalo g. 5, 01100 Vilnius"},
         {"name": "Vilnius Cathedral", "location": "Katedros a. 2, 01143 Vilnius"},
@@ -1847,10 +2267,12 @@
       ]
     }
   ],
-   "Luxembourg": [
+  "Luxembourg": [
     {
       "city": "Luxembourg City",
       "country": "Luxembourg",
+      "latitude": 49.61,
+      "longitude": 6.13,
       "attractions": [
         {"name": "Bock Casemates", "location": "Montée de Clausen, 1343 Luxembourg"},
         {"name": "Adolphe Bridge", "location": "Uewerstad, 2320 Luxembourg"},
@@ -1873,6 +2295,8 @@
     {
       "city": "Valletta",
       "country": "Malta",
+      "latitude": 35.90,
+      "longitude": 14.51,
       "attractions": [
         {"name": "St. John's Co-Cathedral", "location": "Triq San Gwann, Il-Belt Valletta"},
         {"name": "Upper Barrakka Gardens", "location": "292 Triq Sant' Orsla, Il-Belt Valletta"},
@@ -1895,6 +2319,8 @@
     {
       "city": "Kotor",
       "country": "Montenegro",
+      "latitude": 42.43,
+      "longitude": 18.77,
       "attractions": [
         {"name": "Kotor Old Town", "location": "Stari Grad, Kotor"},
         {"name": "Kotor Fortress (St. John's Fortress)", "location": "St John's Fortress, Kotor"},
@@ -1915,6 +2341,8 @@
     {
       "city": "Budva",
       "country": "Montenegro",
+      "latitude": 42.29,
+      "longitude": 18.84,
       "attractions": [
         {"name": "Budva Old Town (Stari Grad)", "location": "Stari Grad, Budva"},
         {"name": "Sveti Stefan", "location": "Sveti Stefan, 85315"},
@@ -1937,6 +2365,8 @@
     {
       "city": "Chișinău",
       "country": "Moldova",
+      "latitude": 47.01,
+      "longitude": 28.86,
       "attractions": [
         {"name": "Triumphal Arch", "location": "Piața Marii Adunări Naționale, Chișinău"},
         {"name": "Ștefan cel Mare Central Park", "location": "Bulevardul Ștefan cel Mare și Sfînt, Chișinău"},
@@ -1959,6 +2389,8 @@
     {
       "city": "Amsterdam",
       "country": "Netherlands",
+      "latitude": 52.37,
+      "longitude": 4.90,
       "attractions": [
         {"name": "Rijksmuseum", "location": "Museumstraat 1, 1071 XX Amsterdam"},
         {"name": "Anne Frank House", "location": "Westermarkt 20, 1016 DK Amsterdam"},
@@ -1979,6 +2411,8 @@
     {
       "city": "Maastricht",
       "country": "Netherlands",
+      "latitude": 50.85,
+      "longitude": 5.71,
       "attractions": [
         {"name": "Vrijthof Square", "location": "Vrijthof, 6211 LE Maastricht"},
         {"name": "St. Servatius Basilica", "location": "Keizer Karelplein 3, 6211 TC Maastricht"},
@@ -1999,6 +2433,8 @@
     {
       "city": "Rotterdam",
       "country": "Netherlands",
+      "latitude": 51.92,
+      "longitude": 4.48,
       "attractions": [
         {"name": "Cube Houses (Kubuswoningen)", "location": "Overblaak 70, 3011 MH Rotterdam"},
         {"name": "Markthal", "location": "Dominee Jan Scharpstraat 298, 3011 GZ Rotterdam"},
@@ -2019,6 +2455,8 @@
     {
       "city": "The Hague",
       "country": "Netherlands",
+      "latitude": 52.07,
+      "longitude": 4.30,
       "attractions": [
         {"name": "Mauritshuis", "location": "Plein 29, 2511 CS Den Haag"},
         {"name": "Peace Palace", "location": "Carnegieplein 2, 2517 KJ Den Haag"},
@@ -2036,9 +2474,11 @@
         "Take a short tram ride to the seaside resort of Scheveningen."
       ]
     },
-     {
+    {
       "city": "Utrecht",
       "country": "Netherlands",
+      "latitude": 52.09,
+      "longitude": 5.12,
       "attractions": [
         {"name": "Dom Tower", "location": "Domplein 21, 3512 JE Utrecht"},
         {"name": "Oudegracht (Old Canal)", "location": "Oudegracht, Utrecht"},
@@ -2061,6 +2501,8 @@
     {
       "city": "Skopje",
       "country": "North Macedonia",
+      "latitude": 42.00,
+      "longitude": 21.43,
       "attractions": [
         {"name": "Old Bazaar", "location": "Čaršija, Skopje"},
         {"name": "Stone Bridge", "location": "Kej 13 Noemvri, Skopje 1000"},
@@ -2081,6 +2523,8 @@
     {
       "city": "Ohrid",
       "country": "North Macedonia",
+      "latitude": 41.12,
+      "longitude": 20.80,
       "attractions": [
         {"name": "Lake Ohrid", "location": "Lake Ohrid"},
         {"name": "Church of St. John at Kaneo", "location": "Kaneo, Ohrid 6000"},
@@ -2103,6 +2547,8 @@
     {
       "city": "Oslo",
       "country": "Norway",
+      "latitude": 59.91,
+      "longitude": 10.75,
       "attractions": [
         {"name": "Vigeland Sculpture Park", "location": "Nobels gate 32, 0268 Oslo"},
         {"name": "Oslo Opera House", "location": "Kirsten Flagstads plass 1, 0150 Oslo"},
@@ -2123,6 +2569,8 @@
     {
       "city": "Ålesund",
       "country": "Norway",
+      "latitude": 62.47,
+      "longitude": 6.15,
       "attractions": [
         {"name": "Aksla Viewpoint (Fjellstua)", "location": "Fjelltunvegen, 6007 Ålesund"},
         {"name": "Art Nouveau Centre (Jugendstilsenteret)", "location": "Apotekergata 16, 6004 Ålesund"},
@@ -2135,14 +2583,16 @@
       "police": "Møre og Romsdal politidistrikt, Nedre Strandgate 50, 6004 Ålesund",
       "hospital": "Ålesund Sjukehus, Åsehaugen 5, 6017 Ålesund",
       "tips": [
-        "Ålesund is world-renowned for its beautiful Art Nouveau architecture.",
+        "Ålesund is world-renowned for its beautiful **Art Nouveau architecture**.",
         "Climb the 418 steps to the Aksla viewpoint for an iconic panoramic photo.",
         "The town was rebuilt in the Art Nouveau style after a devastating fire in 1904."
       ]
     },
-     {
+    {
       "city": "Stavanger",
       "country": "Norway",
+      "latitude": 58.97,
+      "longitude": 5.73,
       "attractions": [
         {"name": "Pulpit Rock (Preikestolen)", "location": "Preikestolen, 4129 Songesand"},
         {"name": "Gamle Stavanger (Old Stavanger)", "location": "Gamle Stavanger, 4005 Stavanger"},
@@ -2155,14 +2605,16 @@
       "police": "Sør-Vest politidistrikt, Lagårdsveien 6, 4010 Stavanger",
       "hospital": "Stavanger University Hospital, Gerd-Ragna Bloch-Thorsens gate 8, 4011 Stavanger",
       "tips": [
-        "Stavanger is the main hub for hiking to the iconic Pulpit Rock.",
-        "Wander through Gamle Stavanger to see Europe's best-preserved wooden house settlement.",
+        "Stavanger is the main hub for hiking to the iconic **Pulpit Rock**.",
+        "Wander through Gamle Stavanger to see Europe's best-preserved **wooden house settlement**.",
         "The city is the center of Norway's offshore oil industry."
       ]
     },
     {
       "city": "Trondheim",
       "country": "Norway",
+      "latitude": 63.43,
+      "longitude": 10.40,
       "attractions": [
         {"name": "Nidaros Cathedral", "location": "Bispegata 11, 7012 Trondheim"},
         {"name": "Gamle Bybro (Old Town Bridge)", "location": "Gamle Bybro, 7013 Trondheim"},
@@ -2176,13 +2628,15 @@
       "hospital": "St. Olavs Hospital, Olav Kyrres gate 9, 7030 Trondheim",
       "tips": [
         "Trondheim is the third-largest city in Norway and a major university town.",
-        "Visit the colorful wooden houses along the river in the Bakklandet district.",
+        "Visit the colorful wooden houses along the river in the **Bakklandet** district.",
         "Nidaros Cathedral is the northernmost medieval cathedral in the world."
       ]
     },
     {
       "city": "Bergen",
       "country": "Norway",
+      "latitude": 60.39,
+      "longitude": 5.32,
       "attractions": [
         {"name": "Bryggen", "location": "Bryggen, 5003 Bergen"},
         {"name": "Fløyen and the Fløibanen Funicular", "location": "Vetrlidsallmenningen 23A, 5014 Bergen"},
@@ -2196,13 +2650,15 @@
       "hospital": "Haukeland University Hospital, Jonas Lies vei 65, 5021 Bergen",
       "tips": [
         "Bergen is known for its frequent rainfall, so bring a waterproof jacket.",
-        "It is the gateway to the Norwegian fjords.",
-        "Wander through the narrow wooden alleyways of the Bryggen Hanseatic Wharf."
+        "It is the **gateway to the Norwegian fjords**.",
+        "Wander through the narrow wooden alleyways of the **Bryggen Hanseatic Wharf**."
       ]
     },
     {
       "city": "Tromsø",
       "country": "Norway",
+      "latitude": 69.65,
+      "longitude": 18.96,
       "attractions": [
         {"name": "Arctic Cathedral", "location": "Hans Nilsens vei 41, 9020 Tromsdalen"},
         {"name": "Fjellheisen Cable Car", "location": "Sollivegen 12, 9020 Tromsdalen"},
@@ -2215,14 +2671,16 @@
       "police": "Troms politidistrikt, Stakkevollvegen 9, 9010 Tromsø",
       "hospital": "University Hospital of North Norway, Sykehusvegen 38, 9019 Tromsø",
       "tips": [
-        "Located above the Arctic Circle, it's a prime spot for viewing the Northern Lights in winter.",
-        "Experience the Midnight Sun during the summer months.",
+        "Located above the Arctic Circle, it's a prime spot for viewing the **Northern Lights** in winter.",
+        "Experience the **Midnight Sun** during the summer months.",
         "Dog sledding and whale watching are popular activities."
       ]
     },
     {
       "city": "Svolvær (Lofoten Islands)",
       "country": "Norway",
+      "latitude": 68.23,
+      "longitude": 14.57,
       "attractions": [
         {"name": "Svolværgeita (The Goat's Horns)", "location": "Svolvær"},
         {"name": "Trollfjord", "location": "Trollfjord, Hadsel"},
@@ -2235,7 +2693,7 @@
       "police": "Lofoten politistasjon, Svolvær",
       "hospital": "Lofoten sykehus, Sykehusbakken 23, 8372 Gravdal",
       "tips": [
-        "The Lofoten Islands are known for their dramatic mountain scenery and picturesque fishing villages.",
+        "The **Lofoten Islands** are known for their dramatic mountain scenery and picturesque fishing villages.",
         "Rent a car to have the freedom to explore the archipelago.",
         "Visit in summer for the midnight sun or in winter for the northern lights."
       ]
@@ -2245,6 +2703,8 @@
     {
       "city": "Warsaw",
       "country": "Poland",
+      "latitude": 52.23,
+      "longitude": 21.01,
       "attractions": [
         {"name": "Warsaw Old Town", "location": "Old Town, Warsaw"},
         {"name": "Palace of Culture and Science", "location": "Plac Defilad 1, 00-901 Warszawa"},
@@ -2265,6 +2725,8 @@
     {
       "city": "Kraków",
       "country": "Poland",
+      "latitude": 50.06,
+      "longitude": 19.94,
       "attractions": [
         {"name": "Wawel Royal Castle", "location": "Wawel 5, 31-001 Kraków"},
         {"name": "Main Market Square", "location": "Rynek Główny, Kraków"},
@@ -2277,7 +2739,7 @@
       "police": "Komisariat Policji Kraków, ul. Mogilska 109, 31-546 Kraków",
       "hospital": "Szpital Uniwersytecki, ul. Kopernika 17, 31-501 Kraków",
       "tips": [
-        "Try traditional Polish food like pierogi and zapiekanka.",
+        "Try traditional Polish food like **pierogi** and **zapiekanka**.",
         "Consider a day trip to Auschwitz-Birkenau.",
         "Public transport is cheap and efficient."
       ]
@@ -2285,6 +2747,8 @@
     {
       "city": "Poznań",
       "country": "Poland",
+      "latitude": 52.41,
+      "longitude": 16.93,
       "attractions": [
         {"name": "Old Market Square (Stary Rynek)", "location": "Stary Rynek, 61-772 Poznań"},
         {"name": "Poznań Goats", "location": "Old Town Hall, Stary Rynek 1, 61-768 Poznań"},
@@ -2297,14 +2761,16 @@
       "police": "Komenda Miejska Policji, Szylinga 2, 60-787 Poznań",
       "hospital": "Szpital Miejski im. Franciszka Raszei, Mickiewicza 2, 60-834 Poznań",
       "tips": [
-        "Be at the Old Market Square at noon to see the mechanical goats butt heads on the Town Hall clock.",
+        "Be at the Old Market Square at noon to see the mechanical **goats butt heads** on the Town Hall clock.",
         "Poznań is a vibrant city known for its trade fairs and academic life.",
-        "Try a St. Martin's Croissant (Rogal świętomarciński), a local protected delicacy."
+        "Try a St. Martin's Croissant (**Rogal świętomarciński**), a local protected delicacy."
       ]
     },
     {
       "city": "Zakopane",
       "country": "Poland",
+      "latitude": 49.30,
+      "longitude": 19.95,
       "attractions": [
         {"name": "Kasprowy Wierch Cable Car", "location": "Kuźnice 14, 34-500 Zakopane"},
         {"name": "Krupówki Street", "location": "Krupówki, Zakopane"},
@@ -2317,14 +2783,16 @@
       "police": "Komisariat Policji, Jagiellońska 11, 34-500 Zakopane",
       "hospital": "Szpital Powiatowy im. dr Tytusa Chałubińskiego, Kamieniec 10, 34-500 Zakopane",
       "tips": [
-        "Zakopane is known as the 'winter capital of Poland'.",
-        "It's the main base for hiking in the stunning Tatra Mountains.",
-        "Try Oscypek, a traditional smoked cheese made from sheep's milk."
+        "Zakopane is known as the '**winter capital of Poland**'.",
+        "It's the main base for hiking in the stunning **Tatra Mountains**.",
+        "Try **Oscypek**, a traditional smoked cheese made from sheep's milk."
       ]
     },
     {
       "city": "Gdańsk",
       "country": "Poland",
+      "latitude": 54.35,
+      "longitude": 18.65,
       "attractions": [
         {"name": "Long Market (Długi Targ)", "location": "Długi Targ, 80-830 Gdańsk"},
         {"name": "St. Mary's Church", "location": "Podkramarska 5, 80-834 Gdańsk"},
@@ -2337,14 +2805,16 @@
       "police": "Komenda Miejska Policji, Nowe Ogrody 27, 80-803 Gdańsk",
       "hospital": "Uniwersyteckie Centrum Kliniczne, Dębinki 7, 80-952 Gdańsk",
       "tips": [
-        "Gdańsk was the birthplace of the Solidarity movement.",
+        "Gdańsk was the birthplace of the **Solidarity movement**.",
         "The city was meticulously rebuilt after being destroyed in WWII.",
-        "Look for amber jewelry, a local specialty."
+        "Look for **amber jewelry**, a local specialty."
       ]
     },
     {
       "city": "Wrocław",
       "country": "Poland",
+      "latitude": 51.11,
+      "longitude": 17.04,
       "attractions": [
         {"name": "Market Square (Rynek)", "location": "Rynek, 50-438 Wrocław"},
         {"name": "Wrocław's Dwarfs", "location": "All over the city"},
@@ -2357,14 +2827,16 @@
       "police": "Komenda Miejska Policji, Podwale 31-33, 50-040 Wrocław",
       "hospital": "Uniwersytecki Szpital Kliniczny, Borowska 213, 50-556 Wrocław",
       "tips": [
-        "Go on a hunt for the hundreds of small bronze dwarf statues scattered around the city.",
-        "Visit Ostrów Tumski, the oldest part of the city.",
+        "Go on a hunt for the hundreds of small bronze **dwarf statues** scattered around the city.",
+        "Visit **Ostrów Tumski**, the oldest part of the city.",
         "Wrocław is known as the 'Venice of Poland' due to its many bridges and islands."
       ]
     },
-     {
+    {
       "city": "Toruń",
       "country": "Poland",
+      "latitude": 53.01,
+      "longitude": 18.60,
       "attractions": [
         {"name": "House of Nicolaus Copernicus", "location": "Mikołaja Kopernika 15/17, 87-100 Toruń"},
         {"name": "Old Town Market Square", "location": "Rynek Staromiejski, 87-100 Toruń"},
@@ -2377,9 +2849,9 @@
       "police": "Komenda Miejska Policji, Grudziądzka 17, 87-100 Toruń",
       "hospital": "Wojewódzki Szpital Zespolony im. L. Rydygiera, Świętego Józefa 53-59, 87-100 Toruń",
       "tips": [
-        "Toruń is the birthplace of the astronomer Nicolaus Copernicus.",
-        "The city is famous for its gingerbread (Pierniki); visit the Living Museum of Gingerbread.",
-        "Its medieval town center is a UNESCO World Heritage site and was not destroyed during WWII."
+        "Toruń is the birthplace of the astronomer **Nicolaus Copernicus**.",
+        "The city is famous for its **gingerbread (Pierniki)**; visit the Living Museum of Gingerbread.",
+        "Its medieval town center is a **UNESCO World Heritage site** and was not destroyed during WWII."
       ]
     }
   ],
@@ -2387,6 +2859,8 @@
     {
       "city": "Lisbon",
       "country": "Portugal",
+      "latitude": 38.72,
+      "longitude": -9.14,
       "attractions": [
         {"name": "Belém Tower", "location": "Av. Brasília, 1400-038 Lisboa"},
         {"name": "Jerónimos Monastery", "location": "Praça do Império, 1400-206 Lisboa"},
@@ -2407,6 +2881,8 @@
     {
       "city": "Funchal (Madeira)",
       "country": "Portugal",
+      "latitude": 32.65,
+      "longitude": -16.91,
       "attractions": [
         {"name": "Funchal Cable Car to Monte", "location": "Av. do Mar e das Comunidades Madeirenses 32, 9060-190 Funchal"},
         {"name": "Mercado dos Lavradores", "location": "R. Latino Coelho 38, 9060-155 Funchal"},
@@ -2427,6 +2903,8 @@
     {
       "city": "Ponta Delgada (Azores)",
       "country": "Portugal",
+      "latitude": 37.74,
+      "longitude": -25.67,
       "attractions": [
         {"name": "Sete Cidades", "location": "Sete Cidades, Ponta Delgada"},
         {"name": "Furnas", "location": "Furnas, Povoação"},
@@ -2447,6 +2925,8 @@
     {
       "city": "Porto",
       "country": "Portugal",
+      "latitude": 41.16,
+      "longitude": -8.63,
       "attractions": [
         {"name": "Ribeira", "location": "Ribeira, Porto"},
         {"name": "Dom Luís I Bridge", "location": "Ponte de Dom Luís I, Porto"},
@@ -2464,9 +2944,11 @@
         "The Francesinha sandwich is a local specialty."
       ]
     },
-     {
+    {
       "city": "Sintra",
       "country": "Portugal",
+      "latitude": 38.82,
+      "longitude": -9.32,
       "attractions": [
         {"name": "Pena Palace", "location": "Estrada da Pena, 2710-609 Sintra"},
         {"name": "Quinta da Regaleira", "location": "R. Barbosa du Bocage 5, 2710-567 Sintra"},
@@ -2487,6 +2969,8 @@
     {
       "city": "Faro",
       "country": "Portugal",
+      "latitude": 37.02,
+      "longitude": -7.94,
       "attractions": [
         {"name": "Faro Old Town (Cidade Velha)", "location": "Cidade Velha, Faro"},
         {"name": "Ria Formosa Natural Park", "location": "Ria Formosa, Faro"},
@@ -2509,6 +2993,8 @@
     {
       "city": "Bucharest",
       "country": "Romania",
+      "latitude": 44.43,
+      "longitude": 26.1,
       "attractions": [
         {"name": "Palace of the Parliament", "location": "Strada Izvor 2-4, Bucharest"},
         {"name": "Romanian Athenaeum", "location": "Strada Benjamin Franklin 1-3, Bucharest"},
@@ -2529,6 +3015,8 @@
     {
       "city": "Sibiu",
       "country": "Romania",
+      "latitude": 45.8,
+      "longitude": 24.14,
       "attractions": [
         {"name": "Big Square (Piața Mare)", "location": "Piața Mare, Sibiu"},
         {"name": "Bridge of Lies", "location": "Piața Mică, Sibiu"},
@@ -2549,6 +3037,8 @@
     {
       "city": "Timișoara",
       "country": "Romania",
+      "latitude": 45.76,
+      "longitude": 21.23,
       "attractions": [
         {"name": "Union Square (Piața Unirii)", "location": "Piața Unirii, Timișoara"},
         {"name": "Victory Square (Piața Victoriei)", "location": "Piața Victoriei, Timișoara"},
@@ -2569,6 +3059,8 @@
     {
       "city": "Cluj-Napoca",
       "country": "Romania",
+      "latitude": 46.78,
+      "longitude": 23.62,
       "attractions": [
         {"name": "St. Michael's Church", "location": "Piața Unirii, Cluj-Napoca"},
         {"name": "Central Park Simion Bărnuțiu", "location": "Parcul Central, Cluj-Napoca"},
@@ -2589,6 +3081,8 @@
     {
       "city": "Brașov",
       "country": "Romania",
+      "latitude": 45.65,
+      "longitude": 25.59,
       "attractions": [
         {"name": "Bran Castle (Dracula's Castle)", "location": "Strada General Traian Moșoiu 24, Bran"},
         {"name": "Black Church (Biserica Neagră)", "location": "Curtea Johannes Honterus 2, Brașov"},
@@ -2611,6 +3105,8 @@
     {
       "city": "Moscow",
       "country": "Russia",
+      "latitude": 55.76,
+      "longitude": 37.62,
       "attractions": [
         {"name": "Red Square", "location": "Red Square, Moscow"},
         {"name": "The Kremlin", "location": "Moscow Kremlin, Moscow"},
@@ -2631,6 +3127,8 @@
     {
       "city": "Saint Petersburg",
       "country": "Russia",
+      "latitude": 59.93,
+      "longitude": 30.36,
       "attractions": [
         {"name": "Hermitage Museum", "location": "Palace Square, 2, St. Petersburg"},
         {"name": "Peterhof Palace", "location": "Razvodnaya Ulitsa, 2, Petergof, St. Petersburg"},
@@ -2648,9 +3146,11 @@
         "Plan your visit to the Hermitage Museum; it's vast."
       ]
     },
-      {
+    {
       "city": "Kazan",
       "country": "Russia",
+      "latitude": 55.79,
+      "longitude": 49.12,
       "attractions": [
         {"name": "Kazan Kremlin", "location": "Kremlin, Kazan, Republic of Tatarstan, 420014"},
         {"name": "Kul Sharif Mosque", "location": "Sheynkmana St, Kazan, Republic of Tatarstan, 420111"},
@@ -2671,6 +3171,8 @@
     {
       "city": "Sochi",
       "country": "Russia",
+      "latitude": 43.6,
+      "longitude": 39.73,
       "attractions": [
         {"name": "Sochi Olympic Park", "location": "Adlersky City District, Sochi"},
         {"name": "Rosa Khutor Ski Resort", "location": "Esto-Sadok, Krasnodar Krai"},
@@ -2691,6 +3193,8 @@
     {
       "city": "Yekaterinburg",
       "country": "Russia",
+      "latitude": 56.84,
+      "longitude": 60.65,
       "attractions": [
         {"name": "Church on the Blood", "location": "Svyatoy Kvartal, 1А, Yekaterinburg"},
         {"name": "Vysotskiy Viewing Platform", "location": "Malysheva St, 51, Yekaterinburg"},
@@ -2711,6 +3215,8 @@
     {
       "city": "Suzdal",
       "country": "Russia",
+      "latitude": 56.42,
+      "longitude": 40.45,
       "attractions": [
         {"name": "Suzdal Kremlin", "location": "Kremlovskaya Ulitsa, 20, Suzdal"},
         {"name": "Museum of Wooden Architecture", "location": "Pushkarskaya Ulitsa, Suzdal"},
@@ -2731,6 +3237,8 @@
     {
       "city": "Nizhny Novgorod",
       "country": "Russia",
+      "latitude": 56.33,
+      "longitude": 44.01,
       "attractions": [
         {"name": "Nizhny Novgorod Kremlin", "location": "Kremlin, Nizhny Novgorod"},
         {"name": "Chkalov Stairs", "location": "Nizhne-Volzhskaya Naberezhnaya, Nizhny Novgorod"},
@@ -2751,6 +3259,8 @@
     {
       "city": "Kaliningrad",
       "country": "Russia",
+      "latitude": 54.71,
+      "longitude": 20.45,
       "attractions": [
         {"name": "Kaliningrad Cathedral", "location": "Kanta Ulitsa, 1, Kaliningrad"},
         {"name": "Museum of the World Ocean", "location": "Naberezhnaya Petra Velikogo, 1, Kaliningrad"},
@@ -2769,10 +3279,12 @@
       ]
     }
   ],
-"San Marino": [
+  "San Marino": [
     {
       "city": "City of San Marino",
       "country": "San Marino",
+      "latitude": 43.94,
+      "longitude": 12.46,
       "attractions": [
         {"name": "Guaita Tower", "location": "Salita alla Rocca, 47890 Città di San Marino"},
         {"name": "Palazzo Pubblico", "location": "Piazza della Libertà, 47890 Città di San Marino"},
@@ -2795,6 +3307,8 @@
     {
       "city": "Belgrade",
       "country": "Serbia",
+      "latitude": 44.81,
+      "longitude": 20.46,
       "attractions": [
         {"name": "Kalemegdan Fortress", "location": "Kalemegdan, Belgrade"},
         {"name": "Church of St. Sava", "location": "Krušedolska 2a, Beograd"},
@@ -2817,6 +3331,8 @@
     {
       "city": "Bratislava",
       "country": "Slovakia",
+      "latitude": 48.15,
+      "longitude": 17.11,
       "attractions": [
         {"name": "Bratislava Castle", "location": "Hrad, 811 06 Bratislava"},
         {"name": "St. Martin's Cathedral", "location": "Rudnayovo námestie 1, 811 01 Bratislava"},
@@ -2837,6 +3353,8 @@
     {
       "city": "Košice",
       "country": "Slovakia",
+      "latitude": 48.72,
+      "longitude": 21.26,
       "attractions": [
         {"name": "St. Elisabeth Cathedral", "location": "Hlavné námestie, 040 01 Košice"},
         {"name": "Hlavná ulica (Main Street)", "location": "Hlavná, Košice"},
@@ -2859,6 +3377,8 @@
     {
       "city": "Ljubljana",
       "country": "Slovenia",
+      "latitude": 46.06,
+      "longitude": 14.51,
       "attractions": [
         {"name": "Ljubljana Castle", "location": "Grajska planota 1, 1000 Ljubljana"},
         {"name": "Triple Bridge", "location": "Tromostovje, 1000 Ljubljana"},
@@ -2879,6 +3399,8 @@
     {
       "city": "Bled",
       "country": "Slovenia",
+      "latitude": 46.36,
+      "longitude": 14.09,
       "attractions": [
         {"name": "Lake Bled", "location": "Lake Bled"},
         {"name": "Bled Castle", "location": "Grajska cesta 61, 4260 Bled"},
@@ -2899,6 +3421,8 @@
     {
       "city": "Piran",
       "country": "Slovenia",
+      "latitude": 45.53,
+      "longitude": 13.57,
       "attractions": [
         {"name": "Tartini Square", "location": "Tartinijev trg, 6330 Piran"},
         {"name": "Piran Town Walls", "location": "Ulica IX. korpusa, 6330 Piran"},
@@ -2921,6 +3445,8 @@
     {
       "city": "Barcelona",
       "country": "Spain",
+      "latitude": 41.39,
+      "longitude": 2.17,
       "attractions": [
         {"name": "Sagrada Família", "location": "Carrer de la Marina, 41-43, 08013 Barcelona"},
         {"name": "Park Güell", "location": "Carrer d'Olot, s/n, 08024 Barcelona"},
@@ -2941,6 +3467,8 @@
     {
       "city": "Madrid",
       "country": "Spain",
+      "latitude": 40.42,
+      "longitude": -3.70,
       "attractions": [
         {"name": "Prado Museum", "location": "C. de Ruiz de Alarcón, 23, 28014 Madrid"},
         {"name": "Royal Palace of Madrid", "location": "C. de Bailén, s/n, 28071 Madrid"},
@@ -2961,6 +3489,8 @@
     {
       "city": "Seville",
       "country": "Spain",
+      "latitude": 37.39,
+      "longitude": -5.99,
       "attractions": [
         {"name": "Seville Cathedral", "location": "Av. de la Constitución, s/n, 41004 Sevilla"},
         {"name": "Plaza de España", "location": "Av. Isabel la Católica, s/n, 41004 Sevilla"},
@@ -2981,6 +3511,8 @@
     {
       "city": "San Sebastián",
       "country": "Spain",
+      "latitude": 43.32,
+      "longitude": -1.98,
       "attractions": [
         {"name": "La Concha Beach", "location": "Kontxa Pasealekua, Donostia-San Sebastián"},
         {"name": "Parte Vieja (Old Town)", "location": "Parte Vieja, Donostia-San Sebastián"},
@@ -3001,6 +3533,8 @@
     {
       "city": "Toledo",
       "country": "Spain",
+      "latitude": 39.86,
+      "longitude": -4.02,
       "attractions": [
         {"name": "Toledo Cathedral (Catedral Primada)", "location": "Calle Cardenal Cisneros, 1, 45002 Toledo"},
         {"name": "Alcázar of Toledo", "location": "C. de la Unión, s/n, 45001 Toledo"},
@@ -3021,6 +3555,8 @@
     {
       "city": "Santiago de Compostela",
       "country": "Spain",
+      "latitude": 42.88,
+      "longitude": -8.54,
       "attractions": [
         {"name": "Cathedral of Santiago de Compostela", "location": "Praza do Obradoiro, s/n, 15704 Santiago de Compostela"},
         {"name": "Praza do Obradoiro", "location": "Praza do Obradoiro, 15704 Santiago de Compostela"},
@@ -3041,6 +3577,8 @@
     {
       "city": "Córdoba",
       "country": "Spain",
+      "latitude": 37.89,
+      "longitude": -4.78,
       "attractions": [
         {"name": "Mezquita-Cathedral of Córdoba", "location": "C. Cardenal Herrero, 1, 14003 Córdoba"},
         {"name": "Alcázar de los Reyes Cristianos", "location": "Pl. Campo Santo de los Mártires, s/n, 14004 Córdoba"},
@@ -3061,6 +3599,8 @@
     {
       "city": "Málaga",
       "country": "Spain",
+      "latitude": 36.72,
+      "longitude": -4.43,
       "attractions": [
         {"name": "Alcazaba", "location": "C/ Alcazabilla, 2, 29012 Málaga"},
         {"name": "Picasso Museum Málaga", "location": "Palacio de Buenavista, C. San Agustín, 8, 29015 Málaga"},
@@ -3081,6 +3621,8 @@
     {
       "city": "Granada",
       "country": "Spain",
+      "latitude": 37.18,
+      "longitude": -3.60,
       "attractions": [
         {"name": "Alhambra", "location": "C. Real de la Alhambra, s/n, 18009 Granada"},
         {"name": "Generalife", "location": "Paseo del Generalife, 18009 Granada"},
@@ -3101,6 +3643,8 @@
     {
       "city": "Ibiza Town",
       "country": "Spain",
+      "latitude": 38.91,
+      "longitude": 1.42,
       "attractions": [
         {"name": "Dalt Vila (Old Town)", "location": "Dalt Vila, Ibiza"},
         {"name": "Ibiza Cathedral (Catedral de Santa Maria)", "location": "Plaça de la Catedral, 07800 Eivissa"},
@@ -3118,9 +3662,11 @@
         "Visit during the shoulder seasons (May/June or Sept/Oct) for better prices and fewer crowds."
       ]
     },
-     {
+    {
       "city": "Valencia",
       "country": "Spain",
+      "latitude": 39.47,
+      "longitude": -0.38,
       "attractions": [
         {"name": "City of Arts and Sciences", "location": "Av. del Professor López Piñero, 7, 46013 València"},
         {"name": "Mercado Central", "location": "Plaça de la Ciutat de Bruges, s/n, 46001 València"},
@@ -3141,6 +3687,8 @@
     {
       "city": "Bilbao",
       "country": "Spain",
+      "latitude": 43.26,
+      "longitude": -2.93,
       "attractions": [
         {"name": "Guggenheim Museum Bilbao", "location": "Abandoibarra Etorb., 2, 48009 Bilbo, Bizkaia"},
         {"name": "Casco Viejo (Old Town)", "location": "Casco Viejo, Bilbao"},
@@ -3163,6 +3711,8 @@
     {
       "city": "Stockholm",
       "country": "Sweden",
+      "latitude": 59.33,
+      "longitude": 18.07,
       "attractions": [
         {"name": "Vasa Museum", "location": "Galärvarvsvägen 14, 115 21 Stockholm"},
         {"name": "Gamla Stan (Old Town)", "location": "Gamla Stan, Stockholm"},
@@ -3180,9 +3730,11 @@
         "The metro system is an art gallery in itself."
       ]
     },
-     {
+    {
       "city": "Uppsala",
       "country": "Sweden",
+      "latitude": 59.86,
+      "longitude": 17.64,
       "attractions": [
         {"name": "Uppsala Cathedral (Domkyrka)", "location": "Domkyrkoplan, 753 10 Uppsala"},
         {"name": "Uppsala University", "location": "Biskopsgatan 3, 753 10 Uppsala"},
@@ -3200,9 +3752,11 @@
         "The Gustavianum museum has a unique anatomical theatre."
       ]
     },
-      {
+    {
       "city": "Malmö",
       "country": "Sweden",
+      "latitude": 55.60,
+      "longitude": 13.00,
       "attractions": [
         {"name": "Turning Torso", "location": "Lilla Varvsgatan 14, 211 15 Malmö"},
         {"name": "Øresund Bridge", "location": "Connects Malmö and Copenhagen"},
@@ -3225,6 +3779,8 @@
     {
       "city": "Zurich",
       "country": "Switzerland",
+      "latitude": 47.38,
+      "longitude": 8.54,
       "attractions": [
         {"name": "Lake Zurich", "location": "Lake Zurich"},
         {"name": "Old Town (Altstadt)", "location": "Niederdorf, Zürich"},
@@ -3245,6 +3801,8 @@
     {
       "city": "Geneva",
       "country": "Switzerland",
+      "latitude": 46.20,
+      "longitude": 6.14,
       "attractions": [
         {"name": "Jet d'Eau", "location": "Quai du Mont-Blanc, 1201 Genève"},
         {"name": "United Nations Office", "location": "Avenue de la Paix 8-14, 1211 Genève"},
@@ -3265,6 +3823,8 @@
     {
       "city": "Lausanne",
       "country": "Switzerland",
+      "latitude": 46.52,
+      "longitude": 6.63,
       "attractions": [
         {"name": "The Olympic Museum", "location": "Quai d'Ouchy 1, 1006 Lausanne"},
         {"name": "Lausanne Cathedral", "location": "Place de la Cathédrale, 1005 Lausanne"},
@@ -3285,6 +3845,8 @@
     {
       "city": "Lugano",
       "country": "Switzerland",
+      "latitude": 46.00,
+      "longitude": 8.95,
       "attractions": [
         {"name": "Lake Lugano", "location": "Lake Lugano"},
         {"name": "Monte San Salvatore", "location": "Monte San Salvatore, 6912 Lugano"},
@@ -3305,6 +3867,8 @@
     {
       "city": "Zermatt",
       "country": "Switzerland",
+      "latitude": 46.02,
+      "longitude": 7.75,
       "attractions": [
         {"name": "Matterhorn", "location": "Matterhorn, 3920 Zermatt"},
         {"name": "Gornergrat Railway", "location": "Bahnhofpl. 1, 3920 Zermatt"},
@@ -3325,6 +3889,8 @@
     {
       "city": "Bern",
       "country": "Switzerland",
+      "latitude": 46.95,
+      "longitude": 7.45,
       "attractions": [
         {"name": "Zytglogge (Clock Tower)", "location": "Bim Zytglogge 1, 3011 Bern"},
         {"name": "Old City of Bern", "location": "Altstadt, Bern"},
@@ -3345,6 +3911,8 @@
     {
       "city": "Interlaken",
       "country": "Switzerland",
+      "latitude": 46.69,
+      "longitude": 7.86,
       "attractions": [
         {"name": "Harder Kulm", "location": "Harder Kulm, 3800 Interlaken"},
         {"name": "Jungfraujoch - Top of Europe", "location": "3801 Fieschertal"},
@@ -3367,6 +3935,8 @@
     {
       "city": "Istanbul",
       "country": "Turkey",
+      "latitude": 41.01,
+      "longitude": 28.98,
       "attractions": [
         {"name": "Hagia Sophia", "location": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul"},
         {"name": "Blue Mosque", "location": "Sultan Ahmet, Atmeydanı Cd. No:7, 34122 Fatih/İstanbul"},
@@ -3384,9 +3954,11 @@
         "Try Turkish coffee and baklava."
       ]
     },
-     {
+    {
       "city": "Ankara",
       "country": "Turkey",
+      "latitude": 39.93,
+      "longitude": 32.86,
       "attractions": [
         {"name": "Anıtkabir (Mausoleum of Atatürk)", "location": "Yücetepe, Akdeniz Cd. No:31, 06570 Çankaya/Ankara"},
         {"name": "Museum of Anatolian Civilizations", "location": "Kale, Gözcü Sk. No:2, 06240 Altındağ/Ankara"},
@@ -3407,6 +3979,8 @@
     {
       "city": "Antalya",
       "country": "Turkey",
+      "latitude": 36.90,
+      "longitude": 30.71,
       "attractions": [
         {"name": "Kaleici (Old Town)", "location": "Kaleiçi, Muratpaşa/Antalya"},
         {"name": "Düden Waterfalls", "location": "Çağlayan, Lara Cd. No:457, 07230 Muratpaşa/Antalya"},
@@ -3427,6 +4001,8 @@
     {
       "city": "Bodrum",
       "country": "Turkey",
+      "latitude": 37.04,
+      "longitude": 27.43,
       "attractions": [
         {"name": "Bodrum Castle (Castle of St. Peter)", "location": "Çarşı, 48400 Bodrum/Muğla"},
         {"name": "Mausoleum at Halicarnassus", "location": "Tepecik, Turgut Reis Cd. No:93, 48440 Bodrum/Muğla"},
@@ -3447,6 +4023,8 @@
     {
       "city": "Göreme (Cappadocia)",
       "country": "Turkey",
+      "latitude": 38.64,
+      "longitude": 34.83,
       "attractions": [
         {"name": "Göreme Open-Air Museum", "location": "Müze Cd., 50180 Göreme/Nevşehir"},
         {"name": "Hot Air Balloon Rides", "location": "Cappadocia"},
@@ -3467,6 +4045,8 @@
     {
       "city": "İzmir",
       "country": "Turkey",
+      "latitude": 38.42,
+      "longitude": 27.14,
       "attractions": [
         {"name": "Ephesus Ancient City", "location": "Acarlar, 35920 Selçuk/İzmir"},
         {"name": "Kemeraltı Market", "location": "Konak, Anafartalar Cd., 35250 Konak/İzmir"},
@@ -3487,6 +4067,8 @@
     {
       "city": "Pamukkale",
       "country": "Turkey",
+      "latitude": 37.91,
+      "longitude": 29.12,
       "attractions": [
         {"name": "Pamukkale Thermal Pools (Travertines)", "location": "20280 Pamukkale/Denizli"},
         {"name": "Hierapolis Ancient City", "location": "20280 Pamukkale/Denizli"},
@@ -3509,6 +4091,8 @@
     {
       "city": "Kyiv",
       "country": "Ukraine",
+      "latitude": 50.45,
+      "longitude": 30.52,
       "attractions": [
         {"name": "Kyiv Pechersk Lavra", "location": "Lavrska St, 15, Kyiv, 02000"},
         {"name": "Saint Sophia Cathedral", "location": "Volodymyrska St, 24, Kyiv, 01001"},
@@ -3529,6 +4113,8 @@
     {
       "city": "Lviv",
       "country": "Ukraine",
+      "latitude": 49.84,
+      "longitude": 24.03,
       "attractions": [
         {"name": "Rynok Square (Market Square)", "location": "Ploshcha Rynok, L'viv"},
         {"name": "Lviv National Opera", "location": "Svobody Ave, 28, L'viv"},
@@ -3549,6 +4135,8 @@
     {
       "city": "Odesa",
       "country": "Ukraine",
+      "latitude": 46.48,
+      "longitude": 30.73,
       "attractions": [
         {"name": "Potemkin Stairs", "location": "Prymors'kyi Boulevard, Odesa"},
         {"name": "Odesa Opera and Ballet Theater", "location": "Chaikovs'koho Ln, 1, Odesa"},
@@ -3569,6 +4157,8 @@
     {
       "city": "Chernivtsi",
       "country": "Ukraine",
+      "latitude": 48.29,
+      "longitude": 25.94,
       "attractions": [
         {"name": "Chernivtsi National University (Former Residence of Bukovinian Metropolitans)", "location": "Kotsyubyns'koho St, 2, Chernivtsi"},
         {"name": "Olha Kobylyanska Street", "location": "Olhy Kobylyans'koi St, Chernivtsi"},
@@ -3591,6 +4181,8 @@
     {
       "city": "London",
       "country": "United Kingdom",
+      "latitude": 51.51,
+      "longitude": -0.13,
       "attractions": [
         {"name": "Tower of London", "location": "St Katharine's & Wapping, London EC3N 4AB"},
         {"name": "British Museum", "location": "Great Russell St, London WC1B 3DG"},
@@ -3611,6 +4203,8 @@
     {
       "city": "Edinburgh",
       "country": "United Kingdom",
+      "latitude": 55.95,
+      "longitude": -3.19,
       "attractions": [
         {"name": "Edinburgh Castle", "location": "Castlehill, Edinburgh EH1 2NG"},
         {"name": "Royal Mile", "location": "Royal Mile, Edinburgh"},
@@ -3631,6 +4225,8 @@
     {
       "city": "Manchester",
       "country": "United Kingdom",
+      "latitude": 53.48,
+      "longitude": -2.24,
       "attractions": [
         {"name": "Manchester Cathedral", "location": "Victoria St, Manchester M3 1SX"},
         {"name": "Old Trafford", "location": "Sir Matt Busby Way, Old Trafford, Stretford, Manchester M16 0RA"},
@@ -3651,6 +4247,8 @@
     {
       "city": "Liverpool",
       "country": "United Kingdom",
+      "latitude": 53.41,
+      "longitude": -2.99,
       "attractions": [
         {"name": "The Beatles Story", "location": "Britannia Vaults, Albert Dock, Liverpool L3 4AD"},
         {"name": "Liverpool Cathedral", "location": "St James Mount, Liverpool L1 7AZ"},
@@ -3671,6 +4269,8 @@
     {
       "city": "Cardiff",
       "country": "United Kingdom",
+      "latitude": 51.48,
+      "longitude": -3.17,
       "attractions": [
         {"name": "Cardiff Castle", "location": "Castle St, Cardiff CF10 3RB"},
         {"name": "Principality Stadium", "location": "Westgate St, Cardiff CF10 1NS"},
@@ -3691,6 +4291,8 @@
     {
       "city": "Inverness",
       "country": "United Kingdom",
+      "latitude": 57.48,
+      "longitude": -4.22,
       "attractions": [
         {"name": "Loch Ness", "location": "Loch Ness, near Inverness"},
         {"name": "Urquhart Castle", "location": "Drumnadrochit, Inverness IV63 6XJ"},
@@ -3711,6 +4313,8 @@
     {
       "city": "Glasgow",
       "country": "United Kingdom",
+      "latitude": 55.86,
+      "longitude": -4.26,
       "attractions": [
         {"name": "Kelvingrove Art Gallery and Museum", "location": "Argyle St, Glasgow G3 8AG"},
         {"name": "Glasgow Cathedral", "location": "Castle St, Glasgow G4 0QZ"},
@@ -3731,6 +4335,8 @@
     {
       "city": "Belfast",
       "country": "United Kingdom",
+      "latitude": 54.60,
+      "longitude": -5.93,
       "attractions": [
         {"name": "Titanic Belfast", "location": "1 Olympic Way, Queen's Road, Belfast BT3 9EP"},
         {"name": "Crumlin Road Gaol", "location": "53-55 Crumlin Rd, Belfast BT14 6ST"},
@@ -3751,6 +4357,8 @@
     {
       "city": "Bristol",
       "country": "United Kingdom",
+      "latitude": 51.45,
+      "longitude": -2.59,
       "attractions": [
         {"name": "Clifton Suspension Bridge", "location": "Bridge Rd, Leigh Woods, Bristol BS8 3PA"},
         {"name": "SS Great Britain", "location": "Great Western Dockyard, Gas Ferry Rd, Bristol BS1 6TY"},
@@ -3771,6 +4379,8 @@
     {
       "city": "York",
       "country": "United Kingdom",
+      "latitude": 53.96,
+      "longitude": -1.07,
       "attractions": [
         {"name": "York Minster", "location": "Deangate, York YO1 7HH"},
         {"name": "The Shambles", "location": "Shambles, York YO1 7LZ"},
@@ -3791,6 +4401,8 @@
     {
       "city": "Bath",
       "country": "United Kingdom",
+      "latitude": 51.38,
+      "longitude": -2.36,
       "attractions": [
         {"name": "Roman Baths", "location": "Abbey Churchyard, Bath BA1 1LZ"},
         {"name": "Royal Crescent", "location": "Royal Crescent, Bath BA1 2LS"},
@@ -3811,6 +4423,8 @@
     {
       "city": "Cambridge",
       "country": "United Kingdom",
+      "latitude": 52.20,
+      "longitude": 0.15,
       "attractions": [
         {"name": "King's College Chapel", "location": "King's Parade, Cambridge CB2 1ST"},
         {"name": "Punting on the River Cam", "location": "Various locations on the River Cam"},
@@ -3831,6 +4445,8 @@
     {
       "city": "Oxford",
       "country": "United Kingdom",
+      "latitude": 51.75,
+      "longitude": -1.26,
       "attractions": [
         {"name": "Bodleian Library", "location": "Broad St, Oxford OX1 3BG"},
         {"name": "Christ Church College", "location": "St Aldate's, Oxford OX1 1DP"},
@@ -3851,6 +4467,8 @@
     {
       "city": "Canterbury",
       "country": "United Kingdom",
+      "latitude": 51.28,
+      "longitude": 1.08,
       "attractions": [
         {"name": "Canterbury Cathedral", "location": "Cathedral House, 11 The Precincts, Canterbury CT1 2EH"},
         {"name": "The Canterbury Tales", "location": "St Margaret's St, Canterbury CT1 2TG"},
@@ -3871,6 +4489,8 @@
     {
       "city": "Brighton",
       "country": "United Kingdom",
+      "latitude": 50.82,
+      "longitude": -0.14,
       "attractions": [
         {"name": "Royal Pavilion", "location": "4/5 Pavilion Buildings, Brighton BN1 1EE"},
         {"name": "Brighton Palace Pier", "location": "Madeira Dr, Brighton BN2 1TW"},
@@ -3891,6 +4511,8 @@
     {
       "city": "St Andrews",
       "country": "United Kingdom",
+      "latitude": 56.34,
+      "longitude": -2.80,
       "attractions": [
         {"name": "Old Course at St Andrews", "location": "St Andrews KY16 9SF"},
         {"name": "St Andrews Cathedral", "location": "The Pends, St Andrews KY16 9QL"},
@@ -3911,6 +4533,8 @@
     {
       "city": "Aberdeen",
       "country": "United Kingdom",
+      "latitude": 57.15,
+      "longitude": -2.09,
       "attractions": [
         {"name": "Marischal College", "location": "Broad St, Aberdeen AB10 1YS"},
         {"name": "Duthie Park and Winter Gardens", "location": "Polmuir Rd, Aberdeen AB11 7TH"},
@@ -3931,6 +4555,8 @@
     {
       "city": "Dundee",
       "country": "United Kingdom",
+      "latitude": 56.46,
+      "longitude": -2.97,
       "attractions": [
         {"name": "V&A Dundee", "location": "1 Riverside Esplanade, Dundee DD1 4EZ"},
         {"name": "RRS Discovery", "location": "Discovery Point, Riverside Dr, Dundee DD1 4XA"},
@@ -3951,6 +4577,8 @@
     {
       "city": "Portree (Isle of Skye)",
       "country": "United Kingdom",
+      "latitude": 57.41,
+      "longitude": -6.20,
       "attractions": [
         {"name": "The Old Man of Storr", "location": "Near Portree, Isle of Skye"},
         {"name": "The Quiraing", "location": "Near Staffin, Isle of Skye"},
