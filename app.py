@@ -134,56 +134,45 @@ for continent, tours in expert_tours.items():
                         mime="application/pdf",
                         key=f"download_{continent}_{idx}",
                     )
-# Function to fetch user's location from IP
-def get_location_from_ip():
-    try:
-        response = requests.get("https://ipinfo.io/json")
-        data = response.json()
-        loc = data.get("loc", None)  # format: "lat,lon"
-        if loc:
-            lat, lon = map(float, loc.split(","))
-            return lat, lon, data.get("city", "Unknown"), data.get("country", "Unknown")
+# ---------------------------------------------------
+# 🧭 City Tourist Guide (New Feature Integration)
+# ---------------------------------------------------
+from city_guide import load_all_cities, find_nearest_city
+
+st.header("🧭 City Tourist Guide")
+
+if st.button("Find Nearest Tourist City"):
+    with st.spinner("Detecting location and finding the nearest tourist city..."):
+        user_lat, user_lon, user_city, user_country = get_location_from_ip()
+        st.write(f"📍 Your detected location: **{user_city}, {user_country}**")
+
+        # Load dataset and find nearest city
+        all_cities = load_all_cities("knowledge_base")
+        nearest_city, distance = find_nearest_city(user_lat, user_lon, all_cities)
+
+        if nearest_city:
+            st.success(f"Nearest tourist city: **{nearest_city['city']}**, {nearest_city['country']} ({distance} km away)")
+
+            # Display attractions
+            st.subheader("🏰 Attractions")
+            for a in nearest_city["attractions"]:
+                st.markdown(f"- **{a['name']}**, {a.get('address', 'No address')}")
+
+            # Display restaurants
+            st.subheader("🍽️ Restaurants")
+            for r in nearest_city["restaurants"]:
+                st.markdown(f"- **{r['name']}**, {r.get('address', 'No address')}")
+
+            # Display emergency info
+            st.subheader("🚨 Emergency Contacts")
+            for e in nearest_city["emergency"]:
+                st.markdown(f"- **{e['type']}**: {e['name']} ({e['address']})")
+
+            # Display tips
+            st.subheader("💡 Travel Tips")
+            for tip in nearest_city["tips"]:
+                st.markdown(f"- {tip}")
+
         else:
-            return None, None, "Unknown", "Unknown"
-    except:
-        return None, None, "Unknown", "Unknown"
+            st.error("No nearby city found in database. Try again later.")
 
-# Function to fetch tourist attractions using Overpass API
-def get_nearby_attractions(lat, lon, radius=5000):
-    if lat is None or lon is None:
-        return ["Could not detect location"]
-
-    query = f"""
-    [out:json];
-    node
-      ["tourism"="attraction"]
-      (around:{radius},{lat},{lon});
-    out;
-    """
-    url = "http://overpass-api.de/api/interpreter"
-    try:
-        response = requests.post(url, data={"data": query})
-        data = response.json()
-        attractions = [el["tags"].get("name", "Unnamed attraction") for el in data["elements"]]
-        return attractions if attractions else ["No attractions found nearby"]
-    except Exception as e:
-        return [f"Error fetching attractions: {e}"]
-
-# Streamlit App
-st.title("🌍 Travel Assistant Chatbot")
-
-# Detect location
-lat, lon, city, country = get_location_from_ip()
-st.write(f"📍 Detected Location: **{city}, {country}**")
-
-# Chat input
-user_question = st.text_input("Ask me something about your trip:")
-
-if user_question:
-    st.write(f"🤖 Bot: You asked about '{user_question}'")
-
-    # Recommend real nearby attractions
-    spots = get_nearby_attractions(lat, lon)
-    st.write("Here are some attractions near you:")
-    for s in spots[:10]:  # show top 10
-        st.write(f"- {s}")
