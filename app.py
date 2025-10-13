@@ -135,44 +135,48 @@ for continent, tours in expert_tours.items():
                         key=f"download_{continent}_{idx}",
                     )
 # ---------------------------------------------------
-# 🧭 City Tourist Guide (New Feature Integration)
+# 🧭 City Tourist Guide (Updated Feature)
 # ---------------------------------------------------
 from city_guide import load_all_cities, find_nearest_city
+import streamlit as st
 
 st.header("🧭 City Tourist Guide")
 
+# Ask user for current city name
+user_city_input = st.text_input("🏙️ Enter your current city:")
+
 if st.button("Find Nearest Tourist City"):
-    with st.spinner("Detecting location and finding the nearest tourist city..."):
-        user_lat, user_lon, user_city, user_country = get_location_from_ip()
-        st.write(f"📍 Your detected location: **{user_city}, {user_country}**")
+    if user_city_input:
+        with st.spinner("Finding the nearest tourist city..."):
+            # Load dataset of cities
+            all_cities = load_all_cities("knowledge_base")
 
-        # Load dataset and find nearest city
-        all_cities = load_all_cities("knowledge_base")
-        nearest_city, distance = find_nearest_city(user_lat, user_lon, all_cities)
+            # Find the nearest city by name instead of coordinates
+            nearest_city, distance = find_nearest_city(user_city_input, all_cities)
 
-        if nearest_city:
-            st.success(f"Nearest tourist city: **{nearest_city['city']}**, {nearest_city['country']} ({distance} km away)")
+            if nearest_city:
+                st.success(f"Nearest tourist city: **{nearest_city['city']}**, {nearest_city['country']} ({distance} km away)")
 
-            # Display attractions
-            st.subheader("🏰 Attractions")
-            for a in nearest_city["attractions"]:
-                st.markdown(f"- **{a['name']}**, {a.get('address', 'No address')}")
+                # Display attractions
+                st.subheader("🏰 Attractions")
+                for a in nearest_city["attractions"]:
+                    st.markdown(f"- **{a['name']}**, {a.get('address', 'No address')}")
 
-            # Display restaurants
-            st.subheader("🍽️ Restaurants")
-            for r in nearest_city["restaurants"]:
-                st.markdown(f"- **{r['name']}**, {r.get('address', 'No address')}")
+                # Display restaurants
+                st.subheader("🍽️ Restaurants")
+                for r in nearest_city["restaurants"]:
+                    st.markdown(f"- **{r['name']}**, {r.get('address', 'No address')}")
 
-            # Display emergency info
-            st.subheader("🚨 Emergency Contacts")
-            for e in nearest_city["emergency"]:
-                st.markdown(f"- **{e['type']}**: {e['name']} ({e['address']})")
+                # Display emergency info
+                st.subheader("🚨 Emergency Contacts")
+                for e in nearest_city["emergency"]:
+                    st.markdown(f"- **{e['type']}**: {e['name']} ({e['address']})")
 
-            # Display tips
-            st.subheader("💡 Travel Tips")
-            for tip in nearest_city["tips"]:
-                st.markdown(f"- {tip}")
-
-        else:
-            st.error("No nearby city found in database. Try again later.")
-
+                # Display tips
+                st.subheader("💡 Travel Tips")
+                for tip in nearest_city["tips"]:
+                    st.markdown(f"- {tip}")
+            else:
+                st.error("No nearby tourist city found in the database. Try again later.")
+    else:
+        st.warning("⚠️ Please enter your current city first.")
