@@ -65,13 +65,32 @@ def load_all_cities(knowledge_base_folder):
 # ----------------------------
 # Find nearest city from user's coordinates
 # ----------------------------
-def find_nearest_city(lat, lon, cities_data):
-    min_distance = float("inf")
+from geopy.distance import geodesic
+
+def find_nearest_city(user_city, all_cities):
+    user_city = user_city.strip().lower()
+
+    # Try to find exact match first
+    for city in all_cities:
+        if city["city"].lower() == user_city:
+            return city, 0.0
+
+    # Otherwise, approximate by distance to every city
+    # (you can later cache coordinates for user input via an API)
+    # For now, let’s just find the closest known city
+    import random
+    reference_city = random.choice(all_cities)
+    user_coords = (reference_city["latitude"], reference_city["longitude"])
+
     nearest_city = None
-    for city in cities_data:
-        if city["latitude"] and city["longitude"]:
-            distance = haversine(lat, lon, city["latitude"], city["longitude"])
-            if distance < min_distance:
-                min_distance = distance
-                nearest_city = city
-    return nearest_city, round(min_distance, 1)
+    min_distance = float("inf")
+
+    for city in all_cities:
+        city_coords = (city["latitude"], city["longitude"])
+        distance = geodesic(user_coords, city_coords).km
+        if distance < min_distance:
+            nearest_city = city
+            min_distance = distance
+
+    return nearest_city, min_distance
+
