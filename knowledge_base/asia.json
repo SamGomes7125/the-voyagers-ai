@@ -4681,14 +4681,12 @@
       ]
     }
   ],
-  "Qatar": [
+  "Qatar":[
     {
       "city": "Doha",
       "country": "Qatar",
-      "coordinates": {
         "latitude": 25.29,
-        "longitude": 51.53
-      },
+        "longitude": 51.53,
       "attractions": [
         {"name": "Museum of Islamic Art", "location": "Doha Corniche, Doha"},
         {"name": "Souq Waqif", "location": "Al Souq St, Doha"},
@@ -4706,15 +4704,13 @@
         "Visit Souq Waqif in the evening when it comes alive with people and activity."
       ]
     }
-  ],
+  ],
   	"Russia": [
     {
       "city": "Irkutsk",
       "country": "Russia",
-      "coordinates": {
         "latitude": 52.29,
         "longitude": 104.27
-      },
       "attractions": [
         {"name": "Lake Baikal", "location": "Near Irkutsk"},
         {"name": "130 Kvartal (Irkutskaya Sloboda)", "location": "130 Kvartal, Irkutsk"},
@@ -4735,10 +4731,8 @@
     {
       "city": "Vladivostok",
       "country": "Russia",
-      "coordinates": {
         "latitude": 43.12,
-        "longitude": 131.92
-      },
+        "longitude": 131.92,
       "attractions": [
         {"name": "Russky Bridge", "location": "Russky Bridge, Vladivostok"},
         {"name": "Eagle's Nest Viewpoint (Orlinoye Gnezdo)", "location": "Aksakovskaya Ulitsa, Vladivostok"},
@@ -4761,10 +4755,8 @@
     {
       "city": "Riyadh",
       "country": "Saudi Arabia",
-      "coordinates": {
         "latitude": 24.71,
-        "longitude": 46.68
-      },
+        "longitude": 46.68,
       "attractions": [
         {"name": "Kingdom Centre", "location": "King Fahd Rd, Riyadh"},
         {"name": "Al Masmak Fortress", "location": "Al Thumairi St, Ad Dirah, Riyadh"},
@@ -4785,10 +4777,8 @@
     {
       "city": "Jeddah",
       "country": "Saudi Arabia",
-      "coordinates": {
         "latitude": 21.53,
-        "longitude": 39.16
-      },
+        "longitude": 39.16,
       "attractions": [
         {"name": "Al-Balad (Old Town)", "location": "Al-Balad, Jeddah"},
         {"name": "King Fahd's Fountain", "location": "Jeddah Corniche"},
@@ -4809,10 +4799,8 @@
     {
       "city": "Mecca",
       "country": "Saudi Arabia",
-      "coordinates": {
         "latitude": 21.42,
-        "longitude": 39.82
-      },
+        "longitude": 39.82,
       "attractions": [
         {"name": "Masjid al-Haram (The Grand Mosque)", "location": "Mecca"},
         {"name": "Kaaba", "location": "Inside Masjid al-Haram, Mecca"},
@@ -4833,10 +4821,8 @@
     {
       "city": "Medina",
       "country": "Saudi Arabia",
-      "coordinates": {
         "latitude": 24.47,
-        "longitude": 39.60
-      },
+        "longitude": 39.60,
       "attractions": [
         {"name": "Al-Masjid an-Nabawi (The Prophet's Mosque)", "location": "Medina"},
         {"name": "Quba Mosque", "location": "Medina"},
@@ -4857,10 +4843,8 @@
     {
       "city": "Dammam",
       "country": "Saudi Arabia",
-      "coordinates": {
         "latitude": 26.42,
-        "longitude": 50.09
-      },
+        "longitude": 50.09,
       "attractions": [
         {"name": "King Abdulaziz Center for World Culture (Ithra)", "location": "Dhahran"},
         {"name": "Half Moon Bay", "location": "Near Al Khobar"},
@@ -4883,10 +4867,8 @@
     {
       "city": "Singapore",
       "country": "Singapore",
-      "coordinates": {
         "latitude": 1.30,
-        "longitude": 103.80
-      },
+        "longitude": 103.80,
       "attractions": [
         {"name": "Gardens by the Bay", "location": "18 Marina Gardens Dr, Singapore"},
         {"name": "Marina Bay Sands", "location": "10 Bayfront Ave, Singapore"},
@@ -4909,10 +4891,8 @@
     {
       "city": "Seoul",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 37.55,
-        "longitude": 127.00
-      },
+        "longitude": 127.00,
       "attractions": [
         {"name": "Gyeongbokgung Palace", "location": "161 Sajik-ro, Jongno-gu, Seoul"},
         {"name": "Myeongdong Shopping Street", "location": "Myeongdong-gil, Jung-gu, Seoul"},
@@ -4933,10 +4913,8 @@
     {
       "city": "Daegu",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 35.85,
-        "longitude": 128.52
-      },
+        "longitude": 128.52,
       "attractions": [
         {"name": "E-World 83 Tower", "location": "200 Duryugongwon-ro, Dalseo-gu, Daegu"},
         {"name": "Seomun Market", "location": "45 Keunjang-ro 26-gil, Jung-gu, Daegu"},
@@ -4957,10 +4935,8 @@
     {
       "city": "Hapcheon",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 35.57,
-        "longitude": 128.16
-      },
+        "longitude": 128.16,
       "attractions": [
         {"name": "Haeinsa Temple", "location": "10 Chiin-gil, Gaya-myeon, Hapcheon-gun"},
         {"name": "Tripitaka Koreana", "location": "Inside Haeinsa Temple, Hapcheon-gun"},
@@ -4981,10 +4957,8 @@
      {
       "city": "Gyeongju",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 35.84,
-        "longitude": 129.21
-      },
+        "longitude": 129.21,
       "attractions": [
         {"name": "Bulguksa Temple", "location": "15-1 Jinhyeon-dong, Gyeongju"},
         {"name": "Seokguram Grotto", "location": "873-243 Jinhyeon-dong, Gyeongju"},
@@ -5005,10 +4979,8 @@
     {
       "city": "Jeju City",
       "country": "Jeju Island",
-      "coordinates": {
         "latitude": 33.50,
-        "longitude": 126.52
-      },
+        "longitude": 126.52,
       "attractions": [
         {"name": "Hallasan National Park", "location": "Jeju-do"},
         {"name": "Seongsan Ilchulbong (Sunrise Peak)", "location": "Seogwipo, Jeju-do"},
@@ -5029,10 +5001,8 @@
     {
       "city": "Jeonju",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 35.84,
-        "longitude": 127.13
-      },
+        "longitude": 127.13,
       "attractions": [
         {"name": "Jeonju Hanok Village", "location": "Gyo-dong, Wansan-gu, Jeonju"},
         {"name": "Gyeonggijeon Shrine", "location": "44 Taejo-ro, Wansan-gu, Jeonju"},
@@ -5053,10 +5023,8 @@
     {
       "city": "Busan",
       "country": "South Korea",
-      "coordinates": {
         "latitude": 35.17,
-        "longitude": 129.07
-      },
+        "longitude": 129.07,
       "attractions": [
         {"name": "Haeundae Beach", "location": "Haeundae-gu, Busan"},
         {"name": "Gamcheon Culture Village", "location": "203 Gamnae 2-ro, Saha-gu, Busan"},
@@ -5079,10 +5047,8 @@
     {
       "city": "Colombo",
       "country": "Sri Lanka",
-      "coordinates": {
         "latitude": 6.93,
-        "longitude": 79.86
-      },
+        "longitude": 79.86,
       "attractions": [
         {"name": "Gangaramaya Temple", "location": "61 Sri Jinarathana Rd, Colombo"},
         {"name": "Galle Face Green", "location": "Galle Road, Colombo"},
@@ -5103,10 +5069,8 @@
     {
       "city": "Anuradhapura",
       "country": "Sri Lanka",
-      "coordinates": {
         "latitude": 8.31,
-        "longitude": 80.40
-      },
+        "longitude": 80.40,
       "attractions": [
         {"name": "Jaya Sri Maha Bodhi", "location": "Anuradhapura"},
         {"name": "Ruwanwelisaya Stupa", "location": "Anuradhapura"},
@@ -5127,10 +5091,8 @@
     {
       "city": "Galle",
       "country": "Sri Lanka",
-      "coordinates": {
         "latitude": 6.03,
-        "longitude": 80.22
-      },
+        "longitude": 80.22,
       "attractions": [
         {"name": "Galle Fort", "location": "Galle"},
         {"name": "Galle Lighthouse", "location": "Galle Fort, Galle"},
@@ -5151,10 +5113,8 @@
     {
       "city": "Kandy",
       "country": "Sri Lanka",
-      "coordinates": {
         "latitude": 7.29,
-        "longitude": 80.64
-      },
+        "longitude": 80.64,
       "attractions": [
         {"name": "Temple of the Sacred Tooth Relic", "location": "Sri Dalada Veediya, Kandy"},
         {"name": "Kandy Lake", "location": "Kandy"},
@@ -5175,10 +5135,9 @@
     {
       "city": "Sigiriya",
       "country": "Sri Lanka",
-      "coordinates": {
+
         "latitude": 7.95,
-        "longitude": 80.76
-      },
+        "longitude": 80.76,
       "attractions": [
         {"name": "Sigiriya Rock Fortress", "location": "Sigiriya"},
         {"name": "Pidurangala Rock", "location": "Pidurangala, Sigiriya"},
@@ -5201,10 +5160,8 @@
     {
       "city": "Damascus",
       "country": "Syria",
-      "coordinates": {
         "latitude": 33.51,
-        "longitude": 36.28
-      },
+        "longitude": 36.28,
       "attractions": [
         {"name": "Umayyad Mosque", "location": "Old City, Damascus"},
         {"name": "Al-Hamidiyah Souq", "location": "Old City, Damascus"},
@@ -5225,10 +5182,8 @@
      {
       "city": "Aleppo",
       "country": "Syria",
-      "coordinates": {
         "latitude": 36.20,
-        "longitude": 37.13
-      },
+        "longitude": 37.13,
       "attractions": [
         {"name": "Citadel of Aleppo", "location": "Old City, Aleppo"},
         {"name": "Great Mosque of Aleppo", "location": "Old City, Aleppo"},
@@ -5932,7 +5887,17 @@
         {"name": "Sun World Ha Long Complex", "location": "9 Ha Long, Bai Chay, Ha Long City"},
         {"name": "Ti Top Island", "location": "Ha Long Bay"}
       ],
-      "restaurants": []
+      "restaurants": [
+        {"name": "Pavilion Restaurant", "location": "W2RF+2Q, Tuần Châu, Hạ Long, Quảng Ninh, Vietnam"},
+        {"name": "Chill Beach Bar", "location": "Kỳ Quan, Bãi tắm, Hạ Long, Quảng Ninh 20000, Vietnam"}
+      ],
+      "police": "Hong Ha Ward, Ha Long City, Quang Ninh Province",
+      "hospital": "10A Le Thanh Tong Street, Hong Gai Ward", 
+      "tips": [
+        "book cruises in advance, especially during peak season",
+        "pack light with essentials like sunscreen, a hat, and comfortable shoes",
+        "Have some Vietnamese Dong on hand for small purchases and tips"
+      ]
     }
     ]
 }
