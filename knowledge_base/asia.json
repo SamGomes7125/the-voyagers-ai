@@ -324,26 +324,26 @@
         "Try local specialties like Dongpo pork and West Lake fish in vinegar gravy."
       ]
     },
-    {
+   {
       "city": "Harbin",
       "country": "China",
-      "latitude": 45.7500000,
-      "longitude": 126.6500000,
+      "latitude": 45.757,
+      "longitude": 126.6343,
       "attractions": [
-        {"name": "Harbin International Ice and Snow Festival", "location": "Various locations, Harbin"},
-        {"name": "Saint Sophia Cathedral", "location": "95 Toulong St, Daoli District, Harbin"},
-        {"name": "Sun Island Park", "location": "Sun Island, Songbei District, Harbin"}
+        {"name": "Saint Sophia Cathedral", "location": "88 Toulong St, Daoli"},
+        {"name": "Harbin Ice and Snow World", "location": "Songbei District"},
+        {"name": "Siberian Tiger Park", "location": "Huilin St, Songbei"}
       ],
       "restaurants": [
-        {"name": "Harbin Lao ShangHao", "location": "55 Zhongyang St, Daoli District, Harbin"},
-        {"name": "Dongfang Jiaozi Wang (Oriental King of Dumplings)", "location": "Various locations"}
+        {"name": "Chunbingdajia (for Spring Pancakes)", "location": "Various locations"},
+        {"name": "Old Harbin Restaurant", "location": "80 Xidazhi St, Nangang"}
       ],
-      "police": "Harbin Public Security Bureau, 26 Hongjun St, Nangang District, Harbin",
-      "hospital": "The First Affiliated Hospital of Harbin Medical University, 23 Youzheng St, Nangang District, Harbin",
+      "police": "Harbin Public Security Bureau, 59 Jianshe St, Nangang District, Harbin",
+      "hospital": "The First Affiliated Hospital of Harbin Medical University, 56 Nankan Street, Daowai, Harbin",
       "tips": [
-        "Visit during winter (Jan-Feb) for the world's largest and most spectacular ice and snow sculpture festival.",
-        "Known as the 'Moscow of the East' for its strong Russian architectural influence.",
-        "Dress in extreme cold-weather clothing; winter temperatures can plummet below –30 °C."
+        "Visit during the winter for the world-famous Ice and Snow Festival.",
+        "Dress in extreme layers; Harbin is one of China's coldest major cities.",
+        "Explore the Central Street (Zhongyang Dajie) for its Russian-influenced architecture."
       ]
     },
     {
@@ -1947,42 +1947,27 @@
     "longitude": "+77.58"
   },
   {
-    "city": "Chennai",
-    "country": "India",
-    "attractions": [
-      {
-        "name": "Marina Beach",
-        "location": "Marina Beach, Chennai, Tamil Nadu"
-      },
-      {
-        "name": "Kapaleeshwarar Temple",
-        "location": "Mylapore, Chennai, Tamil Nadu"
-      },
-      {
-        "name": "Mahabalipuram",
-        "location": "Mahabalipuram, Tamil Nadu (Day trip from Chennai)"
-      }
-    ],
-    "restaurants": [
-      {
-        "name": "Saravana Bhavan",
-        "location": "Various locations"
-      },
-      {
-        "name": "Dakshin",
-        "location": "Crowne Plaza Chennai Adyar Park, TTK Road, Chennai"
-      }
-    ],
-    "police": "Greater Chennai Police Commissioner Office, Vepery, Chennai",
-    "hospital": "Apollo Hospitals, 21, Greams Lane, Thousand Lights, Chennai",
-    "tips": [
-      "Chennai is a major cultural center of South India.",
-      "It is famous for its classical music and dance traditions (Bharatanatyam).",
-      "Take an evening stroll along Marina Beach, one of the longest urban beaches in the world."
-    ],
-    "latitude": "+13.08",
-    "longitude": "+80.27"
-  },
+      "city": "Chennai",
+      "country": "India",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "attractions": [
+        {"name": "Marina Beach", "location": "Triplicane, Chennai"},
+        {"name": "Kapaleeshwarar Temple", "location": "Mylapore, Chennai"},
+        {"name": "Government Museum", "location": "Egmore, Chennai"}
+      ],
+      "restaurants": [
+        {"name": "Murugan Idli Shop", "location": "Various locations"},
+        {"name": "Saravana Bhavan", "location": "Various locations"}
+      ],
+      "police": "Greater Chennai City Police Commissioner Office, 132, EVR Periyar Salai, Vepery, Chennai",
+      "hospital": "Government General Hospital, 1, EVR Periyar Salai, Park Town, Chennai",
+      "tips": [
+        "Chennai is famous for its vibrant Tamil culture and classical music and dance scene.",
+        "The heat and humidity can be intense; stay hydrated and plan outdoor activities for early morning or late evening.",
+        "Explore the historic neighborhood of Mylapore for traditional architecture and temples."
+      ]
+    },
   {
     "city": "Jaisalmer",
     "country": "India",
@@ -3659,10 +3644,8 @@
     {
       "city": "Yangon",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 16.84,
-        "longitude": 96.17
-      },
+        "longitude": 96.17,
       "attractions": [
         {
           "name": "Shwedagon Pagoda",
@@ -3698,10 +3681,8 @@
     {
       "city": "Bagan",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 21.17,
-        "longitude": 94.86
-      },
+        "longitude": 94.86,
       "attractions": [
         {
           "name": "Bagan Archaeological Zone",
@@ -3737,10 +3718,8 @@
     {
       "city": "Pyin Oo Lwin",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 22.04,
-        "longitude": 96.48
-      },
+        "longitude": 96.48,
       "attractions": [
         {
           "name": "National Kandawgyi Botanical Gardens",
@@ -3776,10 +3755,8 @@
     {
       "city": "Mandalay",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 21.96,
-        "longitude": 96.09
-      },
+        "longitude": 96.09,
       "attractions": [
         {
           "name": "U Bein Bridge",
@@ -3815,10 +3792,8 @@
     {
       "city": "Nyaungshwe (Inle Lake)",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 20.66,
-        "longitude": 96.93
-      },
+        "longitude": 96.93,
       "attractions": [
         {
           "name": "Inle Lake",
@@ -3854,10 +3829,8 @@
     {
       "city": "Bago",
       "country": "Myanmar",
-      "coordinates": {
         "latitude": 18.33,
-        "longitude": 96.07
-      },
+        "longitude": 96.07,
       "attractions": [
         {
           "name": "Shwemawdaw Pagoda",
@@ -3895,10 +3868,8 @@
     {
       "city": "Kathmandu",
       "country": "Nepal",
-      "coordinates": {
         "latitude": 27.71,
-        "longitude": 85.32
-      },
+        "longitude": 85.32,
       "attractions": [
         {
           "name": "Boudhanath Stupa",
@@ -3909,7 +3880,7 @@
           "location": "Swayambhu, Kathmandu"
         },
         {
-          "name": "_": "Pashupatinath Temple",
+          "name": "Pashupatinath Temple",
           "location": "Pashupati Nath Road, Kathmandu"
         }
       ],
@@ -3934,10 +3905,8 @@
     {
       "city": "Sauraha (Chitwan National Park)",
       "country": "Nepal",
-      "coordinates": {
         "latitude": 27.58,
-        "longitude": 84.5
-      },
+        "longitude": 84.5,
       "attractions": [
         {
           "name": "Chitwan National Park",
@@ -3973,10 +3942,8 @@
     {
       "city": "Pokhara",
       "country": "Nepal",
-      "coordinates": {
         "latitude": 28.21,
-        "longitude": 83.99
-      },
+        "longitude": 83.99,
       "attractions": [
         {
           "name": "Phewa Lake",
@@ -4012,10 +3979,8 @@
     {
       "city": "Bhaktapur",
       "country": "Nepal",
-      "coordinates": {
         "latitude": 27.69,
-        "longitude": 85.46
-      },
+        "longitude": 85.46,
       "attractions": [
         {
           "name": "Bhaktapur Durbar Square",
@@ -4053,10 +4018,8 @@
     {
       "city": "Pyongyang",
       "country": "North Korea",
-      "coordinates": {
         "latitude": 39.03,
-        "longitude": 125.78
-      },
+        "longitude": 125.78,
       "attractions": [
         {
           "name": "Juche Tower",
@@ -4094,10 +4057,8 @@
     {
       "city": "Muscat",
       "country": "Oman",
-      "coordinates": {
         "latitude": 23.59,
-        "longitude": 58.38
-      },
+        "longitude": 58.38,
       "attractions": [
         {
           "name": "Sultan Qaboos Grand Mosque",
@@ -4133,10 +4094,8 @@
     {
       "city": "Nizwa",
       "country": "Oman",
-      "coordinates": {
         "latitude": 22.92,
-        "longitude": 57.54
-      },
+        "longitude": 57.54,
       "attractions": [
         {
           "name": "Nizwa Fort",
@@ -4172,10 +4131,8 @@
     {
       "city": "Salalah",
       "country": "Oman",
-      "coordinates": {
         "latitude": 17.02,
-        "longitude": 54.13
-      },
+        "longitude": 54.13,
       "attractions": [
         {
           "name": "Sultan Qaboos Mosque",
@@ -4213,10 +4170,8 @@
     {
       "city": "Lahore",
       "country": "Pakistan",
-      "coordinates": {
         "latitude": 31.52,
-        "longitude": 74.36
-      },
+        "longitude": 74.36,
       "attractions": [
         {
           "name": "Badshahi Mosque",
@@ -4252,10 +4207,8 @@
     {
       "city": "Islamabad",
       "country": "Pakistan",
-      "coordinates": {
         "latitude": 33.7,
-        "longitude": 73.04
-      },
+        "longitude": 73.04,
       "attractions": [
         {
           "name": "Faisal Mosque",
@@ -4367,10 +4320,8 @@
     {
       "city": "Puerto Princesa",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 9.79,
-        "longitude": 118.63
-      },
+        "longitude": 118.63,
       "attractions": [
         {
           "name": "Puerto Princesa Subterranean River National Park",
@@ -4406,10 +4357,8 @@
     {
       "city": "Vigan",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 17.57,
-        "longitude": 120.39
-      },
+        "longitude": 120.39,
       "attractions": [
         {
           "name": "Calle Crisologo",
@@ -4445,10 +4394,8 @@
     {
       "city": "Banaue",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 16.95,
-        "longitude": 121.1
-      },
+        "longitude": 121.1,
       "attractions": [
         {
           "name": "Banaue Rice Terraces",
@@ -4667,29 +4614,29 @@
       ]
     }
   ],
-  "Qatar": [
-    {
-      "city": "Doha",
-      "country": "Qatar",
-        "latitude": 25.29,
-        "longitude": 51.53,
-      "attractions": [
-        {"name": "Museum of Islamic Art", "location": "Doha Corniche, Doha"},
-        {"name": "Souq Waqif", "location": "Al Souq St, Doha"},
-        {"name": "The Corniche", "location": "The Corniche, Doha"}
-      ],
-      "restaurants": [
-        {"name": "Parisa Souq Waqif", "location": "Al Souq St, Doha"},
-        {"name": "Nobu Doha", "location": "Four Seasons Hotel, The Corniche, Doha"}
-      ],
-      "police": "Ministry of Interior Headquarters, 6G66+F74, Doha",
-      "hospital": "Hamad General Hospital, Al Rayyan Rd, Doha",
-      "tips": [
-        "Doha has a modern and efficient metro system.",
-        "Dress conservatively out of respect for local culture.",
-        "Visit Souq Waqif in the evening when it comes alive with people and activity."
-      ]
-    }
+ "Qatar": [
+    {
+      "city": "Doha",
+      "country": "Qatar",
+      "latitude": 25.2854,
+      "longitude": 51.5310,
+      "attractions": [
+        {"name": "Museum of Islamic Art", "location": "Doha Corniche"},
+        {"name": "Souq Waqif", "location": "Al Souq, Doha"},
+        {"name": "The Pearl-Qatar", "location": "Doha"}
+      ],
+      "restaurants": [
+        {"name": "Parisa Souq Waqif", "location": "Souq Waqif"},
+        {"name": "Nobu Doha", "location": "Four Seasons Hotel Doha"}
+      ],
+      "police": "Mesaimeer Police Station, Al Maamoura, Doha",
+      "hospital": "Hamad General Hospital, Rumaila, Doha",
+      "tips": [
+        "Respect local customs and dress codes, especially when visiting public places like Souq Waqif.",
+        "Alcohol consumption is restricted to licensed hotel restaurants and bars.",
+        "Taxis and ride-sharing apps (like Uber and Karwa) are the easiest ways to get around."
+      ]
+    }
   ],
   	"Russia": [
     {
