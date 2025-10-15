@@ -22,11 +22,30 @@ def load_all_cities(base_path="knowledge_base"):
             path = os.path.join(base_path, file)
             with open(path, "r", encoding="utf-8") as f:
                 continent_data = json.load(f)
-                for country, cities in continent_data.items():
-                    for city_name, city_info in cities.items():
+
+                # Case 1: JSON is a dict (old structure)
+                if isinstance(continent_data, dict):
+                    for country, cities in continent_data.items():
+                        if isinstance(cities, dict):
+                            for city_name, city_info in cities.items():
+                                cities_data.append({
+                                    "city": city_name,
+                                    "country": country,
+                                    "continent": file.replace(".json", ""),
+                                    "latitude": city_info.get("latitude"),
+                                    "longitude": city_info.get("longitude"),
+                                    "attractions": city_info.get("attractions", []),
+                                    "restaurants": city_info.get("restaurants", []),
+                                    "emergency": city_info.get("emergency", []),
+                                    "tips": city_info.get("tips", [])
+                                })
+
+                # Case 2: JSON is a list (new structure)
+                elif isinstance(continent_data, list):
+                    for city_info in continent_data:
                         cities_data.append({
-                            "city": city_name,
-                            "country": country,
+                            "city": city_info.get("city"),
+                            "country": city_info.get("country"),
                             "continent": file.replace(".json", ""),
                             "latitude": city_info.get("latitude"),
                             "longitude": city_info.get("longitude"),
@@ -35,6 +54,7 @@ def load_all_cities(base_path="knowledge_base"):
                             "emergency": city_info.get("emergency", []),
                             "tips": city_info.get("tips", [])
                         })
+
     return cities_data
 
 # ----------------------------
