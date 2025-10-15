@@ -4291,10 +4291,8 @@
     {
       "city": "Karachi",
       "country": "Pakistan",
-      "coordinates": {
         "latitude": 24.86,
-        "longitude": 67.0
-      },
+        "longitude": 67.0,
       "attractions": [
         {
           "name": "Mazar-e-Quaid (Jinnah's Mausoleum)",
@@ -4332,10 +4330,8 @@
     {
       "city": "Manila",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 14.6,
-        "longitude": 120.98
-      },
+        "longitude": 120.98,
       "attractions": [
         {
           "name": "Intramuros",
@@ -4488,10 +4484,8 @@
     {
       "city": "Coron",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 12.0,
-        "longitude": 120.2
-      },
+        "longitude": 120.2,
       "attractions": [
         {
           "name": "Kayangan Lake",
@@ -4527,10 +4521,8 @@
     {
       "city": "El Nido",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 11.2,
-        "longitude": 119.42
-      },
+        "longitude": 119.42,
       "attractions": [
         {
           "name": "Bacuit Bay",
@@ -4566,10 +4558,8 @@
     {
       "city": "Cebu City",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 10.29,
-        "longitude": 123.9
-      },
+        "longitude": 123.9,
       "attractions": [
         {
           "name": "Basilica Minore del Santo Niño de Cebú",
@@ -4605,10 +4595,8 @@
     {
       "city": "Malay (Boracay)",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 11.97,
-        "longitude": 121.92
-      },
+        "longitude": 121.92,
       "attractions": [
         {
           "name": "White Beach",
@@ -4644,10 +4632,8 @@
     {
       "city": "Tagbilaran (Bohol)",
       "country": "Philippines",
-      "coordinates": {
         "latitude": 9.67,
-        "longitude": 123.87
-      },
+        "longitude": 123.87,
       "attractions": [
         {
           "name": "Chocolate Hills",
@@ -4681,7 +4667,7 @@
       ]
     }
   ],
-  "Qatar":[
+  "Qatar": [
     {
       "city": "Doha",
       "country": "Qatar",
