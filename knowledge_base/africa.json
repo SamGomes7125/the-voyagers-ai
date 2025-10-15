@@ -1,5 +1,4 @@
 {
-    "North Africa": {
     "Egypt": {
         "Alexandria": {
             "latitude": 31.2001,
@@ -269,9 +268,7 @@
                 "Be aware of your surroundings in crowded areas."
                 ]
             }
-        }
     },
-    "West Africa": {
         "Burkina Faso": {
             "Ouagadougou": {
                 "latitude": 12.3714,
@@ -458,9 +455,7 @@
                     "Taxis are the most convenient way to get around."
                 ]
             }
-        }
     },
-    "Central Africa": {
         "Angola": {
             "Luanda": {
                 "latitude": -8.8390,
@@ -556,9 +551,7 @@
                     "French is the official language; it's helpful to know some phrases."
                 ]
             }
-        }
     },
-    "East Africa": {
         "Ethiopia": {
             "Addis Ababa": {
                 "latitude": 9.1450,
@@ -767,9 +760,7 @@
                     "Be aware of your surroundings, especially in crowded markets."
                 ]
             }
-        }
     },
-    "Southern Africa": {
         "Botswana": {
             "Gaborone": {
                 "latitude": -24.6282,
@@ -1047,6 +1038,5 @@
                     "Book your accommodation and activities well in advance, especially during peak season."
                 ]
             }
-        }
     }
 }
