@@ -15,63 +15,52 @@ def haversine(lat1, lon1, lat2, lon2):
 # ----------------------------
 # Load all cities from JSON files in /knowledge_base
 # ----------------------------
-def load_all_cities(base_path="knowledge_base"):
-    cities_data = []
+import os
+import json
 
-    for file in os.listdir(base_path):
-        if not file.endswith(".json"):
-            continue
+def load_all_cities(knowledge_base_folder):
+    all_cities = []
 
-        path = os.path.join(base_path, file)
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                continent_data = json.load(f)
-        except Exception as e:
-            print(f"❌ Error reading {file}: {e}")
-            continue
-
-        # Case 1: JSON is a dictionary
-        if isinstance(continent_data, dict):
-            for country, cities in continent_data.items():
-                if isinstance(cities, dict):
-                    for city_name, city_info in cities.items():
-                        if not isinstance(city_info, dict):
-                            continue
-                        cities_data.append({
-                            "city": city_name,
-                            "country": country,
-                            "continent": file.replace(".json", ""),
-                            "latitude": city_info.get("latitude"),
-                            "longitude": city_info.get("longitude"),
-                            "attractions": city_info.get("attractions", []),
-                            "restaurants": city_info.get("restaurants", []),
-                            "emergency": city_info.get("emergency", []),
-                            "tips": city_info.get("tips", [])
-                        })
-
-        # Case 2: JSON is a list
-        elif isinstance(continent_data, list):
-            for city_info in continent_data:
-                if not isinstance(city_info, dict):
+    for file_name in os.listdir(knowledge_base_folder):
+        if file_name.endswith(".json"):
+            file_path = os.path.join(knowledge_base_folder, file_name)
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                except json.JSONDecodeError:
+                    print(f"Skipping invalid JSON: {file_name}")
                     continue
-                cities_data.append({
-                    "city": city_info.get("city"),
-                    "country": city_info.get("country"),
-                    "continent": file.replace(".json", ""),
-                    "latitude": city_info.get("latitude"),
-                    "longitude": city_info.get("longitude"),
-                    "attractions": city_info.get("attractions", []),
-                    "restaurants": city_info.get("restaurants", []),
-                    "emergency": city_info.get("emergency", []),
-                    "tips": city_info.get("tips", [])
-                })
 
-        else:
-            print(f"⚠️ Unexpected data format in {file}: {type(continent_data)}")
+                # Traverse top-level keys (like "Afghanistan")
+                for country_key, entries in data.items():
+                    # Handle if entries is a single dict instead of list
+                    if isinstance(entries, dict):
+                        entries = [entries]
+                    
+                    for entry in entries:
+                        # Flexible extraction with defaults
+                        city = entry.get("city") or entry.get("name") or None
+                        country = entry.get("country") or country_key
+                        lat = entry.get("latitude")
+                        lon = entry.get("longitude")
 
-    print(f"✅ Loaded {len(cities_data)} cities from {base_path}")
-    return cities_data
-
+                        if city and lat is not None and lon is not None:
+                            all_cities.append({
+                                "city": city,
+                                "country": country,
+                                "latitude": lat,
+                                "longitude": lon,
+                                "attractions": entry.get("attractions", []),
+                                "restaurants": entry.get("restaurants", []),
+                                "police": entry.get("police", ""),
+                                "hospital": entry.get("hospital", ""),
+                                "tips": entry.get("tips", [])
+                            })
+                        else:
+                            # Log missing data for debugging
+                            print(f"Skipping malformed entry in {file_name}: {entry}")
+    print(f"✅ Loaded {len(all_cities)} cities from {knowledge_base_folder}")
+    return all_cities
 
 # ----------------------------
 # Find nearest city from user's coordinates
