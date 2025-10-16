@@ -850,7 +850,7 @@
         },
         "Peru": {
             "Lima": {
-                "latitude": -12.0464, 
+                "latitude": -12.0464,
                 "longitude": -77.0428,
                 "attractions": [
                     {"name": "Plaza Mayor de Lima (Plaza de Armas)", "address": "Historic Center"},
