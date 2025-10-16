@@ -402,7 +402,7 @@
             },
             "Curitiba": {
                 "latitude": -25.4284,
-                "longitude": -49.2733
+                "longitude": -49.2733,
                 "attractions": [
                     {"name": "Jardim Botânico de Curitiba", "address": "Av. Professor Lothario Meissner 632"},
                     {"name": "Ópera de Arame (Wire Opera House)", "address": "Rua João Gava 970"}
