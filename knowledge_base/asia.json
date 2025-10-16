@@ -4579,8 +4579,8 @@
     {
       "city": "Tagbilaran (Bohol)",
       "country": "Philippines",
-        "latitude": 9.67,
-        "longitude": 123.87,
+      "latitude": 9.67,
+      "longitude": 123.87,
       "attractions": [
         {
           "name": "Chocolate Hills",
@@ -4613,8 +4613,8 @@
         "See the tiny Philippine Tarsier, one of the world's smallest primates, at a conservation sanctuary."
       ]
     }
-  ],
-  "Qatar": [
+    ],
+  "Qatar": [
     {
       "city": "Doha",
       "country": "Qatar",
